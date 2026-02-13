@@ -49,7 +49,7 @@ export default function Home() {
                   </Link>
                 </Button>
                 <Button variant="outline" size="lg" className="bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 backdrop-blur-sm" asChild>
-                  <Link href="/section/maintenance-log">
+                  <Link href="/section/maintenance-and-operations">
                     View Maintenance <Clock className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
