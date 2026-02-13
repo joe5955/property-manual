@@ -37,7 +37,7 @@ export default function Home() {
                 Property Manual v2.0
               </Badge>
               <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight">
-                {greeting}, Owner.
+                {greeting}, Ned.
               </h1>
               <p className="text-lg md:text-xl text-primary-foreground/80 font-light max-w-lg leading-relaxed">
                 Welcome to the digital archive for your San Juan County estate. Access comprehensive documentation, maintenance records, and property details.
