@@ -84,6 +84,27 @@
         }
       ],
       "intro": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC) - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)"
+    },
+    {
+      "id": "main-house",
+      "title": "Main House",
+      "content": "**Status:** Placeholder - Awaiting Documentation\n\nThis section will contain detailed information about the Main House, including:\n- Building specifications and history\n- Electrical, plumbing, and heating systems\n- Appliance inventory and manuals\n- Maintenance schedules\n\n*Please provide photos and details to populate this section.*",
+      "subsections": [],
+      "intro": "**Status:** Placeholder - Awaiting Documentation"
+    },
+    {
+      "id": "the-chalet",
+      "title": "The Chalet",
+      "content": "**Status:** Placeholder - Awaiting Documentation\n\nThis section will contain detailed information about The Chalet, including:\n- Guest accommodation details\n- Heating and water systems\n- Kitchenette appliances\n- Winterization procedures\n\n*Please provide photos and details to populate this section.*",
+      "subsections": [],
+      "intro": "**Status:** Placeholder - Awaiting Documentation"
+    },
+    {
+      "id": "camp-kitchen",
+      "title": "Camp Kitchen",
+      "content": "**Status:** Placeholder - Awaiting Documentation\n\nThis section will contain detailed information about the Camp Kitchen, including:\n- Outdoor cooking equipment\n- Water supply and winterization\n- Electrical outlets and lighting\n- Picnic shelter maintenance\n\n*Please provide photos and details to populate this section.*",
+      "subsections": [],
+      "intro": "**Status:** Placeholder - Awaiting Documentation"
     }
   ]
 }
