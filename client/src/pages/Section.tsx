@@ -5,7 +5,8 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
-import { ArrowLeft, ChevronRight, FileText, MapPin, Home, Wrench, Shield, Droplet, Zap, Anchor } from "lucide-react";
+import { ArrowLeft, ChevronRight, FileText, MapPin, Home, Wrench, Shield, Droplet, Zap, Anchor, AlertTriangle } from "lucide-react";
+import RequestQuoteButton from "@/components/RequestQuoteButton";
 import { Streamdown } from "streamdown";
 import manualData from "@/data/manual-data.json";
 import Layout from "@/components/Layout";
@@ -99,12 +100,49 @@ export default function Section() {
             )}
 
             {/* Subsections */}
-            {section.subsections.map((subsection, idx) => (
-              <Card key={idx} className="overflow-hidden border-border/60 shadow-sm hover:shadow-md transition-shadow duration-300">
-                <CardHeader className="bg-muted/30 border-b border-border/40 pb-4">
-                  <CardTitle className="font-serif text-xl text-primary">{subsection.title}</CardTitle>
-                </CardHeader>
-                <CardContent className="p-6 space-y-6">
+            {section.subsections.map((subsection, idx) => {
+              // Check if this is a critical alert section to add the quote button
+              const isCriticalWaterHeater = subsection.title.toLowerCase().includes("critical") && 
+                                          subsection.title.toLowerCase().includes("water heater");
+              
+              // Extract details based on section ID
+              let quoteDetails = null;
+              if (isCriticalWaterHeater) {
+                if (section.id === "farm-house") {
+                  quoteDetails = {
+                    buildingName: "Farm House",
+                    applianceName: "Water Heater",
+                    modelNumber: "Bradford White MI50S6DS21",
+                    serialNumber: "ZB2783563",
+                    age: "25 years (Feb 2001)",
+                    notes: "50 Gallon. CRITICAL FAILURE RISK."
+                  };
+                } else if (section.id === "lighthouse-point-beach-house") {
+                  quoteDetails = {
+                    buildingName: "Lighthouse Point Beach House",
+                    applianceName: "Water Heater",
+                    modelNumber: "Bradford White",
+                    serialNumber: "Unknown",
+                    age: "22 years (2004)",
+                    notes: "CRITICAL FAILURE RISK. Exceeds 8-12 year lifespan."
+                  };
+                }
+              }
+
+              return (
+                <Card key={idx} className={`overflow-hidden border-border/60 shadow-sm hover:shadow-md transition-shadow duration-300 ${isCriticalWaterHeater ? 'border-red-200 dark:border-red-900/50 bg-red-50/30 dark:bg-red-900/10' : ''}`}>
+                  <CardHeader className={`bg-muted/30 border-b border-border/40 pb-4 ${isCriticalWaterHeater ? 'bg-red-100/50 dark:bg-red-900/20' : ''}`}>
+                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                      <CardTitle className={`font-serif text-xl ${isCriticalWaterHeater ? 'text-red-700 dark:text-red-400 flex items-center gap-2' : 'text-primary'}`}>
+                        {isCriticalWaterHeater && <AlertTriangle className="h-5 w-5" />}
+                        {subsection.title}
+                      </CardTitle>
+                      {isCriticalWaterHeater && quoteDetails && (
+                        <RequestQuoteButton {...quoteDetails} />
+                      )}
+                    </div>
+                  </CardHeader>
+                  <CardContent className="p-6 space-y-6">
                   {subsection.intro && (
                     <div className="prose prose-stone dark:prose-invert max-w-none text-sm leading-relaxed">
                       <Streamdown>{subsection.intro}</Streamdown>
@@ -135,7 +173,8 @@ export default function Section() {
                   )}
                 </CardContent>
               </Card>
-            ))}
+              );
+            })}
 
             {/* Fallback if no subsections */}
             {section.subsections.length === 0 && section.content && !section.intro && (
