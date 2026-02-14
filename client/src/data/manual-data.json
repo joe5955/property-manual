@@ -1,5 +1,82 @@
 {
   "title": "San Juan County, Washington - Private Property",
-  "metadata": {},
-  "sections": []
+  "metadata": {
+    "created": "February 13, 2026",
+    "updated": "February 13, 2026",
+    "owner": "Shady Cove LLC"
+  },
+  "sections": [
+    {
+      "id": "farm-house",
+      "title": "Farm House",
+      "content": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC)\n\n### Building Details\n- **Type:** Residential\n- **Square Footage:** [SF]\n- **Year Built:** [Year]\n- **Bedrooms/Bathrooms:** [Number]\n- **Construction Type:** Wood frame\n- **Roof Type/Age:** [Type/Year installed]\n- **Foundation Type:** [Type]\n- **Current Use:** [Primary residence, Guest house, Rental, etc.]\n- **Occupancy Status:** [Occupied/Vacant]\n\n### Systems & Utilities\n- **Heating:** Electric baseboard heating (multiple zones)\n- **Septic:** Septic system with pump\n- **Electrical:** Electrical panel with complete circuit directory\n- **Water Heater:** Bradford White (25 years old - **CRITICAL: URGENT REPLACEMENT NEEDED**)\n\n### Appliances & Equipment\n| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG | 10-15 years old | Functional |\n| Range | Premier | Unknown | Electric |\n| Water Heater | Bradford White | 25 years old | **CRITICAL FAILURE RISK** - Exceeds 8-12 year lifespan. Immediate replacement required. |\n\n### Critical Maintenance Alert: Water Heater\nThe water heater is **more than double** its expected lifespan. At 25 years old, it represents an **extremely high risk** of:\n1. **Catastrophic tank failure and flooding** - could cause thousands in water damage\n2. **Complete loss of hot water** without warning\n3. **Significant energy waste** - costing extra on every utility bill\n4. **Safety hazards** - potential electrical or pressure issues\n\n**Immediate Actions Until Replacement:**\n- Check daily for leaks around the base\n- Listen for unusual noises (rumbling, popping from sediment)\n- Monitor hot water performance\n- Consider placing a water alarm or drip pan under unit\n- Know where your water shutoff valve is located\n\n**Replacement Priority:**\n- This should be your **#1 priority** for the farmhouse\n- Get quotes from licensed plumbers immediately\n- Consider upgrading to tankless or heat pump water heater for long-term energy savings\n- Budget for professional installation (electrical 240V and plumbing required)",
+      "subsections": [
+        {
+          "id": "building-details",
+          "title": "Building Details",
+          "content": "- **Type:** Residential\n- **Square Footage:** [SF]\n- **Year Built:** [Year]\n- **Bedrooms/Bathrooms:** [Number]\n- **Construction Type:** Wood frame\n- **Roof Type/Age:** [Type/Year installed]\n- **Foundation Type:** [Type]\n- **Current Use:** [Primary residence, Guest house, Rental, etc.]\n- **Occupancy Status:** [Occupied/Vacant]",
+          "items": [],
+          "intro": "- **Type:** Residential\n- **Square Footage:** [SF]\n- **Year Built:** [Year]\n- **Bedrooms/Bathrooms:** [Number]\n- **Construction Type:** Wood frame\n- **Roof Type/Age:** [Type/Year installed]\n- **Foundation Type:** [Type]\n- **Current Use:** [Primary residence, Guest house, Rental, etc.]\n- **Occupancy Status:** [Occupied/Vacant]"
+        },
+        {
+          "id": "systems-and-utilities",
+          "title": "Systems & Utilities",
+          "content": "- **Heating:** Electric baseboard heating (multiple zones)\n- **Septic:** Septic system with pump\n- **Electrical:** Electrical panel with complete circuit directory\n- **Water Heater:** Bradford White (25 years old - **CRITICAL: URGENT REPLACEMENT NEEDED**)",
+          "items": [],
+          "intro": "- **Heating:** Electric baseboard heating (multiple zones)\n- **Septic:** Septic system with pump\n- **Electrical:** Electrical panel with complete circuit directory\n- **Water Heater:** Bradford White (25 years old - **CRITICAL: URGENT REPLACEMENT NEEDED**)"
+        },
+        {
+          "id": "appliances-and-equipment",
+          "title": "Appliances & Equipment",
+          "content": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG | 10-15 years old | Functional |\n| Range | Premier | Unknown | Electric |\n| Water Heater | Bradford White | 25 years old | **CRITICAL FAILURE RISK** - Exceeds 8-12 year lifespan. Immediate replacement required. |",
+          "items": [],
+          "intro": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG | 10-15 years old | Functional |\n| Range | Premier | Unknown | Electric |\n| Water Heater | Bradford White | 25 years old | **CRITICAL FAILURE RISK** - Exceeds 8-12 year lifespan. Immediate replacement required. |"
+        },
+        {
+          "id": "critical-maintenance-alert:-water-heater",
+          "title": "Critical Maintenance Alert: Water Heater",
+          "content": "The water heater is **more than double** its expected lifespan. At 25 years old, it represents an **extremely high risk** of:\n1. **Catastrophic tank failure and flooding** - could cause thousands in water damage\n2. **Complete loss of hot water** without warning\n3. **Significant energy waste** - costing extra on every utility bill\n4. **Safety hazards** - potential electrical or pressure issues\n\n**Immediate Actions Until Replacement:**\n- Check daily for leaks around the base\n- Listen for unusual noises (rumbling, popping from sediment)\n- Monitor hot water performance\n- Consider placing a water alarm or drip pan under unit\n- Know where your water shutoff valve is located\n\n**Replacement Priority:**\n- This should be your **#1 priority** for the farmhouse\n- Get quotes from licensed plumbers immediately\n- Consider upgrading to tankless or heat pump water heater for long-term energy savings\n- Budget for professional installation (electrical 240V and plumbing required)",
+          "items": [],
+          "intro": "The water heater is **more than double** its expected lifespan. At 25 years old, it represents an **extremely high risk** of:\n1. **Catastrophic tank failure and flooding** - could cause thousands in water damage\n2. **Complete loss of hot water** without warning\n3. **Significant energy waste** - costing extra on every utility bill\n4. **Safety hazards** - potential electrical or pressure issues\n\n**Immediate Actions Until Replacement:**\n- Check daily for leaks around the base\n- Listen for unusual noises (rumbling, popping from sediment)\n- Monitor hot water performance\n- Consider placing a water alarm or drip pan under unit\n- Know where your water shutoff valve is located\n\n**Replacement Priority:**\n- This should be your **#1 priority** for the farmhouse\n- Get quotes from licensed plumbers immediately\n- Consider upgrading to tankless or heat pump water heater for long-term energy savings\n- Budget for professional installation (electrical 240V and plumbing required)"
+        }
+      ],
+      "intro": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC)"
+    },
+    {
+      "id": "beach-house",
+      "title": "Beach House",
+      "content": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC)\n\n### Building Details\n- **Type:** Residential / Guest House\n- **Setting:** Nestled in a wooded area near the beach\n- **Exterior:** Wood siding, blends with natural surroundings\n- **Access:** Gravel path/driveway\n\n### Systems & Utilities\n- **Water Shutoff:** Located in an in-ground utility box near the house (documented with photos)\n- **Heating:** [To be documented]\n- **Electrical:** [To be documented]\n- **Septic:** [To be documented]\n\n### Appliances & Equipment\n| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| [To be documented] | | | |\n\n### Maintenance Notes\n- **Water Shutoff Access:** Ensure the in-ground box remains clear of debris and vegetation for easy access in emergencies.\n- **Exterior:** Monitor wood siding for moss or weather damage due to wooded/shaded location.",
+      "subsections": [
+        {
+          "id": "building-details",
+          "title": "Building Details",
+          "content": "- **Type:** Residential / Guest House\n- **Setting:** Nestled in a wooded area near the beach\n- **Exterior:** Wood siding, blends with natural surroundings\n- **Access:** Gravel path/driveway",
+          "items": [],
+          "intro": "- **Type:** Residential / Guest House\n- **Setting:** Nestled in a wooded area near the beach\n- **Exterior:** Wood siding, blends with natural surroundings\n- **Access:** Gravel path/driveway"
+        },
+        {
+          "id": "systems-and-utilities",
+          "title": "Systems & Utilities",
+          "content": "- **Water Shutoff:** Located in an in-ground utility box near the house (documented with photos)\n- **Heating:** [To be documented]\n- **Electrical:** [To be documented]\n- **Septic:** [To be documented]",
+          "items": [],
+          "intro": "- **Water Shutoff:** Located in an in-ground utility box near the house (documented with photos)\n- **Heating:** [To be documented]\n- **Electrical:** [To be documented]\n- **Septic:** [To be documented]"
+        },
+        {
+          "id": "appliances-and-equipment",
+          "title": "Appliances & Equipment",
+          "content": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| [To be documented] | | | |",
+          "items": [],
+          "intro": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| [To be documented] | | | |"
+        },
+        {
+          "id": "maintenance-notes",
+          "title": "Maintenance Notes",
+          "content": "- **Water Shutoff Access:** Ensure the in-ground box remains clear of debris and vegetation for easy access in emergencies.\n- **Exterior:** Monitor wood siding for moss or weather damage due to wooded/shaded location.",
+          "items": [],
+          "intro": "- **Water Shutoff Access:** Ensure the in-ground box remains clear of debris and vegetation for easy access in emergencies.\n- **Exterior:** Monitor wood siding for moss or weather damage due to wooded/shaded location."
+        }
+      ],
+      "intro": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC)"
+    }
+  ]
 }
