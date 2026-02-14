@@ -11,13 +11,35 @@ import manualData from "@/data/manual-data.json";
 import Layout from "@/components/Layout";
 import NotFound from "@/pages/NotFound";
 
+// Define types for the manual data structure
+interface ManualItem {
+  title: string;
+  content: string;
+}
+
+interface ManualSubsection {
+  id: string;
+  title: string;
+  content: string;
+  intro?: string;
+  items?: ManualItem[];
+}
+
+interface ManualSection {
+  id: string;
+  title: string;
+  content: string;
+  intro?: string;
+  subsections: ManualSubsection[];
+}
+
 export default function Section() {
   const [match, params] = useRoute("/section/:id");
   
   if (!match || !params) return <NotFound />;
 
   const sectionId = params.id;
-  const section = manualData.sections.find(s => s.id === sectionId);
+  const section = manualData.sections.find(s => s.id === sectionId) as ManualSection | undefined;
 
   if (!section) return <NotFound />;
 
