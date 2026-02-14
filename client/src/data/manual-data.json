@@ -88,9 +88,17 @@
     {
       "id": "main-house",
       "title": "Main House",
-      "content": "**Status:** Placeholder - Awaiting Documentation\n\nThis section will contain detailed information about the Main House, including:\n- Building specifications and history\n- Electrical, plumbing, and heating systems\n- Appliance inventory and manuals\n- Maintenance schedules\n\n*Please provide photos and details to populate this section.*",
-      "subsections": [],
-      "intro": "**Status:** Placeholder - Awaiting Documentation"
+      "content": "**Status:** Partially Documented\n\n### Irrigation System\n- **Type:** Sprinkler system\n- **Controller:** Rain Bird ESP-ME3\n- **Location:** Wall-mounted cabinet\n- **Features:** LNK WiFi Ready, Weather Sensor compatible, Seasonal Adjust, Flow Sensor compatible\n- **Programs:** A, B, C, D\n- **Current Status:** OFF (as of last photo)\n- **Coverage:** Landscaping around Main House\n- **Map:** Hand-drawn map available showing all head locations\n\n### Electrical Systems\n- **Service Type:** [Overhead/Underground]\n- **Amperage:** [Amps]\n- **Main Panel Location:** [Location]\n- **Sub-Panel Locations:** [List locations]\n- **Generator:** [Yes/No - Details if yes]\n- **Solar Panels:** [Yes/No - Details if yes]\n\n*Please provide photos and details to populate remaining sections.*",
+      "subsections": [
+        {
+          "id": "irrigation-system",
+          "title": "Irrigation System",
+          "content": "- **Type:** Sprinkler system\n- **Controller:** Rain Bird ESP-ME3\n- **Location:** Wall-mounted cabinet\n- **Features:** LNK WiFi Ready, Weather Sensor compatible, Seasonal Adjust, Flow Sensor compatible\n- **Programs:** A, B, C, D\n- **Current Status:** OFF (as of last photo)\n- **Coverage:** Landscaping around Main House\n- **Map:** Hand-drawn map available showing all head locations",
+          "items": [],
+          "intro": "- **Type:** Sprinkler system\n- **Controller:** Rain Bird ESP-ME3\n- **Location:** Wall-mounted cabinet\n- **Features:** LNK WiFi Ready, Weather Sensor compatible, Seasonal Adjust, Flow Sensor compatible\n- **Programs:** A, B, C, D\n- **Current Status:** OFF (as of last photo)\n- **Coverage:** Landscaping around Main House\n- **Map:** Hand-drawn map available showing all head locations"
+        }
+      ],
+      "intro": "**Status:** Partially Documented"
     },
     {
       "id": "the-chalet",
