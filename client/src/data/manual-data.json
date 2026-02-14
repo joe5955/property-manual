@@ -43,9 +43,9 @@
       "intro": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC)"
     },
     {
-      "id": "beach-house",
-      "title": "Beach House",
-      "content": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC)\n\n### Building Details\n- **Type:** Residential / Guest House\n- **Setting:** Nestled in a wooded area near the beach\n- **Exterior:** Wood siding, blends with natural surroundings\n- **Access:** Gravel path/driveway\n\n### Systems & Utilities\n- **Water Shutoff:** Located in an in-ground utility box near the house (documented with photos)\n- **Heating:** [To be documented]\n- **Electrical:** [To be documented]\n- **Septic:** [To be documented]\n\n### Appliances & Equipment\n| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| [To be documented] | | | |\n\n### Maintenance Notes\n- **Water Shutoff Access:** Ensure the in-ground box remains clear of debris and vegetation for easy access in emergencies.\n- **Exterior:** Monitor wood siding for moss or weather damage due to wooded/shaded location.",
+      "id": "lighthouse-point-beach-house",
+      "title": "Lighthouse Point Beach House",
+      "content": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC)\n\n### Building Details\n- **Type:** Residential / Guest House\n- **Setting:** Nestled in a wooded area near the beach\n- **Exterior:** Wood siding, blends with natural surroundings\n- **Access:** Gravel path/driveway\n\n### Systems & Utilities\n- **Main Water Shutoff Valve:**\n    - **Location:** Exterior access box near the main entry, beneath the covered area by the \"Lighthouse Point\" sign.\n    - **Access:** Wooden cover over concrete/wooden access box.\n    - **Valve Type:** Ball valve (Blue handle).\n    - **Operation:**\n        - **ON:** Handle is parallel to the pipe.\n        - **OFF:** Handle is perpendicular (at a right angle) to the pipe.\n    - **Emergency Procedure:** Turn handle 90 degrees to shut off water flow.\n\n### Maintenance Notes\n- **Clear Access Box:** The valve access box has accumulated leaves and debris. For emergency situations, this MUST be kept clear.\n- **Test Valve Annually:** Ensure the shutoff valve operates smoothly and completely closes water flow.\n- **Mark Location:** Consider adding cleaner marking on the access box for quick identification during emergencies.\n- **Exterior:** Monitor wood siding for moss or weather damage due to wooded/shaded location.\n\n### Appliances & Equipment\n| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRBP1031T | ~19 years old (2007 model) | **Replacement Recommended** - Nearing end of life. |\n| Range | Bosch Electric Range | Good Condition | Stainless steel, ceramic cooktop, convection oven. |\n\n**Appliance Maintenance:**\n- **Range:** Use specific ceramic cooktop cleaner to avoid scratching. Run self-cleaning cycle 2-3 times per year.\n- **Refrigerator:** Monitor cooling performance due to age. Vacuum coils annually to extend life.",
       "subsections": [
         {
           "id": "building-details",
@@ -57,23 +57,23 @@
         {
           "id": "systems-and-utilities",
           "title": "Systems & Utilities",
-          "content": "- **Water Shutoff:** Located in an in-ground utility box near the house (documented with photos)\n- **Heating:** [To be documented]\n- **Electrical:** [To be documented]\n- **Septic:** [To be documented]",
+          "content": "- **Main Water Shutoff Valve:**\n    - **Location:** Exterior access box near the main entry, beneath the covered area by the \"Lighthouse Point\" sign.\n    - **Access:** Wooden cover over concrete/wooden access box.\n    - **Valve Type:** Ball valve (Blue handle).\n    - **Operation:**\n        - **ON:** Handle is parallel to the pipe.\n        - **OFF:** Handle is perpendicular (at a right angle) to the pipe.\n    - **Emergency Procedure:** Turn handle 90 degrees to shut off water flow.",
           "items": [],
-          "intro": "- **Water Shutoff:** Located in an in-ground utility box near the house (documented with photos)\n- **Heating:** [To be documented]\n- **Electrical:** [To be documented]\n- **Septic:** [To be documented]"
-        },
-        {
-          "id": "appliances-and-equipment",
-          "title": "Appliances & Equipment",
-          "content": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| [To be documented] | | | |",
-          "items": [],
-          "intro": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| [To be documented] | | | |"
+          "intro": "- **Main Water Shutoff Valve:**\n    - **Location:** Exterior access box near the main entry, beneath the covered area by the \"Lighthouse Point\" sign.\n    - **Access:** Wooden cover over concrete/wooden access box.\n    - **Valve Type:** Ball valve (Blue handle).\n    - **Operation:**\n        - **ON:** Handle is parallel to the pipe.\n        - **OFF:** Handle is perpendicular (at a right angle) to the pipe.\n    - **Emergency Procedure:** Turn handle 90 degrees to shut off water flow."
         },
         {
           "id": "maintenance-notes",
           "title": "Maintenance Notes",
-          "content": "- **Water Shutoff Access:** Ensure the in-ground box remains clear of debris and vegetation for easy access in emergencies.\n- **Exterior:** Monitor wood siding for moss or weather damage due to wooded/shaded location.",
+          "content": "- **Clear Access Box:** The valve access box has accumulated leaves and debris. For emergency situations, this MUST be kept clear.\n- **Test Valve Annually:** Ensure the shutoff valve operates smoothly and completely closes water flow.\n- **Mark Location:** Consider adding cleaner marking on the access box for quick identification during emergencies.\n- **Exterior:** Monitor wood siding for moss or weather damage due to wooded/shaded location.",
           "items": [],
-          "intro": "- **Water Shutoff Access:** Ensure the in-ground box remains clear of debris and vegetation for easy access in emergencies.\n- **Exterior:** Monitor wood siding for moss or weather damage due to wooded/shaded location."
+          "intro": "- **Clear Access Box:** The valve access box has accumulated leaves and debris. For emergency situations, this MUST be kept clear.\n- **Test Valve Annually:** Ensure the shutoff valve operates smoothly and completely closes water flow.\n- **Mark Location:** Consider adding cleaner marking on the access box for quick identification during emergencies.\n- **Exterior:** Monitor wood siding for moss or weather damage due to wooded/shaded location."
+        },
+        {
+          "id": "appliances-and-equipment",
+          "title": "Appliances & Equipment",
+          "content": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRBP1031T | ~19 years old (2007 model) | **Replacement Recommended** - Nearing end of life. |\n| Range | Bosch Electric Range | Good Condition | Stainless steel, ceramic cooktop, convection oven. |\n\n**Appliance Maintenance:**\n- **Range:** Use specific ceramic cooktop cleaner to avoid scratching. Run self-cleaning cycle 2-3 times per year.\n- **Refrigerator:** Monitor cooling performance due to age. Vacuum coils annually to extend life.",
+          "items": [],
+          "intro": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRBP1031T | ~19 years old (2007 model) | **Replacement Recommended** - Nearing end of life. |\n| Range | Bosch Electric Range | Good Condition | Stainless steel, ceramic cooktop, convection oven. |\n\n**Appliance Maintenance:**\n- **Range:** Use specific ceramic cooktop cleaner to avoid scratching. Run self-cleaning cycle 2-3 times per year.\n- **Refrigerator:** Monitor cooling performance due to age. Vacuum coils annually to extend life."
         }
       ],
       "intro": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC)"
