@@ -44,12 +44,12 @@ export default function Home() {
               </p>
               <div className="flex flex-wrap gap-3 pt-4">
                 <Button variant="secondary" size="lg" className="font-medium shadow-lg hover:shadow-xl transition-all duration-300" asChild>
-                  <Link href="/section/property-overview">
+                  <Link href="/section/farm-house">
                     Explore Property <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
                 <Button variant="outline" size="lg" className="bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 backdrop-blur-sm" asChild>
-                  <Link href="/section/maintenance-and-operations">
+                  <Link href="/section/lighthouse-point-beach-house">
                     View Maintenance <Clock className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
@@ -98,13 +98,13 @@ export default function Home() {
           <div className="flex items-center justify-between mb-6">
             <h2 className="font-serif text-2xl font-bold text-foreground">Quick Access</h2>
             <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-primary" asChild>
-              <Link href="/section/property-overview">View All Sections <ArrowRight className="ml-1 h-3 w-3" /></Link>
+              <Link href="/section/farm-house">View All Sections <ArrowRight className="ml-1 h-3 w-3" /></Link>
             </Button>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Buildings Card */}
-            <Link href="/section/buildings-and-structures">
+            <Link href="/section/farm-house">
               <Card className="group h-full hover:shadow-lg hover:border-primary/30 transition-all duration-300 cursor-pointer overflow-hidden">
                 <div className="h-32 bg-muted relative overflow-hidden">
                   <div className="absolute inset-0 bg-[url('/hero-buildings.jpg')] bg-cover bg-center transition-transform duration-700 group-hover:scale-105"></div>
@@ -123,7 +123,7 @@ export default function Home() {
             </Link>
 
             {/* Utilities Card */}
-            <Link href="/section/utilities-and-systems">
+            <Link href="/section/lighthouse-point-beach-house">
               <Card className="group h-full hover:shadow-lg hover:border-primary/30 transition-all duration-300 cursor-pointer overflow-hidden">
                 <div className="h-32 bg-muted relative overflow-hidden">
                   <div className="absolute inset-0 bg-[url('/hero-utilities.jpg')] bg-cover bg-center transition-transform duration-700 group-hover:scale-105"></div>
@@ -142,7 +142,7 @@ export default function Home() {
             </Link>
 
             {/* Land Management Card */}
-            <Link href="/section/land-management">
+            <Link href="/section/farm-house">
               <Card className="group h-full hover:shadow-lg hover:border-primary/30 transition-all duration-300 cursor-pointer overflow-hidden">
                 <div className="h-32 bg-muted relative overflow-hidden">
                   <div className="absolute inset-0 bg-[url('/hero-land-management.jpg')] bg-cover bg-center transition-transform duration-700 group-hover:scale-105"></div>
