@@ -118,7 +118,7 @@
     {
       "id": "camp-kitchen",
       "title": "Camp Kitchen",
-      "content": "**Status:** Documented\n\n### Structure\n- **Type:** Open-air timber frame pavilion with metal roof\n- **Flooring:** Concrete slab\n- **Lighting:** Overhead string lights and task lighting\n\n### Cooking Facilities\n- **Grill:** Weber Genesis II (Propane, 3-burner)\n- **Stove:** Portable 2-burner propane camp stove\n- **Prep Area:** Large stainless steel prep table\n\n### Utilities\n- **Water:** Outdoor sink with cold water supply only (Must be winterized/drained in freezing months)\n- **Electrical:** Multiple outdoor-rated GFCI outlets for small appliances (coffee maker, blender, etc.)\n\n### Maintenance Notes\n- **Winterization:** Shut off water supply and drain lines to prevent freezing. Cover grill.\n- **Propane:** Check tank levels before large gatherings.",
+      "content": "**Status:** Documented\n\n### Structure\n- **Type:** Open-air timber frame pavilion with metal roof\n- **Flooring:** Concrete slab\n- **Lighting:** Overhead string lights and task lighting\n\n### Appliances\n- **Stove:** Propane Range (4-burner with oven)\n- **Refrigerator:** Full-size Refrigerator/Freezer\n- **Grill:** Weber Genesis II (Propane, 3-burner)\n- **Prep Area:** Large stainless steel prep table\n\n### Utilities & Systems\n- **Electrical Panels:** Dedicated sub-panel located [Location needed] serving kitchen circuits\n- **Water:** Outdoor sink with cold water supply only (Must be winterized/drained in freezing months)\n- **Outlets:** Multiple outdoor-rated GFCI outlets for small appliances\n\n### Maintenance Notes\n- **Winterization:** Shut off water supply and drain lines to prevent freezing. Cover grill.\n- **Propane:** Check tank levels before large gatherings.",
       "subsections": [
         {
           "id": "structure",
@@ -128,18 +128,18 @@
           "intro": "- **Type:** Open-air timber frame pavilion with metal roof\n- **Flooring:** Concrete slab\n- **Lighting:** Overhead string lights and task lighting"
         },
         {
-          "id": "cooking-facilities",
-          "title": "Cooking Facilities",
-          "content": "- **Grill:** Weber Genesis II (Propane, 3-burner)\n- **Stove:** Portable 2-burner propane camp stove\n- **Prep Area:** Large stainless steel prep table",
+          "id": "appliances",
+          "title": "Appliances",
+          "content": "- **Stove:** Propane Range (4-burner with oven)\n- **Refrigerator:** Full-size Refrigerator/Freezer\n- **Grill:** Weber Genesis II (Propane, 3-burner)\n- **Prep Area:** Large stainless steel prep table",
           "items": [],
-          "intro": "- **Grill:** Weber Genesis II (Propane, 3-burner)\n- **Stove:** Portable 2-burner propane camp stove\n- **Prep Area:** Large stainless steel prep table"
+          "intro": "- **Stove:** Propane Range (4-burner with oven)\n- **Refrigerator:** Full-size Refrigerator/Freezer\n- **Grill:** Weber Genesis II (Propane, 3-burner)\n- **Prep Area:** Large stainless steel prep table"
         },
         {
-          "id": "utilities",
-          "title": "Utilities",
-          "content": "- **Water:** Outdoor sink with cold water supply only (Must be winterized/drained in freezing months)\n- **Electrical:** Multiple outdoor-rated GFCI outlets for small appliances (coffee maker, blender, etc.)",
+          "id": "utilities-and-systems",
+          "title": "Utilities & Systems",
+          "content": "- **Electrical Panels:** Dedicated sub-panel located [Location needed] serving kitchen circuits\n- **Water:** Outdoor sink with cold water supply only (Must be winterized/drained in freezing months)\n- **Outlets:** Multiple outdoor-rated GFCI outlets for small appliances",
           "items": [],
-          "intro": "- **Water:** Outdoor sink with cold water supply only (Must be winterized/drained in freezing months)\n- **Electrical:** Multiple outdoor-rated GFCI outlets for small appliances (coffee maker, blender, etc.)"
+          "intro": "- **Electrical Panels:** Dedicated sub-panel located [Location needed] serving kitchen circuits\n- **Water:** Outdoor sink with cold water supply only (Must be winterized/drained in freezing months)\n- **Outlets:** Multiple outdoor-rated GFCI outlets for small appliances"
         }
       ],
       "intro": "**Status:** Documented"
