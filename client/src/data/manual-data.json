@@ -2,88 +2,74 @@
   "title": "San Juan County, Washington - Private Property",
   "metadata": {
     "created": "February 13, 2026",
-    "updated": "February 13, 2026",
+    "updated": "February 14, 2026",
     "owner": "Shady Cove LLC"
   },
   "sections": [
     {
       "id": "farm-house",
       "title": "Farm House",
-      "content": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC) - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)\n\n### Building Details\n- **Type:** Residential (Rustic)\n- **Square Footage:** [SF]\n- **Year Built:** [Year]\n- **Bedrooms/Bathrooms:** [Number]\n- **Construction Type:** Wood frame\n- **Roof Type/Age:** [Type/Year installed]\n- **Foundation Type:** [Type]\n- **Current Use:** [Primary residence, Guest house, Rental, etc.]\n- **Occupancy Status:** [Occupied/Vacant]\n\n### Systems & Utilities\n- **Heating:** Electric baseboard heating (multiple zones)\n- **Septic:** Septic system with pump (Pump on \"DINING - SEPTIC\" circuit)\n- **Electrical:** MTS electrical panel in dining room with complete circuit directory and generator transfer capability\n- **Water Heater:** Bradford White (25 years old - **CRITICAL: URGENT REPLACEMENT NEEDED**)\n\n### Appliances & Equipment\n| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRTP1031W | 10-15 years old | 8.8 cu. ft. compact top-freezer. Functional. |\n| Range | Premier | Unknown | Electric 4-burner coil cooktop with oven. |\n| Water Heater | Bradford White MI50S6DS21 | 25 years old (Feb 2001) | **CRITICAL FAILURE RISK** - S/N: ZB2783563. 50 Gallon. Immediate replacement required. |\n| Dishwasher | None | N/A | Rustic cabin - no dishwasher. |\n| Laundry | None | N/A | Rustic cabin - no washer/dryer. |\n\n### Critical Maintenance Alert: Water Heater\nThe water heater is **more than double** its expected lifespan. At 25 years old, it represents an **extremely high risk** of:\n1. **Catastrophic tank failure and flooding** - could cause thousands in water damage\n2. **Complete loss of hot water** without warning\n3. **Significant energy waste** - costing extra on every utility bill\n4. **Safety hazards** - potential electrical or pressure issues\n\n**Immediate Actions Until Replacement:**\n- Check daily for leaks around the base\n- Listen for unusual noises (rumbling, popping from sediment)\n- Monitor hot water performance\n- Consider placing a water alarm or drip pan under unit\n- Know where your water shutoff valve is located\n\n**Replacement Priority:**\n- This should be your **#1 priority** for the farmhouse\n- Get quotes from licensed plumbers immediately\n- Consider upgrading to tankless or heat pump water heater for long-term energy savings\n- Budget for professional installation (electrical 240V and plumbing required)",
+      "content": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC) - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)\n\n### Structure & Exterior\n- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers\n\n### Kitchen Appliances\n- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities\n\n### Electrical System\n- **Panel:** MTS electrical panel in dining room with generator transfer capability\n- **Circuits:** Complete handwritten directory available\n\n### Heating System\n- **Type:** Electric baseboard heating (multiple zones)\n\n### Septic System\n- **Pump:** On \"DINING - SEPTIC\" circuit\n\n### Water Heater\n- **Model:** Bradford White MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK (Expected life 8-12 years)\n- **Action:** Replace immediately",
       "subsections": [
         {
-          "id": "building-details",
-          "title": "Building Details",
-          "content": "- **Type:** Residential (Rustic)\n- **Square Footage:** [SF]\n- **Year Built:** [Year]\n- **Bedrooms/Bathrooms:** [Number]\n- **Construction Type:** Wood frame\n- **Roof Type/Age:** [Type/Year installed]\n- **Foundation Type:** [Type]\n- **Current Use:** [Primary residence, Guest house, Rental, etc.]\n- **Occupancy Status:** [Occupied/Vacant]",
+          "id": "structure-and-exterior",
+          "title": "Structure & Exterior",
+          "content": "- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers",
           "items": [],
-          "intro": "- **Type:** Residential (Rustic)\n- **Square Footage:** [SF]\n- **Year Built:** [Year]\n- **Bedrooms/Bathrooms:** [Number]\n- **Construction Type:** Wood frame\n- **Roof Type/Age:** [Type/Year installed]\n- **Foundation Type:** [Type]\n- **Current Use:** [Primary residence, Guest house, Rental, etc.]\n- **Occupancy Status:** [Occupied/Vacant]"
+          "intro": "- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers"
+        },
+        {
+          "id": "kitchen-appliances",
+          "title": "Kitchen Appliances",
+          "content": "- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities",
+          "items": [],
+          "intro": "- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities"
         },
         {
           "id": "systems-and-utilities",
           "title": "Systems & Utilities",
-          "content": "- **Heating:** Electric baseboard heating (multiple zones)\n- **Septic:** Septic system with pump (Pump on \"DINING - SEPTIC\" circuit)\n- **Electrical:** MTS electrical panel in dining room with complete circuit directory and generator transfer capability\n- **Water Heater:** Bradford White (25 years old - **CRITICAL: URGENT REPLACEMENT NEEDED**)",
+          "content": "- **Electrical:** MTS electrical panel in dining room with generator transfer capability\n- **Heating:** Electric baseboard heating (multiple zones)\n- **Septic:** Septic system with pump (Pump on \"DINING - SEPTIC\" circuit)",
           "items": [],
-          "intro": "- **Heating:** Electric baseboard heating (multiple zones)\n- **Septic:** Septic system with pump (Pump on \"DINING - SEPTIC\" circuit)\n- **Electrical:** MTS electrical panel in dining room with complete circuit directory and generator transfer capability\n- **Water Heater:** Bradford White (25 years old - **CRITICAL: URGENT REPLACEMENT NEEDED**)"
+          "intro": "- **Electrical:** MTS electrical panel in dining room with generator transfer capability\n- **Heating:** Electric baseboard heating (multiple zones)\n- **Septic:** Septic system with pump (Pump on \"DINING - SEPTIC\" circuit)"
         },
         {
-          "id": "appliances-and-equipment",
-          "title": "Appliances & Equipment",
-          "content": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRTP1031W | 10-15 years old | 8.8 cu. ft. compact top-freezer. Functional. |\n| Range | Premier | Unknown | Electric 4-burner coil cooktop with oven. |\n| Water Heater | Bradford White MI50S6DS21 | 25 years old (Feb 2001) | **CRITICAL FAILURE RISK** - S/N: ZB2783563. 50 Gallon. Immediate replacement required. |\n| Dishwasher | None | N/A | Rustic cabin - no dishwasher. |\n| Laundry | None | N/A | Rustic cabin - no washer/dryer. |",
+          "id": "water-heater-farm",
+          "title": "Water Heater (Critical)",
+          "content": "### ⚠️ URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 25 years old, this unit is more than double its expected lifespan. Risks include catastrophic tank failure, flooding, and safety hazards.\n\n**Immediate Actions:**\n1. Check daily for leaks.\n2. Listen for unusual noises.\n3. **Schedule replacement immediately.**",
           "items": [],
-          "intro": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRTP1031W | 10-15 years old | 8.8 cu. ft. compact top-freezer. Functional. |\n| Range | Premier | Unknown | Electric 4-burner coil cooktop with oven. |\n| Water Heater | Bradford White MI50S6DS21 | 25 years old (Feb 2001) | **CRITICAL FAILURE RISK** - S/N: ZB2783563. 50 Gallon. Immediate replacement required. |\n| Dishwasher | None | N/A | Rustic cabin - no dishwasher. |\n| Laundry | None | N/A | Rustic cabin - no washer/dryer. |"
-        },
-        {
-          "id": "critical-maintenance-alert:-water-heater",
-          "title": "Critical Maintenance Alert: Water Heater",
-          "content": "The water heater is **more than double** its expected lifespan. At 25 years old, it represents an **extremely high risk** of:\n1. **Catastrophic tank failure and flooding** - could cause thousands in water damage\n2. **Complete loss of hot water** without warning\n3. **Significant energy waste** - costing extra on every utility bill\n4. **Safety hazards** - potential electrical or pressure issues\n\n**Immediate Actions Until Replacement:**\n- Check daily for leaks around the base\n- Listen for unusual noises (rumbling, popping from sediment)\n- Monitor hot water performance\n- Consider placing a water alarm or drip pan under unit\n- Know where your water shutoff valve is located\n\n**Replacement Priority:**\n- This should be your **#1 priority** for the farmhouse\n- Get quotes from licensed plumbers immediately\n- Consider upgrading to tankless or heat pump water heater for long-term energy savings\n- Budget for professional installation (electrical 240V and plumbing required)",
-          "items": [],
-          "intro": "The water heater is **more than double** its expected lifespan. At 25 years old, it represents an **extremely high risk** of:\n1. **Catastrophic tank failure and flooding** - could cause thousands in water damage\n2. **Complete loss of hot water** without warning\n3. **Significant energy waste** - costing extra on every utility bill\n4. **Safety hazards** - potential electrical or pressure issues\n\n**Immediate Actions Until Replacement:**\n- Check daily for leaks around the base\n- Listen for unusual noises (rumbling, popping from sediment)\n- Monitor hot water performance\n- Consider placing a water alarm or drip pan under unit\n- Know where your water shutoff valve is located\n\n**Replacement Priority:**\n- This should be your **#1 priority** for the farmhouse\n- Get quotes from licensed plumbers immediately\n- Consider upgrading to tankless or heat pump water heater for long-term energy savings\n- Budget for professional installation (electrical 240V and plumbing required)"
+          "intro": "### ⚠️ URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 25 years old, this unit is more than double its expected lifespan. Risks include catastrophic tank failure, flooding, and safety hazards.\n\n**Immediate Actions:**\n1. Check daily for leaks.\n2. Listen for unusual noises.\n3. **Schedule replacement immediately.**"
         }
       ],
       "intro": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC) - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)"
     },
     {
-      "id": "lighthouse-point-beach-house",
+      "id": "beach-house",
       "title": "Beach House",
-      "content": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC) - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)\n\n### Building Details\n- **Type:** Residential / Guest House\n- **Setting:** Nestled in a wooded area near the beach\n- **Exterior:** Wood siding, blends with natural surroundings\n- **Access:** Gravel path/driveway\n\n### Systems & Utilities\n- **Main Water Shutoff Valve:**\n    - **Location:** Exterior access box near the main entry, beneath the covered area by the \"Lighthouse Point\" sign.\n    - **Access:** Wooden cover over concrete/wooden access box.\n    - **Valve Type:** Ball valve (Blue handle).\n    - **Operation:**\n        - **ON:** Handle is parallel to the pipe.\n        - **OFF:** Handle is perpendicular (at a right angle) to the pipe.\n    - **Emergency Procedure:** Turn handle 90 degrees to shut off water flow.\n\n### Maintenance Notes\n- **Clear Access Box:** The valve access box has accumulated leaves and debris. For emergency situations, this MUST be kept clear.\n- **Test Valve Annually:** Ensure the shutoff valve operates smoothly and completely closes water flow.\n- **Mark Location:** Consider adding cleaner marking on the access box for quick identification during emergencies.\n- **Exterior:** Monitor wood siding for moss or weather damage due to wooded/shaded location.\n\n### Appliances & Equipment\n| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRBP1031T | ~19 years old (2007 model) | **Replacement Recommended** - Nearing end of life. |\n| Range | Bosch Electric Range | Good Condition | Stainless steel, ceramic cooktop, convection oven. |\n| Dishwasher | Bosch 300 Series | ~7 years old (2019 model) | Good condition. |\n| Washer | Maytag MHW8200FC0 | ~8 years old (2018 model) | Good condition. |\n| Dryer | Maytag MED8200FC2 | ~8 years old (2018 model) | Good condition. |\n| Water Heater | Bradford White | 22 years old (2004 model) | **CRITICAL FAILURE RISK** - Exceeds 8-12 year lifespan. Immediate replacement required. |\n\n### Critical Maintenance Alert: Beach House Water Heater\nThe Beach House water heater is **22 years old**, which is significantly past its expected lifespan.\n**Risks:**\n1. **Leakage/Flooding:** High risk of tank failure.\n2. **Efficiency:** Likely operating at reduced efficiency.\n**Action Required:**\n- **Inspect Immediately:** Check for rust or moisture at the base.\n- **Plan Replacement:** Schedule replacement ASAP to avoid emergency failure.\n\n**Appliance Maintenance:**\n- **Range:** Use specific ceramic cooktop cleaner to avoid scratching. Run self-cleaning cycle 2-3 times per year.\n- **Refrigerator:** Monitor cooling performance due to age. Vacuum coils annually to extend life.\n- **Laundry:** Clean dryer lint trap after every use. Inspect washer hoses annually for cracks.",
+      "content": "**Parcel:** [To be documented] - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)\n\n### Utilities & Systems\n- **Water Shutoff:** Exterior access box near main entry by \"Lighthouse Point\" sign (Blue-handled ball valve)\n- **WiFi:** Network: **Ned&Haleh** | Password: **Beachhouse1**\n- **Security:** First Alert FA260 Professional alarm system\n\n### Appliances\n- **Refrigerator:** LG LRBP1031T (19 years old) - *Rec. Replace Immediately*\n- **Range:** Bosch Electric (Stainless steel, ceramic cooktop)\n- **Dishwasher:** Bosch 300 Series SHP53C06UC30 (~7 years old)\n- **Washer:** Maytag MHW8200FC0 (8 years old)\n- **Dryer:** Maytag MED8200FC2 (8 years old)\n\n### Water Heater\n- **Model:** Bradford White M265R6DS-1NCWM\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK (Expected life 8-12 years)\n- **Action:** Replace immediately",
       "subsections": [
         {
-          "id": "building-details",
-          "title": "Building Details",
-          "content": "- **Type:** Residential / Guest House\n- **Setting:** Nestled in a wooded area near the beach\n- **Exterior:** Wood siding, blends with natural surroundings\n- **Access:** Gravel path/driveway",
+          "id": "utilities-and-systems",
+          "title": "Utilities & Systems",
+          "content": "- **Water Shutoff:** Exterior access box near main entry by \"Lighthouse Point\" sign (Blue-handled ball valve)\n- **WiFi:** Network: **Ned&Haleh** | Password: **Beachhouse1**\n- **Security:** First Alert FA260 Professional alarm system",
           "items": [],
-          "intro": "- **Type:** Residential / Guest House\n- **Setting:** Nestled in a wooded area near the beach\n- **Exterior:** Wood siding, blends with natural surroundings\n- **Access:** Gravel path/driveway"
+          "intro": "- **Water Shutoff:** Exterior access box near main entry by \"Lighthouse Point\" sign (Blue-handled ball valve)\n- **WiFi:** Network: **Ned&Haleh** | Password: **Beachhouse1**\n- **Security:** First Alert FA260 Professional alarm system"
         },
         {
-          "id": "systems-and-utilities",
-          "title": "Systems & Utilities",
-          "content": "- **Main Water Shutoff Valve:**\n    - **Location:** Exterior access box near the main entry, beneath the covered area by the \"Lighthouse Point\" sign.\n    - **Access:** Wooden cover over concrete/wooden access box.\n    - **Valve Type:** Ball valve (Blue handle).\n    - **Operation:**\n        - **ON:** Handle is parallel to the pipe.\n        - **OFF:** Handle is perpendicular (at a right angle) to the pipe.\n    - **Emergency Procedure:** Turn handle 90 degrees to shut off water flow.",
+          "id": "appliances",
+          "title": "Appliances",
+          "content": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRBP1031T | ~19 years old (2007 model) | **Replacement Recommended** - Nearing end of life. |\n| Range | Bosch Electric Range | Good Condition | Stainless steel, ceramic cooktop, convection oven. |\n| Dishwasher | Bosch 300 Series | ~7 years old (2019 model) | Good condition. |\n| Washer | Maytag MHW8200FC0 | ~8 years old (2018 model) | Good condition. |\n| Dryer | Maytag MED8200FC2 | ~8 years old (2018 model) | Good condition. |",
           "items": [],
-          "intro": "- **Main Water Shutoff Valve:**\n    - **Location:** Exterior access box near the main entry, beneath the covered area by the \"Lighthouse Point\" sign.\n    - **Access:** Wooden cover over concrete/wooden access box.\n    - **Valve Type:** Ball valve (Blue handle).\n    - **Operation:**\n        - **ON:** Handle is parallel to the pipe.\n        - **OFF:** Handle is perpendicular (at a right angle) to the pipe.\n    - **Emergency Procedure:** Turn handle 90 degrees to shut off water flow."
+          "intro": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRBP1031T | ~19 years old (2007 model) | **Replacement Recommended** - Nearing end of life. |\n| Range | Bosch Electric Range | Good Condition | Stainless steel, ceramic cooktop, convection oven. |\n| Dishwasher | Bosch 300 Series | ~7 years old (2019 model) | Good condition. |\n| Washer | Maytag MHW8200FC0 | ~8 years old (2018 model) | Good condition. |\n| Dryer | Maytag MED8200FC2 | ~8 years old (2018 model) | Good condition. |"
         },
         {
-          "id": "maintenance-notes",
-          "title": "Maintenance Notes",
-          "content": "- **Clear Access Box:** The valve access box has accumulated leaves and debris. For emergency situations, this MUST be kept clear.\n- **Test Valve Annually:** Ensure the shutoff valve operates smoothly and completely closes water flow.\n- **Mark Location:** Consider adding cleaner marking on the access box for quick identification during emergencies.\n- **Exterior:** Monitor wood siding for moss or weather damage due to wooded/shaded location.",
+          "id": "water-heater-beach",
+          "title": "Water Heater (Critical)",
+          "content": "### ⚠️ URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWM\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan. Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**",
           "items": [],
-          "intro": "- **Clear Access Box:** The valve access box has accumulated leaves and debris. For emergency situations, this MUST be kept clear.\n- **Test Valve Annually:** Ensure the shutoff valve operates smoothly and completely closes water flow.\n- **Mark Location:** Consider adding cleaner marking on the access box for quick identification during emergencies.\n- **Exterior:** Monitor wood siding for moss or weather damage due to wooded/shaded location."
-        },
-        {
-          "id": "appliances-and-equipment",
-          "title": "Appliances & Equipment",
-          "content": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRBP1031T | ~19 years old (2007 model) | **Replacement Recommended** - Nearing end of life. |\n| Range | Bosch Electric Range | Good Condition | Stainless steel, ceramic cooktop, convection oven. |\n| Dishwasher | Bosch 300 Series | ~7 years old (2019 model) | Good condition. |\n| Washer | Maytag MHW8200FC0 | ~8 years old (2018 model) | Good condition. |\n| Dryer | Maytag MED8200FC2 | ~8 years old (2018 model) | Good condition. |\n| Water Heater | Bradford White | 22 years old (2004 model) | **CRITICAL FAILURE RISK** - Exceeds 8-12 year lifespan. Immediate replacement required. |",
-          "items": [],
-          "intro": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRBP1031T | ~19 years old (2007 model) | **Replacement Recommended** - Nearing end of life. |\n| Range | Bosch Electric Range | Good Condition | Stainless steel, ceramic cooktop, convection oven. |\n| Dishwasher | Bosch 300 Series | ~7 years old (2019 model) | Good condition. |\n| Washer | Maytag MHW8200FC0 | ~8 years old (2018 model) | Good condition. |\n| Dryer | Maytag MED8200FC2 | ~8 years old (2018 model) | Good condition. |\n| Water Heater | Bradford White | 22 years old (2004 model) | **CRITICAL FAILURE RISK** - Exceeds 8-12 year lifespan. Immediate replacement required. |"
-        },
-        {
-          "id": "critical-maintenance-alert:-beach-house-water-heater",
-          "title": "Critical Maintenance Alert: Beach House Water Heater",
-          "content": "The Beach House water heater is **22 years old**, which is significantly past its expected lifespan.\n**Risks:**\n1. **Leakage/Flooding:** High risk of tank failure.\n2. **Efficiency:** Likely operating at reduced efficiency.\n**Action Required:**\n- **Inspect Immediately:** Check for rust or moisture at the base.\n- **Plan Replacement:** Schedule replacement ASAP to avoid emergency failure.\n\n**Appliance Maintenance:**\n- **Range:** Use specific ceramic cooktop cleaner to avoid scratching. Run self-cleaning cycle 2-3 times per year.\n- **Refrigerator:** Monitor cooling performance due to age. Vacuum coils annually to extend life.\n- **Laundry:** Clean dryer lint trap after every use. Inspect washer hoses annually for cracks.",
-          "items": [],
-          "intro": "The Beach House water heater is **22 years old**, which is significantly past its expected lifespan.\n**Risks:**\n1. **Leakage/Flooding:** High risk of tank failure.\n2. **Efficiency:** Likely operating at reduced efficiency.\n**Action Required:**\n- **Inspect Immediately:** Check for rust or moisture at the base.\n- **Plan Replacement:** Schedule replacement ASAP to avoid emergency failure.\n\n**Appliance Maintenance:**\n- **Range:** Use specific ceramic cooktop cleaner to avoid scratching. Run self-cleaning cycle 2-3 times per year.\n- **Refrigerator:** Monitor cooling performance due to age. Vacuum coils annually to extend life.\n- **Laundry:** Clean dryer lint trap after every use. Inspect washer hoses annually for cracks."
+          "intro": "### ⚠️ URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWM\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan. Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**"
         }
       ],
-      "intro": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC) - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)"
+      "intro": "**Parcel:** [To be documented] - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)"
     },
     {
       "id": "main-house",
@@ -110,7 +96,7 @@
     {
       "id": "camp-kitchen",
       "title": "Camp Kitchen",
-      "content": "**Status:** Placeholder - Awaiting Documentation\n\nThis section will contain detailed information about the Camp Kitchen, including:\n- Outdoor cooking equipment\n- Water supply and winterization\n- Electrical outlets and lighting\n- Picnic shelter maintenance\n\n*Please provide photos and details to populate this section.*",
+      "content": "**Status:** Placeholder - Awaiting Documentation\n\nThis section will contain detailed information about the Camp Kitchen, including:\n- Cooking facilities and equipment\n- Water supply and winterization\n- Electrical capacity\n- Usage guidelines\n\n*Please provide photos and details to populate this section.*",
       "subsections": [],
       "intro": "**Status:** Placeholder - Awaiting Documentation"
     }
