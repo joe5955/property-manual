@@ -194,9 +194,11 @@ export default function Home() {
         <section>
           <div className="flex items-center justify-between mb-6">
             <h2 className="font-serif text-2xl font-bold text-foreground">Quick Access</h2>
-            <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-primary" asChild>
-              <Link href="/section/farm-house">View All Sections <ArrowRight className="ml-1 h-3 w-3" /></Link>
-            </Button>
+            <div className="flex gap-2">
+              <Button variant="outline" size="sm" className="text-primary border-primary/20 hover:bg-primary/5" asChild>
+                <Link href="/guest-guide">Guest Guide <ArrowRight className="ml-1 h-3 w-3" /></Link>
+              </Button>
+            </div>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
