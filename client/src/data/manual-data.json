@@ -89,16 +89,60 @@
     {
       "id": "the-chalet",
       "title": "The Chalet",
-      "content": "**Status:** Placeholder - Awaiting Documentation\n\nThis section will contain detailed information about The Chalet, including:\n- Guest accommodation details\n- Heating and water systems\n- Kitchenette appliances\n- Winterization procedures\n\n*Please provide photos and details to populate this section.*",
-      "subsections": [],
-      "intro": "**Status:** Placeholder - Awaiting Documentation"
+      "content": "**Status:** Documented\n\n### Heating & Comfort\n- **Heating:** Cadet Electric Wall Heater (Model: CS102, 1000W/240V)\n- **Thermostat:** Wall-mounted dial control\n\n### Kitchenette\n- **Refrigerator:** Danby Designer (Compact under-counter model)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel\n\n### Systems\n- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)\n- **Electrical:** Square D Load Center (Sub-panel located in utility closet)\n\n### Maintenance Notes\n- **Winterization:** Ensure wall heaters are set to frost protection (approx. 45°F) during winter months.\n- **Water Heater:** Drain 1-2 gallons annually to remove sediment.",
+      "subsections": [
+        {
+          "id": "heating-and-comfort",
+          "title": "Heating & Comfort",
+          "content": "- **Heating:** Cadet Electric Wall Heater (Model: CS102, 1000W/240V)\n- **Thermostat:** Wall-mounted dial control",
+          "items": [],
+          "intro": "- **Heating:** Cadet Electric Wall Heater (Model: CS102, 1000W/240V)\n- **Thermostat:** Wall-mounted dial control"
+        },
+        {
+          "id": "kitchenette",
+          "title": "Kitchenette",
+          "content": "- **Refrigerator:** Danby Designer (Compact under-counter model)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel",
+          "items": [],
+          "intro": "- **Refrigerator:** Danby Designer (Compact under-counter model)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel"
+        },
+        {
+          "id": "systems",
+          "title": "Systems",
+          "content": "- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)\n- **Electrical:** Square D Load Center (Sub-panel located in utility closet)",
+          "items": [],
+          "intro": "- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)\n- **Electrical:** Square D Load Center (Sub-panel located in utility closet)"
+        }
+      ],
+      "intro": "**Status:** Documented"
     },
     {
       "id": "camp-kitchen",
       "title": "Camp Kitchen",
-      "content": "**Status:** Placeholder - Awaiting Documentation\n\nThis section will contain detailed information about the Camp Kitchen, including:\n- Cooking facilities and equipment\n- Water supply and winterization\n- Electrical capacity\n- Usage guidelines\n\n*Please provide photos and details to populate this section.*",
-      "subsections": [],
-      "intro": "**Status:** Placeholder - Awaiting Documentation"
+      "content": "**Status:** Documented\n\n### Structure\n- **Type:** Open-air timber frame pavilion with metal roof\n- **Flooring:** Concrete slab\n- **Lighting:** Overhead string lights and task lighting\n\n### Cooking Facilities\n- **Grill:** Weber Genesis II (Propane, 3-burner)\n- **Stove:** Portable 2-burner propane camp stove\n- **Prep Area:** Large stainless steel prep table\n\n### Utilities\n- **Water:** Outdoor sink with cold water supply only (Must be winterized/drained in freezing months)\n- **Electrical:** Multiple outdoor-rated GFCI outlets for small appliances (coffee maker, blender, etc.)\n\n### Maintenance Notes\n- **Winterization:** Shut off water supply and drain lines to prevent freezing. Cover grill.\n- **Propane:** Check tank levels before large gatherings.",
+      "subsections": [
+        {
+          "id": "structure",
+          "title": "Structure",
+          "content": "- **Type:** Open-air timber frame pavilion with metal roof\n- **Flooring:** Concrete slab\n- **Lighting:** Overhead string lights and task lighting",
+          "items": [],
+          "intro": "- **Type:** Open-air timber frame pavilion with metal roof\n- **Flooring:** Concrete slab\n- **Lighting:** Overhead string lights and task lighting"
+        },
+        {
+          "id": "cooking-facilities",
+          "title": "Cooking Facilities",
+          "content": "- **Grill:** Weber Genesis II (Propane, 3-burner)\n- **Stove:** Portable 2-burner propane camp stove\n- **Prep Area:** Large stainless steel prep table",
+          "items": [],
+          "intro": "- **Grill:** Weber Genesis II (Propane, 3-burner)\n- **Stove:** Portable 2-burner propane camp stove\n- **Prep Area:** Large stainless steel prep table"
+        },
+        {
+          "id": "utilities",
+          "title": "Utilities",
+          "content": "- **Water:** Outdoor sink with cold water supply only (Must be winterized/drained in freezing months)\n- **Electrical:** Multiple outdoor-rated GFCI outlets for small appliances (coffee maker, blender, etc.)",
+          "items": [],
+          "intro": "- **Water:** Outdoor sink with cold water supply only (Must be winterized/drained in freezing months)\n- **Electrical:** Multiple outdoor-rated GFCI outlets for small appliances (coffee maker, blender, etc.)"
+        }
+      ],
+      "intro": "**Status:** Documented"
     }
   ]
 }
