@@ -89,14 +89,14 @@
     {
       "id": "the-chalet",
       "title": "The Chalet",
-      "content": "**Status:** Documented\n\n### Heating & Comfort\n- **Heating:** Cadet Electric Wall Heater (Model: CS102, 1000W/240V)\n- **Stove:** Jefferson Direct Vent Gas Stove (Model: JDV RP, Serial: 2684)\n- **Thermostat:** Wall-mounted dial control\n\n### Kitchenette\n- **Refrigerator:** Danby Designer (Compact under-counter model)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel\n\n### Systems\n- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)\n- **Electrical:** Square D Load Center (Sub-panel located in utility closet)\n\n### Maintenance Notes\n- **Winterization:** Ensure wall heaters are set to frost protection (approx. 45°F) during winter months.\n- **Water Heater:** Drain 1-2 gallons annually to remove sediment.",
+      "content": "**Status:** Documented\n\n### Heating & Comfort\n- **Heating:** Cadet Electric Wall Heater (Model: CS102, 1000W/240V)\n- **Stove:** Jefferson Direct Vent Gas Stove (Model: JDV RP, Serial: 2684) - [View Manual](https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf)\n- **Thermostat:** Wall-mounted dial control\n\n### Kitchenette\n- **Refrigerator:** Danby Designer (Compact under-counter model)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel\n\n### Systems\n- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)\n- **Electrical:** Square D Load Center (Sub-panel located in utility closet)\n\n### Maintenance Notes\n- **Winterization:** Ensure wall heaters are set to frost protection (approx. 45°F) during winter months.\n- **Water Heater:** Drain 1-2 gallons annually to remove sediment.",
       "subsections": [
         {
           "id": "heating-and-comfort",
           "title": "Heating & Comfort",
-          "content": "- **Heating:** Cadet Electric Wall Heater (Model: CS102, 1000W/240V)\n- **Stove:** Jefferson Direct Vent Gas Stove (Model: JDV RP, Serial: 2684)\n- **Thermostat:** Wall-mounted dial control",
+          "content": "- **Heating:** Cadet Electric Wall Heater (Model: CS102, 1000W/240V)\n- **Stove:** Jefferson Direct Vent Gas Stove (Model: JDV RP, Serial: 2684) - [View Manual](https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf)\n- **Thermostat:** Wall-mounted dial control",
           "items": [],
-          "intro": "- **Heating:** Cadet Electric Wall Heater (Model: CS102, 1000W/240V)\n- **Stove:** Jefferson Direct Vent Gas Stove (Model: JDV RP, Serial: 2684)\n- **Thermostat:** Wall-mounted dial control"
+          "intro": "- **Heating:** Cadet Electric Wall Heater (Model: CS102, 1000W/240V)\n- **Stove:** Jefferson Direct Vent Gas Stove (Model: JDV RP, Serial: 2684) - [View Manual](https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf)\n- **Thermostat:** Wall-mounted dial control"
         },
         {
           "id": "kitchenette",
