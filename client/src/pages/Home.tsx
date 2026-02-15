@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
-import { ArrowRight, MapPin, Home as HomeIcon, FileText, Calendar, AlertCircle, CheckCircle2, Clock } from "lucide-react";
+import { ArrowRight, MapPin, Home as HomeIcon, FileText, Calendar, AlertCircle, CheckCircle2, Clock, Ship, Phone, Navigation } from "lucide-react";
 import manualData from "@/data/manual-data.json";
 import Layout from "@/components/Layout";
 
@@ -87,6 +87,103 @@ export default function Home() {
                 </div>
                 <div className="pt-2 text-xs text-muted-foreground text-center bg-muted/30 py-2 rounded-md mt-2">
                   Last Updated: {lastUpdated}
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </section>
+
+        {/* Arrival & Access Section */}
+        <section className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="space-y-6">
+            <h2 className="font-serif text-2xl font-bold text-foreground flex items-center gap-2">
+              <Navigation className="h-6 w-6 text-primary" /> Arrival & Access
+            </h2>
+            <Card className="h-full">
+              <CardHeader>
+                <CardTitle className="text-lg font-serif">Getting Here</CardTitle>
+                <CardDescription>Ferry reservations and driving directions</CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-6">
+                <div className="space-y-3">
+                  <h3 className="font-medium flex items-center gap-2 text-primary">
+                    <Ship className="h-4 w-4" /> Washington State Ferries
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    Reservations are highly recommended for travel to/from Orcas Island.
+                  </p>
+                  <Button variant="outline" size="sm" className="w-full justify-start" asChild>
+                    <a href="https://secureapps.wsdot.wa.gov/ferries/reservations/vehicle/default.aspx" target="_blank" rel="noopener noreferrer">
+                      Make a Reservation <ArrowRight className="ml-auto h-4 w-4" />
+                    </a>
+                  </Button>
+                </div>
+                
+                <Separator />
+                
+                <div className="space-y-3">
+                  <h3 className="font-medium flex items-center gap-2 text-primary">
+                    <MapPin className="h-4 w-4" /> Driving Directions
+                  </h3>
+                  <div className="text-sm text-muted-foreground space-y-2 pl-2 border-l-2 border-muted">
+                    <p>From Orcas Island Ferry Terminal (approx. 18 min):</p>
+                    <ol className="list-decimal list-inside space-y-1 ml-1">
+                      <li>Head toward <strong>Orcas Hill Rd</strong></li>
+                      <li>Turn right onto <strong>Orcas Rd</strong> (2.5 mi)</li>
+                      <li>Turn left onto <strong>Deer Harbor Rd</strong> (5.3 mi)</li>
+                      <li>Turn left onto <strong>Bear Cove Rd</strong> (0.4 mi)</li>
+                    </ol>
+                    <p className="text-xs italic mt-2">Destination will be on the left.</p>
+                  </div>
+                  <Button variant="outline" size="sm" className="w-full justify-start" asChild>
+                    <a href="https://www.google.com/maps/dir/Orcas+Island+Ferry+Terminal,+Orcas+Road,+Orcas,+WA/Bear+Cove+Rd,+Eastsound,+WA+98245/" target="_blank" rel="noopener noreferrer">
+                      Open in Google Maps <ArrowRight className="ml-auto h-4 w-4" />
+                    </a>
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="space-y-6">
+            <h2 className="font-serif text-2xl font-bold text-foreground flex items-center gap-2">
+              <Phone className="h-6 w-6 text-primary" /> Caretaker Contacts
+            </h2>
+            <Card className="h-full">
+              <CardHeader>
+                <CardTitle className="text-lg font-serif">Immediate Assistance</CardTitle>
+                <CardDescription>Contact Joseph or Lilliana for any questions</CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="flex items-center justify-between p-4 bg-muted/30 rounded-lg border border-border hover:border-primary/30 transition-colors">
+                  <div className="flex items-center gap-4">
+                    <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold">JW</div>
+                    <div>
+                      <h4 className="font-medium">Joseph Wolford</h4>
+                      <p className="text-sm text-muted-foreground">Caretaker</p>
+                    </div>
+                  </div>
+                  <Button variant="ghost" size="sm" asChild>
+                    <a href="tel:3609829705" className="font-mono">360-982-9705</a>
+                  </Button>
+                </div>
+
+                <div className="flex items-center justify-between p-4 bg-muted/30 rounded-lg border border-border hover:border-primary/30 transition-colors">
+                  <div className="flex items-center gap-4">
+                    <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold">LV</div>
+                    <div>
+                      <h4 className="font-medium">Lilliana Villalobos</h4>
+                      <p className="text-sm text-muted-foreground">Caretaker</p>
+                    </div>
+                  </div>
+                  <Button variant="ghost" size="sm" asChild>
+                    <a href="tel:3603176121" className="font-mono">360-317-6121</a>
+                  </Button>
+                </div>
+                
+                <div className="mt-4 p-3 bg-blue-50 dark:bg-blue-900/10 text-blue-800 dark:text-blue-200 text-sm rounded-md flex gap-2 items-start">
+                  <AlertCircle className="h-4 w-4 mt-0.5 flex-shrink-0" />
+                  <p>For medical or fire emergencies, always dial <strong>911</strong> first. The property address is <strong>[Insert Address]</strong>.</p>
                 </div>
               </CardContent>
             </Card>
