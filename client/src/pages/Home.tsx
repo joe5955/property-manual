@@ -128,8 +128,8 @@ export default function Home() {
                   <div className="text-sm text-muted-foreground space-y-2 pl-2 border-l-2 border-muted">
                     <p>From Orcas Island Ferry Terminal (approx. 18 min):</p>
                     <ol className="list-decimal list-inside space-y-1 ml-1">
-                      <li>Head toward <strong>Orcas Hill Rd</strong></li>
-                      <li>Turn right onto <strong>Orcas Rd</strong> (2.5 mi)</li>
+                      <li>Exit the ferry ramp and take an <strong>immediate left</strong> onto <strong>Orcas Rd</strong></li>
+                      <li>Continue on <strong>Orcas Rd</strong> (2.5 mi)</li>
                       <li>Turn left onto <strong>Deer Harbor Rd</strong> (5.3 mi)</li>
                       <li>Turn left onto <strong>Bear Cove Rd</strong> (0.4 mi)</li>
                     </ol>
