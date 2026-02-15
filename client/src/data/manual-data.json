@@ -7,6 +7,21 @@
   },
   "sections": [
     {
+      "id": "emergency",
+      "title": "Emergency",
+      "content": "**Status:** Documented\n\n### Generator Instructions\n**Steps to switch to generator power:**\n1. Start generator\n2. Turn off House Main Switch #1\n3. Turn off main Switch on panel #2\n4. Switch #3 Transfer Switch to Gen. set\n5. Turn on House Main Switch #1\n6. Turn on Main Switch on panel #2\n\n**To switch back to OPALCO power:**\n1. Turn off House Main Switch #1\n2. Turn off main Switch on panel #2\n3. Switch #3 Transfer Switch to OPALCO\n4. Turn off generator\n5. Turn on House Main Switch #1\n6. Turn on Main Switch on panel #2\n\n### Critical Contacts\n- **Emergency:** 911\n- **Caretaker (Joseph):** 360-982-9705\n- **Caretaker (Lilliana):** 360-317-6121\n- **Power (OPALCO):** 360-376-3500",
+      "subsections": [
+        {
+          "id": "generator-instructions",
+          "title": "Generator Instructions",
+          "content": "**Steps to switch to generator power:**\n1. Start generator\n2. Turn off House Main Switch #1\n3. Turn off main Switch on panel #2\n4. Switch #3 Transfer Switch to Gen. set\n5. Turn on House Main Switch #1\n6. Turn on Main Switch on panel #2\n\n**To switch back to OPALCO power:**\n1. Turn off House Main Switch #1\n2. Turn off main Switch on panel #2\n3. Switch #3 Transfer Switch to OPALCO\n4. Turn off generator\n5. Turn on House Main Switch #1\n6. Turn on Main Switch on panel #2",
+          "items": [],
+          "intro": "**Steps to switch to generator power:**\n1. Start generator\n2. Turn off House Main Switch #1\n3. Turn off main Switch on panel #2\n4. Switch #3 Transfer Switch to Gen. set\n5. Turn on House Main Switch #1\n6. Turn on Main Switch on panel #2\n\n**To switch back to OPALCO power:**\n1. Turn off House Main Switch #1\n2. Turn off main Switch on panel #2\n3. Switch #3 Transfer Switch to OPALCO\n4. Turn off generator\n5. Turn on House Main Switch #1\n6. Turn on Main Switch on panel #2"
+        }
+      ],
+      "intro": "**Status:** Documented"
+    },
+    {
       "id": "farm-house",
       "title": "Farm House",
       "content": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC) - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)\n\n### Structure & Exterior\n- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers\n\n### Kitchen Appliances\n- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities\n\n### Electrical System\n- **Panel:** MTS electrical panel in dining room with generator transfer capability\n- **Circuits:** Complete handwritten directory available\n\n### Heating System\n- **Type:** Electric baseboard heating (multiple zones)\n\n### Septic System\n- **Pump:** On \"DINING - SEPTIC\" circuit\n\n### Water Heater\n- **Model:** Bradford White MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK (Expected life 8-12 years)\n- **Action:** Replace immediately",
