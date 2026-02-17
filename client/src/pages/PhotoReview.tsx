@@ -183,17 +183,17 @@ const photos = [
     "id": 23,
     "filename": "df4c4dfb-0ec5-4319-9a53-4b48e915025e1628003542767182916.jpg",
     "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jTPoZaYwKdLPmpDA.jpg",
-    "isUsed": false,
-    "currentLabel": "REMOVED (Incorrect Main House Panel)",
-    "section": "Removed"
+    "isUsed": true,
+    "currentLabel": "Camp Kitchen Panel & Transfer Switch",
+    "section": "Camp Kitchen > Central Utilities"
   },
   {
     "id": 24,
     "filename": "dffbb478-923b-4ef6-a2aa-45deb5c85c9a1153162560789571651.jpg",
     "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TJzgeKiyCnVmCxvv.jpg",
-    "isUsed": false,
-    "currentLabel": "REMOVED (Incorrect Main House Panel)",
-    "section": "Removed"
+    "isUsed": true,
+    "currentLabel": "Chalet Electric Panel",
+    "section": "The Chalet"
   },
   {
     "id": 25,
