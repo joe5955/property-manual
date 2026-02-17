@@ -168,32 +168,32 @@ const photos = [
     "filename": "d5d92cec-7a4b-48b5-9156-8d8317085e4e1534784461589245364_compressed.jpg",
     "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/kRPtuEDNUiWwFCwi.jpg",
     "isUsed": true,
-    "currentLabel": "Exterior Spigot",
-    "section": "Camp Kitchen > Water System"
+    "currentLabel": "Camp Kitchen General View",
+    "section": "Camp Kitchen"
   },
   {
     "id": 22,
     "filename": "dbf5c450-0a15-4608-907d-554f3a7385616965322412630139782.jpg",
     "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/SPCeALgOoHoQVAto.jpg",
-    "isUsed": false,
-    "currentLabel": "Unlabeled / Unused",
-    "section": "Not assigned"
+    "isUsed": true,
+    "currentLabel": "Camp Kitchen Stove",
+    "section": "Camp Kitchen"
   },
   {
     "id": 23,
     "filename": "df4c4dfb-0ec5-4319-9a53-4b48e915025e1628003542767182916.jpg",
     "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jTPoZaYwKdLPmpDA.jpg",
-    "isUsed": true,
-    "currentLabel": "Entry Utility Room Panel",
-    "section": "Main House"
+    "isUsed": false,
+    "currentLabel": "REMOVED (Incorrect Main House Panel)",
+    "section": "Removed"
   },
   {
     "id": 24,
     "filename": "dffbb478-923b-4ef6-a2aa-45deb5c85c9a1153162560789571651.jpg",
     "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TJzgeKiyCnVmCxvv.jpg",
-    "isUsed": true,
-    "currentLabel": "Basement Panel",
-    "section": "Main House"
+    "isUsed": false,
+    "currentLabel": "REMOVED (Incorrect Main House Panel)",
+    "section": "Removed"
   },
   {
     "id": 25,
@@ -207,9 +207,9 @@ const photos = [
     "id": 26,
     "filename": "ee4f253c-2d1d-494a-b981-c0ec7f10bc465715695919627362883.jpg",
     "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/lLSYEBKizwlXtUPl.jpg",
-    "isUsed": false,
-    "currentLabel": "Unlabeled / Unused",
-    "section": "Not assigned"
+    "isUsed": true,
+    "currentLabel": "Rinnai Water Heater",
+    "section": "Camp Kitchen"
   }
 ];
 
@@ -226,14 +226,14 @@ export default function PhotoReview() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {photos.map((photo) => (
-          <Card key={photo.id} className="overflow-hidden border-2 border-muted">
+          <Card key={photo.id} className={`overflow-hidden border-2 ${photo.isUsed ? 'border-muted' : 'border-destructive/50'}`}>
             <CardHeader className="bg-muted/30 border-b pb-4">
               <div className="flex justify-between items-center">
-                <Badge variant={photo.isUsed ? "default" : "secondary"} className="text-lg px-4 py-1">
+                <Badge variant={photo.isUsed ? "default" : "destructive"} className="text-lg px-4 py-1">
                   Photo #{photo.id}
                 </Badge>
                 <span className="text-sm font-medium text-muted-foreground">
-                  {photo.isUsed ? `Used in: ${photo.section}` : "Not yet used"}
+                  {photo.isUsed ? `Used in: ${photo.section}` : "Removed / Unused"}
                 </span>
               </div>
               <CardTitle className="mt-2 text-xl">{photo.currentLabel}</CardTitle>
@@ -243,7 +243,7 @@ export default function PhotoReview() {
                 <img 
                   src={photo.url} 
                   alt={photo.currentLabel}
-                  className="w-full h-full object-contain"
+                  className={`w-full h-full object-contain ${!photo.isUsed ? 'opacity-50 grayscale' : ''}`}
                 />
               </div>
               <div className="p-4 bg-background border-t text-sm text-muted-foreground">
