@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
-import { ArrowRight, MapPin, Home as HomeIcon, FileText, Calendar, AlertCircle, CheckCircle2, Clock, Ship, Phone, Navigation, Wrench } from "lucide-react";
+import { ArrowRight, MapPin, Home as HomeIcon, FileText, Calendar, AlertCircle, CheckCircle2, Clock, Ship, Phone, Navigation, Wrench, Image } from "lucide-react";
 import manualData from "@/data/manual-data.json";
 import Layout from "@/components/Layout";
 
@@ -202,6 +202,12 @@ export default function Home() {
             <h2 className="font-serif text-2xl font-bold text-foreground">Quick Access</h2>
             <div className="flex gap-2">
               <Button variant="outline" size="sm" className="text-primary border-primary/20 hover:bg-primary/5" asChild>
+                <Link href="/photo-review">
+                  <Image className="mr-2 h-4 w-4" />
+                  Photo Review
+                </Link>
+              </Button>
+              <Button variant="outline" size="sm" className="text-primary border-primary/20 hover:bg-primary/5" asChild>
                 <Link href="/guest-guide">Guest Guide <ArrowRight className="ml-1 h-3 w-3" /></Link>
               </Button>
             </div>
@@ -209,7 +215,7 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Buildings Card */}
-            <Link href="/section/farm-house">
+            <Link href="/section/main-house">
               <Card className="group h-full hover:shadow-lg hover:border-primary/30 transition-all duration-300 cursor-pointer overflow-hidden">
                 <div className="h-32 bg-muted relative overflow-hidden">
                   <div className="absolute inset-0 bg-[url('/hero-buildings.jpg')] bg-cover bg-center transition-transform duration-700 group-hover:scale-105"></div>
