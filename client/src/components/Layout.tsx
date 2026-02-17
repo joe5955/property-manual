@@ -5,6 +5,7 @@ import { Menu, X, ChevronRight, Home, Map, FileText, Wrench, Shield, Droplet, Za
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import manualData from "@/data/manual-data.json";
+import Search from "@/components/Search";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -85,6 +86,11 @@ export default function Layout({ children }: LayoutProps) {
                 </div>
               </div>
             </Link>
+          </div>
+
+          {/* Search Bar */}
+          <div className="px-4 pt-4">
+            <Search />
           </div>
 
           {/* Navigation Links */}
