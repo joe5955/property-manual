@@ -121,11 +121,18 @@
           "intro": "- **Refrigerator:** Danby Designer (Compact under-counter model)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel"
         },
         {
-          "id": "systems",
+          "id": "systems-chalet",
           "title": "Systems",
           "content": "- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)\n  ![Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/KBBNXWvWOPQUMIiz.jpg)\n- **Electrical:** Square D Load Center (Sub-panel located in utility closet)",
           "items": [],
           "intro": "- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)\n  ![Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/KBBNXWvWOPQUMIiz.jpg)\n- **Electrical:** Square D Load Center (Sub-panel located in utility closet)"
+        },
+        {
+          "id": "maintenance-notes",
+          "title": "Maintenance Notes",
+          "content": "- **Winterization:** Ensure wall heaters are set to frost protection (approx. 45°F) during winter months.\n- **Water Heater:** Drain 1-2 gallons annually to remove sediment.",
+          "items": [],
+          "intro": "- **Winterization:** Ensure wall heaters are set to frost protection (approx. 45°F) during winter months.\n- **Water Heater:** Drain 1-2 gallons annually to remove sediment."
         }
       ],
       "intro": "**Status:** Documented"
@@ -133,35 +140,35 @@
     {
       "id": "camp-kitchen",
       "title": "Camp Kitchen",
-      "content": "**Status:** Documented\n\n### Structure\n- **Type:** Open-air timber frame pavilion with metal roof\n- **Flooring:** Concrete slab\n- **Lighting:** Overhead string lights and task lighting\n\n### Central Utilities (Serving Main House, Chalet, Kitchen)\n- **Main House Disconnect:**\n  ![Main House Disconnect](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/gFoROumoHvuSzHNQ.jpg)\n- **Generator Instructions:**\n  ![Generator Instructions](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/FdqOlUIjWfQvyDzB.jpg)\n- **Transformer Enclosure:** Located near Camp Kitchen (Green box)\n  ![Transformer Enclosure](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/qBrNRPcGEttfTsWk.jpg)\n- **Meter & Shutoff:** Located by Camp Kitchen\n  ![Meter & Shutoff](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/AJGRENwxstNqASZd.jpg)\n\n### Appliances\n- **Stove:** Propane Range (4-burner with oven)\n- **Refrigerator:** Full-size Refrigerator/Freezer\n- **Grill:** Weber Genesis II (Propane, 3-burner)\n- **Prep Area:** Large stainless steel prep table\n\n### Kitchen Systems\n- **Water Heater:** Rinnai Tankless Water Heater (Model: V53e) - [View Manual](https://media.rinnai.us/salsify_asset/s-38321af7-24bd-49ca-84c5-e554a678661f/100000256-V53e%20Installation%20and%20Operation%20Manual.pdf)\n  ![Rinnai Water Heater](/photos/camp-kitchen/rinnai-heater.jpg)\n- **Water Supply:** Outdoor sink with hot/cold water\n- **Exterior Spigot:** Located on Camp Kitchen exterior\n  ![Exterior Spigot](/photos/camp-kitchen/exterior-spigot.jpg)\n- **Winterization:** Must be drained in freezing months\n- **Outlets:** Multiple outdoor-rated GFCI outlets for small appliances\n\n### Maintenance Notes\n- **Winterization:** Shut off water supply and drain lines to prevent freezing. Cover grill.\n- **Propane:** Check tank levels before large gatherings.",
+      "content": "**Status:** Documented\n\n### Central Utilities (Hub for Property)\n- **Main House Disconnect:**\n  ![Main House Disconnect](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/gFoROumoHvuSzHNQ.jpg)\n  *Located in Camp Kitchen Utility Room.*\n- **Generator Transfer Switch:**\n  ![Generator Instructions](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/FdqOlUIjWfQvyDzB.jpg)\n  *Controls power transfer for Main House, Chalet, and Kitchen.*\n- **Transformer:**\n  ![Transformer Enclosure](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/e7c58546-66f9-4871-9517-a59e3fba5aa98519279912812615721.jpg)\n  *Green utility box near Camp Kitchen.*\n\n### Water System\n- **Water Heater:** Rinnai V53e (Outdoor Tankless Propane)\n  ![Rinnai Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ee4f253c-240f-4823-936d-1638293758362635386663583232656.jpg)\n  - **Model:** V53e (REU-V2520FFU-US)\n  - **Serial:** [To be documented]\n  - **Manual:** [Download PDF](https://media.rinnai.us/s3/2019-06/V53e_Installation_and_Operation_Manual.pdf)\n  - **Status:** Operational (Set to 120°F)\n- **Exterior Spigot:**\n  ![Exterior Spigot](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/d5d92cec-7a4b-48b5-9156-8d8317085e4e1534784461589245364_compressed.jpg)\n  *Located on Camp Kitchen exterior.*\n\n### Electrical System\n- **Meter & Shutoff:**\n  ![Meter & Shutoff](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/81e32e8a-7058-4926-a81e-b83471121c514600297826776263492.jpg)\n  *Located by Camp Kitchen.*\n\n### Appliances\n- **Range:** Commercial-style gas range\n- **Refrigeration:** Commercial glass-door refrigerator\n- **Dishwasher:** Commercial under-counter sanitizer",
       "subsections": [
-        {
-          "id": "structure",
-          "title": "Structure",
-          "content": "- **Type:** Open-air timber frame pavilion with metal roof\n- **Flooring:** Concrete slab\n- **Lighting:** Overhead string lights and task lighting",
-          "items": [],
-          "intro": "- **Type:** Open-air timber frame pavilion with metal roof\n- **Flooring:** Concrete slab\n- **Lighting:** Overhead string lights and task lighting"
-        },
         {
           "id": "central-utilities",
           "title": "Central Utilities",
-          "content": "### Serving Main House, Chalet, Kitchen\n- **Main House Disconnect:**\n  ![Main House Disconnect](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/gFoROumoHvuSzHNQ.jpg)\n- **Generator Instructions:**\n  ![Generator Instructions](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/FdqOlUIjWfQvyDzB.jpg)\n- **Transformer Enclosure:** Located near Camp Kitchen (Green box)\n  ![Transformer Enclosure](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/qBrNRPcGEttfTsWk.jpg)\n- **Meter & Shutoff:** Located by Camp Kitchen\n  ![Meter & Shutoff](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/AJGRENwxstNqASZd.jpg)",
+          "content": "- **Main House Disconnect:**\n  ![Main House Disconnect](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/gFoROumoHvuSzHNQ.jpg)\n  *Located in Camp Kitchen Utility Room.*\n- **Generator Transfer Switch:**\n  ![Generator Instructions](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/FdqOlUIjWfQvyDzB.jpg)\n  *Controls power transfer for Main House, Chalet, and Kitchen.*\n- **Transformer:**\n  ![Transformer Enclosure](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/e7c58546-66f9-4871-9517-a59e3fba5aa98519279912812615721.jpg)\n  *Green utility box near Camp Kitchen.*",
           "items": [],
-          "intro": "### Serving Main House, Chalet, Kitchen\n- **Main House Disconnect:**\n  ![Main House Disconnect](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/gFoROumoHvuSzHNQ.jpg)\n- **Generator Instructions:**\n  ![Generator Instructions](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/FdqOlUIjWfQvyDzB.jpg)\n- **Transformer Enclosure:** Located near Camp Kitchen (Green box)\n  ![Transformer Enclosure](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/qBrNRPcGEttfTsWk.jpg)\n- **Meter & Shutoff:** Located by Camp Kitchen\n  ![Meter & Shutoff](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/AJGRENwxstNqASZd.jpg)"
+          "intro": "- **Main House Disconnect:**\n  ![Main House Disconnect](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/gFoROumoHvuSzHNQ.jpg)\n  *Located in Camp Kitchen Utility Room.*\n- **Generator Transfer Switch:**\n  ![Generator Instructions](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/FdqOlUIjWfQvyDzB.jpg)\n  *Controls power transfer for Main House, Chalet, and Kitchen.*\n- **Transformer:**\n  ![Transformer Enclosure](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/e7c58546-66f9-4871-9517-a59e3fba5aa98519279912812615721.jpg)\n  *Green utility box near Camp Kitchen.*"
         },
         {
-          "id": "appliances",
+          "id": "water-system-camp",
+          "title": "Water System",
+          "content": "- **Water Heater:** Rinnai V53e (Outdoor Tankless Propane)\n  ![Rinnai Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ee4f253c-240f-4823-936d-1638293758362635386663583232656.jpg)\n  - **Model:** V53e (REU-V2520FFU-US)\n  - **Serial:** [To be documented]\n  - **Manual:** [Download PDF](https://media.rinnai.us/s3/2019-06/V53e_Installation_and_Operation_Manual.pdf)\n  - **Status:** Operational (Set to 120°F)\n- **Exterior Spigot:**\n  ![Exterior Spigot](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/d5d92cec-7a4b-48b5-9156-8d8317085e4e1534784461589245364_compressed.jpg)\n  *Located on Camp Kitchen exterior.*",
+          "items": [],
+          "intro": "- **Water Heater:** Rinnai V53e (Outdoor Tankless Propane)\n  ![Rinnai Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ee4f253c-240f-4823-936d-1638293758362635386663583232656.jpg)\n  - **Model:** V53e (REU-V2520FFU-US)\n  - **Serial:** [To be documented]\n  - **Manual:** [Download PDF](https://media.rinnai.us/s3/2019-06/V53e_Installation_and_Operation_Manual.pdf)\n  - **Status:** Operational (Set to 120°F)\n- **Exterior Spigot:**\n  ![Exterior Spigot](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/d5d92cec-7a4b-48b5-9156-8d8317085e4e1534784461589245364_compressed.jpg)\n  *Located on Camp Kitchen exterior.*"
+        },
+        {
+          "id": "electrical-system-camp",
+          "title": "Electrical System",
+          "content": "- **Meter & Shutoff:**\n  ![Meter & Shutoff](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/81e32e8a-7058-4926-a81e-b83471121c514600297826776263492.jpg)\n  *Located by Camp Kitchen.*",
+          "items": [],
+          "intro": "- **Meter & Shutoff:**\n  ![Meter & Shutoff](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/81e32e8a-7058-4926-a81e-b83471121c514600297826776263492.jpg)\n  *Located by Camp Kitchen.*"
+        },
+        {
+          "id": "appliances-camp",
           "title": "Appliances",
-          "content": "- **Stove:** Propane Range (4-burner with oven)\n- **Refrigerator:** Full-size Refrigerator/Freezer\n- **Grill:** Weber Genesis II (Propane, 3-burner)\n- **Prep Area:** Large stainless steel prep table",
+          "content": "- **Range:** Commercial-style gas range\n- **Refrigeration:** Commercial glass-door refrigerator\n- **Dishwasher:** Commercial under-counter sanitizer",
           "items": [],
-          "intro": "- **Stove:** Propane Range (4-burner with oven)\n- **Refrigerator:** Full-size Refrigerator/Freezer\n- **Grill:** Weber Genesis II (Propane, 3-burner)\n- **Prep Area:** Large stainless steel prep table"
-        },
-        {
-          "id": "kitchen-systems",
-          "title": "Kitchen Systems",
-          "content": "- **Water Heater:** Rinnai Tankless Water Heater (Model: V53e) - [View Manual](https://media.rinnai.us/salsify_asset/s-38321af7-24bd-49ca-84c5-e554a678661f/100000256-V53e%20Installation%20and%20Operation%20Manual.pdf)\n  ![Rinnai Water Heater](/photos/camp-kitchen/rinnai-heater.jpg)\n- **Water Supply:** Outdoor sink with hot/cold water\n- **Exterior Spigot:** Located on Camp Kitchen exterior\n  ![Exterior Spigot](/photos/camp-kitchen/exterior-spigot.jpg)\n- **Winterization:** Must be drained in freezing months\n- **Outlets:** Multiple outdoor-rated GFCI outlets for small appliances",
-          "items": [],
-          "intro": "- **Water Heater:** Rinnai Tankless Water Heater (Model: V53e) - [View Manual](https://media.rinnai.us/salsify_asset/s-38321af7-24bd-49ca-84c5-e554a678661f/100000256-V53e%20Installation%20and%20Operation%20Manual.pdf)\n  ![Rinnai Water Heater](/photos/camp-kitchen/rinnai-heater.jpg)\n- **Water Supply:** Outdoor sink with hot/cold water\n- **Exterior Spigot:** Located on Camp Kitchen exterior\n  ![Exterior Spigot](/photos/camp-kitchen/exterior-spigot.jpg)\n- **Winterization:** Must be drained in freezing months\n- **Outlets:** Multiple outdoor-rated GFCI outlets for small appliances"
+          "intro": "- **Range:** Commercial-style gas range\n- **Refrigeration:** Commercial glass-door refrigerator\n- **Dishwasher:** Commercial under-counter sanitizer"
         }
       ],
       "intro": "**Status:** Documented"
