@@ -160,21 +160,39 @@
           "id": "generator-system",
           "title": "Generator System",
           "content": "- **Generator (Genset):**\n  ![Genset (North View)](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mgAjwtJHSJObNgCV.jpg)\n  ![Genset Covered (North View)](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ybBwuqDgSkavFOoa.jpg)\n  ![Genset (East View)](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/WwhXWeLRdJOdgmla.jpg)\n  *Located behind the Camp Kitchen shelter.*\n- **Generator Shed:**\n  ![Generator Shed](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/iNBYmOCPddgADBkB.jpg)",
-          "items": [],
+          "items": [
+            {
+              "id": "generator",
+              "title": "Generator (Genset)",
+              "location": { "lat": 48.6181, "lng": -123.0052 }
+            }
+          ],
           "intro": "- **Generator (Genset):**\n  ![Genset (North View)](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mgAjwtJHSJObNgCV.jpg)\n  ![Genset Covered (North View)](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ybBwuqDgSkavFOoa.jpg)\n  ![Genset (East View)](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/WwhXWeLRdJOdgmla.jpg)\n  *Located behind the Camp Kitchen shelter.*\n- **Generator Shed:**\n  ![Generator Shed](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/iNBYmOCPddgADBkB.jpg)"
         },
         {
           "id": "central-utilities",
           "title": "Central Utilities",
           "content": "- **Utility Room Panel:**\n  ![Utility Room Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/MsIPkTGyspQACtIO.jpg)\n  ![Camp Kitchen Panel & Transfer Switch](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jTPoZaYwKdLPmpDA.jpg)\n  *Located in Camp Kitchen Utility Room.*\n- **Main House & Chalet Disconnect Instructions:**\n  ![Disconnect Instructions](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/SKXGabMHHiSzpeFp.jpg)\n- **Transformer & Meter:**\n  ![Transformer Enclosure](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/usjTzfxveDHRAtzQ.jpg)\n  ![Transformer Enclosure](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/SyJyDfvkPuxfhKAT.jpg)\n  *Green utility box near Camp Kitchen.*",
-          "items": [],
+          "items": [
+            {
+              "id": "utility-room-panel",
+              "title": "Utility Room Panel",
+              "location": { "lat": 48.6180, "lng": -123.0050 }
+            }
+          ],
           "intro": "- **Utility Room Panel:**\n  ![Utility Room Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/MsIPkTGyspQACtIO.jpg)\n  ![Camp Kitchen Panel & Transfer Switch](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jTPoZaYwKdLPmpDA.jpg)\n  *Located in Camp Kitchen Utility Room.*\n- **Main House & Chalet Disconnect Instructions:**\n  ![Disconnect Instructions](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/SKXGabMHHiSzpeFp.jpg)\n- **Transformer & Meter:**\n  ![Transformer Enclosure](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/usjTzfxveDHRAtzQ.jpg)\n  ![Transformer Enclosure](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/SyJyDfvkPuxfhKAT.jpg)\n  *Green utility box near Camp Kitchen.*"
         },
         {
           "id": "water-system-camp",
           "title": "Water System",
           "content": "- **Water Heater:** Rinnai V53e (Outdoor Tankless Propane)\n  ![Rinnai Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ee4f253c-240f-4823-936d-1638293758362635386663583232656.jpg)\n  ![Rinnai Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/lLSYEBKizwlXtUPl.jpg)\n  - **Model:** V53e (REU-V2520FFU-US)\n  - **Fuel:** Propane\n  - **Serial:** [To be documented]\n  - **Age:** [To be documented]\n  - **Manual:** [Download PDF](https://media.rinnai.us/s3/2019-06/V53e_Installation_and_Operation_Manual.pdf)\n  - **Status:** Operational (Set to 120°F)\n- **Exterior Spigot:**\n  ![Exterior Spigot](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/d5d92cec-7a4b-48b5-9156-8d8317085e4e1534784461589245364_compressed.jpg)\n  *Located on Camp Kitchen exterior.*",
-          "items": [],
+          "items": [
+            {
+              "id": "rinnai-water-heater",
+              "title": "Rinnai Water Heater",
+              "location": { "lat": 48.61805, "lng": -123.0051 }
+            }
+          ],
           "intro": "- **Water Heater:** Rinnai V53e (Outdoor Tankless Propane)\n  ![Rinnai Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ee4f253c-240f-4823-936d-1638293758362635386663583232656.jpg)\n  ![Rinnai Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/lLSYEBKizwlXtUPl.jpg)\n  - **Model:** V53e (REU-V2520FFU-US)\n  - **Fuel:** Propane\n  - **Serial:** [To be documented]\n  - **Age:** [To be documented]\n  - **Manual:** [Download PDF](https://media.rinnai.us/s3/2019-06/V53e_Installation_and_Operation_Manual.pdf)\n  - **Status:** Operational (Set to 120°F)\n- **Exterior Spigot:**\n  ![Exterior Spigot](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/d5d92cec-7a4b-48b5-9156-8d8317085e4e1534784461589245364_compressed.jpg)\n  *Located on Camp Kitchen exterior.*"
         },
         {
