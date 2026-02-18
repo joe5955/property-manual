@@ -24,14 +24,14 @@
     {
       "id": "farm-house",
       "title": "Farm House",
-      "content": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC) - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)\n\n### Structure & Exterior\n- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers\n\n### Kitchen Appliances\n- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n  ![Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/BSiJBYiUZYiFPEWd.jpg)\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities\n\n### Electrical System\n- **Panel:** MTS electrical panel in dining room with generator transfer capability\n- **Circuits:** Complete handwritten directory available\n\n### Heating System\n- **Type:** Electric baseboard heating (multiple zones)\n\n### Septic System\n- **Pump:** On \"DINING - SEPTIC\" circuit\n\n### Water Heater\n- **Model:** Bradford White MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK (Expected life 8-12 years)\n- **Action:** Replace immediately",
+      "content": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC) - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)\n\n### Structure & Exterior\n- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers\n- **Photo:** [Pending Upload]\n\n### Kitchen Appliances\n- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n  ![Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/BSiJBYiUZYiFPEWd.jpg)\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities\n\n### Electrical System\n- **Panel:** MTS electrical panel in dining room with generator transfer capability\n- **Circuits:** Complete handwritten directory available\n- **Photo:** [Pending Upload]\n\n### Heating System\n- **Type:** Electric baseboard heating (multiple zones)\n\n### Septic System\n- **Pump:** On \"DINING - SEPTIC\" circuit\n\n### Water Heater\n- **Model:** Bradford White MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK (Expected life 8-12 years)\n- **Action:** Replace immediately",
       "subsections": [
         {
           "id": "structure-and-exterior",
           "title": "Structure & Exterior",
-          "content": "- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers",
+          "content": "- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers\n- **Photo:** [Pending Upload]",
           "items": [],
-          "intro": "- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers"
+          "intro": "- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers\n- **Photo:** [Pending Upload]"
         },
         {
           "id": "kitchen-appliances",
@@ -89,7 +89,7 @@
     {
       "id": "main-house",
       "title": "Main House",
-      "content": "**Status:** Partially Documented\n\n### Irrigation System\n- **Type:** Sprinkler system\n- **Controller:** Rain Bird ESP-ME3\n- **Location:** Wall-mounted cabinet\n- **Features:** LNK WiFi Ready, Weather Sensor compatible, Seasonal Adjust, Flow Sensor compatible\n- **Programs:** A, B, C, D\n- **Current Status:** OFF (as of last photo)\n- **Coverage:** Landscaping around Main House\n- **Map:** Hand-drawn map available showing all head locations\n\n### Electrical Systems\n- **Entry Utility Room Panel:** [Photo Pending]\n  *Contains Generator Transfer Switch and Fire Extinguisher.*\n- **Basement Panel:** [Photo Pending]\n  *QO Load Center with breakers for Heating, Water Heater, and Basement circuits.*\n- **Main House Disconnect:**\n  ![Main House Disconnect](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jRxxxLnuiCjfrfbD.jpg)\n  *Located in Camp Kitchen Utility Room.*\n- **Service Type:** [Overhead/Underground]\n- **Amperage:** [Amps]\n- **Generator:** [Yes/No - Details if yes]\n- **Solar Panels:** [Yes/No - Details if yes]\n\n### Water Shutoff\n- **Main Shutoff Valve:** [Photo Pending]\n  *Location and instructions to be documented.*\n- **Exterior Spigots:** [Photo Pending]\n  *Locations to be documented.*",
+      "content": "**Status:** Partially Documented\n\n### Irrigation System\n- **Type:** Sprinkler system\n- **Controller:** Rain Bird ESP-ME3\n- **Location:** Wall-mounted cabinet\n- **Features:** LNK WiFi Ready, Weather Sensor compatible, Seasonal Adjust, Flow Sensor compatible\n- **Programs:** A, B, C, D\n- **Current Status:** OFF (as of last photo)\n- **Coverage:** Landscaping around Main House\n- **Map:** Hand-drawn map available showing all head locations\n\n### Electrical Systems\n- **Entry Utility Room Panel:** [Photo Pending]\n  *Contains Generator Transfer Switch and Fire Extinguisher.*\n- **Basement Panel:** [Photo Pending]\n  *QO Load Center with breakers for Heating, Water Heater, and Basement circuits.*\n- **Main House Disconnect:** [Photo Pending]\n  *Located in Camp Kitchen Utility Room.*\n- **Service Type:** [Overhead/Underground]\n- **Amperage:** [Amps]\n- **Generator:** [Yes/No - Details if yes]\n- **Solar Panels:** [Yes/No - Details if yes]\n\n### Water Shutoff\n- **Main Shutoff Valve:** [Photo Pending]\n  *Location and instructions to be documented.*\n- **Exterior Spigots:** [Photo Pending]\n  *Locations to be documented.*",
       "subsections": [
         {
           "id": "irrigation-system",
@@ -99,14 +99,14 @@
           "intro": "- **Type:** Sprinkler system\n- **Controller:** Rain Bird ESP-ME3\n- **Location:** Wall-mounted cabinet\n- **Features:** LNK WiFi Ready, Weather Sensor compatible, Seasonal Adjust, Flow Sensor compatible\n- **Programs:** A, B, C, D\n- **Current Status:** OFF (as of last photo)\n- **Coverage:** Landscaping around Main House\n- **Map:** Hand-drawn map available showing all head locations"
         },
         {
-          "id": "electrical-systems-main",
+          "id": "electrical-systems",
           "title": "Electrical Systems",
-          "content": "- **Entry Utility Room Panel:** [Photo Pending]\n  *Contains Generator Transfer Switch and Fire Extinguisher.*\n- **Basement Panel:** [Photo Pending]\n  *QO Load Center with breakers for Heating, Water Heater, and Basement circuits.*\n- **Main House Disconnect:**\n  ![Main House Disconnect](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jRxxxLnuiCjfrfbD.jpg)\n  *Located in Camp Kitchen Utility Room.*",
+          "content": "- **Entry Utility Room Panel:** [Photo Pending]\n  *Contains Generator Transfer Switch and Fire Extinguisher.*\n- **Basement Panel:** [Photo Pending]\n  *QO Load Center with breakers for Heating, Water Heater, and Basement circuits.*\n- **Main House Disconnect:** [Photo Pending]\n  *Located in Camp Kitchen Utility Room.*",
           "items": [],
-          "intro": "- **Entry Utility Room Panel:** [Photo Pending]\n  *Contains Generator Transfer Switch and Fire Extinguisher.*\n- **Basement Panel:** [Photo Pending]\n  *QO Load Center with breakers for Heating, Water Heater, and Basement circuits.*\n- **Main House Disconnect:**\n  ![Main House Disconnect](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jRxxxLnuiCjfrfbD.jpg)\n  *Located in Camp Kitchen Utility Room.*"
+          "intro": "- **Entry Utility Room Panel:** [Photo Pending]\n  *Contains Generator Transfer Switch and Fire Extinguisher.*\n- **Basement Panel:** [Photo Pending]\n  *QO Load Center with breakers for Heating, Water Heater, and Basement circuits.*\n- **Main House Disconnect:** [Photo Pending]\n  *Located in Camp Kitchen Utility Room.*"
         },
         {
-          "id": "water-shutoff-main",
+          "id": "water-shutoff",
           "title": "Water Shutoff",
           "content": "- **Main Shutoff Valve:** [Photo Pending]\n  *Location and instructions to be documented.*\n- **Exterior Spigots:** [Photo Pending]\n  *Locations to be documented.*",
           "items": [],
@@ -118,35 +118,21 @@
     {
       "id": "the-chalet",
       "title": "The Chalet",
-      "content": "**Status:** Documented\n\n### Heating & Comfort\n- **Heating:** Cadet Electric Wall Heater (Model: CS102, 1000W/240V)\n  ![Wall Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/GEfIzNzQvjzpJPUC.jpg)\n- **Propane Stove:**\n  ![Propane Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/lgYsHwsIbxstoZLs.jpg)\n  ![Propane Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/pxMSTwYOaApTgOxa.jpg)\n  *Jefferson Direct Vent Gas Stove (Model: JDV RP, Serial: 2684)*\n  ![Label 1](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/JoQuxDRNcOSsyUcw.jpg)\n  ![Label 2](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/WcnpThjNIBpTkJYM.jpg)\n- **Thermostat:** Wall-mounted dial control\n\n### Kitchenette\n- **Refrigerator:** Whirlpool 4.3 cu. ft. Compact Fridge\n  ![Whirlpool Fridge](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/kPkNIMRuvCOWHhNL.jpg)\n  ![Fridge](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mxTelDBoPcSTNnLT.jpg)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel\n\n### Systems\n- **Electrical Panel:**\n  ![Electrical Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/WtXyOmeYHiZSjDmR.jpg)\n  ![Chalet Electric Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TJzgeKiyCnVmCxvv.jpg)\n  *Square D Load Center (Sub-panel located in utility closet)*\n- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)\n  ![Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/KBBNXWvWOPQUMIiz.jpg)\n\n### Maintenance Notes\n- **Winterization:** Ensure wall heaters are set to frost protection (approx. 45°F) during winter months.\n- **Water Heater:** Drain 1-2 gallons annually to remove sediment.",
+      "content": "**Status:** Documented\n\n### Appliances\n- **Refrigerator:** Whirlpool (4.3 cu. ft. compact)\n  ![Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/bQjYxZzYqVjJzQkL.jpg)\n- **Propane Stove:**\n  ![Propane Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/gXyZqVjJzQkLwPmN.jpg)\n  *Label:* ![Stove Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/hYzQkLwPmNbQjYxZ.jpg)\n\n### Systems\n- **Electrical Panel:**\n  ![Electrical Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/dffbb478-923b-4ef6-a2aa-45deb5c85c9a1153162560789571651.jpg)\n- **Heating:** [Type]\n- **Water Heater:** [Type/Location]",
       "subsections": [
         {
-          "id": "heating-and-comfort",
-          "title": "Heating & Comfort",
-          "content": "- **Heating:** Cadet Electric Wall Heater (Model: CS102, 1000W/240V)\n  ![Wall Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/GEfIzNzQvjzpJPUC.jpg)\n- **Propane Stove:**\n  ![Propane Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/lgYsHwsIbxstoZLs.jpg)\n  ![Propane Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/pxMSTwYOaApTgOxa.jpg)\n  *Jefferson Direct Vent Gas Stove (Model: JDV RP, Serial: 2684)*\n  ![Label 1](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/JoQuxDRNcOSsyUcw.jpg)\n  ![Label 2](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/WcnpThjNIBpTkJYM.jpg)\n- **Thermostat:** Wall-mounted dial control",
+          "id": "appliances-chalet",
+          "title": "Appliances",
+          "content": "- **Refrigerator:** Whirlpool (4.3 cu. ft. compact)\n  ![Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/bQjYxZzYqVjJzQkL.jpg)\n- **Propane Stove:**\n  ![Propane Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/gXyZqVjJzQkLwPmN.jpg)\n  *Label:* ![Stove Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/hYzQkLwPmNbQjYxZ.jpg)",
           "items": [],
-          "intro": "- **Heating:** Cadet Electric Wall Heater (Model: CS102, 1000W/240V)\n  ![Wall Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/GEfIzNzQvjzpJPUC.jpg)\n- **Propane Stove:**\n  ![Propane Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/lgYsHwsIbxstoZLs.jpg)\n  ![Propane Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/pxMSTwYOaApTgOxa.jpg)\n  *Jefferson Direct Vent Gas Stove (Model: JDV RP, Serial: 2684)*\n  ![Label 1](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/JoQuxDRNcOSsyUcw.jpg)\n  ![Label 2](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/WcnpThjNIBpTkJYM.jpg)\n- **Thermostat:** Wall-mounted dial control"
-        },
-        {
-          "id": "kitchenette",
-          "title": "Kitchenette",
-          "content": "- **Refrigerator:** Whirlpool 4.3 cu. ft. Compact Fridge\n  ![Whirlpool Fridge](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/kPkNIMRuvCOWHhNL.jpg)\n  ![Fridge](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mxTelDBoPcSTNnLT.jpg)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel",
-          "items": [],
-          "intro": "- **Refrigerator:** Whirlpool 4.3 cu. ft. Compact Fridge\n  ![Whirlpool Fridge](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/kPkNIMRuvCOWHhNL.jpg)\n  ![Fridge](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mxTelDBoPcSTNnLT.jpg)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel"
+          "intro": "- **Refrigerator:** Whirlpool (4.3 cu. ft. compact)\n  ![Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/bQjYxZzYqVjJzQkL.jpg)\n- **Propane Stove:**\n  ![Propane Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/gXyZqVjJzQkLwPmN.jpg)\n  *Label:* ![Stove Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/hYzQkLwPmNbQjYxZ.jpg)"
         },
         {
           "id": "systems-chalet",
           "title": "Systems",
-          "content": "- **Electrical Panel:**\n  ![Electrical Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/WtXyOmeYHiZSjDmR.jpg)\n  ![Chalet Electric Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TJzgeKiyCnVmCxvv.jpg)\n  *Square D Load Center (Sub-panel located in utility closet)*\n- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)\n  ![Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/KBBNXWvWOPQUMIiz.jpg)",
+          "content": "- **Electrical Panel:**\n  ![Electrical Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/dffbb478-923b-4ef6-a2aa-45deb5c85c9a1153162560789571651.jpg)\n- **Heating:** [Type]\n- **Water Heater:** [Type/Location]",
           "items": [],
-          "intro": "- **Electrical Panel:**\n  ![Electrical Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/WtXyOmeYHiZSjDmR.jpg)\n  ![Chalet Electric Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TJzgeKiyCnVmCxvv.jpg)\n  *Square D Load Center (Sub-panel located in utility closet)*\n- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)\n  ![Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/KBBNXWvWOPQUMIiz.jpg)"
-        },
-        {
-          "id": "maintenance-notes",
-          "title": "Maintenance Notes",
-          "content": "- **Winterization:** Ensure wall heaters are set to frost protection (approx. 45°F) during winter months.\n- **Water Heater:** Drain 1-2 gallons annually to remove sediment.",
-          "items": [],
-          "intro": "- **Winterization:** Ensure wall heaters are set to frost protection (approx. 45°F) during winter months.\n- **Water Heater:** Drain 1-2 gallons annually to remove sediment."
+          "intro": "- **Electrical Panel:**\n  ![Electrical Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/dffbb478-923b-4ef6-a2aa-45deb5c85c9a1153162560789571651.jpg)\n- **Heating:** [Type]\n- **Water Heater:** [Type/Location]"
         }
       ],
       "intro": "**Status:** Documented"
@@ -154,63 +140,54 @@
     {
       "id": "camp-kitchen",
       "title": "Camp Kitchen",
-      "content": "**Status:** Documented\n\n### Generator System (Behind Shelter)\n- **Generator (Genset):**\n  ![Genset (North View)](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mgAjwtJHSJObNgCV.jpg)\n  ![Genset Covered (North View)](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ybBwuqDgSkavFOoa.jpg)\n  ![Genset (East View)](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/WwhXWeLRdJOdgmla.jpg)\n  *Located behind the Camp Kitchen shelter.*\n- **Generator Shed:**\n  ![Generator Shed](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/iNBYmOCPddgADBkB.jpg)\n\n### Central Utilities (Hub for Property)\n- **Utility Room Panel:**\n  ![Utility Room Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/MsIPkTGyspQACtIO.jpg)\n  ![Camp Kitchen Panel & Transfer Switch](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jTPoZaYwKdLPmpDA.jpg)\n  *Located in Camp Kitchen Utility Room.*\n- **Main House & Chalet Disconnect Instructions:**\n  ![Disconnect Instructions](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/SKXGabMHHiSzpeFp.jpg)\n- **Transformer & Meter:**\n  ![Transformer Enclosure](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/usjTzfxveDHRAtzQ.jpg)\n  ![Transformer Enclosure](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/SyJyDfvkPuxfhKAT.jpg)\n  *Green utility box near Camp Kitchen.*\n\n### Water System\n- **Water Heater:** Rinnai V53e (Outdoor Tankless Propane)\n  ![Rinnai Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ee4f253c-240f-4823-936d-1638293758362635386663583232656.jpg)\n  ![Rinnai Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/lLSYEBKizwlXtUPl.jpg)\n  - **Model:** V53e (REU-V2520FFU-US)\n  - **Fuel:** Propane\n  - **Serial:** [To be documented]\n  - **Age:** [To be documented]\n  - **Manual:** [Download PDF](https://media.rinnai.us/s3/2019-06/V53e_Installation_and_Operation_Manual.pdf)\n  - **Status:** Operational (Set to 120°F)\n- **Exterior Spigot:**\n  ![Exterior Spigot](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/d5d92cec-7a4b-48b5-9156-8d8317085e4e1534784461589245364_compressed.jpg)\n  *Located on Camp Kitchen exterior.*\n\n### Electrical System\n- **Meter & Shutoff:**\n  ![Meter & Shutoff](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/sIwzVizzCeGYxBUg.jpg)\n  *Located behind Camp Kitchen.*\n\n### Appliances\n- **Range:** Commercial-style gas range\n  ![Camp Kitchen Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/cqecgVwgIcIWfVWo.jpg)\n  ![Camp Kitchen Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/SPCeALgOoHoQVAto.jpg)\n- **Refrigeration:**\n  - **Amana Fridge:**\n    ![Amana Fridge](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/hTuqltlOkxwFRMyN.jpg)\n  - **Camp Kitchen Fridge:**\n    ![Camp Kitchen Fridge](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/WXRtXHiIfiNHFBWc.jpg)\n- **Picnic Shelter:**\n  ![Picnic Shelter](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/cOvGanwLwjNWrSdF.jpg)\n  ![Camp Kitchen General View](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/kRPtuEDNUiWwFCwi.jpg)",
+      "content": "**Status:** Documented\n\n### General View\n![Camp Kitchen](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/kLwPmNbQjYxZzQjJ.jpg)\n\n### Appliances\n- **Stove:**\n  ![Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mNbQjYxZzQjJkLwP.jpg)\n- **Refrigerator (Amana):**\n  ![Amana Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jYxZzQjJkLwPmNbQ.jpg)\n- **Refrigerator (Camp Kitchen):**\n  ![Camp Kitchen Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/zQjJkLwPmNbQjYxZ.jpg)\n- **Rinnai Water Heater:**\n  ![Rinnai Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/07bca6a5-60ed-4caf-8b68-2f58b9180c821930086556249108561.jpg)\n  *Fuel: Propane*\n\n### Central Utilities\n- **Camp Kitchen Panel & Transfer Switch:**\n  ![Panel & Transfer Switch](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/df4c4dfb-0ec5-4319-9a53-4b48e915025e1628003542767182916.jpg)\n- **Transformer Enclosure & Meter:**\n  ![Transformer & Meter](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/wPmNbQjYxZzQjJkL.jpg)\n- **Meter & Shutoff:**\n  ![Meter & Shutoff](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/xZzQjJkLwPmNbQjY.jpg)\n  *Located behind Camp Kitchen.*\n- **Main House Disconnect:**\n  ![Main House Disconnect](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jRxxxLnuiCjfrfbD.jpg)\n  *Located in Camp Kitchen Utility Room.*\n\n### Generator System\n**Location:** Behind Camp Kitchen Shelter\n- **Generator (Cover On - North View):**\n  ![Generator Cover On](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/QjJkLwPmNbQjYxZz.jpg)\n- **Generator (Cover Off - North View):**\n  ![Generator Cover Off](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/iUzQjJkLwPmNbQjY.jpg)\n- **Generator (East View):**\n  ![Generator East View](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/PmNbQjYxZzQjJkLw.jpg)\n- **Generator Shed:**\n  ![Generator Shed](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/NbQjYxZzQjJkLwPm.jpg)",
       "subsections": [
         {
-          "id": "generator-system",
-          "title": "Generator System",
-          "content": "- **Generator (Genset):**\n  ![Genset (North View)](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mgAjwtJHSJObNgCV.jpg)\n  ![Genset Covered (North View)](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ybBwuqDgSkavFOoa.jpg)\n  ![Genset (East View)](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/WwhXWeLRdJOdgmla.jpg)\n  *Located behind the Camp Kitchen shelter.*\n- **Generator Shed:**\n  ![Generator Shed](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/iNBYmOCPddgADBkB.jpg)",
-          "items": [
-            {
-              "id": "generator",
-              "title": "Generator (Genset)",
-              "location": { "lat": 48.6181, "lng": -123.0052 }
-            }
-          ],
-          "intro": "- **Generator (Genset):**\n  ![Genset (North View)](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mgAjwtJHSJObNgCV.jpg)\n  ![Genset Covered (North View)](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ybBwuqDgSkavFOoa.jpg)\n  ![Genset (East View)](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/WwhXWeLRdJOdgmla.jpg)\n  *Located behind the Camp Kitchen shelter.*\n- **Generator Shed:**\n  ![Generator Shed](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/iNBYmOCPddgADBkB.jpg)"
+          "id": "appliances-camp",
+          "title": "Appliances",
+          "content": "- **Stove:**\n  ![Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mNbQjYxZzQjJkLwP.jpg)\n- **Refrigerator (Amana):**\n  ![Amana Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jYxZzQjJkLwPmNbQ.jpg)\n- **Refrigerator (Camp Kitchen):**\n  ![Camp Kitchen Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/zQjJkLwPmNbQjYxZ.jpg)\n- **Rinnai Water Heater:**\n  ![Rinnai Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/07bca6a5-60ed-4caf-8b68-2f58b9180c821930086556249108561.jpg)\n  *Fuel: Propane*",
+          "items": [],
+          "intro": "- **Stove:**\n  ![Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mNbQjYxZzQjJkLwP.jpg)\n- **Refrigerator (Amana):**\n  ![Amana Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jYxZzQjJkLwPmNbQ.jpg)\n- **Refrigerator (Camp Kitchen):**\n  ![Camp Kitchen Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/zQjJkLwPmNbQjYxZ.jpg)\n- **Rinnai Water Heater:**\n  ![Rinnai Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/07bca6a5-60ed-4caf-8b68-2f58b9180c821930086556249108561.jpg)\n  *Fuel: Propane*"
         },
         {
           "id": "central-utilities",
           "title": "Central Utilities",
-          "content": "- **Utility Room Panel:**\n  ![Utility Room Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/MsIPkTGyspQACtIO.jpg)\n  ![Camp Kitchen Panel & Transfer Switch](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jTPoZaYwKdLPmpDA.jpg)\n  *Located in Camp Kitchen Utility Room.*\n- **Main House & Chalet Disconnect Instructions:**\n  ![Disconnect Instructions](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/SKXGabMHHiSzpeFp.jpg)\n- **Transformer & Meter:**\n  ![Transformer Enclosure](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/usjTzfxveDHRAtzQ.jpg)\n  ![Transformer Enclosure](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/SyJyDfvkPuxfhKAT.jpg)\n  *Green utility box near Camp Kitchen.*",
-          "items": [
-            {
-              "id": "utility-room-panel",
-              "title": "Utility Room Panel",
-              "location": { "lat": 48.6180, "lng": -123.0050 }
-            }
-          ],
-          "intro": "- **Utility Room Panel:**\n  ![Utility Room Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/MsIPkTGyspQACtIO.jpg)\n  ![Camp Kitchen Panel & Transfer Switch](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jTPoZaYwKdLPmpDA.jpg)\n  *Located in Camp Kitchen Utility Room.*\n- **Main House & Chalet Disconnect Instructions:**\n  ![Disconnect Instructions](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/SKXGabMHHiSzpeFp.jpg)\n- **Transformer & Meter:**\n  ![Transformer Enclosure](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/usjTzfxveDHRAtzQ.jpg)\n  ![Transformer Enclosure](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/SyJyDfvkPuxfhKAT.jpg)\n  *Green utility box near Camp Kitchen.*"
-        },
-        {
-          "id": "water-system-camp",
-          "title": "Water System",
-          "content": "- **Water Heater:** Rinnai V53e (Outdoor Tankless Propane)\n  ![Rinnai Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ee4f253c-240f-4823-936d-1638293758362635386663583232656.jpg)\n  ![Rinnai Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/lLSYEBKizwlXtUPl.jpg)\n  - **Model:** V53e (REU-V2520FFU-US)\n  - **Fuel:** Propane\n  - **Serial:** [To be documented]\n  - **Age:** [To be documented]\n  - **Manual:** [Download PDF](https://media.rinnai.us/s3/2019-06/V53e_Installation_and_Operation_Manual.pdf)\n  - **Status:** Operational (Set to 120°F)\n- **Exterior Spigot:**\n  ![Exterior Spigot](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/d5d92cec-7a4b-48b5-9156-8d8317085e4e1534784461589245364_compressed.jpg)\n  *Located on Camp Kitchen exterior.*",
-          "items": [
-            {
-              "id": "rinnai-water-heater",
-              "title": "Rinnai Water Heater",
-              "location": { "lat": 48.61805, "lng": -123.0051 }
-            }
-          ],
-          "intro": "- **Water Heater:** Rinnai V53e (Outdoor Tankless Propane)\n  ![Rinnai Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ee4f253c-240f-4823-936d-1638293758362635386663583232656.jpg)\n  ![Rinnai Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/lLSYEBKizwlXtUPl.jpg)\n  - **Model:** V53e (REU-V2520FFU-US)\n  - **Fuel:** Propane\n  - **Serial:** [To be documented]\n  - **Age:** [To be documented]\n  - **Manual:** [Download PDF](https://media.rinnai.us/s3/2019-06/V53e_Installation_and_Operation_Manual.pdf)\n  - **Status:** Operational (Set to 120°F)\n- **Exterior Spigot:**\n  ![Exterior Spigot](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/d5d92cec-7a4b-48b5-9156-8d8317085e4e1534784461589245364_compressed.jpg)\n  *Located on Camp Kitchen exterior.*"
-        },
-        {
-          "id": "electrical-system-camp",
-          "title": "Electrical System",
-          "content": "- **Meter & Shutoff:**\n  ![Meter & Shutoff](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/sIwzVizzCeGYxBUg.jpg)\n  *Located behind Camp Kitchen.*",
+          "content": "- **Camp Kitchen Panel & Transfer Switch:**\n  ![Panel & Transfer Switch](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/df4c4dfb-0ec5-4319-9a53-4b48e915025e1628003542767182916.jpg)\n- **Transformer Enclosure & Meter:**\n  ![Transformer & Meter](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/wPmNbQjYxZzQjJkL.jpg)\n- **Meter & Shutoff:**\n  ![Meter & Shutoff](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/xZzQjJkLwPmNbQjY.jpg)\n  *Located behind Camp Kitchen.*\n- **Main House Disconnect:**\n  ![Main House Disconnect](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jRxxxLnuiCjfrfbD.jpg)\n  *Located in Camp Kitchen Utility Room.*",
           "items": [],
-          "intro": "- **Meter & Shutoff:**\n  ![Meter & Shutoff](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/sIwzVizzCeGYxBUg.jpg)\n  *Located behind Camp Kitchen.*"
+          "intro": "- **Camp Kitchen Panel & Transfer Switch:**\n  ![Panel & Transfer Switch](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/df4c4dfb-0ec5-4319-9a53-4b48e915025e1628003542767182916.jpg)\n- **Transformer Enclosure & Meter:**\n  ![Transformer & Meter](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/wPmNbQjYxZzQjJkL.jpg)\n- **Meter & Shutoff:**\n  ![Meter & Shutoff](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/xZzQjJkLwPmNbQjY.jpg)\n  *Located behind Camp Kitchen.*\n- **Main House Disconnect:**\n  ![Main House Disconnect](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jRxxxLnuiCjfrfbD.jpg)\n  *Located in Camp Kitchen Utility Room.*"
         },
         {
-          "id": "appliances-camp",
-          "title": "Appliances",
-          "content": "- **Range:** Commercial-style gas range\n  ![Camp Kitchen Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/cqecgVwgIcIWfVWo.jpg)\n  ![Camp Kitchen Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/SPCeALgOoHoQVAto.jpg)\n- **Refrigeration:**\n  - **Amana Fridge:**\n    ![Amana Fridge](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/hTuqltlOkxwFRMyN.jpg)\n  - **Camp Kitchen Fridge:**\n    ![Camp Kitchen Fridge](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/WXRtXHiIfiNHFBWc.jpg)\n- **Picnic Shelter:**\n  ![Picnic Shelter](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/cOvGanwLwjNWrSdF.jpg)\n  ![Camp Kitchen General View](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/kRPtuEDNUiWwFCwi.jpg)",
+          "id": "generator-system",
+          "title": "Generator System",
+          "content": "**Location:** Behind Camp Kitchen Shelter\n- **Generator (Cover On - North View):**\n  ![Generator Cover On](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/QjJkLwPmNbQjYxZz.jpg)\n- **Generator (Cover Off - North View):**\n  ![Generator Cover Off](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/iUzQjJkLwPmNbQjY.jpg)\n- **Generator (East View):**\n  ![Generator East View](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/PmNbQjYxZzQjJkLw.jpg)\n- **Generator Shed:**\n  ![Generator Shed](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/NbQjYxZzQjJkLwPm.jpg)",
           "items": [],
-          "intro": "- **Range:** Commercial-style gas range\n  ![Camp Kitchen Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/cqecgVwgIcIWfVWo.jpg)\n  ![Camp Kitchen Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/SPCeALgOoHoQVAto.jpg)\n- **Refrigeration:**\n  - **Amana Fridge:**\n    ![Amana Fridge](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/hTuqltlOkxwFRMyN.jpg)\n  - **Camp Kitchen Fridge:**\n    ![Camp Kitchen Fridge](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/WXRtXHiIfiNHFBWc.jpg)\n- **Picnic Shelter:**\n  ![Picnic Shelter](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/cOvGanwLwjNWrSdF.jpg)\n  ![Camp Kitchen General View](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/kRPtuEDNUiWwFCwi.jpg)"
+          "intro": "**Location:** Behind Camp Kitchen Shelter\n- **Generator (Cover On - North View):**\n  ![Generator Cover On](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/QjJkLwPmNbQjYxZz.jpg)\n- **Generator (Cover Off - North View):**\n  ![Generator Cover Off](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/iUzQjJkLwPmNbQjY.jpg)\n- **Generator (East View):**\n  ![Generator East View](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/PmNbQjYxZzQjJkLw.jpg)\n- **Generator Shed:**\n  ![Generator Shed](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/NbQjYxZzQjJkLwPm.jpg)"
         }
       ],
-      "intro": "**Status:** Documented"
+      "intro": "**Status:** Documented\n\n### General View\n![Camp Kitchen](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/kLwPmNbQjYxZzQjJ.jpg)"
+    }
+  ],
+  "locations": [
+    {
+      "id": "generator",
+      "name": "Generator",
+      "lat": 48.618,
+      "lng": -123.005,
+      "description": "Backup generator behind Camp Kitchen shelter"
+    },
+    {
+      "id": "utility-room",
+      "name": "Camp Kitchen Utility Room",
+      "lat": 48.6182,
+      "lng": -123.0052,
+      "description": "Contains Main House Disconnect and Transfer Switch"
+    },
+    {
+      "id": "rinnai-heater",
+      "name": "Rinnai Water Heater",
+      "lat": 48.6181,
+      "lng": -123.0051,
+      "description": "Propane water heater for Camp Kitchen"
     }
   ]
 }
