@@ -8,9 +8,9 @@ import Home from "@/pages/Home";
 import Section from "@/pages/Section";
 import PhotoReview from "@/pages/PhotoReview";
 import MapPage from "@/pages/MapPage";
-import NotFound from "@/pages/not-found";
-
+import NotFound from "@/pages/NotFound";
 function Router() {
+  // make sure to consider if you need authentication for certain routes
   return (
     <Layout>
       <Switch>

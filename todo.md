@@ -13,3 +13,7 @@
 - [ ] **Exterior:** Photo of the Main House
 - [ ] **Electrical:** Photo of the Main House Panel
 - [ ] **Water:** Photo of the Main House Shutoff Valve
+
+## Features
+- [ ] **Maintenance Log:** Create a dashboard to view and add maintenance records
+- [ ] **Item Integration:** Link maintenance history to individual items (e.g., Rinnai Water Heater)
