@@ -27,3 +27,6 @@
 - [x] **Photo Upload Form:** Create form for pasting batch photo descriptions
 - [x] **Google Keep Guide:** Add Google Keep integration instructions to workflow page
 - [x] **Missing Photos:** Photos 27, 28, 29, 30, 32, 33, 35, 36, 37, 38, 39, 40, 41 not displaying (13 photos) - Fixed by re-uploading with fresh CDN URLs
+
+## Current Task
+- [x] **Integrate 56 New Photos:** Add photos from PDF upload to appropriate manual sections (Main House, Farm House, Beach House, Chalet, Camp Kitchen, Madrona House, Boat House, Picnic Shelter, Well Systems, Irrigation, Utility Buildings, Water Storage)

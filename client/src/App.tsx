@@ -10,6 +10,8 @@ import PhotoReview from "@/pages/PhotoReview";
 import MapPage from "@/pages/MapPage";
 import WorkflowGuide from "@/pages/WorkflowGuide";
 import PhotoUploadForm from "@/pages/PhotoUploadForm";
+import PhotoUploadNew from "@/pages/PhotoUploadNew";
+import PhotoLabeling from "@/pages/PhotoLabeling";
 import NotFound from "@/pages/NotFound";
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -22,6 +24,8 @@ function Router() {
         <Route path="/map" component={MapPage} />
         <Route path="/workflow-guide" component={WorkflowGuide} />
         <Route path="/photo-upload" component={PhotoUploadForm} />
+        <Route path="/photo-upload-new" component={PhotoUploadNew} />
+        <Route path="/photo-labeling" component={PhotoLabeling} />
         <Route component={NotFound} />
       </Switch>
     </Layout>
