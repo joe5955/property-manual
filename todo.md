@@ -26,3 +26,4 @@
 - [x] **Workflow Guide Page:** Create a dedicated page for photo upload procedures and best practices
 - [x] **Photo Upload Form:** Create form for pasting batch photo descriptions
 - [x] **Google Keep Guide:** Add Google Keep integration instructions to workflow page
+- [x] **Missing Photos:** Photos 27, 28, 29, 30, 32, 33, 35, 36, 37, 38, 39, 40, 41 not displaying (13 photos) - Fixed by re-uploading with fresh CDN URLs

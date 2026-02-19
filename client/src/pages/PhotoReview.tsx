@@ -214,7 +214,7 @@ const photos = [
   {
     "id": 27,
     "filename": "pasted_file_BoAQxr_image.png",
-    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/bQjYxZzYqVjJzQkL.jpg",
+    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/LayHqSuXPHBUvjfC.png",
     "isUsed": true,
     "currentLabel": "Electrical Panel",
     "section": "The Chalet"
@@ -222,7 +222,7 @@ const photos = [
   {
     "id": 28,
     "filename": "pasted_file_FeGniG_image.png",
-    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/gXyZqVjJzQkLwPmN.jpg",
+    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/DgmovQMZjypkbkkz.png",
     "isUsed": true,
     "currentLabel": "Propane Stove",
     "section": "The Chalet"
@@ -230,7 +230,7 @@ const photos = [
   {
     "id": 29,
     "filename": "pasted_file_OGlvWs_image.png",
-    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/hYzQkLwPmNbQjYxZ.jpg",
+    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/qTVzASOUjKAjvQLp.png",
     "isUsed": true,
     "currentLabel": "Stove Label",
     "section": "The Chalet"
@@ -238,7 +238,7 @@ const photos = [
   {
     "id": 30,
     "filename": "pasted_file_QOXiSN_image.png",
-    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/iUzQjJkLwPmNbQjY.jpg",
+    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/zQHEcrvHjJJiLWfE.png",
     "isUsed": true,
     "currentLabel": "Generator Cover Off - North View",
     "section": "Camp Kitchen"
@@ -246,7 +246,7 @@ const photos = [
   {
     "id": 31,
     "filename": "pasted_file_hAeaiE_image.png",
-    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jRxxxLnuiCjfrfbD.jpg",
+    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/OvxhsopIWYFKueJQ.png",
     "isUsed": true,
     "currentLabel": "Main House Disconnect",
     "section": "Camp Kitchen > Utility Room"
@@ -254,7 +254,7 @@ const photos = [
   {
     "id": 32,
     "filename": "pasted_file_iGdlyU_image.png",
-    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jYxZzQjJkLwPmNbQ.jpg",
+    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/oKZeSSekCxIJSqWa.png",
     "isUsed": true,
     "currentLabel": "Amana Refrigerator",
     "section": "Camp Kitchen"
@@ -262,7 +262,7 @@ const photos = [
   {
     "id": 33,
     "filename": "pasted_file_lRPYpg_image.png",
-    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/kLwPmNbQjYxZzQjJ.jpg",
+    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/EntnIFneQTglbCRe.png",
     "isUsed": true,
     "currentLabel": "Utility Room Electrical Panel",
     "section": "Camp Kitchen > Utility Room"
@@ -270,7 +270,7 @@ const photos = [
   {
     "id": 34,
     "filename": "pasted_file_n02vit_image.png",
-    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/kPkNIMRuvCOWHhNL.jpg",
+    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ifkergUyeMQlredF.png",
     "isUsed": true,
     "currentLabel": "Whirlpool Fridge (4.3 cu ft)",
     "section": "The Chalet"
@@ -278,7 +278,7 @@ const photos = [
   {
     "id": 35,
     "filename": "pasted_file_nFcBnU_image.png",
-    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mNbQjYxZzQjJkLwP.jpg",
+    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/oGeEdLrzzZZilSLS.png",
     "isUsed": true,
     "currentLabel": "Camp Kitchen Stove",
     "section": "Camp Kitchen"
@@ -286,7 +286,7 @@ const photos = [
   {
     "id": 36,
     "filename": "pasted_file_tU0iqb_image.png",
-    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/NbQjYxZzQjJkLwPm.jpg",
+    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/HWKGlhDebvrCBLFr.png",
     "isUsed": true,
     "currentLabel": "Generator Shed",
     "section": "Camp Kitchen"
@@ -294,7 +294,7 @@ const photos = [
   {
     "id": 37,
     "filename": "pasted_file_uBBBVE_image.png",
-    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/PmNbQjYxZzQjJkLw.jpg",
+    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/bwSOceexGclgXlyt.png",
     "isUsed": true,
     "currentLabel": "Generator East View",
     "section": "Camp Kitchen"
@@ -302,7 +302,7 @@ const photos = [
   {
     "id": 38,
     "filename": "pasted_file_vbziR9_image.png",
-    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/QjJkLwPmNbQjYxZz.jpg",
+    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/vJlVFquVaBlBRFwV.png",
     "isUsed": true,
     "currentLabel": "Generator Cover On - North View",
     "section": "Camp Kitchen"
@@ -310,7 +310,7 @@ const photos = [
   {
     "id": 39,
     "filename": "pasted_file_wCksMB_image.png",
-    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/wPmNbQjYxZzQjJkL.jpg",
+    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/YJmCrxCZpZtlQIpz.png",
     "isUsed": true,
     "currentLabel": "Transformer & Meter",
     "section": "Camp Kitchen"
@@ -318,7 +318,7 @@ const photos = [
   {
     "id": 40,
     "filename": "pasted_file_wekI6V_image.png",
-    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/xZzQjJkLwPmNbQjY.jpg",
+    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/UfMNMPRCfhgwyHrV.png",
     "isUsed": true,
     "currentLabel": "Meter & Shutoff",
     "section": "Camp Kitchen"
@@ -326,7 +326,7 @@ const photos = [
   {
     "id": 41,
     "filename": "pasted_file_zPqSJR_image.png",
-    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/zQjJkLwPmNbQjYxZ.jpg",
+    "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/GGNglQDRishkTvCy.png",
     "isUsed": true,
     "currentLabel": "Camp Kitchen Refrigerator",
     "section": "Camp Kitchen"
