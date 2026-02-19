@@ -8,6 +8,8 @@ import Home from "@/pages/Home";
 import Section from "@/pages/Section";
 import PhotoReview from "@/pages/PhotoReview";
 import MapPage from "@/pages/MapPage";
+import WorkflowGuide from "@/pages/WorkflowGuide";
+import PhotoUploadForm from "@/pages/PhotoUploadForm";
 import NotFound from "@/pages/NotFound";
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -18,6 +20,8 @@ function Router() {
         <Route path="/section/:id" component={Section} />
         <Route path="/photo-review" component={PhotoReview} />
         <Route path="/map" component={MapPage} />
+        <Route path="/workflow-guide" component={WorkflowGuide} />
+        <Route path="/photo-upload" component={PhotoUploadForm} />
         <Route component={NotFound} />
       </Switch>
     </Layout>

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { cn } from "@/lib/utils";
-import { Menu, X, ChevronRight, Home, Map, FileText, Wrench, Shield, Droplet, Zap, Anchor, Image as ImageIcon } from "lucide-react";
+import { Menu, X, ChevronRight, Home, Map, FileText, Wrench, Shield, Droplet, Zap, Anchor, Image as ImageIcon, BookOpen, Upload } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import manualData from "@/data/manual-data.json";
@@ -135,6 +135,34 @@ export default function Layout({ children }: LayoutProps) {
                 >
                   <ImageIcon className={cn("h-4 w-4 transition-colors", location === "/photo-review" ? "text-primary" : "text-muted-foreground group-hover:text-primary")} />
                   <span>Photo Review</span>
+                </div>
+              </Link>
+
+              <Link href="/photo-upload">
+                <div 
+                  className={cn(
+                    "flex items-center gap-3 px-3 py-2.5 rounded-md text-sm font-medium transition-all duration-200 group cursor-pointer",
+                    location === "/photo-upload" 
+                      ? "bg-sidebar-accent text-sidebar-accent-foreground shadow-sm" 
+                      : "text-muted-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-foreground"
+                  )}
+                >
+                  <Upload className={cn("h-4 w-4 transition-colors", location === "/photo-upload" ? "text-primary" : "text-muted-foreground group-hover:text-primary")} />
+                  <span>Photo Upload Form</span>
+                </div>
+              </Link>
+
+              <Link href="/workflow-guide">
+                <div 
+                  className={cn(
+                    "flex items-center gap-3 px-3 py-2.5 rounded-md text-sm font-medium transition-all duration-200 group cursor-pointer",
+                    location === "/workflow-guide" 
+                      ? "bg-sidebar-accent text-sidebar-accent-foreground shadow-sm" 
+                      : "text-muted-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-foreground"
+                  )}
+                >
+                  <BookOpen className={cn("h-4 w-4 transition-colors", location === "/workflow-guide" ? "text-primary" : "text-muted-foreground group-hover:text-primary")} />
+                  <span>Workflow Guide</span>
                 </div>
               </Link>
 

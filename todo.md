@@ -17,3 +17,12 @@
 ## Features
 - [ ] **Maintenance Log:** Create a dashboard to view and add maintenance records
 - [ ] **Item Integration:** Link maintenance history to individual items (e.g., Rinnai Water Heater)
+
+## Bugs
+- [ ] **Navigation Issue:** Only Main House shows under Buildings and Structures - need to display all buildings
+- [ ] **Photo Review Page:** Images not displaying - only empty spaces showing
+
+## New Features
+- [x] **Workflow Guide Page:** Create a dedicated page for photo upload procedures and best practices
+- [x] **Photo Upload Form:** Create form for pasting batch photo descriptions
+- [x] **Google Keep Guide:** Add Google Keep integration instructions to workflow page
