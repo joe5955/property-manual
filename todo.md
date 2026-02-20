@@ -36,3 +36,4 @@
 
 ## Content Corrections
 - [x] **Farm House:** Remove Main House disconnect/water heater photo (incorrectly categorized)
+- [x] **Beach House:** Move water heater photo to Camp Kitchen (incorrectly categorized)

@@ -86,9 +86,9 @@
         {
           "id": "water-heater-beach",
           "title": "Water Heater (Critical)",
-          "content": "### \u26a0\ufe0f URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWM\n  ![Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TVXbeLJBrtMTMeiC.jpg)\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan. Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**",
+          "content": "### \u26a0\ufe0f URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWM\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan. Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**",
           "items": [],
-          "intro": "### \u26a0\ufe0f URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWM\n  ![Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TVXbeLJBrtMTMeiC.jpg)\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan. Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**"
+          "intro": "### \u26a0\ufe0f URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWM\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan. Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**"
         },
         {
           "id": "water-systems-photos",
@@ -197,6 +197,13 @@
           "content": "### Camp Kitchen Photos\n\n![Camp Kitchen - On-Demand Water Heater - Interior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ZNjyEwpFiZMCUPJC.jpg)\n\n**Camp Kitchen - On-Demand Water Heater - Interior**\n\n---\n\n![Camp Kitchen - Water Shutoff - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ApZJTeKBscyezwCr.jpg)\n\n**Camp Kitchen - Water Shutoff - Exterior**\n\n---\n\n",
           "items": [],
           "intro": "### Camp Kitchen Photos\n\n![Camp Kitchen - On-Demand Water Heater - Interior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ZNjyEwpFiZMCUPJC.jpg)\n\n**Camp Kitchen - On-Demand W..."
+        },
+        {
+          "id": "water-heater-camp",
+          "title": "Water Heater",
+          "content": "![Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TVXbeLJBrtMTMeiC.jpg)\n\n**Rinnai On-Demand Water Heater**\n\nLocated in utility room.",
+          "items": [],
+          "intro": "![Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TVXbeLJBrtMTMeiC.jpg)\n\n**Rinnai On-Demand Water Heater**\n\nLocated in utility room."
         }
       ],
       "intro": "**Status:** Documented\n\n### General View\n![Camp Kitchen](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/kLwPmNbQjYxZzQjJ.jpg)"
