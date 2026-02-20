@@ -30,3 +30,6 @@
 
 ## Current Task
 - [x] **Integrate 56 New Photos:** Add photos from PDF upload to appropriate manual sections (Main House, Farm House, Beach House, Chalet, Camp Kitchen, Madrona House, Boat House, Picnic Shelter, Well Systems, Irrigation, Utility Buildings, Water Storage)
+
+## Bugs to Fix
+- [x] **HTML Nesting Error:** Fix invalid nesting where <p> contains <div> in Section page markdown rendering

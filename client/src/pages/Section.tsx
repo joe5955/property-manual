@@ -93,8 +93,10 @@ export default function Section() {
             {/* Intro Content */}
             {section.intro && (
               <Card className="border-none shadow-none bg-transparent">
-                <CardContent className="p-0 prose prose-stone dark:prose-invert max-w-none">
-                  <Streamdown>{section.intro}</Streamdown>
+                <CardContent className="p-0">
+                  <div className="prose prose-stone dark:prose-invert max-w-none">
+                    <Streamdown>{section.intro}</Streamdown>
+                  </div>
                 </CardContent>
               </Card>
             )}
@@ -144,8 +146,10 @@ export default function Section() {
                   </CardHeader>
                   <CardContent className="p-6 space-y-6">
                   {subsection.intro && (
-                    <div className="prose prose-stone dark:prose-invert max-w-none text-sm leading-relaxed">
-                      <Streamdown>{subsection.intro}</Streamdown>
+                    <div className="text-sm leading-relaxed">
+                      <div className="prose prose-stone dark:prose-invert max-w-none">
+                        <Streamdown>{subsection.intro}</Streamdown>
+                      </div>
                     </div>
                   )}
                   
@@ -157,8 +161,10 @@ export default function Section() {
                             <div className="h-1.5 w-1.5 rounded-full bg-secondary"></div>
                             {item.title}
                           </h4>
-                          <div className="text-sm text-muted-foreground prose prose-sm dark:prose-invert max-w-none">
-                            <Streamdown>{item.content}</Streamdown>
+                          <div className="text-sm text-muted-foreground">
+                            <div className="prose prose-sm dark:prose-invert max-w-none">
+                              <Streamdown>{item.content}</Streamdown>
+                            </div>
                           </div>
                         </div>
                       ))}
@@ -167,8 +173,10 @@ export default function Section() {
 
                   {/* If no items but content exists */}
                   {(!subsection.items || subsection.items.length === 0) && subsection.content && !subsection.intro && (
-                    <div className="prose prose-stone dark:prose-invert max-w-none text-sm leading-relaxed">
-                      <Streamdown>{subsection.content}</Streamdown>
+                    <div className="text-sm leading-relaxed">
+                      <div className="prose prose-stone dark:prose-invert max-w-none">
+                        <Streamdown>{subsection.content}</Streamdown>
+                      </div>
                     </div>
                   )}
                 </CardContent>
@@ -179,8 +187,10 @@ export default function Section() {
             {/* Fallback if no subsections */}
             {section.subsections.length === 0 && section.content && !section.intro && (
               <Card>
-                <CardContent className="p-6 prose prose-stone dark:prose-invert max-w-none">
-                  <Streamdown>{section.content}</Streamdown>
+                <CardContent className="p-6">
+                  <div className="prose prose-stone dark:prose-invert max-w-none">
+                    <Streamdown>{section.content}</Streamdown>
+                  </div>
                 </CardContent>
               </Card>
             )}
