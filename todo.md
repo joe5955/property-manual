@@ -33,3 +33,6 @@
 
 ## Bugs to Fix
 - [x] **HTML Nesting Error:** Fix invalid nesting where <p> contains <div> in Section page markdown rendering
+
+## Content Corrections
+- [x] **Farm House:** Remove Main House disconnect/water heater photo (incorrectly categorized)

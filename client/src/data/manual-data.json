@@ -24,7 +24,7 @@
     {
       "id": "farm-house",
       "title": "Farm House",
-      "content": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC) - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)\n\n### Structure & Exterior\n- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers\n- **Photo:** [Pending Upload]\n\n### Kitchen Appliances\n- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n  ![Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/BSiJBYiUZYiFPEWd.jpg)\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities\n\n### Electrical System\n- **Panel:** MTS electrical panel in dining room with generator transfer capability\n- **Circuits:** Complete handwritten directory available\n- **Photo:** [Pending Upload]\n\n### Heating System\n- **Type:** Electric baseboard heating (multiple zones)\n\n### Septic System\n- **Pump:** On \"DINING - SEPTIC\" circuit\n\n### Water Heater\n- **Model:** Bradford White MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK (Expected life 8-12 years)\n- **Action:** Replace immediately",
+      "content": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC) - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)\n\n### Structure & Exterior\n- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers\n- **Photo:** [Pending Upload]\n\n### Kitchen Appliances\n- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities\n\n### Electrical System\n- **Panel:** MTS electrical panel in dining room with generator transfer capability\n- **Circuits:** Complete handwritten directory available\n- **Photo:** [Pending Upload]\n\n### Heating System\n- **Type:** Electric baseboard heating (multiple zones)\n\n### Septic System\n- **Pump:** On \"DINING - SEPTIC\" circuit\n\n### Water Heater\n- **Model:** Bradford White MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK (Expected life 8-12 years)\n- **Action:** Replace immediately",
       "subsections": [
         {
           "id": "structure-and-exterior",
@@ -36,9 +36,9 @@
         {
           "id": "kitchen-appliances",
           "title": "Kitchen Appliances",
-          "content": "- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n  ![Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/BSiJBYiUZYiFPEWd.jpg)\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities",
+          "content": "- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities",
           "items": [],
-          "intro": "- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n  ![Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/BSiJBYiUZYiFPEWd.jpg)\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities"
+          "intro": "- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities"
         },
         {
           "id": "systems-and-utilities",
