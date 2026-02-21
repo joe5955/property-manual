@@ -13,6 +13,11 @@ import Layout from "@/components/Layout";
 import NotFound from "@/pages/NotFound";
 
 // Define types for the manual data structure
+interface ManualImage {
+  url: string;
+  caption?: string;
+}
+
 interface ManualItem {
   title: string;
   content: string;
@@ -24,6 +29,7 @@ interface ManualSubsection {
   content: string;
   intro?: string;
   items?: ManualItem[];
+  images?: ManualImage[];
 }
 
 interface ManualSection {
@@ -32,6 +38,7 @@ interface ManualSection {
   content: string;
   intro?: string;
   subsections: ManualSubsection[];
+  images?: ManualImage[];
 }
 
 export default function Section() {
@@ -169,6 +176,30 @@ export default function Section() {
                   {(!subsection.items || subsection.items.length === 0) && subsection.content && !subsection.intro && (
                     <div className="prose prose-stone dark:prose-invert max-w-none text-sm leading-relaxed">
                       <Streamdown>{subsection.content}</Streamdown>
+                    </div>
+                  )}
+
+                  {/* Photo Gallery */}
+                  {subsection.images && subsection.images.length > 0 && (
+                    <div className="mt-4">
+                      <h4 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-3">Photos</h4>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        {subsection.images.map((img, imgIdx) => (
+                          <div key={imgIdx} className="rounded-lg overflow-hidden border border-border/60 bg-muted/20">
+                            <a href={img.url} target="_blank" rel="noopener noreferrer">
+                              <img
+                                src={img.url}
+                                alt={img.caption || subsection.title}
+                                className="w-full h-48 object-cover hover:opacity-90 transition-opacity cursor-zoom-in"
+                                loading="lazy"
+                              />
+                            </a>
+                            {img.caption && (
+                              <p className="text-xs text-muted-foreground px-3 py-2 leading-snug">{img.caption}</p>
+                            )}
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   )}
                 </CardContent>
