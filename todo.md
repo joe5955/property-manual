@@ -38,3 +38,10 @@
 - [x] **Farm House:** Remove Main House disconnect/water heater photo (incorrectly categorized)
 - [x] **Beach House:** Move water heater photo to Camp Kitchen (incorrectly categorized)
 - [x] **Beach House:** Fix Water Systems Photos section - only showing 1 of 5 photos
+
+## Missing Photos Issues
+- [ ] **The Chalet:** Propane stove and appliance photos from first batch not showing in section
+
+## Documentation & Archive
+- [x] **GitHub Archive:** Create new GitHub repository to archive task thread and documentation
+- [x] **Dashboard:** Add "Last Updated" date showing when any content was last modified
