@@ -29,6 +29,8 @@ export default function Home() {
   const parcelCount = "7";
   const structureCount = "6";
   const lastUpdated = (manualData.metadata as any).updated || "February 12, 2026";
+  // Convert "February 21, 2026" to "2/21/2026" format
+  const versionDate = lastUpdated ? new Date(lastUpdated).toLocaleDateString('en-US', { month: 'numeric', day: 'numeric', year: 'numeric' }) : "2/12/2026";
 
   return (
     <Layout>
@@ -38,9 +40,9 @@ export default function Home() {
           <div className="absolute inset-0 bg-[url('/hero-estate-aerial.jpg')] bg-cover bg-center opacity-20 mix-blend-overlay"></div>
           <div className="relative z-10 p-8 md:p-12 lg:p-16 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
             <div className="space-y-4 max-w-2xl">
-              <Badge variant="outline" className="bg-primary-foreground/10 text-primary-foreground border-primary-foreground/20 backdrop-blur-sm px-3 py-1">
-                Property Manual v2.0
-              </Badge>
+              <div className="text-primary-foreground/70 text-sm font-medium tracking-wide">
+                Version {versionDate}
+              </div>
               <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight">
                 {greeting}, Ned and Haleh.
               </h1>

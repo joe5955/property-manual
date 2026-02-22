@@ -45,3 +45,4 @@
 ## Documentation & Archive
 - [x] **GitHub Archive:** Create new GitHub repository to archive task thread and documentation
 - [x] **Dashboard:** Add "Last Updated" date showing when any content was last modified
+- [x] **Home Page:** Move last updated date above greeting, format as "Version MM/DD/YYYY"
