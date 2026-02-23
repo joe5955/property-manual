@@ -47,3 +47,4 @@
 - [x] **Dashboard:** Add "Last Updated" date showing when any content was last modified
 - [x] **Home Page:** Move last updated date above greeting, format as "Version MM/DD/YYYY"
 - [x] **Workflow Guide Section:** Add new section to manual with user instructions (photo upload, content updates, procedures)
+- [x] **Main House:** Add washer/dryer photos and specifications to appliances section
