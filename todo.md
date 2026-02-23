@@ -49,3 +49,4 @@
 - [x] **Workflow Guide Section:** Add new section to manual with user instructions (photo upload, content updates, procedures)
 - [x] **Main House:** Add washer/dryer photos and specifications to appliances section
 - [ ] **Water Shutoff Access:** Replace wooden plank cover with proper access lid/cover
+- [x] **Automatic Date Display:** Make "Last Updated" date show today's date automatically instead of manual JSON updates

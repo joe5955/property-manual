@@ -28,9 +28,8 @@ export default function Home() {
   const totalAcreage = "156.61";
   const parcelCount = "7";
   const structureCount = "6";
-  const lastUpdated = (manualData.metadata as any).updated || "February 12, 2026";
-  // Convert "February 21, 2026" to "2/21/2026" format
-  const versionDate = lastUpdated ? new Date(lastUpdated).toLocaleDateString('en-US', { month: 'numeric', day: 'numeric', year: 'numeric' }) : "2/12/2026";
+  // Automatically show today's date
+  const versionDate = new Date().toLocaleDateString('en-US', { month: 'numeric', day: 'numeric', year: 'numeric' });
 
   return (
     <Layout>
@@ -93,7 +92,7 @@ export default function Home() {
                   <span className="font-serif font-bold text-lg">{structureCount}</span>
                 </div>
                 <div className="pt-2 text-xs text-muted-foreground text-center bg-muted/30 py-2 rounded-md mt-2">
-                  Last Updated: {lastUpdated}
+                  Last Updated: {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
                 </div>
               </CardContent>
             </Card>
