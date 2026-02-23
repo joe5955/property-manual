@@ -55,3 +55,4 @@
 - [x] **Boat House:** Add comprehensive electrical system documentation (main interior panel, Main House dock panel, boat house dock panel, ramp panel with outlets)
 - [x] **Navigation Structure:** Reorganize sections - Emergency and Workflow Guide under dashboard, reorder properties: Main House, Chalet, Camp Kitchen, Picnic Shelter, Beach House, Farm House, Caretaker's House, Madrona House, Boat House, then remaining sections
 - [x] **Main House:** Reorder subsections to place Appliances above Irrigation System
+- [x] **Main House:** Delete "Water Systems Photos" subsection (contains duplicate photos)
