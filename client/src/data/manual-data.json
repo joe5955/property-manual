@@ -37,85 +37,6 @@
       "intro": "**Purpose:** Instructions and procedures for maintaining and updating the property manual.\n\nThis section contains step-by-step guides for common tasks like uploading photos, adding content, and requesting updates. These procedures ensure consistent documentation and make it easy to keep the manual current."
     },
     {
-      "id": "farm-house",
-      "title": "Farm House",
-      "content": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC) - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)\n\n### Structure & Exterior\n- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers\n- **Photo:** [Pending Upload]\n\n### Kitchen Appliances\n- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities\n\n### Electrical System\n- **Panel:** MTS electrical panel in dining room with generator transfer capability\n- **Circuits:** Complete handwritten directory available\n- **Photo:** [Pending Upload]\n\n### Heating System\n- **Type:** Electric baseboard heating (multiple zones)\n\n### Septic System\n- **Pump:** On \"DINING - SEPTIC\" circuit\n\n### Water Heater\n- **Model:** Bradford White MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK (Expected life 8-12 years)\n- **Action:** Replace immediately",
-      "subsections": [
-        {
-          "id": "structure-and-exterior",
-          "title": "Structure & Exterior",
-          "content": "- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers\n- **Photo:** [Pending Upload]",
-          "items": [],
-          "intro": "- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers\n- **Photo:** [Pending Upload]"
-        },
-        {
-          "id": "kitchen-appliances",
-          "title": "Kitchen Appliances",
-          "content": "- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities",
-          "items": [],
-          "intro": "- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities"
-        },
-        {
-          "id": "systems-and-utilities",
-          "title": "Systems & Utilities",
-          "content": "- **Electrical:** MTS electrical panel in dining room with generator transfer capability\n- **Heating:** Electric baseboard heating (multiple zones)\n- **Septic:** Septic system with pump (Pump on \"DINING - SEPTIC\" circuit)",
-          "items": [],
-          "intro": "- **Electrical:** MTS electrical panel in dining room with generator transfer capability\n- **Heating:** Electric baseboard heating (multiple zones)\n- **Septic:** Septic system with pump (Pump on \"DINING - SEPTIC\" circuit)"
-        },
-        {
-          "id": "water-heater-farm",
-          "title": "Water Heater (Critical)",
-          "content": "### \u26a0\ufe0f URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 25 years old, this unit is more than double its expected lifespan. Risks include catastrophic tank failure, flooding, and safety hazards.\n\n**Immediate Actions:**\n1. Check daily for leaks.\n2. Listen for unusual noises.\n3. **Schedule replacement immediately.**",
-          "items": [],
-          "intro": "### \u26a0\ufe0f URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 25 years old, this unit is more than double its expected lifespan. Risks include catastrophic tank failure, flooding, and safety hazards.\n\n**Immediate Actions:**\n1. Check daily for leaks.\n2. Listen for unusual noises.\n3. **Schedule replacement immediately.**"
-        },
-        {
-          "id": "water-systems-photos",
-          "title": "Water Systems Photos",
-          "content": "### Farm House Photos\n\n![Farm House - Water Shutoff - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ajEOmORjSxxwIXOW.jpg)\n\n**Farm House - Water Shutoff - Exterior**\n\n---\n\n![Farm House - Irrigation Valve Box - Garden](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/fPcxcmJcjQBRsvDO.jpg)\n\n**Farm House - Irrigation Valve Box - Garden**\n\n---\n\n![Farm House - Irrigation Valve Box - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/vjWeSAGllznpgYkt.jpg)\n\n**Farm House - Irrigation Valve Box - Exterior**\n\n---\n\n![Farm House - Valve Box - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/zDvgigEKnhWygCak.jpg)\n\n**Farm House - Valve Box - Exterior**\n\n---\n\n![Farm House - Irrigation Valve Box - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/rLqYwhkHXebXbZCs.jpg)\n\n**Farm House - Irrigation Valve Box - Exterior**\n\n---\n\n",
-          "items": [],
-          "intro": "### Farm House Photos\n\n![Farm House - Water Shutoff - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ajEOmORjSxxwIXOW.jpg)\n\n**Farm House - Water Shutoff - Exterior**..."
-        }
-      ],
-      "intro": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC) - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)"
-    },
-    {
-      "id": "beach-house",
-      "title": "Beach House",
-      "content": "**Parcel:** [To be documented] - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)\n\n### Utilities & Systems\n- **Water Shutoff:** Exterior access box near main entry by \"Lighthouse Point\" sign (Blue-handled ball valve)\n- **WiFi:** Network: **Ned&Haleh** | Password: **Beachhouse1**\n- **Security:** First Alert FA260 Professional alarm system\n\n### Appliances\n- **Refrigerator:** LG LRBP1031T (19 years old) - *Rec. Replace Immediately*\n- **Range:** Bosch Electric (Stainless steel, ceramic cooktop)\n- **Dishwasher:** Bosch 300 Series SHP53C06UC30 (~7 years old)\n  ![Dishwasher](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/AuVzGNUJIvPpXZSq.jpg)\n- **Washer:** Maytag MHW8200FC0 (8 years old)\n- **Dryer:** Maytag MED8200FC2 (8 years old)\n  ![Washer/Dryer](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/OADzIdSGqHlidPqA.jpg)\n\n### Water Heater\n- **Model:** Bradford White M265R6DS-1NCWM\n  ![Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TVXbeLJBrtMTMeiC.jpg)\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK (Expected life 8-12 years)\n- **Action:** Replace immediately",
-      "subsections": [
-        {
-          "id": "utilities-and-systems",
-          "title": "Utilities & Systems",
-          "content": "- **Water Shutoff:** Exterior access box near main entry by \"Lighthouse Point\" sign (Blue-handled ball valve)\n- **WiFi:** Network: **Ned&Haleh** | Password: **Beachhouse1**\n- **Security:** First Alert FA260 Professional alarm system",
-          "items": [],
-          "intro": "- **Water Shutoff:** Exterior access box near main entry by \"Lighthouse Point\" sign (Blue-handled ball valve)\n- **WiFi:** Network: **Ned&Haleh** | Password: **Beachhouse1**\n- **Security:** First Alert FA260 Professional alarm system"
-        },
-        {
-          "id": "appliances",
-          "title": "Appliances",
-          "content": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRBP1031T | ~19 years old (2007 model) | **Replacement Recommended** - Nearing end of life. |\n| Range | Bosch Electric Range | Good Condition | Stainless steel, ceramic cooktop, convection oven. |\n| Dishwasher | Bosch 300 Series | ~7 years old (2019 model) | Good condition. |\n| Washer | Maytag MHW8200FC0 | ~8 years old (2018 model) | Good condition. |\n| Dryer | Maytag MED8200FC2 | ~8 years old (2018 model) | Good condition. |",
-          "items": [],
-          "intro": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRBP1031T | ~19 years old (2007 model) | **Replacement Recommended** - Nearing end of life. |\n| Range | Bosch Electric Range | Good Condition | Stainless steel, ceramic cooktop, convection oven. |\n| Dishwasher | Bosch 300 Series | ~7 years old (2019 model) | Good condition. |\n| Washer | Maytag MHW8200FC0 | ~8 years old (2018 model) | Good condition. |\n| Dryer | Maytag MED8200FC2 | ~8 years old (2018 model) | Good condition. |"
-        },
-        {
-          "id": "water-heater-beach",
-          "title": "Water Heater (Critical)",
-          "content": "### \u26a0\ufe0f URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWM\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan. Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**",
-          "items": [],
-          "intro": "### \u26a0\ufe0f URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWM\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan. Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**"
-        },
-        {
-          "id": "water-systems-photos",
-          "title": "Water Systems Photos",
-          "content": "### Beach House Photos\n\n![Beach House - Water Shutoff Access - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ezwCrHIKewmwwIaw.jpg)\n\n**Beach House - Water Shutoff Access - Exterior**\n\n---\n\n![Beach House - Water Shutoff - Interior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ZyTnFOQLwFwbtrOB.jpg)\n\n**Beach House - Water Shutoff - Interior**\n\n---\n\n![Beach House - Irrigation Valve Box - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/GZbPocfxprocyCAg.jpg)\n\n**Beach House - Irrigation Valve Box - Exterior**\n\n---\n\n![Beach House - Irrigation Valve Access - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/yUQdlaAJZCSqNbyy.jpg)\n\n**Beach House - Irrigation Valve Access - Exterior**\n\n---\n\n![Beach House - Irrigation Valve - Southwest Side](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/OaGHHkxplhdNNBeb.jpg)\n\n**Beach House - Irrigation Valve - Southwest Side**\n\n---\n\n",
-          "items": [],
-          "intro": "### Beach House Photos\n\n![Beach House - Water Shutoff Access - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ezwCrHIKewmwwIaw.jpg)\n\n**Beach House - Water Shutoff Access - Exterior**\n\n---\n\n![Beach House - Water Shutoff - Interior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ZyTnFOQLwFwbtrOB.jpg)\n\n**Beach House - Water Shutoff - Interior**\n\n---\n\n![Beach House - Irrigation Valve Box - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/GZbPocfxprocyCAg.jpg)\n\n**Beach House - Irrigation Valve Box - Exterior**\n\n---\n\n![Beach House - Irrigation Valve Access - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/yUQdlaAJZCSqNbyy.jpg)\n\n**Beach House - Irrigation Valve Access - Exterior**\n\n---\n\n![Beach House - Irrigation Valve - Southwest Side](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/OaGHHkxplhdNNBeb.jpg)\n\n**Beach House - Irrigation Valve - Southwest Side**\n\n---\n\n"
-        }
-      ],
-      "intro": "**Parcel:** [To be documented] - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)"
-    },
-    {
       "id": "main-house",
       "title": "Main House",
       "content": "**Status:** Partially Documented\n\n### Irrigation System\n- **Type:** Sprinkler system\n- **Controller:** Rain Bird ESP-ME3\n- **Location:** Wall-mounted cabinet\n- **Features:** LNK WiFi Ready, Weather Sensor compatible, Seasonal Adjust, Flow Sensor compatible\n- **Programs:** A, B, C, D\n- **Current Status:** OFF (as of last photo)\n- **Coverage:** Landscaping around Main House\n- **Map:** Hand-drawn map available showing all head locations\n\n### Laundry Appliances\n\n![Main House - Washer and Dryer - Side Entry](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/BpqXVwoEBvltVIwQ.jpg)\n\n**Washer:**\n- **Brand:** Maytag\n- **Model:** MFWS700SQ1\n- **Serial:** CSU3707671\n- **Type:** Front-load washer\n- **Location:** Side entry laundry room\n- **Age:** ~15 years (est. 2011)\n- **Recommended Replacement:** 2026 (typical lifespan 10-15 years)\n\n![Washer Model Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/VOkRXpzaMJQNYOFW.jpg)\n\n**Dryer:**\n- **Brand:** Maytag\n- **Model:** MED9700SQ0\n- **Serial:** 65R13978\n- **Type:** Electric dryer (240V/60Hz/24A)\n- **Type Code:** DDT7-ELE-240/60/24-EL54\n- **Location:** Side entry laundry room\n- **Age:** ~15 years (est. 2011)\n- **Recommended Replacement:** 2026 (typical lifespan 10-15 years)\n\n![Dryer Model Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/KYBRNYSBFeEhKfFt.jpg)\n\n**Maintenance Notes:**\n- Both units are approaching end of expected lifespan\n- Consider replacement as a matching set\n- Ensure proper venting and lint trap cleaning for dryer\n\n### Electrical Systems\n- **Entry Utility Room Panel:** [Photo Pending]\n  *Contains Generator Transfer Switch and Fire Extinguisher.*\n- **Basement Panel:** [Photo Pending]\n  *QO Load Center with breakers for Heating, Water Heater, and Basement circuits.*\n- **Main House Disconnect:** [Photo Pending]\n  *Located in Camp Kitchen Utility Room.*\n- **Service Type:** [Overhead/Underground]\n- **Amperage:** [Amps]\n- **Generator:** [Yes/No - Details if yes]\n- **Solar Panels:** [Yes/No - Details if yes]\n\n### Water Shutoff\n- **Main Shutoff Valve:** [Photo Pending]\n  *Location and instructions to be documented.*\n- **Exterior Spigots:** [Photo Pending]\n  *Locations to be documented.*",
@@ -245,6 +166,92 @@
       "intro": "**Status:** Documented\n\n### General View\n![Camp Kitchen](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/kLwPmNbQjYxZzQjJ.jpg)"
     },
     {
+      "id": "picnic-shelter",
+      "title": "Picnic Shelter",
+      "content": "**Status:** Documented\n\nThe Picnic Shelter area contains multiple irrigation valve boxes for controlling water distribution.\n\n![Picnic Shelter - Irrigation Valve Boxes - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ovWGhZSWhHoFYCYh.jpg)\n\n**Picnic Shelter - Irrigation Valve Boxes - Exterior**\n\n---\n\n![Picnic Shelter - Irrigation Valve Boxes - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/RKPEOwBboDVdwUMI.jpg)\n\n**Picnic Shelter - Irrigation Valve Boxes - Exterior**\n\n---\n\n![Picnic Shelter - Irrigation Valve Boxes - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mQyAWYdwZalaPwkc.jpg)\n\n**Picnic Shelter - Irrigation Valve Boxes - Exterior**\n\n---\n\n![Picnic Shelter - Irrigation Valve Boxes - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/VRlAzToMNnbxmsNQ.jpg)\n\n**Picnic Shelter - Irrigation Valve Boxes - Exterior**\n\n---\n\n",
+      "subsections": [],
+      "intro": "**Status:** Documented\n\nThe Picnic Shelter area contains multiple irrigation valve boxes for controlling water distribution."
+    },
+    {
+      "id": "beach-house",
+      "title": "Beach House",
+      "content": "**Parcel:** [To be documented] - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)\n\n### Utilities & Systems\n- **Water Shutoff:** Exterior access box near main entry by \"Lighthouse Point\" sign (Blue-handled ball valve)\n- **WiFi:** Network: **Ned&Haleh** | Password: **Beachhouse1**\n- **Security:** First Alert FA260 Professional alarm system\n\n### Appliances\n- **Refrigerator:** LG LRBP1031T (19 years old) - *Rec. Replace Immediately*\n- **Range:** Bosch Electric (Stainless steel, ceramic cooktop)\n- **Dishwasher:** Bosch 300 Series SHP53C06UC30 (~7 years old)\n  ![Dishwasher](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/AuVzGNUJIvPpXZSq.jpg)\n- **Washer:** Maytag MHW8200FC0 (8 years old)\n- **Dryer:** Maytag MED8200FC2 (8 years old)\n  ![Washer/Dryer](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/OADzIdSGqHlidPqA.jpg)\n\n### Water Heater\n- **Model:** Bradford White M265R6DS-1NCWM\n  ![Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TVXbeLJBrtMTMeiC.jpg)\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK (Expected life 8-12 years)\n- **Action:** Replace immediately",
+      "subsections": [
+        {
+          "id": "utilities-and-systems",
+          "title": "Utilities & Systems",
+          "content": "- **Water Shutoff:** Exterior access box near main entry by \"Lighthouse Point\" sign (Blue-handled ball valve)\n- **WiFi:** Network: **Ned&Haleh** | Password: **Beachhouse1**\n- **Security:** First Alert FA260 Professional alarm system",
+          "items": [],
+          "intro": "- **Water Shutoff:** Exterior access box near main entry by \"Lighthouse Point\" sign (Blue-handled ball valve)\n- **WiFi:** Network: **Ned&Haleh** | Password: **Beachhouse1**\n- **Security:** First Alert FA260 Professional alarm system"
+        },
+        {
+          "id": "appliances",
+          "title": "Appliances",
+          "content": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRBP1031T | ~19 years old (2007 model) | **Replacement Recommended** - Nearing end of life. |\n| Range | Bosch Electric Range | Good Condition | Stainless steel, ceramic cooktop, convection oven. |\n| Dishwasher | Bosch 300 Series | ~7 years old (2019 model) | Good condition. |\n| Washer | Maytag MHW8200FC0 | ~8 years old (2018 model) | Good condition. |\n| Dryer | Maytag MED8200FC2 | ~8 years old (2018 model) | Good condition. |",
+          "items": [],
+          "intro": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRBP1031T | ~19 years old (2007 model) | **Replacement Recommended** - Nearing end of life. |\n| Range | Bosch Electric Range | Good Condition | Stainless steel, ceramic cooktop, convection oven. |\n| Dishwasher | Bosch 300 Series | ~7 years old (2019 model) | Good condition. |\n| Washer | Maytag MHW8200FC0 | ~8 years old (2018 model) | Good condition. |\n| Dryer | Maytag MED8200FC2 | ~8 years old (2018 model) | Good condition. |"
+        },
+        {
+          "id": "water-heater-beach",
+          "title": "Water Heater (Critical)",
+          "content": "### \u26a0\ufe0f URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWM\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan. Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**",
+          "items": [],
+          "intro": "### \u26a0\ufe0f URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWM\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan. Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**"
+        },
+        {
+          "id": "water-systems-photos",
+          "title": "Water Systems Photos",
+          "content": "### Beach House Photos\n\n![Beach House - Water Shutoff Access - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ezwCrHIKewmwwIaw.jpg)\n\n**Beach House - Water Shutoff Access - Exterior**\n\n---\n\n![Beach House - Water Shutoff - Interior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ZyTnFOQLwFwbtrOB.jpg)\n\n**Beach House - Water Shutoff - Interior**\n\n---\n\n![Beach House - Irrigation Valve Box - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/GZbPocfxprocyCAg.jpg)\n\n**Beach House - Irrigation Valve Box - Exterior**\n\n---\n\n![Beach House - Irrigation Valve Access - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/yUQdlaAJZCSqNbyy.jpg)\n\n**Beach House - Irrigation Valve Access - Exterior**\n\n---\n\n![Beach House - Irrigation Valve - Southwest Side](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/OaGHHkxplhdNNBeb.jpg)\n\n**Beach House - Irrigation Valve - Southwest Side**\n\n---\n\n",
+          "items": [],
+          "intro": "### Beach House Photos\n\n![Beach House - Water Shutoff Access - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ezwCrHIKewmwwIaw.jpg)\n\n**Beach House - Water Shutoff Access - Exterior**\n\n---\n\n![Beach House - Water Shutoff - Interior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ZyTnFOQLwFwbtrOB.jpg)\n\n**Beach House - Water Shutoff - Interior**\n\n---\n\n![Beach House - Irrigation Valve Box - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/GZbPocfxprocyCAg.jpg)\n\n**Beach House - Irrigation Valve Box - Exterior**\n\n---\n\n![Beach House - Irrigation Valve Access - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/yUQdlaAJZCSqNbyy.jpg)\n\n**Beach House - Irrigation Valve Access - Exterior**\n\n---\n\n![Beach House - Irrigation Valve - Southwest Side](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/OaGHHkxplhdNNBeb.jpg)\n\n**Beach House - Irrigation Valve - Southwest Side**\n\n---\n\n"
+        }
+      ],
+      "intro": "**Parcel:** [To be documented] - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)"
+    },
+    {
+      "id": "farm-house",
+      "title": "Farm House",
+      "content": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC) - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)\n\n### Structure & Exterior\n- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers\n- **Photo:** [Pending Upload]\n\n### Kitchen Appliances\n- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities\n\n### Electrical System\n- **Panel:** MTS electrical panel in dining room with generator transfer capability\n- **Circuits:** Complete handwritten directory available\n- **Photo:** [Pending Upload]\n\n### Heating System\n- **Type:** Electric baseboard heating (multiple zones)\n\n### Septic System\n- **Pump:** On \"DINING - SEPTIC\" circuit\n\n### Water Heater\n- **Model:** Bradford White MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK (Expected life 8-12 years)\n- **Action:** Replace immediately",
+      "subsections": [
+        {
+          "id": "structure-and-exterior",
+          "title": "Structure & Exterior",
+          "content": "- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers\n- **Photo:** [Pending Upload]",
+          "items": [],
+          "intro": "- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers\n- **Photo:** [Pending Upload]"
+        },
+        {
+          "id": "kitchen-appliances",
+          "title": "Kitchen Appliances",
+          "content": "- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities",
+          "items": [],
+          "intro": "- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities"
+        },
+        {
+          "id": "systems-and-utilities",
+          "title": "Systems & Utilities",
+          "content": "- **Electrical:** MTS electrical panel in dining room with generator transfer capability\n- **Heating:** Electric baseboard heating (multiple zones)\n- **Septic:** Septic system with pump (Pump on \"DINING - SEPTIC\" circuit)",
+          "items": [],
+          "intro": "- **Electrical:** MTS electrical panel in dining room with generator transfer capability\n- **Heating:** Electric baseboard heating (multiple zones)\n- **Septic:** Septic system with pump (Pump on \"DINING - SEPTIC\" circuit)"
+        },
+        {
+          "id": "water-heater-farm",
+          "title": "Water Heater (Critical)",
+          "content": "### \u26a0\ufe0f URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 25 years old, this unit is more than double its expected lifespan. Risks include catastrophic tank failure, flooding, and safety hazards.\n\n**Immediate Actions:**\n1. Check daily for leaks.\n2. Listen for unusual noises.\n3. **Schedule replacement immediately.**",
+          "items": [],
+          "intro": "### \u26a0\ufe0f URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 25 years old, this unit is more than double its expected lifespan. Risks include catastrophic tank failure, flooding, and safety hazards.\n\n**Immediate Actions:**\n1. Check daily for leaks.\n2. Listen for unusual noises.\n3. **Schedule replacement immediately.**"
+        },
+        {
+          "id": "water-systems-photos",
+          "title": "Water Systems Photos",
+          "content": "### Farm House Photos\n\n![Farm House - Water Shutoff - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ajEOmORjSxxwIXOW.jpg)\n\n**Farm House - Water Shutoff - Exterior**\n\n---\n\n![Farm House - Irrigation Valve Box - Garden](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/fPcxcmJcjQBRsvDO.jpg)\n\n**Farm House - Irrigation Valve Box - Garden**\n\n---\n\n![Farm House - Irrigation Valve Box - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/vjWeSAGllznpgYkt.jpg)\n\n**Farm House - Irrigation Valve Box - Exterior**\n\n---\n\n![Farm House - Valve Box - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/zDvgigEKnhWygCak.jpg)\n\n**Farm House - Valve Box - Exterior**\n\n---\n\n![Farm House - Irrigation Valve Box - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/rLqYwhkHXebXbZCs.jpg)\n\n**Farm House - Irrigation Valve Box - Exterior**\n\n---\n\n",
+          "items": [],
+          "intro": "### Farm House Photos\n\n![Farm House - Water Shutoff - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ajEOmORjSxxwIXOW.jpg)\n\n**Farm House - Water Shutoff - Exterior**..."
+        }
+      ],
+      "intro": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC) - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)"
+    },
+    {
       "id": "madrona-house",
       "title": "Madrona House",
       "content": "**Status:** Documented\n\nThe Madrona House water systems include potable water shutoff access and booster pump systems located east of the upper shop.\n\n![Madrona House - Potable Water Shutoff Access - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/VTxqWqFdWlvsiKaP.jpg)\n\n**Madrona House - Potable Water Shutoff Access - Exterior**\n\n---\n\n![Madrona House - Potable Water Booster - East of Upper Shop](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/EZSNNqJORpAneRsD.jpg)\n\n**Madrona House - Potable Water Booster - East of Upper Shop**\n\n---\n\n![Madrona House - Potable & Irrigation Booster Shed - East of Upper Shop](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/OVSXhXxmFeibVkVE.jpg)\n\n**Madrona House - Potable & Irrigation Booster Shed - East of Upper Shop**\n\n---\n\n![Madrona House - Irrigation Valve Box - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/JYfPlltXcrhuSPib.jpg)\n\n**Madrona House - Irrigation Valve Box - Exterior**\n\n---\n\n",
@@ -272,13 +279,6 @@
         }
       ],
       "intro": "**Status:** Documented\n\nThe Boat House is a dark wood structure with weathered metal roof located near the waterfront. It provides storage for marine equipment, boats, and water sports gear, with comprehensive electrical distribution serving the building interior, docks, boat ramp, and waterfront areas."
-    },
-    {
-      "id": "picnic-shelter",
-      "title": "Picnic Shelter",
-      "content": "**Status:** Documented\n\nThe Picnic Shelter area contains multiple irrigation valve boxes for controlling water distribution.\n\n![Picnic Shelter - Irrigation Valve Boxes - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ovWGhZSWhHoFYCYh.jpg)\n\n**Picnic Shelter - Irrigation Valve Boxes - Exterior**\n\n---\n\n![Picnic Shelter - Irrigation Valve Boxes - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/RKPEOwBboDVdwUMI.jpg)\n\n**Picnic Shelter - Irrigation Valve Boxes - Exterior**\n\n---\n\n![Picnic Shelter - Irrigation Valve Boxes - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mQyAWYdwZalaPwkc.jpg)\n\n**Picnic Shelter - Irrigation Valve Boxes - Exterior**\n\n---\n\n![Picnic Shelter - Irrigation Valve Boxes - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/VRlAzToMNnbxmsNQ.jpg)\n\n**Picnic Shelter - Irrigation Valve Boxes - Exterior**\n\n---\n\n",
-      "subsections": [],
-      "intro": "**Status:** Documented\n\nThe Picnic Shelter area contains multiple irrigation valve boxes for controlling water distribution."
     },
     {
       "id": "well-systems",

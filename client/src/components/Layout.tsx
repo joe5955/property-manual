@@ -152,16 +152,30 @@ export default function Layout({ children }: LayoutProps) {
                 </div>
               </Link>
 
-              <Link href="/workflow-guide">
+              <Link href="/section/emergency">
                 <div 
                   className={cn(
                     "flex items-center gap-3 px-3 py-2.5 rounded-md text-sm font-medium transition-all duration-200 group cursor-pointer",
-                    location === "/workflow-guide" 
+                    location === "/section/emergency" 
                       ? "bg-sidebar-accent text-sidebar-accent-foreground shadow-sm" 
                       : "text-muted-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-foreground"
                   )}
                 >
-                  <BookOpen className={cn("h-4 w-4 transition-colors", location === "/workflow-guide" ? "text-primary" : "text-muted-foreground group-hover:text-primary")} />
+                  <Shield className={cn("h-4 w-4 transition-colors", location === "/section/emergency" ? "text-primary" : "text-muted-foreground group-hover:text-primary")} />
+                  <span>Emergency</span>
+                </div>
+              </Link>
+
+              <Link href="/section/workflow-guide">
+                <div 
+                  className={cn(
+                    "flex items-center gap-3 px-3 py-2.5 rounded-md text-sm font-medium transition-all duration-200 group cursor-pointer",
+                    location === "/section/workflow-guide" 
+                      ? "bg-sidebar-accent text-sidebar-accent-foreground shadow-sm" 
+                      : "text-muted-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-foreground"
+                  )}
+                >
+                  <BookOpen className={cn("h-4 w-4 transition-colors", location === "/section/workflow-guide" ? "text-primary" : "text-muted-foreground group-hover:text-primary")} />
                   <span>Workflow Guide</span>
                 </div>
               </Link>
@@ -169,7 +183,9 @@ export default function Layout({ children }: LayoutProps) {
               <div className="my-4 px-3">
                 <h3 className="text-xs font-bold text-muted-foreground/70 uppercase tracking-wider mb-2">Property Sections</h3>
                 <div className="space-y-1">
-                  {manualData.sections.map((section) => (
+                  {manualData.sections
+                    .filter((section) => !['emergency', 'workflow-guide'].includes(section.id))
+                    .map((section) => (
                     <Link key={section.id} href={`/section/${section.id}`}>
                       <div 
                         className={cn(
