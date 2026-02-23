@@ -109,14 +109,14 @@ export default function Home() {
               <CardHeader>
                 <CardTitle className="text-lg font-serif">Getting Here</CardTitle>
                 <CardDescription>Ferry reservations and driving directions</CardDescription>
-                <div className="mt-4 p-3 bg-primary/5 rounded-md border border-primary/10">
+              </CardHeader>
+              <CardContent className="space-y-6">
+                <div className="p-3 bg-primary/5 rounded-md border border-primary/10">
                   <h4 className="text-sm font-medium text-primary mb-1 flex items-center gap-2">
                     <MapPin className="h-3 w-3" /> Property Address
                   </h4>
                   <p className="text-base font-serif font-medium">667 Bear Cove Rd, Deer Harbor, WA 98243</p>
                 </div>
-              </CardHeader>
-              <CardContent className="space-y-6">
                 <div className="space-y-3">
                   <h3 className="font-medium flex items-center gap-2 text-primary">
                     <Ship className="h-4 w-4" /> Washington State Ferries

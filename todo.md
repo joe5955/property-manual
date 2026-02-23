@@ -56,3 +56,4 @@
 - [x] **Navigation Structure:** Reorganize sections - Emergency and Workflow Guide under dashboard, reorder properties: Main House, Chalet, Camp Kitchen, Picnic Shelter, Beach House, Farm House, Caretaker's House, Madrona House, Boat House, then remaining sections
 - [x] **Main House:** Reorder subsections to place Appliances above Irrigation System
 - [x] **Main House:** Delete "Water Systems Photos" subsection (contains duplicate photos)
+- [x] **Home Page:** Fix React DOM nesting error - <p> cannot contain nested <div>
