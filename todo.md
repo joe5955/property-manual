@@ -51,3 +51,4 @@
 - [ ] **Water Shutoff Access:** Replace wooden plank cover with proper access lid/cover
 - [x] **Automatic Date Display:** Make "Last Updated" date show today's date automatically instead of manual JSON updates
 - [x] **Main House Photos:** Move irrigation system photos (panel, controller, map) to bottom of photo gallery in sequential order
+- [x] **Main House Structure:** Move "Valve Boxes & Shutoffs" subsection from Appliances to Water Systems section
