@@ -48,3 +48,4 @@
 - [x] **Home Page:** Move last updated date above greeting, format as "Version MM/DD/YYYY"
 - [x] **Workflow Guide Section:** Add new section to manual with user instructions (photo upload, content updates, procedures)
 - [x] **Main House:** Add washer/dryer photos and specifications to appliances section
+- [ ] **Water Shutoff Access:** Replace wooden plank cover with proper access lid/cover
