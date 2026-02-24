@@ -145,16 +145,8 @@ export default function Section() {
                     </div>
                   </CardHeader>
                   <CardContent className="p-6 space-y-6">
-                  {subsection.intro && (
-                    <div className="text-sm leading-relaxed">
-                      <div className="prose prose-stone dark:prose-invert max-w-none">
-                        <Streamdown>{subsection.intro}</Streamdown>
-                      </div>
-                    </div>
-                  )}
-                  
                   {subsection.items && subsection.items.length > 0 && (
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       {subsection.items.map((item, itemIdx) => (
                         <div key={itemIdx} className="bg-background rounded-lg p-4 border border-border/60 hover:border-primary/30 transition-colors">
                           <h4 className="font-medium text-foreground mb-2 flex items-center gap-2">
@@ -171,8 +163,8 @@ export default function Section() {
                     </div>
                   )}
 
-                  {/* If no items but content exists */}
-                  {(!subsection.items || subsection.items.length === 0) && subsection.content && !subsection.intro && (
+                  {/* Display content if it exists (regardless of intro or items) */}
+                  {subsection.content && (
                     <div className="text-sm leading-relaxed">
                       <div className="prose prose-stone dark:prose-invert max-w-none">
                         <Streamdown>{subsection.content}</Streamdown>

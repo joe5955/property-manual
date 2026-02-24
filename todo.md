@@ -61,3 +61,4 @@
 - [x] **Home Page:** Redesign hero section to show estate photo as prominent header image above greeting
 - [x] **Home Page:** Make hero section full-width for more dramatic visual impact
 - [x] **Caretaker's House:** Create separate top-level section with all photos from GitHub - electrical, heating, appliances, laundry, water heater, structure, fuel systems
+- [x] **Caretaker's House:** Fix photo display issue - photos not showing up in section
