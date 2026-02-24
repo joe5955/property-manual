@@ -162,8 +162,82 @@
     {
       "id": "caretaker",
       "title": "Caretaker House",
-      "content": "**Status:** In Progress\n\n### Electrical\n- **Main Breaker Panel:** Load center with handwritten circuit directory\n- **Transfer Switch:** MTS Manual Transfer Switch (Generator to Utility Power) by Elanor Electric, Everett WA\n- **Maximum Rating:** 100 Amps\n- **Panel Directory:** Includes circuits for range, dryer, bathroom water, hot water, lights, club, panel, utility room, washer, kitchen living, bathroom, appliances, office, laundry, and boot room",
+      "content": "**Status:** Documented\n\n### Kitchen Appliances\n- **Dishwasher:** KitchenAid Model KDFE104DBL5 (Black, built-in)\n- **Microwave:** GE Sensor Microwave Oven (White/cream, countertop, no model/serial available)\n- **Refrigerator:** Frigidaire Model FFHS2622MSNA, Serial 4A44813686 (Black, side-by-side with ice/water dispenser, manufactured 12/2014, ~11 years old, 8.50A 115V)\n- **Range:** Whirlpool Model WFC310S0EB1, Serial R81030795 (Black, 4-burner coil cooktop with oven, 120/208-240V, 8.8-11.7 KW)\n\n### Laundry\n- **Washer:** Whirlpool Model WFW4T20RW0, Serial CD3700848 (12.0A, 120V)\n- **Dryer:** Whirlpool Model WED7500GW0, Serial M74416721 (120/208V 23A or 120/240V 24A)\n\n### Water Heater\n- **Bradford White** Model RE350T6-1NCWW, Serial SB40976517 (50 gallon, Electric, 240V/208V, 4500W upper/lower elements)\n\n### Heating\n- **Wood Stove:** Fisher cast iron wood stove with blower motor, on brick hearth\n- **Furnace:** Thermo Pride Oil-Fired Furnace, No. AR773354, Model OC2 56D, oil burner TP-1401 (0.55 GPH, 120 PSI, 115V, 70,000 BTU input / 57,000 BTU output, 14.55 total amps)\n- **Thermostat:** Honeywell ProSeries (programmable, Heat/Cool modes)\n\n### Fuel\n- Two exterior above-ground oil tanks: Green tank (left) for house furnace, Silver/white tank (right) for generator\n\n### Structure & Exterior\n- Dark green vertical board siding, metal roof, stone chimney\n- Crawl space access on exterior with junction box above\n- Water shutoff located in crawl space\n\n### Electrical\n- **Main Breaker Panel:** Load center with handwritten circuit directory\n- **Transfer Switch:** MTS Manual Transfer Switch (Generator to Utility Power) by Elanor Electric, Everett WA\n- **Maximum Rating:** 100 Amps\n- **Panel Directory:** Includes circuits for range, dryer, bathroom water, hot water, lights, club, panel, utility room, washer, kitchen living, bathroom, appliances, office, laundry, and boot room",
       "subsections": [
+        {
+          "id": "kitchen-appliances",
+          "title": "Kitchen Appliances",
+          "content": "- **Dishwasher:** KitchenAid Model KDFE104DBL5 (Black, built-in)\n- **Microwave:** GE Sensor Microwave Oven (White/cream, countertop, no model/serial available)\n- **Refrigerator:** Frigidaire Model FFHS2622MSNA, Serial 4A44813686 (Black, side-by-side with ice/water dispenser, manufactured 12/2014, ~11 years old, 8.50A 115V)\n- **Range:** Whirlpool Model WFC310S0EB1, Serial R81030795 (Black, 4-burner coil cooktop with oven, 120/208-240V, 8.8-11.7 KW)",
+          "items": [],
+          "intro": "- **Dishwasher:** KitchenAid Model KDFE104DBL5 (Black, built-in)\n- **Microwave:** GE Sensor Microwave Oven (White/cream, countertop)\n- **Refrigerator:** Frigidaire FFHS2622MSNA (Black, side-by-side, ~11 years old)\n- **Range:** Whirlpool WFC310S0EB1 (Black, 4-burner coil cooktop with oven)",
+          "images": [
+            {"url": "/images/caretaker/kitchen-appliances/01_dishwasher_kitchenaid.jpg", "caption": "KitchenAid Dishwasher KDFE104DBL5"},
+            {"url": "/images/caretaker/kitchen-appliances/02_dishwasher_model_label.jpg", "caption": "Dishwasher Model Label"},
+            {"url": "/images/caretaker/kitchen-appliances/03_microwave_ge_sensor.jpg", "caption": "GE Sensor Microwave Oven"},
+            {"url": "/images/caretaker/kitchen-appliances/04_refrigerator_frigidaire.jpg", "caption": "Frigidaire Refrigerator FFHS2622MSNA"},
+            {"url": "/images/caretaker/kitchen-appliances/05_refrigerator_model_label.jpg", "caption": "Refrigerator Model Label"},
+            {"url": "/images/caretaker/kitchen-appliances/06_range_whirlpool_label.jpg", "caption": "Whirlpool Range Model Label"},
+            {"url": "/images/caretaker/kitchen-appliances/07_range_whirlpool_overview.jpg", "caption": "Whirlpool Range Overview"}
+          ]
+        },
+        {
+          "id": "laundry",
+          "title": "Laundry",
+          "content": "- **Washer:** Whirlpool Model WFW4T20RW0, Serial CD3700848 (12.0A, 120V)\n- **Dryer:** Whirlpool Model WED7500GW0, Serial M74416721 (120/208V 23A or 120/240V 24A)",
+          "items": [],
+          "intro": "- **Washer:** Whirlpool WFW4T20RW0 (Front-load, 12.0A, 120V)\n- **Dryer:** Whirlpool WED7500GW0 (120/208V 23A or 120/240V 24A)",
+          "images": [
+            {"url": "/images/caretaker/laundry/01_washer_dryer_overview.jpg", "caption": "Washer and Dryer Overview"},
+            {"url": "/images/caretaker/laundry/02_washer_model_label.jpg", "caption": "Washer Model Label"},
+            {"url": "/images/caretaker/laundry/03_dryer_whirlpool.jpg", "caption": "Whirlpool Dryer WED7500GW0"},
+            {"url": "/images/caretaker/laundry/04_dryer_model_label.jpg", "caption": "Dryer Model Label"}
+          ]
+        },
+        {
+          "id": "water-heater",
+          "title": "Water Heater",
+          "content": "- **Bradford White** Model RE350T6-1NCWW, Serial SB40976517\n- **Capacity:** 50 gallon\n- **Type:** Electric\n- **Voltage:** 240V/208V\n- **Wattage:** 4500W upper element / 4500W lower element",
+          "items": [],
+          "intro": "- **Bradford White** RE350T6-1NCWW (50 gallon, Electric, 240V/208V, 4500W upper/lower elements)",
+          "images": [
+            {"url": "/images/caretaker/water-heater/01_water_heater_bradford_white.jpg", "caption": "Bradford White Water Heater"},
+            {"url": "/images/caretaker/water-heater/02_water_heater_model_label.jpg", "caption": "Water Heater Model Label"}
+          ]
+        },
+        {
+          "id": "heating",
+          "title": "Heating",
+          "content": "- **Wood Stove:** Fisher cast iron wood stove with blower motor, on brick hearth\n- **Furnace:** Thermo Pride Oil-Fired Furnace, No. AR773354, Model OC2 56D, oil burner TP-1401 (0.55 GPH, 120 PSI, 115V, 70,000 BTU input / 57,000 BTU output, 14.55 total amps)\n- **Thermostat:** Honeywell ProSeries (programmable, Heat/Cool modes)",
+          "items": [],
+          "intro": "- **Wood Stove:** Fisher cast iron wood stove with blower motor\n- **Furnace:** Thermo Pride Oil-Fired Furnace, Model OC2 56D (70,000 BTU input / 57,000 BTU output)\n- **Thermostat:** Honeywell ProSeries (programmable)",
+          "images": [
+            {"url": "/images/caretaker/heating/01_fisher_wood_stove.jpg", "caption": "Fisher Cast Iron Wood Stove"},
+            {"url": "/images/caretaker/heating/02_furnace_thermo_pride.jpg", "caption": "Thermo Pride Oil-Fired Furnace"},
+            {"url": "/images/caretaker/heating/03_furnace_model_label.jpg", "caption": "Furnace Model Label"},
+            {"url": "/images/caretaker/heating/04_thermostat_honeywell.jpg", "caption": "Honeywell ProSeries Thermostat"}
+          ]
+        },
+        {
+          "id": "fuel",
+          "title": "Fuel",
+          "content": "- **Oil Tanks:** Two exterior above-ground oil tanks\n- **Green tank (left):** Supplies house furnace\n- **Silver/white tank (right):** Supplies generator",
+          "items": [],
+          "intro": "Two exterior above-ground oil tanks: Green tank (left) for house furnace, Silver/white tank (right) for generator",
+          "images": [
+            {"url": "/images/caretaker/fuel/01_oil_tanks_exterior.jpg", "caption": "Exterior Oil Tanks"}
+          ]
+        },
+        {
+          "id": "structure-and-exterior",
+          "title": "Structure & Exterior",
+          "content": "- **Siding:** Dark green vertical board siding\n- **Roof:** Metal roof\n- **Chimney:** Stone chimney\n- **Crawl Space:** Access on exterior with junction box above\n- **Water Shutoff:** Located in crawl space",
+          "items": [],
+          "intro": "Dark green vertical board siding, metal roof, stone chimney. Crawl space access on exterior with junction box above. Water shutoff located in crawl space.",
+          "images": [
+            {"url": "/images/caretaker/structure/01_crawl_space_access.jpg", "caption": "Crawl Space Access"},
+            {"url": "/images/caretaker/structure/02_exterior_overview.jpg", "caption": "Exterior Overview"}
+          ]
+        },
         {
           "id": "electrical",
           "title": "Electrical",
@@ -177,7 +251,7 @@
           ]
         }
       ],
-      "intro": "**Status:** In Progress"
+      "intro": "**Status:** Documented"
     }
   ]
 }
