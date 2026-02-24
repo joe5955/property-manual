@@ -58,3 +58,4 @@
 - [x] **Main House:** Delete "Water Systems Photos" subsection (contains duplicate photos)
 - [x] **Home Page:** Fix React DOM nesting error - <p> cannot contain nested <div>
 - [x] **Home Page:** Upload estate photo to CDN and update hero section background image
+- [x] **Home Page:** Redesign hero section to show estate photo as prominent header image above greeting
