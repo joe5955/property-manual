@@ -1,11 +1,11 @@
-import { useEffect } from "react";
+import { useEffect, useState, useRef } from "react";
 import { useRoute, Link } from "wouter";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
-import { ArrowLeft, ChevronRight, FileText, MapPin, Home, Wrench, Shield, Droplet, Zap, Anchor, AlertTriangle } from "lucide-react";
+import { ArrowLeft, ChevronRight, ChevronDown, FileText, MapPin, Home, Wrench, Shield, Droplet, Zap, Anchor, AlertTriangle, List } from "lucide-react";
 import RequestQuoteButton from "@/components/RequestQuoteButton";
 import { Streamdown } from "streamdown";
 import manualData from "@/data/manual-data.json";
@@ -43,6 +43,9 @@ interface ManualSection {
 
 export default function Section() {
   const [match, params] = useRoute("/section/:id");
+  const [tocOpen, setTocOpen] = useState(false);
+  const [imgErrors, setImgErrors] = useState<Record<string, boolean>>({});
+  const subsectionRefs = useRef<Record<string, HTMLDivElement | null>>({});
   
   if (!match || !params) return <NotFound />;
 
@@ -54,6 +57,8 @@ export default function Section() {
   // Scroll to top when section changes
   useEffect(() => {
     window.scrollTo(0, 0);
+    setTocOpen(false);
+    setImgErrors({});
   }, [sectionId]);
 
   // Helper to get icon for section
@@ -67,6 +72,18 @@ export default function Section() {
     if (id.includes("electric") || id.includes("power")) return <Zap className="h-6 w-6" />;
     if (id.includes("dock") || id.includes("marine")) return <Anchor className="h-6 w-6" />;
     return <FileText className="h-6 w-6" />;
+  };
+
+  const scrollToSubsection = (subId: string) => {
+    const el = subsectionRefs.current[subId];
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+      setTocOpen(false);
+    }
+  };
+
+  const handleImgError = (url: string) => {
+    setImgErrors(prev => ({ ...prev, [url]: true }));
   };
 
   return (
@@ -92,6 +109,37 @@ export default function Section() {
         </div>
 
         <Separator />
+
+        {/* Mobile Table of Contents - visible on small screens */}
+        {section.subsections.length > 0 && (
+          <div className="lg:hidden">
+            <button
+              onClick={() => setTocOpen(!tocOpen)}
+              className="w-full flex items-center justify-between px-4 py-3 bg-muted/40 rounded-lg border border-border/60 hover:bg-muted/60 transition-colors"
+            >
+              <div className="flex items-center gap-2 text-sm font-medium text-foreground">
+                <List className="h-4 w-4 text-primary" />
+                <span>Sections in this page ({section.subsections.length})</span>
+              </div>
+              <ChevronDown className={`h-4 w-4 text-muted-foreground transition-transform duration-200 ${tocOpen ? 'rotate-180' : ''}`} />
+            </button>
+            {tocOpen && (
+              <div className="mt-2 bg-card rounded-lg border border-border/60 shadow-sm overflow-hidden animate-in slide-in-from-top-2 duration-200">
+                <nav className="flex flex-col py-1">
+                  {section.subsections.map((sub, idx) => (
+                    <button 
+                      key={idx} 
+                      className="text-left text-sm text-muted-foreground hover:text-primary hover:bg-muted/30 py-2.5 px-4 border-l-2 border-transparent hover:border-primary transition-all duration-200"
+                      onClick={() => scrollToSubsection(sub.id)}
+                    >
+                      {sub.title}
+                    </button>
+                  ))}
+                </nav>
+              </div>
+            )}
+          </div>
+        )}
 
         {/* Main Content */}
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
@@ -137,73 +185,88 @@ export default function Section() {
               }
 
               return (
-                <Card key={idx} className={`overflow-hidden border-border/60 shadow-sm hover:shadow-md transition-shadow duration-300 ${isCriticalWaterHeater ? 'border-red-200 dark:border-red-900/50 bg-red-50/30 dark:bg-red-900/10' : ''}`}>
-                  <CardHeader className={`bg-muted/30 border-b border-border/40 pb-4 ${isCriticalWaterHeater ? 'bg-red-100/50 dark:bg-red-900/20' : ''}`}>
-                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                      <CardTitle className={`font-serif text-xl ${isCriticalWaterHeater ? 'text-red-700 dark:text-red-400 flex items-center gap-2' : 'text-primary'}`}>
-                        {isCriticalWaterHeater && <AlertTriangle className="h-5 w-5" />}
-                        {subsection.title}
-                      </CardTitle>
-                      {isCriticalWaterHeater && quoteDetails && (
-                        <RequestQuoteButton {...quoteDetails} />
-                      )}
-                    </div>
-                  </CardHeader>
-                  <CardContent className="p-6 space-y-6">
-                  {subsection.intro && (
-                    <div className="prose prose-stone dark:prose-invert max-w-none text-sm leading-relaxed">
-                      <Streamdown>{subsection.intro}</Streamdown>
-                    </div>
-                  )}
-                  
-                  {subsection.items && subsection.items.length > 0 && (
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-                      {subsection.items.map((item, itemIdx) => (
-                        <div key={itemIdx} className="bg-background rounded-lg p-4 border border-border/60 hover:border-primary/30 transition-colors">
-                          <h4 className="font-medium text-foreground mb-2 flex items-center gap-2">
-                            <div className="h-1.5 w-1.5 rounded-full bg-secondary"></div>
-                            {item.title}
-                          </h4>
-                          <div className="text-sm text-muted-foreground prose prose-sm dark:prose-invert max-w-none">
-                            <Streamdown>{item.content}</Streamdown>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  )}
-
-                  {/* If no items but content exists */}
-                  {(!subsection.items || subsection.items.length === 0) && subsection.content && !subsection.intro && (
-                    <div className="prose prose-stone dark:prose-invert max-w-none text-sm leading-relaxed">
-                      <Streamdown>{subsection.content}</Streamdown>
-                    </div>
-                  )}
-
-                  {/* Photo Gallery */}
-                  {subsection.images && subsection.images.length > 0 && (
-                    <div className="mt-4">
-                      <h4 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-3">Photos</h4>
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                        {subsection.images.map((img, imgIdx) => (
-                          <div key={imgIdx} className="rounded-lg overflow-hidden border border-border/60 bg-muted/20">
-                            <a href={img.url} target="_blank" rel="noopener noreferrer">
-                              <img
-                                src={img.url}
-                                alt={img.caption || subsection.title}
-                                className="w-full h-48 object-cover hover:opacity-90 transition-opacity cursor-zoom-in"
-                                loading="lazy"
-                              />
-                            </a>
-                            {img.caption && (
-                              <p className="text-xs text-muted-foreground px-3 py-2 leading-snug">{img.caption}</p>
-                            )}
+                <div
+                  key={idx}
+                  ref={(el) => { subsectionRefs.current[subsection.id] = el; }}
+                  id={subsection.id}
+                  className="scroll-mt-20"
+                >
+                  <Card className={`overflow-hidden border-border/60 shadow-sm hover:shadow-md transition-shadow duration-300 ${isCriticalWaterHeater ? 'border-red-200 dark:border-red-900/50 bg-red-50/30 dark:bg-red-900/10' : ''}`}>
+                    <CardHeader className={`bg-muted/30 border-b border-border/40 pb-4 ${isCriticalWaterHeater ? 'bg-red-100/50 dark:bg-red-900/20' : ''}`}>
+                      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                        <CardTitle className={`font-serif text-xl ${isCriticalWaterHeater ? 'text-red-700 dark:text-red-400 flex items-center gap-2' : 'text-primary'}`}>
+                          {isCriticalWaterHeater && <AlertTriangle className="h-5 w-5" />}
+                          {subsection.title}
+                        </CardTitle>
+                        {isCriticalWaterHeater && quoteDetails && (
+                          <RequestQuoteButton {...quoteDetails} />
+                        )}
+                      </div>
+                    </CardHeader>
+                    <CardContent className="p-6 space-y-6">
+                    {subsection.intro && (
+                      <div className="prose prose-stone dark:prose-invert max-w-none text-sm leading-relaxed">
+                        <Streamdown>{subsection.intro}</Streamdown>
+                      </div>
+                    )}
+                    
+                    {subsection.items && subsection.items.length > 0 && (
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                        {subsection.items.map((item, itemIdx) => (
+                          <div key={itemIdx} className="bg-background rounded-lg p-4 border border-border/60 hover:border-primary/30 transition-colors">
+                            <h4 className="font-medium text-foreground mb-2 flex items-center gap-2">
+                              <div className="h-1.5 w-1.5 rounded-full bg-secondary"></div>
+                              {item.title}
+                            </h4>
+                            <div className="text-sm text-muted-foreground prose prose-sm dark:prose-invert max-w-none">
+                              <Streamdown>{item.content}</Streamdown>
+                            </div>
                           </div>
                         ))}
                       </div>
-                    </div>
-                  )}
-                </CardContent>
-              </Card>
+                    )}
+
+                    {/* If no items but content exists */}
+                    {(!subsection.items || subsection.items.length === 0) && subsection.content && !subsection.intro && (
+                      <div className="prose prose-stone dark:prose-invert max-w-none text-sm leading-relaxed">
+                        <Streamdown>{subsection.content}</Streamdown>
+                      </div>
+                    )}
+
+                    {/* Photo Gallery - mobile-optimized */}
+                    {subsection.images && subsection.images.length > 0 && (
+                      <div className="mt-4">
+                        <h4 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-3">Photos</h4>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                          {subsection.images.map((img, imgIdx) => (
+                            <div key={imgIdx} className="rounded-lg overflow-hidden border border-border/60 bg-muted/20">
+                              {!imgErrors[img.url] ? (
+                                <a href={img.url} target="_blank" rel="noopener noreferrer">
+                                  <img
+                                    src={img.url}
+                                    alt={img.caption || subsection.title}
+                                    className="w-full h-auto min-h-[120px] max-h-[400px] object-cover hover:opacity-90 transition-opacity cursor-zoom-in"
+                                    loading="lazy"
+                                    decoding="async"
+                                    onError={() => handleImgError(img.url)}
+                                  />
+                                </a>
+                              ) : (
+                                <div className="w-full h-48 flex items-center justify-center bg-muted/40 text-muted-foreground text-sm">
+                                  <span>Image unavailable</span>
+                                </div>
+                              )}
+                              {img.caption && (
+                                <p className="text-xs text-muted-foreground px-3 py-2 leading-snug">{img.caption}</p>
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </CardContent>
+                </Card>
+                </div>
               );
             })}
 
@@ -217,7 +280,7 @@ export default function Section() {
             )}
           </div>
 
-          {/* Sidebar / Table of Contents */}
+          {/* Sidebar / Table of Contents - desktop only */}
           <div className="hidden lg:block lg:col-span-1">
             <div className="sticky top-24 space-y-6">
               <Card className="bg-muted/30 border-none shadow-none">
@@ -227,18 +290,13 @@ export default function Section() {
                 <CardContent className="p-0 px-6 pb-6">
                   <nav className="flex flex-col space-y-1">
                     {section.subsections.map((sub, idx) => (
-                      <a 
+                      <button 
                         key={idx} 
-                        href={`#${sub.id}`} 
-                        className="text-sm text-muted-foreground hover:text-primary py-1.5 border-l-2 border-transparent hover:border-primary pl-3 transition-all duration-200"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          // In a real implementation, we'd add IDs to the subsection cards
-                          // For now, just a visual link
-                        }}
+                        className="text-left text-sm text-muted-foreground hover:text-primary py-1.5 border-l-2 border-transparent hover:border-primary pl-3 transition-all duration-200"
+                        onClick={() => scrollToSubsection(sub.id)}
                       >
                         {sub.title}
-                      </a>
+                      </button>
                     ))}
                     {section.subsections.length === 0 && (
                       <span className="text-sm text-muted-foreground italic pl-3">No subsections</span>

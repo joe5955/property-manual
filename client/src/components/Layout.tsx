@@ -164,7 +164,7 @@ export default function Layout({ children }: LayoutProps) {
         </div>
         
         {/* Footer */}
-        <footer className="lg:pl-72 py-8 border-t border-border/40 mt-auto">
+        <footer className="py-8 border-t border-border/40 mt-auto">
           <div className="container max-w-5xl mx-auto px-4 text-center md:text-left">
             <p className="text-sm text-muted-foreground">
               &copy; {new Date().getFullYear()} San Juan County Estate Property Manual. Confidential Document.
