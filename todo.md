@@ -64,4 +64,4 @@
 - [x] **Caretaker's House:** Fix photo display issue - photos not showing up in section
 - [x] **Skill Creation:** Create appliance-manual-linker skill for finding and adding manufacturer manual links
 - [x] **All Buildings:** Apply skill to add online manual links for all appliances and equipment
-- [ ] **GitHub:** Push all updates to GitHub repository
+- [x] **GitHub:** Push all updates to GitHub repository
