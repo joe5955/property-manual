@@ -158,6 +158,26 @@
         }
       ],
       "intro": "**Status:** Documented"
+    },
+    {
+      "id": "caretaker",
+      "title": "Caretaker",
+      "content": "**Status:** In Progress\n\n### Electrical\n- **Main Breaker Panel:** Load center with handwritten circuit directory\n- **Transfer Switch:** MTS Manual Transfer Switch (Generator to Utility Power) by Elanor Electric, Everett WA\n- **Maximum Rating:** 100 Amps\n- **Panel Directory:** Includes circuits for range, dryer, bathroom water, hot water, lights, club, panel, utility room, washer, kitchen living, bathroom, appliances, office, laundry, and boot room",
+      "subsections": [
+        {
+          "id": "electrical",
+          "title": "Electrical",
+          "content": "- **Main Breaker Panel:** Load center with handwritten circuit directory\n- **Transfer Switch:** MTS Manual Transfer Switch (Generator to Utility Power) by Elanor Electric, Everett WA\n- **Maximum Rating:** 100 Amps\n- **Panel Directory:** Includes circuits for range, dryer, bathroom water, hot water, lights, club, panel, utility room, washer, kitchen living, bathroom, appliances, office, laundry, and boot room",
+          "items": [],
+          "intro": "- **Main Breaker Panel:** Load center with handwritten circuit directory\n- **Transfer Switch:** MTS Manual Transfer Switch (Generator to Utility Power) by Elanor Electric, Everett WA\n- **Maximum Rating:** 100 Amps",
+          "images": [
+            {"url": "/images/caretaker/electrical/01_electrical_panels_overview.jpg", "caption": "Electrical Panels Overview"},
+            {"url": "/images/caretaker/electrical/02_main_breaker_panel.jpg", "caption": "Main Breaker Panel"},
+            {"url": "/images/caretaker/electrical/03_mts_transfer_switch.jpg", "caption": "MTS Transfer Switch"}
+          ]
+        }
+      ],
+      "intro": "**Status:** In Progress"
     }
   ]
 }
