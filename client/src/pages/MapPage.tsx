@@ -54,6 +54,9 @@ export default function MapPage() {
                   <MapPin className="h-4 w-4" />
                   Property Locations
                 </CardTitle>
+                <p className="text-xs text-muted-foreground mt-2 leading-relaxed">
+                  💡 <strong>Tip:</strong> Click "Open in Google Maps" above to use the interactive legend. Hover over locations in the Google Maps legend to highlight them on the map.
+                </p>
               </CardHeader>
               <CardContent className="p-0">
                 <ScrollArea className="h-[550px]">

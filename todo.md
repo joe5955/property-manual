@@ -109,3 +109,4 @@
 
 ## Interactive Map Enhancements
 - [x] **Property Locations Legend:** Create interactive list matching Google Maps legend (Property Entrance, Main House, Chalet, Beach House, Madrona, Caretaker House, Farm House, Picnic Pavilion, Boathouse, Shops, Equipment Yard, Pump Shed, Water Tank, Upper Pond, Windmill and Old Cabin, Point 2) with hover interactions
+- [x] **Property Locations Instructions:** Replace legend with instructions to open in Google Maps for interactive legend feature
