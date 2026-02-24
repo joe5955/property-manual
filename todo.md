@@ -72,3 +72,6 @@
 
 ## Workflow Improvements
 - [x] **GitHub Integration:** Document best practice to always use fresh clone when checking for new photos (documented in GITHUB_WORKFLOW.md)
+
+## Photo Integration
+- [x] **Chalet Refrigerator:** Add photo #17 from existing 26 photos to Kitchenette section

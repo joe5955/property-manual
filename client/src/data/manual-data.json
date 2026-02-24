@@ -147,7 +147,10 @@
           "title": "Kitchenette",
           "content": "- **Refrigerator:** Danby Designer (Compact under-counter model)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel",
           "items": [],
-          "intro": "- **Refrigerator:** Danby Designer (Compact under-counter model)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel"
+          "intro": "- **Refrigerator:** Danby Designer (Compact under-counter model)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel",
+          "images": [
+            {"url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/90bdd0cd-a84c-4885-a9c6-e67fd4288837350716809401078327.jpg", "caption": "Danby Designer compact refrigerator — under-counter model"}
+          ]
         },
         {
           "id": "systems",
