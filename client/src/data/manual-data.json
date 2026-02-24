@@ -104,14 +104,43 @@
     {
       "id": "the-chalet",
       "title": "The Chalet",
-      "content": "**Status:** Documented\n\n### Heating & Comfort\n- **Heating:** Cadet Electric Wall Heater (Model: CS102, 1000W/240V)\n- **Stove:** Jefferson Direct Vent Gas Stove (Model: JDV RP, Serial: 2684) - [View Manual](https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf)\n- **Thermostat:** Wall-mounted dial control\n\n### Kitchenette\n- **Refrigerator:** Danby Designer (Compact under-counter model)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel\n\n### Systems\n- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)\n- **Electrical:** Square D Load Center (Sub-panel located in utility closet)\n\n### Maintenance Notes\n- **Winterization:** Ensure wall heaters are set to frost protection (approx. 45\u00b0F) during winter months.\n- **Water Heater:** Drain 1-2 gallons annually to remove sediment.",
+      "content": "**Status:** Documented\n\n### Structure & Exterior\n- **Foundation:** Pier foundation\n- **Exterior:** Board-and-batten siding, painted tan/beige\n- **Rear:** Elevated deck with stairs and wire-mesh railing\n- **Front:** Covered porch with columns, water views\n\n### Heating & Comfort\n- **Thermostat (Zone 1 – Bedroom):** King Comfort Zone dial thermostat (by King Electric)\n- **Thermostat (Zone 2 – Living Area):** King Comfort Zone dial thermostat (by King Electric)\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove\n  - **Model:** JDV RP | **Serial:** 2684\n  - **Fuel:** Propane | **Input:** 19,000 BTUH | **Output:** 28,000 BTUH (19,600 BTUH Canadian rating)\n  - **Manufacturer:** Vermont Castings Majestic Products, Bethel, VT\n  - **Certified:** ANSI Z21.88B-1998, CGA 2.33B-M98\n  - **Supply Pressure (Propane):** 11.0\u2013 13.0\u201d W.C. | **Manifold Pressure:** 10.0\u201d W.C.\n  - [View Manual](https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf)\n\n### Electrical\n- **Panel:** Square D QO Load Center (Cat. No. QOC-20M, Series B1), wall-mounted with cedar trim\n- **Circuit Directory:** Heat (×2 zones), Water Heater, Bedrooms, Living Room, Kitchen, Bathroom, Basement, Microwave\n\n### Kitchenette\n- **Refrigerator:** Danby Designer (Compact under-counter model)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel\n\n### Systems\n- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)\n\n### Maintenance Notes\n- **Winterization:** Ensure wall heaters are set to frost protection (approx. 45\u00b0F) during winter months.\n- **Water Heater:** Drain 1-2 gallons annually to remove sediment.",
       "subsections": [
+        {
+          "id": "structure-exterior",
+          "title": "Structure & Exterior",
+          "content": "- **Foundation:** Pier foundation\n- **Exterior:** Board-and-batten siding, painted tan/beige\n- **Rear:** Elevated deck with stairs and wire-mesh railing\n- **Front:** Covered porch with columns, water views",
+          "items": [],
+          "intro": "- **Foundation:** Pier foundation\n- **Exterior:** Board-and-batten siding, painted tan/beige\n- **Rear:** Elevated deck with stairs and wire-mesh railing\n- **Front:** Covered porch with columns, water views",
+          "images": [
+            {"url": "/images/the-chalet/structure-exterior/01_chalet_exterior_rear_deck_pier_foundation.jpg", "caption": "Chalet exterior — rear view with elevated deck, stairs, and pier foundation"},
+            {"url": "/images/the-chalet/structure-exterior/02_chalet_front_entry_porch_water_view.jpg", "caption": "Chalet front entry — covered porch with columns, blue patio chairs, and water view"}
+          ]
+        },
         {
           "id": "heating-and-comfort",
           "title": "Heating & Comfort",
-          "content": "- **Heating:** Cadet Electric Wall Heater (Model: CS102, 1000W/240V)\n- **Stove:** Jefferson Direct Vent Gas Stove (Model: JDV RP, Serial: 2684) - [View Manual](https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf)\n- **Thermostat:** Wall-mounted dial control",
+          "content": "- **Thermostat (Zone 1 – Bedroom):** King Comfort Zone dial thermostat (by King Electric)\n- **Thermostat (Zone 2 – Living Area):** King Comfort Zone dial thermostat (by King Electric)\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove\n  - **Model:** JDV RP | **Serial:** 2684\n  - **Fuel:** Propane | **Input:** 19,000 BTUH | **Output:** 28,000 BTUH (19,600 BTUH Canadian rating)\n  - **Manufacturer:** Vermont Castings Majestic Products, Bethel, VT\n  - **Certified:** ANSI Z21.88B-1998, CGA 2.33B-M98\n  - **Supply Pressure (Propane):** 11.0\u2013 13.0\u201d W.C. | **Manifold Pressure:** 10.0\u201d W.C.\n  - [View Manual](https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf)",
           "items": [],
-          "intro": "- **Heating:** Cadet Electric Wall Heater (Model: CS102, 1000W/240V)\n- **Stove:** Jefferson Direct Vent Gas Stove (Model: JDV RP, Serial: 2684) - [View Manual](https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf)\n- **Thermostat:** Wall-mounted dial control"
+          "intro": "- **Thermostat (Zone 1 – Bedroom):** King Comfort Zone dial thermostat\n- **Thermostat (Zone 2 – Living Area):** King Comfort Zone dial thermostat\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove (Model: JDV RP, Serial: 2684, Propane, 19,000 BTUH input / 28,000 BTUH output)",
+          "images": [
+            {"url": "/images/the-chalet/heating-and-comfort/01_king_comfort_zone_thermostat_zone1_bedroom.jpg", "caption": "King Comfort Zone dial thermostat — Zone 1 (bedroom area)"},
+            {"url": "/images/the-chalet/heating-and-comfort/02_king_comfort_zone_thermostat_zone2_living.jpg", "caption": "King Comfort Zone dial thermostat — Zone 2 (living area)"},
+            {"url": "/images/the-chalet/heating-and-comfort/03_vermont_castings_jefferson_gas_stove.jpg", "caption": "Vermont Castings Jefferson Direct Vent Gas Stove — cast iron, propane"},
+            {"url": "/images/the-chalet/heating-and-comfort/04_gas_stove_operation_lighting_instructions.jpg", "caption": "Gas stove operation and lighting instructions label"},
+            {"url": "/images/the-chalet/heating-and-comfort/05_gas_stove_rating_plate_jdv_rp_serial_2684.jpg", "caption": "Gas stove rating plate — Model JDV RP, Serial 2684, Propane, 19,000 BTUH input / 28,000 BTUH output"}
+          ]
+        },
+        {
+          "id": "electrical",
+          "title": "Electrical",
+          "content": "- **Panel:** Square D QO Load Center (Cat. No. QOC-20M, Series B1), wall-mounted with cedar trim\n- **Circuit Directory:**\n  - 1: Heat (Zone 1) | 2: Water Heater\n  - 3: Heat (Zone 1 Bed) | 4: Water Heater\n  - 5: Heat (Zone 2) | 6: Bed Room\n  - 7: Heat (Zone 2 Living) | 8: Heat\n  - 9: Living Room / Porch | 10: Ref. Ki. Rec.\n  - 11: Bed Room | 12: Bath. Rec.\n  - 13: Bed Room | 14: Basement / Light / Bed Bath\n  - 15: (spare) | 16: Basement / Garage\n  - 17: (spare) | 18: Microwave",
+          "items": [],
+          "intro": "- **Panel:** Square D QO Load Center (Cat. No. QOC-20M, Series B1), wall-mounted with cedar trim\n- **Circuits:** Heat (×2 zones), Water Heater, Bedrooms, Living Room, Kitchen, Bathroom, Basement, Microwave",
+          "images": [
+            {"url": "/images/the-chalet/electrical/01_electrical_panel_closed_cedar_trim.jpg", "caption": "Electrical panel — closed, wall-mounted with cedar trim"},
+            {"url": "/images/the-chalet/electrical/02_square_d_qo_load_center_open_circuit_directory.jpg", "caption": "Square D QO Load Center — panel open with handwritten circuit directory"}
+          ]
         },
         {
           "id": "kitchenette",
@@ -123,9 +152,9 @@
         {
           "id": "systems",
           "title": "Systems",
-          "content": "- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)\n- **Electrical:** Square D Load Center (Sub-panel located in utility closet)",
+          "content": "- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)",
           "items": [],
-          "intro": "- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)\n- **Electrical:** Square D Load Center (Sub-panel located in utility closet)"
+          "intro": "- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)"
         }
       ],
       "intro": "**Status:** Documented"
