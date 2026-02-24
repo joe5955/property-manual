@@ -36,7 +36,7 @@ export default function Home() {
       <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
         {/* Hero Section */}
         <section className="relative overflow-hidden rounded-xl bg-gradient-to-br from-primary/90 to-primary text-primary-foreground shadow-xl">
-          <div className="absolute inset-0 bg-[url('/hero-estate-aerial.jpg')] bg-cover bg-center opacity-20 mix-blend-overlay"></div>
+          <div className="absolute inset-0 bg-[url('https://files.manuscdn.com/user_upload_by_module/session_file/113311765/HxammWwPlMbUWVck.jpg')] bg-cover bg-center opacity-20 mix-blend-overlay"></div>
           <div className="relative z-10 p-8 md:p-12 lg:p-16 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
             <div className="space-y-4 max-w-2xl">
               <div className="text-primary-foreground/70 text-sm font-medium tracking-wide">
