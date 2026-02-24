@@ -40,7 +40,7 @@
 - [x] **Beach House:** Fix Water Systems Photos section - only showing 1 of 5 photos
 
 ## Missing Photos Issues
-- [x] **The Chalet:** Propane stove and appliance photos from first batch not showing in section (fixed by adding image rendering to Section.tsx)
+- [ ] **The Chalet:** Propane stove and appliance photos from first batch not showing in section
 
 ## Documentation & Archive
 - [x] **GitHub Archive:** Create new GitHub repository to archive task thread and documentation
@@ -59,57 +59,10 @@
 - [x] **Home Page:** Fix React DOM nesting error - <p> cannot contain nested <div>
 - [x] **Home Page:** Upload estate photo to CDN and update hero section background image
 - [x] **Home Page:** Redesign hero section to show estate photo as prominent header image above greeting
-- [x] **Home Page:** Make hero section full-width for more dramatic visual impact
-- [x] **Caretaker's House:** Create separate top-level section with all photos from GitHub - electrical, heating, appliances, laundry, water heater, structure, fuel systems
-- [x] **Caretaker's House:** Fix photo display issue - photos not showing up in section
-- [x] **Skill Creation:** Create appliance-manual-linker skill for finding and adding manufacturer manual links
-- [x] **All Buildings:** Apply skill to add online manual links for all appliances and equipment
-- [x] **GitHub:** Push all updates to GitHub repository
-- [x] **The Chalet:** Integrate photos from GitHub repository with comprehensive documentation
+- [ ] **Home Page:** Make hero section full-width for more dramatic visual impact
 
-## Current Investigation
-- [x] **The Chalet Water Heater Photos:** Investigate missing water heater photos that were previously in the section (restored from git history)
-
-## Workflow Improvements
-- [x] **GitHub Integration:** Document best practice to always use fresh clone when checking for new photos (documented in GITHUB_WORKFLOW.md)
-
-## Photo Integration
-- [x] **Chalet Refrigerator:** Add photo #17 from existing 26 photos to Kitchenette section
-
-## Camp Kitchen Photo Integration
-- [x] **Photo #3:** Camp Kitchen stove (added to Appliances)
-- [x] **Photo #4:** Camp Kitchen transformer enclosure and meter (added to Utilities & Systems)
-- [x] **Photo #7:** Camp Kitchen genset instructions (added to Generator)
-- [x] **Photo #9:** Camp Kitchen genset north view (added to Generator)
-- [x] **Photo #12 & #13:** Camp Kitchen refrigerator (added to Appliances)
-- [x] **Photo #14:** Camp Kitchen transformer and meter (added to Utilities & Systems)
-- [x] **Photo #15:** Camp Kitchen genset east view (added to Generator)
-- [ ] **Photo #18:** Verify if duplicate of #15 or add as separate genset photo
-- [ ] **Photo #19:** Already integrated - verify display
-- [ ] **Photo #20:** Already integrated - verify display
-
-### Manufacturer Manual Links
-- [x] **Camp Kitchen Propane Range:** Amana TX145BW manual added (generic Amana gas range manual)
-- [ ] **Camp Kitchen Refrigerator:** Awaiting model number from rating plate photo
-- [x] **Camp Kitchen Rinnai Water Heater:** Already has manual link (Model V53e)3e)
-
-## Photo Display Issues
-- [x] **Camp Kitchen Appliances Photos:** Photos #3, #12, #13 not displaying - fixed by uploading to S3
-
-## Chalet Photo Display Issues
-- [x] **All Chalet photos:** Fixed by uploading fresh copies from GitHub to S3 (Structure, Heating, Electrical sections)
-
-## Camp Kitchen Photo Display Issues  
-- [x] **Utilities & Systems photos:** Fixed by uploading to S3 (generator enclosures, meter)
-- [x] **Generator photos:** Fixed by uploading to S3 (operating instructions, shed exterior, Dayton unit)
-- [x] **Electrical photos:** Added new subsection with panel and Main House disconnect photos
-
-## Interactive Map Updates
-- [x] **Google Maps Link:** Add custom property map link to Interactive Map page
-
-## Interactive Map Enhancements
-- [x] **Property Locations Legend:** Create interactive list matching Google Maps legend (Property Entrance, Main House, Chalet, Beach House, Madrona, Caretaker House, Farm House, Picnic Pavilion, Boathouse, Shops, Equipment Yard, Pump Shed, Water Tank, Upper Pond, Windmill and Old Cabin, Point 2) with hover interactions
-- [x] **Property Locations Instructions:** Replace legend with instructions to open in Google Maps for interactive legend feature
-
-## Photo Integration - Camp Kitchen
-- [x] **Photo #26:** Add to Camp Kitchen Water Heater subsection
+## Beach House Photo Integration
+- [x] **Find New Beach House Photos:** Check Photo Review for newly uploaded Beach House photos (uploaded ~10 min ago)
+- [x] **Integrate Beach House Photos:** Add new photos to Beach House section in manual-data.json
+- [x] **Upload Beach House Photos:** Uploaded 14 photos to CDN (appliances: 8, laundry: 4, water heater: 2)
+- [x] **Add Laundry Subsection:** Created new Laundry subsection with Maytag washer and dryer photos

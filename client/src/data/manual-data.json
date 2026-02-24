@@ -2,36 +2,285 @@
   "title": "San Juan County, Washington - Private Property",
   "metadata": {
     "created": "February 13, 2026",
-    "updated": "February 14, 2026",
+    "updated": "February 23, 2026",
     "owner": "Shady Cove LLC"
   },
   "sections": [
     {
       "id": "emergency",
       "title": "Emergency",
-      "content": "**Property Address:** 667 Bear Cove Rd, Deer Harbor, WA 98243\n\n**Status:** Documented\n\n### Generator Instructions\n**Steps to switch to generator power:**\n1. Start generator\n2. Turn off House Main Switch #1\n3. Turn off main Switch on panel #2\n4. Switch #3 Transfer Switch to Gen. set\n5. Turn on House Main Switch #1\n6. Turn on Main Switch on panel #2\n\n**To switch back to OPALCO power:**\n1. Turn off House Main Switch #1\n2. Turn off main Switch on panel #2\n3. Switch #3 Transfer Switch to OPALCO\n4. Turn off generator\n5. Turn on House Main Switch #1\n6. Turn on Main Switch on panel #2\n\n### Critical Contacts\n- **Emergency:** 911\n- **Caretaker (Joseph):** 360-982-9705\n- **Caretaker (Lilliana):** 360-317-6121\n- **Power (OPALCO):** 360-376-3500",
+      "content": "**Property Address:** 667 Bear Cove Rd, Deer Harbor, WA 98243\n\n**Status:** Documented\n\n### Generator Instructions\n![Generator Instructions](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/FdqOlUIjWfQvyDzB.jpg)\n\n**Steps to switch to generator power:**\n1. Start generator (Located behind Camp Kitchen Shelter)\n2. Turn off House Main Switch #1\n3. Turn off main Switch on panel #2\n4. Switch #3 Transfer Switch to Gen. set\n5. Turn on House Main Switch #1\n6. Turn on Main Switch on panel #2\n\n**To switch back to OPALCO power:**\n1. Turn off House Main Switch #1\n2. Turn off main Switch on panel #2\n3. Switch #3 Transfer Switch to OPALCO\n4. Turn off generator\n5. Turn on House Main Switch #1\n6. Turn on Main Switch on panel #2\n\n### Critical Contacts\n- **Emergency:** 911\n- **Caretaker (Joseph):** 360-982-9705\n- **Caretaker (Lilliana):** 360-317-6121\n- **Power (OPALCO):** 360-376-3500",
       "subsections": [
         {
           "id": "generator-instructions",
           "title": "Generator Instructions",
-          "content": "**Steps to switch to generator power:**\n1. Start generator\n2. Turn off House Main Switch #1\n3. Turn off main Switch on panel #2\n4. Switch #3 Transfer Switch to Gen. set\n5. Turn on House Main Switch #1\n6. Turn on Main Switch on panel #2\n\n**To switch back to OPALCO power:**\n1. Turn off House Main Switch #1\n2. Turn off main Switch on panel #2\n3. Switch #3 Transfer Switch to OPALCO\n4. Turn off generator\n5. Turn on House Main Switch #1\n6. Turn on Main Switch on panel #2",
+          "content": "![Generator Instructions](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/FdqOlUIjWfQvyDzB.jpg)\n\n**Steps to switch to generator power:**\n1. Start generator (Located behind Camp Kitchen Shelter)\n2. Turn off House Main Switch #1\n3. Turn off main Switch on panel #2\n4. Switch #3 Transfer Switch to Gen. set\n5. Turn on House Main Switch #1\n6. Turn on Main Switch on panel #2\n\n**To switch back to OPALCO power:**\n1. Turn off House Main Switch #1\n2. Turn off main Switch on panel #2\n3. Switch #3 Transfer Switch to OPALCO\n4. Turn off generator\n5. Turn on House Main Switch #1\n6. Turn on Main Switch on panel #2",
           "items": [],
-          "intro": "**Steps to switch to generator power:**\n1. Start generator\n2. Turn off House Main Switch #1\n3. Turn off main Switch on panel #2\n4. Switch #3 Transfer Switch to Gen. set\n5. Turn on House Main Switch #1\n6. Turn on Main Switch on panel #2\n\n**To switch back to OPALCO power:**\n1. Turn off House Main Switch #1\n2. Turn off main Switch on panel #2\n3. Switch #3 Transfer Switch to OPALCO\n4. Turn off generator\n5. Turn on House Main Switch #1\n6. Turn on Main Switch on panel #2"
+          "intro": "![Generator Instructions](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/FdqOlUIjWfQvyDzB.jpg)\n\n**Steps to switch to generator power:**\n1. Start generator (Located behind Camp Kitchen Shelter)\n2. Turn off House Main Switch #1\n3. Turn off main Switch on panel #2\n4. Switch #3 Transfer Switch to Gen. set\n5. Turn on House Main Switch #1\n6. Turn on Main Switch on panel #2\n\n**To switch back to OPALCO power:**\n1. Turn off House Main Switch #1\n2. Turn off main Switch on panel #2\n3. Switch #3 Transfer Switch to OPALCO\n4. Turn off generator\n5. Turn on House Main Switch #1\n6. Turn on Main Switch on panel #2"
         }
       ],
       "intro": "**Status:** Documented"
     },
     {
+      "id": "workflow-guide",
+      "title": "Workflow Guide",
+      "content": "# How to Add Photos to the Property Manual (Android)\n\n**Simple Step-by-Step Guide for Adding Photos from Your Phone**\n\n---\n\n## What You Need\n\n- Your Android phone with photos\n- The property manual website link\n- Internet connection\n\n---\n\n## The Process (Super Simple Version)\n\n### Step 1: Take Your Photos\n\nWalk around the property and take photos of whatever you want to document (water heaters, electrical panels, valves, etc.). Don't worry about organizing them yet—just take the pictures.\n\n### Step 2: Open the Property Manual Website\n\nOn your phone or computer, open this link:\n\n**https://3000-ij5bpzk4aks2mnrac8550-bd361b2c.us2.manus.computer/photo-labeling**\n\nThis is the photo upload page.\n\n### Step 3: Upload Your Photos\n\n**On your phone:**\n- Tap the gray upload box\n- Select \"Choose Files\" or \"Browse\"\n- Pick all the photos you want to upload (you can select multiple at once)\n- Wait for them to load (you'll see them appear numbered: Photo #1, Photo #2, etc.)\n\n**On your computer:**\n- Drag and drop the photos into the gray box, OR\n- Click \"Select Files\" and choose them from your folders\n\n### Step 4: Label Each Photo\n\nFor each photo, type a label in the text box below it. Use this format:\n\n**[Building/System] - [What It Is] - [Where It Is]**\n\n**Examples:**\n- `Main House - Water Heater - Utility Room`\n- `Farm House - Electrical Panel - Garage`\n- `Irrigation System - Valve Box A - Front Yard`\n- `Well System - Pressure Tank - Pump House`\n\n**Tips:**\n- If you don't remember what a photo is, just skip it (leave the box empty)\n- Photos without labels will be deleted automatically\n- Your progress saves automatically—you can close the page and come back later\n\n### Step 5: Export Your Labels\n\nWhen you're done labeling (or need to take a break):\n1. Click the **\"Export Labels\"** button at the top\n2. A text file will download to your phone/computer\n3. Send that file to me (Manus) in the chat\n\n### Step 6: I Take Over\n\nOnce you send me the labels file:\n- I'll upload all the photos to the cloud (CDN)\n- I'll organize them into the right sections of the manual\n- I'll update the website so you can see them\n- I'll save a checkpoint\n\n**That's it!** You take the photos, label them, and I handle the rest.\n\n---\n\n## Quick Reference\n\n| Step | What You Do | Where |\n|------|-------------|-------|\n| 1 | Take photos with your phone | Out in the field |\n| 2 | Open photo upload page | https://3000-ij5bpzk4aks2mnrac8550-bd361b2c.us2.manus.computer/photo-labeling |\n| 3 | Upload photos | Tap/click upload box |\n| 4 | Label each photo | Type: Building - Item - Location |\n| 5 | Export labels | Click \"Export Labels\" button |\n| 6 | Send me the file | In Manus chat |\n\n---\n\n## Common Questions\n\n**Q: Can I upload photos from my phone's camera roll?**  \nA: Yes! You can upload any photos from your phone, whether you just took them or they're from weeks ago.\n\n**Q: How many photos can I upload at once?**  \nA: As many as you want! The page can handle hundreds of photos.\n\n**Q: What if I forget to label a photo?**  \nA: No problem—just leave it blank. I'll automatically skip any photos without labels.\n\n**Q: Can I edit labels after I export them?**  \nA: Yes! Just open the text file and edit the labels before sending it to me.\n\n**Q: What if I close the page before I'm done?**  \nA: Your progress saves automatically. Just reopen the same link and your labels will still be there.\n\n**Q: Do I need to organize photos into folders first?**  \nA: Nope! Just upload them all at once and label them. I'll organize them into the right sections of the manual.\n\n---\n\n## Need Help?\n\nIf you get stuck, just send me a message in the chat and I'll walk you through it!\n",
+      "subsections": [
+        {
+          "id": "photo-upload-procedure",
+          "title": "Photo Upload Procedure",
+          "content": "# How to Add Photos to the Property Manual (Android)\n\n**Simple Step-by-Step Guide for Adding Photos from Your Phone**\n\n---\n\n## What You Need\n\n- Your Android phone with photos\n- The property manual website link\n- Internet connection\n\n---\n\n## The Process (Super Simple Version)\n\n### Step 1: Take Your Photos\n\nWalk around the property and take photos of whatever you want to document (water heaters, electrical panels, valves, etc.). Don't worry about organizing them yet—just take the pictures.\n\n### Step 2: Open the Property Manual Website\n\nOn your phone or computer, open this link:\n\n**https://3000-ij5bpzk4aks2mnrac8550-bd361b2c.us2.manus.computer/photo-labeling**\n\nThis is the photo upload page.\n\n### Step 3: Upload Your Photos\n\n**On your phone:**\n- Tap the gray upload box\n- Select \"Choose Files\" or \"Browse\"\n- Pick all the photos you want to upload (you can select multiple at once)\n- Wait for them to load (you'll see them appear numbered: Photo #1, Photo #2, etc.)\n\n**On your computer:**\n- Drag and drop the photos into the gray box, OR\n- Click \"Select Files\" and choose them from your folders\n\n### Step 4: Label Each Photo\n\nFor each photo, type a label in the text box below it. Use this format:\n\n**[Building/System] - [What It Is] - [Where It Is]**\n\n**Examples:**\n- `Main House - Water Heater - Utility Room`\n- `Farm House - Electrical Panel - Garage`\n- `Irrigation System - Valve Box A - Front Yard`\n- `Well System - Pressure Tank - Pump House`\n\n**Tips:**\n- If you don't remember what a photo is, just skip it (leave the box empty)\n- Photos without labels will be deleted automatically\n- Your progress saves automatically—you can close the page and come back later\n\n### Step 5: Export Your Labels\n\nWhen you're done labeling (or need to take a break):\n1. Click the **\"Export Labels\"** button at the top\n2. A text file will download to your phone/computer\n3. Send that file to me (Manus) in the chat\n\n### Step 6: I Take Over\n\nOnce you send me the labels file:\n- I'll upload all the photos to the cloud (CDN)\n- I'll organize them into the right sections of the manual\n- I'll update the website so you can see them\n- I'll save a checkpoint\n\n**That's it!** You take the photos, label them, and I handle the rest.\n\n---\n\n## Quick Reference\n\n| Step | What You Do | Where |\n|------|-------------|-------|\n| 1 | Take photos with your phone | Out in the field |\n| 2 | Open photo upload page | https://3000-ij5bpzk4aks2mnrac8550-bd361b2c.us2.manus.computer/photo-labeling |\n| 3 | Upload photos | Tap/click upload box |\n| 4 | Label each photo | Type: Building - Item - Location |\n| 5 | Export labels | Click \"Export Labels\" button |\n| 6 | Send me the file | In Manus chat |\n\n---\n\n## Common Questions\n\n**Q: Can I upload photos from my phone's camera roll?**  \nA: Yes! You can upload any photos from your phone, whether you just took them or they're from weeks ago.\n\n**Q: How many photos can I upload at once?**  \nA: As many as you want! The page can handle hundreds of photos.\n\n**Q: What if I forget to label a photo?**  \nA: No problem—just leave it blank. I'll automatically skip any photos without labels.\n\n**Q: Can I edit labels after I export them?**  \nA: Yes! Just open the text file and edit the labels before sending it to me.\n\n**Q: What if I close the page before I'm done?**  \nA: Your progress saves automatically. Just reopen the same link and your labels will still be there.\n\n**Q: Do I need to organize photos into folders first?**  \nA: Nope! Just upload them all at once and label them. I'll organize them into the right sections of the manual.\n\n---\n\n## Need Help?\n\nIf you get stuck, just send me a message in the chat and I'll walk you through it!\n",
+          "items": [],
+          "intro": "Step-by-step instructions for uploading and labeling photos from your Android phone to the property manual."
+        }
+      ],
+      "intro": "**Purpose:** Instructions and procedures for maintaining and updating the property manual.\n\nThis section contains step-by-step guides for common tasks like uploading photos, adding content, and requesting updates. These procedures ensure consistent documentation and make it easy to keep the manual current."
+    },
+    {
+      "id": "main-house",
+      "title": "Main House",
+      "content": "**Status:** Partially Documented\n\n### Irrigation System\n- **Type:** Sprinkler system\n- **Controller:** Rain Bird ESP-ME3\n- **Location:** Wall-mounted cabinet\n- **Features:** LNK WiFi Ready, Weather Sensor compatible, Seasonal Adjust, Flow Sensor compatible\n- **Programs:** A, B, C, D\n- **Current Status:** OFF (as of last photo)\n- **Coverage:** Landscaping around Main House\n- **Map:** Hand-drawn map available showing all head locations\n\n### Laundry Appliances\n\n![Main House - Washer and Dryer - Side Entry](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/BpqXVwoEBvltVIwQ.jpg)\n\n**Washer:**\n- **Brand:** Maytag\n- **Model:** MFWS700SQ1\n- **Serial:** CSU3707671\n- **Type:** Front-load washer\n- **Location:** Side entry laundry room\n- **Age:** ~15 years (est. 2011)\n- **Recommended Replacement:** 2026 (typical lifespan 10-15 years)\n\n![Washer Model Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/VOkRXpzaMJQNYOFW.jpg)\n\n**Dryer:**\n- **Brand:** Maytag\n- **Model:** MED9700SQ0\n- **Serial:** 65R13978\n- **Type:** Electric dryer (240V/60Hz/24A)\n- **Type Code:** DDT7-ELE-240/60/24-EL54\n- **Location:** Side entry laundry room\n- **Age:** ~15 years (est. 2011)\n- **Recommended Replacement:** 2026 (typical lifespan 10-15 years)\n\n![Dryer Model Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/KYBRNYSBFeEhKfFt.jpg)\n\n**Maintenance Notes:**\n- Both units are approaching end of expected lifespan\n- Consider replacement as a matching set\n- Ensure proper venting and lint trap cleaning for dryer\n\n### Electrical Systems\n- **Entry Utility Room Panel:** [Photo Pending]\n  *Contains Generator Transfer Switch and Fire Extinguisher.*\n- **Basement Panel:** [Photo Pending]\n  *QO Load Center with breakers for Heating, Water Heater, and Basement circuits.*\n- **Main House Disconnect:** [Photo Pending]\n  *Located in Camp Kitchen Utility Room.*\n- **Service Type:** [Overhead/Underground]\n- **Amperage:** [Amps]\n- **Generator:** [Yes/No - Details if yes]\n- **Solar Panels:** [Yes/No - Details if yes]\n\n### Water Shutoff\n- **Main Shutoff Valve:** [Photo Pending]\n  *Location and instructions to be documented.*\n- **Exterior Spigots:** [Photo Pending]\n  *Locations to be documented.*",
+      "subsections": [
+        {
+          "id": "appliances",
+          "title": "Appliances",
+          "content": "### Kitchen Refrigerator\n\n![Main House - KitchenAid Built-In Refrigerator - Kitchen](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/DBDyRHMruKlNGpat.jpg)\n\n**Brand:** KitchenAid\n**Model:** KBLS33MIXD1\n**Serial:** QK5069101\n**Type:** Built-in bottom-freezer refrigerator\n**Location:** Main kitchen\n**Features:** Panel-ready (integrated with cabinetry), stainless steel interior\n**Age:** Unknown (manufacture date not visible)\n**Status:** Operational\n\n![Kitchen Refrigerator Model Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/LQkuANcjKHPtfhsZ.jpg)\n\n### Kitchen Range\n\n![Main House - Monogram Professional Range - Kitchen](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/FhFDJOshQwdPkGpN.jpg)\n\n**Brand:** Monogram (GE Appliances)\n**Model:** 36-inch Professional Dual Fuel Range\n**Size:** 36 inches (91 cm)\n**Type:** Professional dual-fuel range\n**Fuel Type:** Dual-fuel (gas cooktop, electric ovens)\n**Configuration:** 6-burner cooktop with center griddle/grill, dual ovens\n**Location:** Main kitchen\n**Features:**\n- Professional-grade stainless steel construction\n- 6 sealed burners (4 standard + 2 center high-output)\n- Center griddle/grill section\n- Dual convection ovens (smaller left, larger right)\n- Heavy-duty commercial-style control knobs\n- Professional-grade BTU output\n**Age:** Unknown\n**Status:** Operational\n\n![Monogram Owner's Manual](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/RlJQdEmKNuwoSikB.jpg)\n\n**Maintenance Notes:**\n- Clean burner grates and griddle regularly\n- Check gas connections annually\n- Professional service recommended for dual-fuel systems\n- Oven calibration check annually\n- Owner's manual available for reference\n\n### Kitchen Dishwasher\n\n![Main House - Bosch Dishwasher - Kitchen](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/lyXOOrbETkRKtyYT.jpg)\n\n**Brand:** Bosch\n**Model:** SHU9BL\n**Type:** Built-in dishwasher\n**Location:** Main kitchen\n**Features:**\n- Stainless steel exterior\n- Front-mounted controls\n- Multiple wash cycle options\n- Energy-efficient operation\n**Age:** Unknown\n**Status:** Operational\n\n![Bosch Dishwasher Manual](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/cEOFBfaLFnctQogt.jpg)\n\n**Maintenance Notes:**\n- Clean filter monthly\n- Run dishwasher cleaner quarterly\n- Check spray arms for clogs\n- Inspect door seal for wear\n- Use rinse aid for optimal drying\n- Owner's manual available for reference\n\n### Side Entry Refrigerator\n\n![Main House - Hotpoint Refrigerator - Side Entry](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ZAjDufThopmEbHvp.jpg)\n\n**Brand:** Hotpoint\n**Model:** CTX14EYXXRWH\n**Serial:** LR788759\n**Type:** Top-freezer refrigerator (14 cu. ft.)\n**Location:** Side entry area\n**Age:** Unknown (manufacture date not visible)\n**Status:** Operational\n\n![Refrigerator Model Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/YJqxTxgPpgnWoQvB.jpg)\n\n### Laundry Appliances\n\n![Main House - Washer and Dryer - Side Entry](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/BpqXVwoEBvltVIwQ.jpg)\n\n**Washer:**\n- **Brand:** Maytag\n- **Model:** MFWS700SQ1\n- **Serial:** CSU3707671\n- **Type:** Front-load washer\n- **Location:** Side entry laundry room\n- **Age:** ~15 years (est. 2011)\n- **Recommended Replacement:** 2026 (typical lifespan 10-15 years)\n\n![Washer Model Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/VOkRXpzaMJQNYOFW.jpg)\n\n**Dryer:**\n- **Brand:** Maytag\n- **Model:** MED9700SQ0\n- **Serial:** 65R13978\n- **Type:** Electric dryer (240V/60Hz/24A)\n- **Type Code:** DDT7-ELE-240/60/24-EL54\n- **Location:** Side entry laundry room\n- **Age:** ~15 years (est. 2011)\n- **Recommended Replacement:** 2026 (typical lifespan 10-15 years)\n\n![Dryer Model Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/KYBRNYSBFeEhKfFt.jpg)\n\n**Maintenance Notes:**\n- Both units are approaching end of expected lifespan\n- Consider replacement as a matching set\n- Ensure proper venting and lint trap cleaning for dryer\n\n### Microwave\n\n![Main House - Kitchen Microwave](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ueIePYoZUilxxUgS.jpg)\n\n**Brand:** Sharp Carousel\n**Model:** R-1210\n**Serial:** 57d3L\n**Type:** Countertop microwave\n**Voltage:** 120V\n**Location:** Kitchen counter\n**Features:** Smart & Easy sensor cooking, Instant Action presets (Frozen Main Dish, Beverage, Baked Potato, Fresh/Frozen Vegetables, Rolls/Muffins, Ground Meat, Steaks/Chops, Chicken Pieces), digital display\n\n![Microwave Model Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ylJKtyttYyeRAwEH.jpg)\n\n**Maintenance:**\n- Clean interior weekly\n- Wipe exterior daily\n- Check door seal quarterly\n- Test door interlock switches annually",
+          "items": [],
+          "intro": "### Kitchen Refrigerator\n\n![Main House - KitchenAid Built-In Refrigerator - Kitchen](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/DBDyRHMruKlNGpat.jpg)\n\n**Brand:** KitchenAid\n**Model:** KBLS33MIXD1\n**Serial:** QK5069101\n**Type:** Built-in bottom-freezer refrigerator\n**Location:** Main kitchen\n**Features:** Panel-ready (integrated with cabinetry), stainless steel interior\n**Age:** Unknown (manufacture date not visible)\n**Status:** Operational\n\n![Kitchen Refrigerator Model Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/LQkuANcjKHPtfhsZ.jpg)\n\n### Kitchen Range\n\n![Main House - Monogram Professional Range - Kitchen](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/FhFDJOshQwdPkGpN.jpg)\n\n**Brand:** Monogram (GE Appliances)\n**Model:** 36-inch Professional Dual Fuel Range\n**Size:** 36 inches (91 cm)\n**Type:** Professional dual-fuel range\n**Fuel Type:** Dual-fuel (gas cooktop, electric ovens)\n**Configuration:** 6-burner cooktop with center griddle/grill, dual ovens\n**Location:** Main kitchen\n**Features:**\n- Professional-grade stainless steel construction\n- 6 sealed burners (4 standard + 2 center high-output)\n- Center griddle/grill section\n- Dual convection ovens (smaller left, larger right)\n- Heavy-duty commercial-style control knobs\n- Professional-grade BTU output\n**Age:** Unknown\n**Status:** Operational\n\n![Monogram Owner's Manual](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/RlJQdEmKNuwoSikB.jpg)\n\n**Maintenance Notes:**\n- Clean burner grates and griddle regularly\n- Check gas connections annually\n- Professional service recommended for dual-fuel systems\n- Oven calibration check annually\n- Owner's manual available for reference\n\n### Kitchen Dishwasher\n\n![Main House - Bosch Dishwasher - Kitchen](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/lyXOOrbETkRKtyYT.jpg)\n\n**Brand:** Bosch\n**Model:** SHU9BL\n**Type:** Built-in dishwasher\n**Location:** Main kitchen\n**Features:**\n- Stainless steel exterior\n- Front-mounted controls\n- Multiple wash cycle options\n- Energy-efficient operation\n**Age:** Unknown\n**Status:** Operational\n\n![Bosch Dishwasher Manual](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/cEOFBfaLFnctQogt.jpg)\n\n**Maintenance Notes:**\n- Clean filter monthly\n- Run dishwasher cleaner quarterly\n- Check spray arms for clogs\n- Inspect door seal for wear\n- Use rinse aid for optimal drying\n- Owner's manual available for reference\n\n### Side Entry Refrigerator\n\n![Main House - Hotpoint Refrigerator - Side Entry](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ZAjDufThopmEbHvp.jpg)\n\n**Brand:** Hotpoint\n**Model:** CTX14EYXXRWH\n**Serial:** LR788759\n**Type:** Top-freezer refrigerator (14 cu. ft.)\n**Location:** Side entry area\n**Age:** Unknown (manufacture date not visible)\n**Status:** Operational\n\n![Refrigerator Model Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/YJqxTxgPpgnWoQvB.jpg)\n\n### Laundry Appliances\n\n![Main House - Washer and Dryer - Side Entry](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/BpqXVwoEBvltVIwQ.jpg)\n\n**Washer:**\n- **Brand:** Maytag\n- **Model:** MFWS700SQ1\n- **Serial:** CSU3707671\n- **Type:** Front-load washer\n- **Location:** Side entry laundry room\n- **Age:** ~15 years (est. 2011)\n- **Recommended Replacement:** 2026 (typical lifespan 10-15 years)\n\n![Washer Model Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/VOkRXpzaMJQNYOFW.jpg)\n\n**Dryer:**\n- **Brand:** Maytag\n- **Model:** MED9700SQ0\n- **Serial:** 65R13978\n- **Type:** Electric dryer (240V/60Hz/24A)\n- **Type Code:** DDT7-ELE-240/60/24-EL54\n- **Location:** Side entry laundry room\n- **Age:** ~15 years (est. 2011)\n- **Recommended Replacement:** 2026 (typical lifespan 10-15 years)\n\n![Dryer Model Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/KYBRNYSBFeEhKfFt.jpg)\n\n**Maintenance Notes:**\n- Both units are approaching end of expected lifespan\n- Consider replacement as a matching set\n- Ensure proper venting and lint trap cleaning for dryer\n\n### Microwave\n\n![Main House - Kitchen Microwave](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ueIePYoZUilxxUgS.jpg)\n\n**Brand:** Sharp Carousel\n**Model:** R-1210\n**Serial:** 57d3L\n**Type:** Countertop microwave\n**Voltage:** 120V\n**Location:** Kitchen counter\n**Features:** Smart & Easy sensor cooking, Instant Action presets (Frozen Main Dish, Beverage, Baked Potato, Fresh/Frozen Vegetables, Rolls/Muffins, Ground Meat, Steaks/Chops, Chicken Pieces), digital display\n\n![Microwave Model Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ylJKtyttYyeRAwEH.jpg)\n\n**Maintenance:**\n- Clean interior weekly\n- Wipe exterior daily\n- Check door seal quarterly\n- Test door interlock switches annually"
+        },
+        {
+          "id": "irrigation-system",
+          "title": "Irrigation System",
+          "content": "- **Type:** Sprinkler system\n- **Controller:** Rain Bird ESP-ME3\n- **Location:** Side entry wall-mounted cabinet\n- **Features:** LNK WiFi Ready, Weather Sensor compatible, Seasonal Adjust, Flow Sensor compatible\n- **Programs:** A, B, C, D\n- **Current Status:** OFF (as of last photo)\n- **Coverage:** Landscaping around Main House\n- **Map:** Hand-drawn map available showing all head locations\n\n### Irrigation Controller Panel\n\n![Main House - Irrigation Panel Cabinet - Side Entry](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/FbAQxscTvtlVlcby.jpg)\n**Main House - Irrigation Panel Cabinet - Side Entry**\n\n![Main House - Rain Bird ESP-ME3 Controller - Side Entry](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/IsOGPsTrneRMiENS.jpg)\n**Main House - Rain Bird ESP-ME3 Controller - Side Entry**\n\n![Main House - Irrigation Zone Map - Hand Drawn](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/HvLBCHiAwSNHuQXn.jpg)\n**Main House - Irrigation Zone Map - Hand Drawn**\n\n### Valve Boxes & Shutoffs\n\n![Main House - Potable & Irrigation Shutoff - Access Point](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/rBxQqxEUuTEHIfro.jpg)\n**Main House - Potable & Irrigation Shutoff - Access Point**\n\n\n\n![Main House - Potable & Irrigation Shutoff - Access Point](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/XBHiNcPdKVncgaQy.jpg)\n**Main House - Potable & Irrigation Shutoff - Access Point**\n\n\n\n![Main House - Irrigation Valve Box - Northeast of House](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/WRWbtstTnMQrRbpk.jpg)\n**Main House - Irrigation Valve Box - Northeast of House**\n\n\n\n![Main House - Irrigation Valve Box - Northeast of House](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/qusInmrHPykERoAS.jpg)\n**Main House - Irrigation Valve Box - Northeast of House**\n\n\n\n![Main House - Irrigation Valve Box - South of House](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/EUKGcASkQhdNyHFa.jpg)\n**Main House - Irrigation Valve Box - South of House**\n\n\n\n![Main House - Irrigation Valve Box - South of House](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/KIihrtoXVyuEYRSL.jpg)\n**Main House - Irrigation Valve Box - South of House**\n\n\n\n![Main House - Irrigation Valve Box - Northeast of House](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/sTJjWyKpIefIjjBu.jpg)\n**Main House - Irrigation Valve Box - Northeast of House**\n\n\n\n![Main House - Irrigation Valve Box - Northeast of House](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/HOkwltnoafMJWssq.jpg)\n**Main House - Irrigation Valve Box - Northeast of House**\n\n",
+          "items": [],
+          "intro": "- **Type:** Sprinkler system\n- **Controller:** Rain Bird ESP-ME3\n- **Location:** Side entry wall-mounted cabinet\n- **Features:** LNK WiFi Ready, Weather Sensor compatible, Seasonal Adjust, Flow Sensor compatible\n- **Programs:** A, B, C, D\n- **Current Status:** OFF (as of last photo)\n- **Coverage:** Landscaping around Main House\n- **Map:** Hand-drawn map available showing all head locations\n\n### Irrigation Controller Panel\n\n![Main House - Irrigation Panel Cabinet - Side Entry](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/FbAQxscTvtlVlcby.jpg)\n**Main House - Irrigation Panel Cabinet - Side Entry**\n\n![Main House - Rain Bird ESP-ME3 Controller - Side Entry](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/IsOGPsTrneRMiENS.jpg)\n**Main House - Rain Bird ESP-ME3 Controller - Side Entry**\n\n![Main House - Irrigation Zone Map - Hand Drawn](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/HvLBCHiAwSNHuQXn.jpg)\n**Main House - Irrigation Zone Map - Hand Drawn**\n\n### Valve Boxes & Shutoffs\n\n![Main House - Potable & Irrigation Shutoff - Access Point](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/rBxQqxEUuTEHIfro.jpg)\n**Main House - Potable & Irrigation Shutoff - Access Point**\n\n\n\n![Main House - Potable & Irrigation Shutoff - Access Point](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/XBHiNcPdKVncgaQy.jpg)\n**Main House - Potable & Irrigation Shutoff - Access Point**\n\n\n\n![Main House - Irrigation Valve Box - Northeast of House](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/WRWbtstTnMQrRbpk.jpg)\n**Main House - Irrigation Valve Box - Northeast of House**\n\n\n\n![Main House - Irrigation Valve Box - Northeast of House](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/qusInmrHPykERoAS.jpg)\n**Main House - Irrigation Valve Box - Northeast of House**\n\n\n\n![Main House - Irrigation Valve Box - South of House](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/EUKGcASkQhdNyHFa.jpg)\n**Main House - Irrigation Valve Box - South of House**\n\n\n\n![Main House - Irrigation Valve Box - South of House](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/KIihrtoXVyuEYRSL.jpg)\n**Main House - Irrigation Valve Box - South of House**\n\n\n\n![Main House - Irrigation Valve Box - Northeast of House](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/sTJjWyKpIefIjjBu.jpg)\n**Main House - Irrigation Valve Box - Northeast of House**\n\n\n\n![Main House - Irrigation Valve Box - Northeast of House](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/HOkwltnoafMJWssq.jpg)\n**Main House - Irrigation Valve Box - Northeast of House**\n\n"
+        },
+        {
+          "id": "heating-system",
+          "title": "Heating System",
+          "content": "- **Type:** Oil-fired forced air furnace\n- **Brand:** Thermo Pride\n- **Model:** SSO-100\n- **Location:** Side entry utility room\n- **Fuel:** Heating oil\n- **Service Notes:** Draft 0.04 IWC, SSO-100, 30.25 BP 80.6 (handwritten on manual)\n\n### Furnace Photos\n\n![Main House - Thermo Pride Oil Furnace - Side Entry](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/vAvtCaRFUoUMweMz.jpg)\n**Main House - Thermo Pride Oil Furnace - Side Entry**\n\n![Main House - Furnace Installation Manual - Thermo Pride SSO-100](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/VCpMtzvPLBQXNyJt.jpg)\n**Main House - Furnace Installation Manual - Thermo Pride SSO-100**\n\n### Maintenance\n- **Annual Service:** Oil furnace requires annual cleaning and tune-up\n- **Filter Changes:** Check/replace air filters quarterly\n- **Oil Tank:** Monitor heating oil levels (see Water Shutoff section for oil tank access photo)\n- **Safety:** Carbon monoxide detector recommended near furnace\n\n### Thermostat\n\n![Main House - Living Room Thermostat](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mNTpurljOdZDKnbI.jpg)\n\n**Brand:** Honeywell\n**Type:** Programmable digital thermostat\n**Location:** Living room wall\n**Display:** LCD touchscreen with current temperature, set point, and time\n**Controls:** Up/down temperature adjustment buttons, programmable schedule buttons\n**Current Reading:** 69°F (room temperature), Set to 60°F\n\n**Features:**\n- 7-day programmable schedule\n- Digital touchscreen interface\n- Precise temperature control\n- Battery backup for settings\n\n**Programming:**\n- Press \"Program\" button to access schedule settings\n- Set different temperatures for Wake, Leave, Return, Sleep periods\n- Adjust individual days or copy schedule across week\n- Hold button for temporary override\n\n**Maintenance:**\n- Replace batteries annually (typically 2 AA batteries)\n- Clean display with soft, dry cloth\n- Check accuracy with separate thermometer annually\n- Verify furnace responds to temperature changes\n\n### Bedroom Thermostat (Basement Furnace Zone)\n\n![Main House - Bedroom Thermostat](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/CWDTDSJPUCvmKSxI.jpg)\n\n**Brand:** Honeywell\n**Type:** Programmable digital thermostat\n**Location:** Bedroom wall\n**Heating Zone:** Basement furnace (separate from living room zone)\n**Display:** LCD showing current hold temperature\n**Current Reading:** Hold at 60°F\n**Controls:** Set Clock/Day, Set Schedule, Time adjustment (Ahead/Back), Temperature adjustment (Warmer/Cooler), Run Program, Hold Temp\n\n![Bedroom Thermostat - Programming Instructions](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/lVifIdiHZZXmIiGI.jpg)\n\n**Features:**\n- Programmable heating/cooling schedules\n- Temporary temperature override\n- Hold function for extended temperature settings\n- Fan control (On/Auto)\n- System mode switch (Cool/Off/Heat)\n\n**Programming Instructions (from flip-up panel):**\n- **TIME/DAY:** Press \"Set Clock/Day\", use TIME buttons to adjust, press \"Set Clock/Day\" again to confirm\n- **HEATING PROGRAM:** Press \"Set Schedule\", adjust with WAKE/Leave/Return/Sleep periods using TIME and TEMP buttons\n- **TEMPORARILY change temperature:** Press WARMER or COOLER (returns to program at next scheduled period)\n- **HOLD temperature:** Press \"Hold Temp\" to maintain current setting (press \"Run Program\" to resume schedule)\n- **CURRENT temperature setting:** Displayed on screen\n\n**Multi-Zone Heating System:**\nThe Main House has two separate heating zones:\n1. **Living Room Zone:** Controlled by living room thermostat → Side entry oil-fired furnace\n2. **Bedroom Zone:** Controlled by bedroom thermostat → Basement furnace\n\n**Maintenance:**\n- Replace batteries annually (typically 2 AA batteries)\n- Clean display with soft, dry cloth\n- Verify both zones heat independently\n- Check that basement furnace responds to bedroom thermostat changes\n\n### Basement Furnace (Bedroom Zone)\n\n![Main House - Basement Exterior Entrance](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/nOlUgGlqnWamrwnw.jpg)\n\n**Location:** Basement (accessed via exterior stone foundation entrance)\n\n![Basement Furnace Closet](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/PZTOXOInIoLwdRWg.jpg)\n\n**Access:** Beige door with top and bottom ventilation grilles\n\n![Thermo Pride Basement Furnace](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/cPXdYMWTssiofMsY.jpg)\n\n**Brand:** Thermo Pride\n**Type:** Oil-fired forced air furnace\n**Cabinet:** White/beige with copper-colored side panels\n**Fuel:** Heating oil\n**Ductwork:** Black flue pipe visible, metal supply/return ducts\n**Heating Zone:** Bedroom zone (controlled by bedroom thermostat)\n**Location:** Basement furnace closet\n\n![Thermo Pride Installation Manual](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/nNVtGHbyxYqVcqBw.jpg)\n\n**Manufacturer:** Thermo Products Inc., Box 217, North Judson, IN 46366, Phone: (219) 896-2133\n\n**Safety Warnings:**\n- Improper installation, adjustment, alteration, service, or maintenance can cause injury or property damage\n- Do not store or use gasoline or other flammable vapors and liquids in vicinity of this or any other appliance\n- Refer to manual for proper installation and maintenance\n- Must be serviced by qualified installer or service agency\n\n**Complete Multi-Zone Heating System:**\n\nThe Main House has **two independent oil-fired forced air furnaces**:\n\n1. **Living Room Zone**\n   - Furnace: Side entry utility room (Thermo Pride SSO-100)\n   - Thermostat: Living room Honeywell programmable\n   - Coverage: Main living areas\n\n2. **Bedroom Zone**\n   - Furnace: Basement (Thermo Pride, model TBD)\n   - Thermostat: Bedroom Honeywell programmable\n   - Coverage: Bedroom areas\n\nBoth furnaces share the same heating oil supply tank.\n\n**Maintenance:**\n- Annual professional service before heating season\n- Quarterly filter replacement (both furnaces)\n- Monthly visual inspection of flue pipes\n- Monitor oil tank level regularly\n- Test both zones independently\n- Keep basement furnace closet ventilation grilles clear\n- Check for oil leaks around both units",
+          "items": [],
+          "intro": "- **Type:** Oil-fired forced air furnace\n- **Brand:** Thermo Pride\n- **Model:** SSO-100\n- **Location:** Side entry utility room\n- **Fuel:** Heating oil\n- **Service Notes:** Draft 0.04 IWC, SSO-100, 30.25 BP 80.6 (handwritten on manual)\n\n### Furnace Photos\n\n![Main House - Thermo Pride Oil Furnace - Side Entry](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/vAvtCaRFUoUMweMz.jpg)\n**Main House - Thermo Pride Oil Furnace - Side Entry**\n\n![Main House - Furnace Installation Manual - Thermo Pride SSO-100](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/VCpMtzvPLBQXNyJt.jpg)\n**Main House - Furnace Installation Manual - Thermo Pride SSO-100**\n\n### Maintenance\n- **Annual Service:** Oil furnace requires annual cleaning and tune-up\n- **Filter Changes:** Check/replace air filters quarterly\n- **Oil Tank:** Monitor heating oil levels (see Water Shutoff section for oil tank access photo)\n- **Safety:** Carbon monoxide detector recommended near furnace\n\n### Thermostat\n\n![Main House - Living Room Thermostat](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mNTpurljOdZDKnbI.jpg)\n\n**Brand:** Honeywell\n**Type:** Programmable digital thermostat\n**Location:** Living room wall\n**Display:** LCD touchscreen with current temperature, set point, and time\n**Controls:** Up/down temperature adjustment buttons, programmable schedule buttons\n**Current Reading:** 69°F (room temperature), Set to 60°F\n\n**Features:**\n- 7-day programmable schedule\n- Digital touchscreen interface\n- Precise temperature control\n- Battery backup for settings\n\n**Programming:**\n- Press \"Program\" button to access schedule settings\n- Set different temperatures for Wake, Leave, Return, Sleep periods\n- Adjust individual days or copy schedule across week\n- Hold button for temporary override\n\n**Maintenance:**\n- Replace batteries annually (typically 2 AA batteries)\n- Clean display with soft, dry cloth\n- Check accuracy with separate thermometer annually\n- Verify furnace responds to temperature changes\n\n### Bedroom Thermostat (Basement Furnace Zone)\n\n![Main House - Bedroom Thermostat](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/CWDTDSJPUCvmKSxI.jpg)\n\n**Brand:** Honeywell\n**Type:** Programmable digital thermostat\n**Location:** Bedroom wall\n**Heating Zone:** Basement furnace (separate from living room zone)\n**Display:** LCD showing current hold temperature\n**Current Reading:** Hold at 60°F\n**Controls:** Set Clock/Day, Set Schedule, Time adjustment (Ahead/Back), Temperature adjustment (Warmer/Cooler), Run Program, Hold Temp\n\n![Bedroom Thermostat - Programming Instructions](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/lVifIdiHZZXmIiGI.jpg)\n\n**Features:**\n- Programmable heating/cooling schedules\n- Temporary temperature override\n- Hold function for extended temperature settings\n- Fan control (On/Auto)\n- System mode switch (Cool/Off/Heat)\n\n**Programming Instructions (from flip-up panel):**\n- **TIME/DAY:** Press \"Set Clock/Day\", use TIME buttons to adjust, press \"Set Clock/Day\" again to confirm\n- **HEATING PROGRAM:** Press \"Set Schedule\", adjust with WAKE/Leave/Return/Sleep periods using TIME and TEMP buttons\n- **TEMPORARILY change temperature:** Press WARMER or COOLER (returns to program at next scheduled period)\n- **HOLD temperature:** Press \"Hold Temp\" to maintain current setting (press \"Run Program\" to resume schedule)\n- **CURRENT temperature setting:** Displayed on screen\n\n**Multi-Zone Heating System:**\nThe Main House has two separate heating zones:\n1. **Living Room Zone:** Controlled by living room thermostat → Side entry oil-fired furnace\n2. **Bedroom Zone:** Controlled by bedroom thermostat → Basement furnace\n\n**Maintenance:**\n- Replace batteries annually (typically 2 AA batteries)\n- Clean display with soft, dry cloth\n- Verify both zones heat independently\n- Check that basement furnace responds to bedroom thermostat changes\n\n### Basement Furnace (Bedroom Zone)\n\n![Main House - Basement Exterior Entrance](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/nOlUgGlqnWamrwnw.jpg)\n\n**Location:** Basement (accessed via exterior stone foundation entrance)\n\n![Basement Furnace Closet](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/PZTOXOInIoLwdRWg.jpg)\n\n**Access:** Beige door with top and bottom ventilation grilles\n\n![Thermo Pride Basement Furnace](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/cPXdYMWTssiofMsY.jpg)\n\n**Brand:** Thermo Pride\n**Type:** Oil-fired forced air furnace\n**Cabinet:** White/beige with copper-colored side panels\n**Fuel:** Heating oil\n**Ductwork:** Black flue pipe visible, metal supply/return ducts\n**Heating Zone:** Bedroom zone (controlled by bedroom thermostat)\n**Location:** Basement furnace closet\n\n![Thermo Pride Installation Manual](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/nNVtGHbyxYqVcqBw.jpg)\n\n**Manufacturer:** Thermo Products Inc., Box 217, North Judson, IN 46366, Phone: (219) 896-2133\n\n**Safety Warnings:**\n- Improper installation, adjustment, alteration, service, or maintenance can cause injury or property damage\n- Do not store or use gasoline or other flammable vapors and liquids in vicinity of this or any other appliance\n- Refer to manual for proper installation and maintenance\n- Must be serviced by qualified installer or service agency\n\n**Complete Multi-Zone Heating System:**\n\nThe Main House has **two independent oil-fired forced air furnaces**:\n\n1. **Living Room Zone**\n   - Furnace: Side entry utility room (Thermo Pride SSO-100)\n   - Thermostat: Living room Honeywell programmable\n   - Coverage: Main living areas\n\n2. **Bedroom Zone**\n   - Furnace: Basement (Thermo Pride, model TBD)\n   - Thermostat: Bedroom Honeywell programmable\n   - Coverage: Bedroom areas\n\nBoth furnaces share the same heating oil supply tank.\n\n**Maintenance:**\n- Annual professional service before heating season\n- Quarterly filter replacement (both furnaces)\n- Monthly visual inspection of flue pipes\n- Monitor oil tank level regularly\n- Test both zones independently\n- Keep basement furnace closet ventilation grilles clear\n- Check for oil leaks around both units"
+        },
+        {
+          "id": "water-heater",
+          "title": "Water Heater",
+          "content": "- **Brand:** Bradford White\n- **Model:** ERE350S6-1NCWW\n- **Serial:** ZC51064910\n- **Type:** Electric storage water heater\n- **Capacity:** 50 US gallons (189.2 liters)\n- **Location:** Side entry utility room\n- **Voltage:** 240V / 208V (1-phase AC only)\n- **Wattage:** Upper Element 4500W / 3500W (50/60 Hz), Lower Element 4500W / 3500W, Maximum 4500W / 3500W\n- **Pressure:** Test 300 psi, Working 150 psi\n- **Features:** HydroJet technology, AHRI Certified\n\n### Water Heater Photos\n\n![Main House - Bradford White Water Heater - Side Entry](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/dWPhENDQysYhUXDn.jpg)\n**Main House - Bradford White Water Heater - Side Entry**\n\n![Main House - Water Heater Specifications Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/QYszUUPXgzKGzyvR.jpg)\n**Main House - Water Heater Specifications Label**\n\n### Maintenance\n- **Annual Inspection:** Check for leaks, corrosion, and proper operation\n- **Drain & Flush:** Annually to remove sediment buildup\n- **Temperature:** Test water temperature (recommended 120°F to prevent scalding)\n- **Pressure Relief Valve:** Test annually to ensure proper operation\n- **Anode Rod:** Inspect every 3-5 years, replace if corroded\n- **Expected Lifespan:** 10-15 years for electric water heaters\n\n### Basement Water Heater\n\n![Main House - Basement Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ekNgfITDCIHjxfOY.jpg)\n\n**Location:** Basement (near electrical panel)\n\n![Basement Water Heater Specification Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/zlOjxBCtTUCzKeqS.jpg)\n\n**Brand:** Bradford White Corporation\n**Model:** ERE250T6-1NCWW\n**Serial:** BB54805614\n**Capacity:** 50 US gallons (189.2 liters)\n**Type:** Electric storage tank water heater\n**Voltage:** 240V, 1 Phase AC ONLY\n**Upper Element:** 4500W, 50/60 Hz\n**Lower Element:** 4500W Maximum\n**Pressure Rating:** Test 300 psi, Working 150 psi\n**DR-ready:** CTA-2045-A (demand response capable)\n**Certification:** UL Listed E14356 (Household Storage Tank Water Heater), AHRI Certified\n\n**Dual Water Heater System:**\n\nThe Main House has **two separate 50-gallon Bradford White electric water heaters**:\n\n1. **Side Entry Water Heater**\n   - Model: ERE350S6-1NCWW\n   - Serial: ZC51064910\n   - Location: Side entry utility room\n   - Serves: Main house domestic hot water\n\n2. **Basement Water Heater**\n   - Model: ERE250T6-1NCWW\n   - Serial: BB54805614\n   - Location: Basement (near electrical panel)\n   - Serves: Basement/additional zones\n\nBoth units are identical 50-gallon, 4500W dual-element electric water heaters with HydroJet technology and demand response capability.\n\n**Maintenance (Both Units):**\n- Annual inspection and drain/flush\n- Test temperature and pressure relief valve quarterly\n- Check water temperature (120°F recommended)\n- Inspect for leaks around connections\n- Replace anode rod every 3-5 years\n- Check electrical connections annually\n- Monitor for unusual noises or performance issues\n\n### Main Water Shutoff Access\n\n![Main House - Water Shutoff Access - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/zzgcGpvmvcltjOrb.png)\n\n**Main Water Shutoff Access Location**\n\nExterior access to main water shutoff valve located near white siding. Wooden plank cover on ground provides access to underground shutoff valve. Green garden hose coiled nearby for reference.\n\n**Emergency Shutoff Procedure:**\n1. Remove wooden plank cover\n2. Locate shutoff valve below ground level\n3. Turn valve clockwise to shut off water supply\n4. Replace cover when complete\n\n---\n\n",
+          "items": [],
+          "intro": "- **Brand:** Bradford White\n- **Model:** ERE350S6-1NCWW\n- **Serial:** ZC51064910\n- **Type:** Electric storage water heater\n- **Capacity:** 50 US gallons (189.2 liters)\n- **Location:** Side entry utility room\n- **Voltage:** 240V / 208V (1-phase AC only)\n- **Wattage:** Upper Element 4500W / 3500W (50/60 Hz), Lower Element 4500W / 3500W, Maximum 4500W / 3500W\n- **Pressure:** Test 300 psi, Working 150 psi\n- **Features:** HydroJet technology, AHRI Certified\n\n### Water Heater Photos\n\n![Main House - Bradford White Water Heater - Side Entry](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/dWPhENDQysYhUXDn.jpg)\n**Main House - Bradford White Water Heater - Side Entry**\n\n![Main House - Water Heater Specifications Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/QYszUUPXgzKGzyvR.jpg)\n**Main House - Water Heater Specifications Label**\n\n### Maintenance\n- **Annual Inspection:** Check for leaks, corrosion, and proper operation\n- **Drain & Flush:** Annually to remove sediment buildup\n- **Temperature:** Test water temperature (recommended 120°F to prevent scalding)\n- **Pressure Relief Valve:** Test annually to ensure proper operation\n- **Anode Rod:** Inspect every 3-5 years, replace if corroded\n- **Expected Lifespan:** 10-15 years for electric water heaters\n\n### Basement Water Heater\n\n![Main House - Basement Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ekNgfITDCIHjxfOY.jpg)\n\n**Location:** Basement (near electrical panel)\n\n![Basement Water Heater Specification Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/zlOjxBCtTUCzKeqS.jpg)\n\n**Brand:** Bradford White Corporation\n**Model:** ERE250T6-1NCWW\n**Serial:** BB54805614\n**Capacity:** 50 US gallons (189.2 liters)\n**Type:** Electric storage tank water heater\n**Voltage:** 240V, 1 Phase AC ONLY\n**Upper Element:** 4500W, 50/60 Hz\n**Lower Element:** 4500W Maximum\n**Pressure Rating:** Test 300 psi, Working 150 psi\n**DR-ready:** CTA-2045-A (demand response capable)\n**Certification:** UL Listed E14356 (Household Storage Tank Water Heater), AHRI Certified\n\n**Dual Water Heater System:**\n\nThe Main House has **two separate 50-gallon Bradford White electric water heaters**:\n\n1. **Side Entry Water Heater**\n   - Model: ERE350S6-1NCWW\n   - Serial: ZC51064910\n   - Location: Side entry utility room\n   - Serves: Main house domestic hot water\n\n2. **Basement Water Heater**\n   - Model: ERE250T6-1NCWW\n   - Serial: BB54805614\n   - Location: Basement (near electrical panel)\n   - Serves: Basement/additional zones\n\nBoth units are identical 50-gallon, 4500W dual-element electric water heaters with HydroJet technology and demand response capability.\n\n**Maintenance (Both Units):**\n- Annual inspection and drain/flush\n- Test temperature and pressure relief valve quarterly\n- Check water temperature (120°F recommended)\n- Inspect for leaks around connections\n- Replace anode rod every 3-5 years\n- Check electrical connections annually\n- Monitor for unusual noises or performance issues"
+        },
+        {
+          "id": "electrical-systems",
+          "title": "Electrical Systems",
+          "content": "### Entry Utility Room Panel #1\n\n![Main House - Entry Utility Room Panel #1](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/XuXjzavvzZSbMCHA.jpg)\n\n**Brand:** Pushmatic Electri-Center (Bulldog Electric Products Co., Detroit, Michigan)\n**Type:** Main electrical panel\n**Location:** Side entry utility room\n**Breaker Type:** Pushmatic push-button breakers (vintage 1950s-1970s era)\n**Age:** Vintage\n\n**Labeled Circuits:**\n- Left side: Spare, Refrigerator, Furnace\n- Right side: Spare, Kitchen Outlets, Range Exhaust, Freezer\n\n**Note:** Pushmatic breakers are obsolete technology. Replacement breakers may be difficult to source. Consider panel upgrade for improved safety and compatibility with modern electrical requirements.\n\n### Entry Utility Room Panel #2\n\n![Main House - Entry Utility Room Panel #2](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/asKdNbDOochNIabE.jpg)\n\n**Brand:** Pushmatic Electri-Center (Bulldog Electric Products Co., Detroit, Michigan)\n**Type:** Main electrical panel with main circuit breaker\n**Location:** Side entry utility room\n**Breaker Type:** Pushmatic push-button breakers (vintage 1950s-1970s era)\n**Main Breaker:** Located at top of panel\n**Age:** Vintage\n\n**Labeled Circuits:**\n- Left side: Dryer, Unknown, Water Heater, Range, Disposal\n- Right side: Dryer, Laundry, Water Heater, Range, Dishwasher, Disposal and Garbage\n\n**Safety Notes:**\n- Main breaker provides whole-house disconnect capability\n- Pushmatic breakers are obsolete technology\n- Professional electrical inspection recommended\n- Consider modern panel replacement for enhanced safety and capacity\n\n### Basement Electrical Panels\n\nThe Main House basement contains three electrical panels providing comprehensive power distribution:\n\n#### Panel 1: Square D QO Load Center (Modern)\n\n![Basement Panel 1 - Square D QO Load Center](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/UDdcQCidFCXuwVhZ.jpg)\n\n**Type:** Modern Square D QO Load Center\n**Main Breaker:** Principal breaker with yellow warning label\n**Circuits:**\n- Main House Docks\n- Boat House\n**Circuit Directory:** Handwritten labels on door including \"Trees Light\"\n\n#### Panel 2: Pushmatic Electri-Center (Vintage - Outdoor/Exterior Circuits)\n\n![Basement Panel 2 - Pushmatic Outdoor Circuits](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ivQKodYHutTtXQAW.jpg)\n\n**Type:** Pushmatic Electri-Center (Bulldog Electric Products Co., Detroit, Michigan)\n**Left Side Circuits:**\n- Furnace\n- Lights: Dressing Room, M.Bath, Hall to Office, Furnace Room\n- Floods: Parking Side\n- Hot Water\n\n**Right Side Circuits:**\n- Corner Floods on House\n- Lights Path to Chalet\n- Terrace/Patio Lights, Floods\n- Lighting Trees (BaySide)\n- Outside buzzer\n- Bathrooms Fans\n- Heater\n\n#### Panel 3: Pushmatic Electri-Center (Vintage - Interior Circuits)\n\n![Basement Panel 3 - Pushmatic Interior Circuits](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jWjNxhnJCfbQxXcg.jpg)\n\n**Type:** Pushmatic Electri-Center (Bulldog Electric Products Co., Detroit, Michigan)\n**Left Side Circuits:**\n- Kitchen Ceiling, Utility Room, Rear Porch\n- Lights: Front Hall, Guest Bath, Master Shower, Room, Middle Light over M.Bathroom\n- Outlets: Bill's Office, Living Room & Entrance\n- Lights: Shop, Crawl Space\n- Outlets: Shop\n- Master Bathroom Outlets\n- Sunroom Lights\n- Outside Outlets\n\n**Right Side Circuits:**\n- Living Room Outlets, Spot Over Table, East Kitchen Outlets\n- Bill's Office Lights & outlets\n- MB Outlets, Meditation Light & outlets, Basement Outlets\n- Terrace/Patio Outlets\n- Trees Lights to dock, Road to Boat House\n- Fire Alarm\n- Outside Outlets\n\n**Complete Main House Electrical System:**\n\nThe Main House electrical system consists of **five panels total**:\n\n1. **Side Entry Panel 1** (Pushmatic) - Refrigerator, Furnace, Kitchen Outlets, Range Exhaust, Freezer\n2. **Side Entry Panel 2** (Pushmatic with main breaker) - Dryer, Water Heater, Range, Disposal, Laundry, Dishwasher\n3. **Basement Panel 1** (Modern Square D QO) - Main House Docks, Boat House\n4. **Basement Panel 2** (Pushmatic) - Outdoor/exterior lighting and floods, furnace, water heater, fans\n5. **Basement Panel 3** (Pushmatic) - Interior lighting, outlets, fire alarm\n\n**Safety Notes:**\n- Three of five panels use obsolete Pushmatic technology (push-button breakers)\n- Pushmatic breakers are no longer manufactured; replacement parts difficult to source\n- Consider professional electrical inspection and potential panel upgrade\n- Modern Square D panel (Panel 1) meets current electrical codes\n- Ensure all panel doors remain accessible and unobstructed\n- Label any unlabeled circuits for future reference\n- Test GFCI/AFCI protection regularly if installed",
+          "items": [],
+          "intro": "### Entry Utility Room Panel #1\n\n![Main House - Entry Utility Room Panel #1](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/XuXjzavvzZSbMCHA.jpg)\n\n**Brand:** Pushmatic Electri-Center (Bulldog Electric Products Co., Detroit, Michigan)\n**Type:** Main electrical panel\n**Location:** Side entry utility room\n**Breaker Type:** Pushmatic push-button breakers (vintage 1950s-1970s era)\n**Age:** Vintage\n\n**Labeled Circuits:**\n- Left side: Spare, Refrigerator, Furnace\n- Right side: Spare, Kitchen Outlets, Range Exhaust, Freezer\n\n**Note:** Pushmatic breakers are obsolete technology. Replacement breakers may be difficult to source. Consider panel upgrade for improved safety and compatibility with modern electrical requirements.\n\n### Entry Utility Room Panel #2\n\n![Main House - Entry Utility Room Panel #2](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/asKdNbDOochNIabE.jpg)\n\n**Brand:** Pushmatic Electri-Center (Bulldog Electric Products Co., Detroit, Michigan)\n**Type:** Main electrical panel with main circuit breaker\n**Location:** Side entry utility room\n**Breaker Type:** Pushmatic push-button breakers (vintage 1950s-1970s era)\n**Main Breaker:** Located at top of panel\n**Age:** Vintage\n\n**Labeled Circuits:**\n- Left side: Dryer, Unknown, Water Heater, Range, Disposal\n- Right side: Dryer, Laundry, Water Heater, Range, Dishwasher, Disposal and Garbage\n\n**Safety Notes:**\n- Main breaker provides whole-house disconnect capability\n- Pushmatic breakers are obsolete technology\n- Professional electrical inspection recommended\n- Consider modern panel replacement for enhanced safety and capacity\n\n### Basement Electrical Panels\n\nThe Main House basement contains three electrical panels providing comprehensive power distribution:\n\n#### Panel 1: Square D QO Load Center (Modern)\n\n![Basement Panel 1 - Square D QO Load Center](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/UDdcQCidFCXuwVhZ.jpg)\n\n**Type:** Modern Square D QO Load Center\n**Main Breaker:** Principal breaker with yellow warning label\n**Circuits:**\n- Main House Docks\n- Boat House\n**Circuit Directory:** Handwritten labels on door including \"Trees Light\"\n\n#### Panel 2: Pushmatic Electri-Center (Vintage - Outdoor/Exterior Circuits)\n\n![Basement Panel 2 - Pushmatic Outdoor Circuits](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ivQKodYHutTtXQAW.jpg)\n\n**Type:** Pushmatic Electri-Center (Bulldog Electric Products Co., Detroit, Michigan)\n**Left Side Circuits:**\n- Furnace\n- Lights: Dressing Room, M.Bath, Hall to Office, Furnace Room\n- Floods: Parking Side\n- Hot Water\n\n**Right Side Circuits:**\n- Corner Floods on House\n- Lights Path to Chalet\n- Terrace/Patio Lights, Floods\n- Lighting Trees (BaySide)\n- Outside buzzer\n- Bathrooms Fans\n- Heater\n\n#### Panel 3: Pushmatic Electri-Center (Vintage - Interior Circuits)\n\n![Basement Panel 3 - Pushmatic Interior Circuits](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jWjNxhnJCfbQxXcg.jpg)\n\n**Type:** Pushmatic Electri-Center (Bulldog Electric Products Co., Detroit, Michigan)\n**Left Side Circuits:**\n- Kitchen Ceiling, Utility Room, Rear Porch\n- Lights: Front Hall, Guest Bath, Master Shower, Room, Middle Light over M.Bathroom\n- Outlets: Bill's Office, Living Room & Entrance\n- Lights: Shop, Crawl Space\n- Outlets: Shop\n- Master Bathroom Outlets\n- Sunroom Lights\n- Outside Outlets\n\n**Right Side Circuits:**\n- Living Room Outlets, Spot Over Table, East Kitchen Outlets\n- Bill's Office Lights & outlets\n- MB Outlets, Meditation Light & outlets, Basement Outlets\n- Terrace/Patio Outlets\n- Trees Lights to dock, Road to Boat House\n- Fire Alarm\n- Outside Outlets\n\n**Complete Main House Electrical System:**\n\nThe Main House electrical system consists of **five panels total**:\n\n1. **Side Entry Panel 1** (Pushmatic) - Refrigerator, Furnace, Kitchen Outlets, Range Exhaust, Freezer\n2. **Side Entry Panel 2** (Pushmatic with main breaker) - Dryer, Water Heater, Range, Disposal, Laundry, Dishwasher\n3. **Basement Panel 1** (Modern Square D QO) - Main House Docks, Boat House\n4. **Basement Panel 2** (Pushmatic) - Outdoor/exterior lighting and floods, furnace, water heater, fans\n5. **Basement Panel 3** (Pushmatic) - Interior lighting, outlets, fire alarm\n\n**Safety Notes:**\n- Three of five panels use obsolete Pushmatic technology (push-button breakers)\n- Pushmatic breakers are no longer manufactured; replacement parts difficult to source\n- Consider professional electrical inspection and potential panel upgrade\n- Modern Square D panel (Panel 1) meets current electrical codes\n- Ensure all panel doors remain accessible and unobstructed\n- Label any unlabeled circuits for future reference\n- Test GFCI/AFCI protection regularly if installed"
+        },
+        {
+          "id": "water-shutoff",
+          "title": "Water Shutoff",
+          "content": "![Main House - Water Shutoff - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/rIsvvFfuNcXklOsu.jpg)\n**Main House - Water Shutoff - Exterior**\n\n![Main House - Water Meter & Transclosure - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/QtQrmvFlbalspUhb.jpg)\n**Main House - Water Meter & Transclosure - Exterior**\n\n![Main House - Water Shutoff Access - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/pSNmyQcRqLkAZiWQ.jpg)\n**Main House - Water Shutoff Access - Exterior**\n\n![Main House - Potable & Irrigation Shutoff - Access Point](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/XBHiNcPdKVncgaQy.jpg)\n**Main House - Potable & Irrigation Shutoff - Access Point**\n\n![Main House - Water Shutoff - West of Parking](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/UmAUrSHHIcGgSXcQ.jpg)\n**Main House - Water Shutoff - West of Parking**\n\n![Main House - Water Shutoff - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/CGrwIgRAwotKmUby.jpg)\n**Main House - Water Shutoff - Exterior**\n\n![Main House - Heating Oil Tank Access - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/VkMZQXVfVVZfFLJT.jpg)\n**Main House - Heating Oil Tank Access - Exterior**\n\n",
+          "items": [],
+          "intro": "![Main House - Water Shutoff - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/rIsvvFfuNcXklOsu.jpg)\n**Main House - Water Shutoff - Exterior**\n\n![Main House - Water Meter & Transclosure - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/QtQrmvFlbalspUhb.jpg)\n**Main House - Water Meter & Transclosure - Exterior**\n\n![Main House - Water Shutoff Access - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/pSNmyQcRqLkAZiWQ.jpg)\n**Main House - Water Shutoff Access - Exterior**\n\n![Main House - Potable & Irrigation Shutoff - Access Point](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/XBHiNcPdKVncgaQy.jpg)\n**Main House - Potable & Irrigation Shutoff - Access Point**\n\n![Main House - Water Shutoff - West of Parking](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/UmAUrSHHIcGgSXcQ.jpg)\n**Main House - Water Shutoff - West of Parking**\n\n![Main House - Water Shutoff - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/CGrwIgRAwotKmUby.jpg)\n**Main House - Water Shutoff - Exterior**\n\n![Main House - Heating Oil Tank Access - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/VkMZQXVfVVZfFLJT.jpg)\n**Main House - Heating Oil Tank Access - Exterior**\n\n"
+        }
+      ],
+      "intro": "**Status:** Partially Documented"
+    },
+    {
+      "id": "the-chalet",
+      "title": "The Chalet",
+      "content": "**Status:** Documented\n\n### Appliances\n- **Refrigerator:** Whirlpool (4.3 cu. ft. compact)\n  ![Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/bQjYxZzYqVjJzQkL.jpg)\n- **Propane Stove:**\n  ![Propane Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/gXyZqVjJzQkLwPmN.jpg)\n  *Label:* ![Stove Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/hYzQkLwPmNbQjYxZ.jpg)\n\n### Systems\n- **Electrical Panel:**\n  ![Electrical Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/dffbb478-923b-4ef6-a2aa-45deb5c85c9a1153162560789571651.jpg)\n- **Heating:** [Type]\n- **Water Heater:** [Type/Location]",
+      "subsections": [
+        {
+          "id": "appliances-chalet",
+          "title": "Appliances",
+          "content": "- **Refrigerator:** Whirlpool (4.3 cu. ft. compact)\n  ![Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/bQjYxZzYqVjJzQkL.jpg)\n- **Propane Stove:**\n  ![Propane Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/gXyZqVjJzQkLwPmN.jpg)\n  *Label:* ![Stove Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/hYzQkLwPmNbQjYxZ.jpg)",
+          "items": [],
+          "intro": "- **Refrigerator:** Whirlpool (4.3 cu. ft. compact)\n  ![Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/bQjYxZzYqVjJzQkL.jpg)\n- **Propane Stove:**\n  ![Propane Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/gXyZqVjJzQkLwPmN.jpg)\n  *Label:* ![Stove Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/hYzQkLwPmNbQjYxZ.jpg)"
+        },
+        {
+          "id": "systems-chalet",
+          "title": "Systems",
+          "content": "- **Electrical Panel:**\n  ![Electrical Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/dffbb478-923b-4ef6-a2aa-45deb5c85c9a1153162560789571651.jpg)\n- **Heating:** [Type]\n- **Water Heater:** [Type/Location]",
+          "items": [],
+          "intro": "- **Electrical Panel:**\n  ![Electrical Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/dffbb478-923b-4ef6-a2aa-45deb5c85c9a1153162560789571651.jpg)\n- **Heating:** [Type]\n- **Water Heater:** [Type/Location]"
+        },
+        {
+          "id": "water-systems-photos",
+          "title": "Water Systems Photos",
+          "content": "### Chalet Photos\n\n![The Chalet - Water Shutoff - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/SWmCgJnSWMTbDrCv.jpg)\n\n**The Chalet - Water Shutoff - Exterior**\n\n---\n\n![The Chalet - Water Heater - Interior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/JSvrHMtvXmnCGFak.jpg)\n\n**The Chalet - Water Heater - Interior**\n\n---\n\n",
+          "items": [],
+          "intro": "### Chalet Photos\n\n![The Chalet - Water Shutoff - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/SWmCgJnSWMTbDrCv.jpg)\n\n**The Chalet - Water Shutoff - Exterior**\n\n--..."
+        }
+      ],
+      "intro": "**Status:** Documented"
+    },
+    {
+      "id": "camp-kitchen",
+      "title": "Camp Kitchen",
+      "content": "**Status:** Documented\n\n### General View\n![Camp Kitchen](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/kLwPmNbQjYxZzQjJ.jpg)\n\n### Appliances\n- **Stove:**\n  ![Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mNbQjYxZzQjJkLwP.jpg)\n- **Refrigerator (Amana):**\n  ![Amana Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jYxZzQjJkLwPmNbQ.jpg)\n- **Refrigerator (Camp Kitchen):**\n  ![Camp Kitchen Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/zQjJkLwPmNbQjYxZ.jpg)\n- **Rinnai Water Heater:**\n  ![Rinnai Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/07bca6a5-60ed-4caf-8b68-2f58b9180c821930086556249108561.jpg)\n  *Fuel: Propane*\n\n### Central Utilities\n- **Camp Kitchen Panel & Transfer Switch:**\n  ![Panel & Transfer Switch](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/df4c4dfb-0ec5-4319-9a53-4b48e915025e1628003542767182916.jpg)\n- **Transformer Enclosure & Meter:**\n  ![Transformer & Meter](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/wPmNbQjYxZzQjJkL.jpg)\n- **Meter & Shutoff:**\n  ![Meter & Shutoff](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/xZzQjJkLwPmNbQjY.jpg)\n  *Located behind Camp Kitchen.*\n- **Main House Disconnect:**\n  ![Main House Disconnect](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jRxxxLnuiCjfrfbD.jpg)\n  *Located in Camp Kitchen Utility Room.*\n\n### Generator System\n**Location:** Behind Camp Kitchen Shelter\n- **Generator (Cover On - North View):**\n  ![Generator Cover On](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/QjJkLwPmNbQjYxZz.jpg)\n- **Generator (Cover Off - North View):**\n  ![Generator Cover Off](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/iUzQjJkLwPmNbQjY.jpg)\n- **Generator (East View):**\n  ![Generator East View](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/PmNbQjYxZzQjJkLw.jpg)\n- **Generator Shed:**\n  ![Generator Shed](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/NbQjYxZzQjJkLwPm.jpg)",
+      "subsections": [
+        {
+          "id": "appliances-camp",
+          "title": "Appliances",
+          "content": "- **Stove:**\n  ![Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mNbQjYxZzQjJkLwP.jpg)\n- **Refrigerator (Amana):**\n  ![Amana Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jYxZzQjJkLwPmNbQ.jpg)\n- **Refrigerator (Camp Kitchen):**\n  ![Camp Kitchen Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/zQjJkLwPmNbQjYxZ.jpg)\n- **Rinnai Water Heater:**\n  ![Rinnai Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/07bca6a5-60ed-4caf-8b68-2f58b9180c821930086556249108561.jpg)\n  *Fuel: Propane*",
+          "items": [],
+          "intro": "- **Stove:**\n  ![Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mNbQjYxZzQjJkLwP.jpg)\n- **Refrigerator (Amana):**\n  ![Amana Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jYxZzQjJkLwPmNbQ.jpg)\n- **Refrigerator (Camp Kitchen):**\n  ![Camp Kitchen Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/zQjJkLwPmNbQjYxZ.jpg)\n- **Rinnai Water Heater:**\n  ![Rinnai Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/07bca6a5-60ed-4caf-8b68-2f58b9180c821930086556249108561.jpg)\n  *Fuel: Propane*"
+        },
+        {
+          "id": "central-utilities",
+          "title": "Central Utilities",
+          "content": "- **Camp Kitchen Panel & Transfer Switch:**\n  ![Panel & Transfer Switch](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/df4c4dfb-0ec5-4319-9a53-4b48e915025e1628003542767182916.jpg)\n- **Transformer Enclosure & Meter:**\n  ![Transformer & Meter](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/wPmNbQjYxZzQjJkL.jpg)\n- **Meter & Shutoff:**\n  ![Meter & Shutoff](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/xZzQjJkLwPmNbQjY.jpg)\n  *Located behind Camp Kitchen.*\n- **Main House Disconnect:**\n  ![Main House Disconnect](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jRxxxLnuiCjfrfbD.jpg)\n  *Located in Camp Kitchen Utility Room.*",
+          "items": [],
+          "intro": "- **Camp Kitchen Panel & Transfer Switch:**\n  ![Panel & Transfer Switch](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/df4c4dfb-0ec5-4319-9a53-4b48e915025e1628003542767182916.jpg)\n- **Transformer Enclosure & Meter:**\n  ![Transformer & Meter](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/wPmNbQjYxZzQjJkL.jpg)\n- **Meter & Shutoff:**\n  ![Meter & Shutoff](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/xZzQjJkLwPmNbQjY.jpg)\n  *Located behind Camp Kitchen.*\n- **Main House Disconnect:**\n  ![Main House Disconnect](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jRxxxLnuiCjfrfbD.jpg)\n  *Located in Camp Kitchen Utility Room.*"
+        },
+        {
+          "id": "generator-system",
+          "title": "Generator System",
+          "content": "**Location:** Behind Camp Kitchen Shelter\n- **Generator (Cover On - North View):**\n  ![Generator Cover On](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/QjJkLwPmNbQjYxZz.jpg)\n- **Generator (Cover Off - North View):**\n  ![Generator Cover Off](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/iUzQjJkLwPmNbQjY.jpg)\n- **Generator (East View):**\n  ![Generator East View](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/PmNbQjYxZzQjJkLw.jpg)\n- **Generator Shed:**\n  ![Generator Shed](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/NbQjYxZzQjJkLwPm.jpg)",
+          "items": [],
+          "intro": "**Location:** Behind Camp Kitchen Shelter\n- **Generator (Cover On - North View):**\n  ![Generator Cover On](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/QjJkLwPmNbQjYxZz.jpg)\n- **Generator (Cover Off - North View):**\n  ![Generator Cover Off](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/iUzQjJkLwPmNbQjY.jpg)\n- **Generator (East View):**\n  ![Generator East View](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/PmNbQjYxZzQjJkLw.jpg)\n- **Generator Shed:**\n  ![Generator Shed](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/NbQjYxZzQjJkLwPm.jpg)"
+        },
+        {
+          "id": "water-systems-photos",
+          "title": "Water Systems Photos",
+          "content": "### Camp Kitchen Photos\n\n![Camp Kitchen - On-Demand Water Heater - Interior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ZNjyEwpFiZMCUPJC.jpg)\n\n**Camp Kitchen - On-Demand Water Heater - Interior**\n\n---\n\n![Camp Kitchen - Water Shutoff - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ApZJTeKBscyezwCr.jpg)\n\n**Camp Kitchen - Water Shutoff - Exterior**\n\n---\n\n\n![Camp Kitchen - Water Shutoff Location - Outdoor](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TyFEAEyhapbdgVQm.png)\n\n**Camp Kitchen - Water Shutoff Location - Outdoor**\n\nWater shutoff valve located near green Camp Kitchen building in wooded area. Metal post/pipe visible in foreground marks shutoff location.\n\n---\n\n",
+          "items": [],
+          "intro": "### Camp Kitchen Photos\n\n![Camp Kitchen - On-Demand Water Heater - Interior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ZNjyEwpFiZMCUPJC.jpg)\n\n**Camp Kitchen - On-Demand W..."
+        },
+        {
+          "id": "water-heater-camp",
+          "title": "Water Heater",
+          "content": "![Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TVXbeLJBrtMTMeiC.jpg)\n\n**Rinnai On-Demand Water Heater**\n\nLocated in utility room.",
+          "items": [],
+          "intro": "![Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TVXbeLJBrtMTMeiC.jpg)\n\n**Rinnai On-Demand Water Heater**\n\nLocated in utility room."
+        }
+      ],
+      "intro": "**Status:** Documented\n\n### General View\n![Camp Kitchen](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/kLwPmNbQjYxZzQjJ.jpg)"
+    },
+    {
+      "id": "picnic-shelter",
+      "title": "Picnic Shelter",
+      "content": "**Status:** Documented\n\nThe Picnic Shelter area contains multiple irrigation valve boxes for controlling water distribution.\n\n![Picnic Shelter - Irrigation Valve Boxes - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ovWGhZSWhHoFYCYh.jpg)\n\n**Picnic Shelter - Irrigation Valve Boxes - Exterior**\n\n---\n\n![Picnic Shelter - Irrigation Valve Boxes - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/RKPEOwBboDVdwUMI.jpg)\n\n**Picnic Shelter - Irrigation Valve Boxes - Exterior**\n\n---\n\n![Picnic Shelter - Irrigation Valve Boxes - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mQyAWYdwZalaPwkc.jpg)\n\n**Picnic Shelter - Irrigation Valve Boxes - Exterior**\n\n---\n\n![Picnic Shelter - Irrigation Valve Boxes - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/VRlAzToMNnbxmsNQ.jpg)\n\n**Picnic Shelter - Irrigation Valve Boxes - Exterior**\n\n---\n\n",
+      "subsections": [],
+      "intro": "**Status:** Documented\n\nThe Picnic Shelter area contains multiple irrigation valve boxes for controlling water distribution."
+    },
+    {
+      "id": "beach-house",
+      "title": "Beach House",
+      "content": "**Parcel:** [To be documented] - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)\n\n### Utilities & Systems\n- **Water Shutoff:** Exterior access box near main entry by \"Lighthouse Point\" sign (Blue-handled ball valve)\n- **WiFi:** Network: **Ned&Haleh** | Password: **Beachhouse1**\n- **Security:** First Alert FA260 Professional alarm system\n\n### Appliances\n- **Refrigerator:** LG LRBP1031T (19 years old) - *Rec. Replace Immediately*\n- **Range:** Bosch Electric (Stainless steel, ceramic cooktop)\n- **Dishwasher:** Bosch 300 Series SHP53C06UC30 (~7 years old)\n  ![Dishwasher](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/AuVzGNUJIvPpXZSq.jpg)\n- **Washer:** Maytag MHW8200FC0 (8 years old)\n- **Dryer:** Maytag MED8200FC2 (8 years old)\n  ![Washer/Dryer](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/OADzIdSGqHlidPqA.jpg)\n\n### Water Heater\n- **Model:** Bradford White M265R6DS-1NCWM\n  ![Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TVXbeLJBrtMTMeiC.jpg)\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK (Expected life 8-12 years)\n- **Action:** Replace immediately",
+      "subsections": [
+        {
+          "id": "utilities-and-systems",
+          "title": "Utilities & Systems",
+          "content": "- **Water Shutoff:** Exterior access box near main entry by \"Lighthouse Point\" sign (Blue-handled ball valve)\n- **WiFi:** Network: **Ned&Haleh** | Password: **Beachhouse1**\n- **Security:** First Alert FA260 Professional alarm system",
+          "items": [],
+          "intro": "- **Water Shutoff:** Exterior access box near main entry by \"Lighthouse Point\" sign (Blue-handled ball valve)\n- **WiFi:** Network: **Ned&Haleh** | Password: **Beachhouse1**\n- **Security:** First Alert FA260 Professional alarm system"
+        },
+        {
+          "id": "appliances",
+          "title": "Appliances",
+          "content": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRBP1031T | ~19 years old (2007 model) | **Replacement Recommended** - Nearing end of life. |\n| Range | Bosch Electric Range | Good Condition | Stainless steel, ceramic cooktop, convection oven. |\n| Dishwasher | Bosch 300 Series | ~7 years old (2019 model) | Good condition. |\n| Washer | Maytag MHW8200FC0 | ~8 years old (2018 model) | Good condition. |\n| Dryer | Maytag MED8200FC2 | ~8 years old (2018 model) | Good condition. |",
+          "items": [],
+          "intro": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRBP1031T | ~19 years old (2007 model) | **Replacement Recommended** - Nearing end of life. |\n| Range | Bosch Electric Range | Good Condition | Stainless steel, ceramic cooktop, convection oven. |\n| Dishwasher | Bosch 300 Series | ~7 years old (2019 model) | Good condition. |\n| Washer | Maytag MHW8200FC0 | ~8 years old (2018 model) | Good condition. |\n| Dryer | Maytag MED8200FC2 | ~8 years old (2018 model) | Good condition. |",
+          "images": [
+            {
+              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/cuqsUSZlZUbQLxti.jpg",
+              "caption": "Bosch dishwasher — closed view"
+            },
+            {
+              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/FAJrYLELfMwHMuuK.jpg",
+              "caption": "Bosch dishwasher control panel"
+            },
+            {
+              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/uzgnMwufTUNIpuyq.jpg",
+              "caption": "Bosch range — full view"
+            },
+            {
+              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/IBGGiPuhdUGokEwI.jpg",
+              "caption": "Bosch range control panel"
+            },
+            {
+              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/kVNFPpPvQRsorWnW.jpg",
+              "caption": "LG refrigerator — kitchen overview"
+            },
+            {
+              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/BsKGeFkrlhNGXQnA.jpg",
+              "caption": "LG refrigerator rating label"
+            },
+            {
+              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/pYfRhFdWudlcQfJf.jpg",
+              "caption": "Bosch microwave — overview"
+            },
+            {
+              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/QzMdlaPFsnnTINaK.jpg",
+              "caption": "Bosch microwave rating label"
+            }
+          ]
+        },
+        {
+          "id": "water-heater-beach",
+          "title": "Water Heater (Critical)",
+          "content": "### ⚠️ URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWM\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan. Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**",
+          "items": [],
+          "intro": "### ⚠️ URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWM\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan. Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**",
+          "images": [
+            {
+              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/GhOcRVTrLiChEWGr.jpg",
+              "caption": "Bradford White water heater — full view"
+            },
+            {
+              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/EXhMyTXiZNDCvHCM.jpg",
+              "caption": "Bradford White water heater rating label"
+            }
+          ]
+        },
+        {
+          "id": "water-systems-photos",
+          "title": "Water Systems Photos",
+          "content": "### Beach House Photos\n\n![Beach House - Water Shutoff Access - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ezwCrHIKewmwwIaw.jpg)\n\n**Beach House - Water Shutoff Access - Exterior**\n\n---\n\n![Beach House - Water Shutoff - Interior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ZyTnFOQLwFwbtrOB.jpg)\n\n**Beach House - Water Shutoff - Interior**\n\n---\n\n![Beach House - Irrigation Valve Box - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/GZbPocfxprocyCAg.jpg)\n\n**Beach House - Irrigation Valve Box - Exterior**\n\n---\n\n![Beach House - Irrigation Valve Access - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/yUQdlaAJZCSqNbyy.jpg)\n\n**Beach House - Irrigation Valve Access - Exterior**\n\n---\n\n![Beach House - Irrigation Valve - Southwest Side](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/OaGHHkxplhdNNBeb.jpg)\n\n**Beach House - Irrigation Valve - Southwest Side**\n\n---\n\n",
+          "items": [],
+          "intro": "### Beach House Photos\n\n![Beach House - Water Shutoff Access - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ezwCrHIKewmwwIaw.jpg)\n\n**Beach House - Water Shutoff Access - Exterior**\n\n---\n\n![Beach House - Water Shutoff - Interior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ZyTnFOQLwFwbtrOB.jpg)\n\n**Beach House - Water Shutoff - Interior**\n\n---\n\n![Beach House - Irrigation Valve Box - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/GZbPocfxprocyCAg.jpg)\n\n**Beach House - Irrigation Valve Box - Exterior**\n\n---\n\n![Beach House - Irrigation Valve Access - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/yUQdlaAJZCSqNbyy.jpg)\n\n**Beach House - Irrigation Valve Access - Exterior**\n\n---\n\n![Beach House - Irrigation Valve - Southwest Side](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/OaGHHkxplhdNNBeb.jpg)\n\n**Beach House - Irrigation Valve - Southwest Side**\n\n---\n\n"
+        },
+        {
+          "id": "laundry",
+          "title": "Laundry",
+          "content": "- **Washer:** Maytag Front-Load Washer\n- **Dryer:** Maytag Front-Load Dryer",
+          "items": [],
+          "intro": "- **Washer:** Maytag Front-Load Washer\n- **Dryer:** Maytag Front-Load Dryer",
+          "images": [
+            {
+              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/dAzVLoKGEcYlLcao.jpg",
+              "caption": "Maytag washer — overview"
+            },
+            {
+              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/iJWfMfhvFIBfIxgZ.jpg",
+              "caption": "Maytag washer rating label"
+            },
+            {
+              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/lKwledABiCEcsEgw.jpg",
+              "caption": "Maytag dryer — overview"
+            },
+            {
+              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/tzlrxevmaeDxLvqJ.jpg",
+              "caption": "Maytag dryer rating label"
+            }
+          ]
+        }
+      ],
+      "intro": "**Parcel:** [To be documented] - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)"
+    },
+    {
       "id": "farm-house",
       "title": "Farm House",
-      "content": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC) - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)\n\n### Structure & Exterior\n- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers\n\n### Kitchen Appliances\n- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities\n\n### Electrical System\n- **Panel:** MTS electrical panel in dining room with generator transfer capability\n- **Circuits:** Complete handwritten directory available\n\n### Heating System\n- **Type:** Electric baseboard heating (multiple zones)\n\n### Septic System\n- **Pump:** On \"DINING - SEPTIC\" circuit\n\n### Water Heater\n- **Model:** Bradford White MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK (Expected life 8-12 years)\n- **Action:** Replace immediately",
+      "content": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC) - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)\n\n### Structure & Exterior\n- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers\n- **Photo:** [Pending Upload]\n\n### Kitchen Appliances\n- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities\n\n### Electrical System\n- **Panel:** MTS electrical panel in dining room with generator transfer capability\n- **Circuits:** Complete handwritten directory available\n- **Photo:** [Pending Upload]\n\n### Heating System\n- **Type:** Electric baseboard heating (multiple zones)\n\n### Septic System\n- **Pump:** On \"DINING - SEPTIC\" circuit\n\n### Water Heater\n- **Model:** Bradford White MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK (Expected life 8-12 years)\n- **Action:** Replace immediately",
       "subsections": [
         {
           "id": "structure-and-exterior",
           "title": "Structure & Exterior",
-          "content": "- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers",
+          "content": "- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers\n- **Photo:** [Pending Upload]",
           "items": [],
-          "intro": "- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers"
+          "intro": "- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers\n- **Photo:** [Pending Upload]"
         },
         {
           "id": "kitchen-appliances",
@@ -53,412 +302,89 @@
           "content": "### ⚠️ URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 25 years old, this unit is more than double its expected lifespan. Risks include catastrophic tank failure, flooding, and safety hazards.\n\n**Immediate Actions:**\n1. Check daily for leaks.\n2. Listen for unusual noises.\n3. **Schedule replacement immediately.**",
           "items": [],
           "intro": "### ⚠️ URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 25 years old, this unit is more than double its expected lifespan. Risks include catastrophic tank failure, flooding, and safety hazards.\n\n**Immediate Actions:**\n1. Check daily for leaks.\n2. Listen for unusual noises.\n3. **Schedule replacement immediately.**"
+        },
+        {
+          "id": "water-systems-photos",
+          "title": "Water Systems Photos",
+          "content": "### Farm House Photos\n\n![Farm House - Water Shutoff - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ajEOmORjSxxwIXOW.jpg)\n\n**Farm House - Water Shutoff - Exterior**\n\n---\n\n![Farm House - Irrigation Valve Box - Garden](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/fPcxcmJcjQBRsvDO.jpg)\n\n**Farm House - Irrigation Valve Box - Garden**\n\n---\n\n![Farm House - Irrigation Valve Box - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/vjWeSAGllznpgYkt.jpg)\n\n**Farm House - Irrigation Valve Box - Exterior**\n\n---\n\n![Farm House - Valve Box - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/zDvgigEKnhWygCak.jpg)\n\n**Farm House - Valve Box - Exterior**\n\n---\n\n![Farm House - Irrigation Valve Box - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/rLqYwhkHXebXbZCs.jpg)\n\n**Farm House - Irrigation Valve Box - Exterior**\n\n---\n\n",
+          "items": [],
+          "intro": "### Farm House Photos\n\n![Farm House - Water Shutoff - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ajEOmORjSxxwIXOW.jpg)\n\n**Farm House - Water Shutoff - Exterior**..."
         }
       ],
       "intro": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC) - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)"
     },
     {
-      "id": "beach-house",
-      "title": "Beach House",
-      "content": "**Parcel:** [To be documented] - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)\n\n### Utilities & Systems\n- **Water Shutoff:** Exterior access box near main entry by \"Lighthouse Point\" sign (Blue-handled ball valve)\n- **WiFi:** Network: **Ned&Haleh** | Password: **Beachhouse1**\n- **Security:** First Alert FA260 Professional alarm system\n\n### Appliances\n- **Refrigerator:** LG LRBP1031T (19 years old) - *Rec. Replace Immediately*\n- **Range:** Bosch Electric (Stainless steel, ceramic cooktop)\n- **Dishwasher:** Bosch 300 Series SHP53C06UC30 (~7 years old)\n- **Washer:** Maytag MHW8200FC0 (8 years old)\n- **Dryer:** Maytag MED8200FC2 (8 years old)\n\n### Water Heater\n- **Model:** Bradford White M265R6DS-1NCWM\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK (Expected life 8-12 years)\n- **Action:** Replace immediately",
-      "subsections": [
-        {
-          "id": "utilities-and-systems",
-          "title": "Utilities & Systems",
-          "content": "- **Water Shutoff:** Exterior access box near main entry by \"Lighthouse Point\" sign (Blue-handled ball valve)\n- **WiFi:** Network: **Ned&Haleh** | Password: **Beachhouse1**\n- **Security:** First Alert FA260 Professional alarm system",
-          "items": [],
-          "intro": "- **Water Shutoff:** Exterior access box near main entry by \"Lighthouse Point\" sign (Blue-handled ball valve)\n- **WiFi:** Network: **Ned&Haleh** | Password: **Beachhouse1**\n- **Security:** First Alert FA260 Professional alarm system"
-        },
-        {
-          "id": "appliances",
-          "title": "Appliances",
-          "content": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRBP1031T | ~19 years old (2007 model) | **Replacement Recommended** - Nearing end of life. |\n| Range | Bosch Electric Range | Good Condition | Stainless steel, ceramic cooktop, convection oven. |\n| Dishwasher | Bosch 300 Series | ~7 years old (2019 model) | Good condition. |\n| Washer | Maytag MHW8200FC0 | ~8 years old (2018 model) | Good condition. |\n| Dryer | Maytag MED8200FC2 | ~8 years old (2018 model) | Good condition. |",
-          "items": [],
-          "intro": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRBP1031T | ~19 years old (2007 model) | **Replacement Recommended** - Nearing end of life. |\n| Range | Bosch Electric Range | Good Condition | Stainless steel, ceramic cooktop, convection oven. |\n| Dishwasher | Bosch 300 Series | ~7 years old (2019 model) | Good condition. |\n| Washer | Maytag MHW8200FC0 | ~8 years old (2018 model) | Good condition. |\n| Dryer | Maytag MED8200FC2 | ~8 years old (2018 model) | Good condition. |"
-        },
-        {
-          "id": "water-heater-beach",
-          "title": "Water Heater (Critical)",
-          "content": "### ⚠️ URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWM\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan. Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**",
-          "items": [],
-          "intro": "### ⚠️ URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWM\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan. Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**"
-        }
-      ],
-      "intro": "**Parcel:** [To be documented] - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)"
+      "id": "madrona-house",
+      "title": "Madrona House",
+      "content": "**Status:** Documented\n\nThe Madrona House water systems include potable water shutoff access and booster pump systems located east of the upper shop.\n\n![Madrona House - Potable Water Shutoff Access - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/VTxqWqFdWlvsiKaP.jpg)\n\n**Madrona House - Potable Water Shutoff Access - Exterior**\n\n---\n\n![Madrona House - Potable Water Booster - East of Upper Shop](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/EZSNNqJORpAneRsD.jpg)\n\n**Madrona House - Potable Water Booster - East of Upper Shop**\n\n---\n\n![Madrona House - Potable & Irrigation Booster Shed - East of Upper Shop](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/OVSXhXxmFeibVkVE.jpg)\n\n**Madrona House - Potable & Irrigation Booster Shed - East of Upper Shop**\n\n---\n\n![Madrona House - Irrigation Valve Box - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/JYfPlltXcrhuSPib.jpg)\n\n**Madrona House - Irrigation Valve Box - Exterior**\n\n---\n\n",
+      "subsections": [],
+      "intro": "**Status:** Documented\n\nThe Madrona House water systems include potable water shutoff access and booster pump systems located east of the upper shop."
     },
     {
-      "id": "main-house",
-      "title": "Main House",
-      "content": "**Status:** Partially Documented\n\n### Irrigation System\n- **Type:** Sprinkler system\n- **Controller:** Rain Bird ESP-ME3\n- **Location:** Wall-mounted cabinet\n- **Features:** LNK WiFi Ready, Weather Sensor compatible, Seasonal Adjust, Flow Sensor compatible\n- **Programs:** A, B, C, D\n- **Current Status:** OFF (as of last photo)\n- **Coverage:** Landscaping around Main House\n- **Map:** Hand-drawn map available showing all head locations\n\n### Electrical Systems\n- **Service Type:** [Overhead/Underground]\n- **Amperage:** [Amps]\n- **Main Panel Location:** [Location]\n- **Sub-Panel Locations:** [List locations]\n- **Generator:** [Yes/No - Details if yes]\n- **Solar Panels:** [Yes/No - Details if yes]\n\n*Please provide photos and details to populate remaining sections.*",
+      "id": "boat-house",
+      "title": "Boat House",
+      "content": "**Status:** Documented\n\nThe Boat House is a dark wood structure with weathered metal roof located near the waterfront. It provides storage for marine equipment, boats, and water sports gear, with comprehensive electrical distribution serving the building interior, docks, boat ramp, and waterfront areas.\n\n### Building Overview\n\n![Boat House Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/hxkBSOvIZgNhHbsO.jpg)\n\n**Structure:** Dark wood building with weathered metal roof, covered porch area, surrounded by tall evergreen trees\n\n**Purpose:** Marine equipment storage, boat storage, water sports gear\n\n**Features:** Interior electrical panel, dock electrical distribution, boat ramp power, waterfront outlets\n\n### Electrical Systems\n\nThe Boat House electrical system consists of four separate distribution points serving different areas of the waterfront property.",
       "subsections": [
         {
-          "id": "irrigation-system",
-          "title": "Irrigation System",
-          "content": "- **Type:** Sprinkler system\n- **Controller:** Rain Bird ESP-ME3\n- **Location:** Wall-mounted cabinet\n- **Features:** LNK WiFi Ready, Weather Sensor compatible, Seasonal Adjust, Flow Sensor compatible\n- **Programs:** A, B, C, D\n- **Current Status:** OFF (as of last photo)\n- **Coverage:** Landscaping around Main House\n- **Map:** Hand-drawn map available showing all head locations",
+          "id": "boat-house-electrical",
+          "title": "Electrical Systems",
+          "content": "The Boat House electrical system provides power distribution to the building interior, Main House docks, boat house docks, and boat ramp areas. The system consists of four separate panels and outlet installations.\n\n### Main Interior Panel\n\n![Boat House Interior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/xwuUvLsTtTeFUKbh.jpg)\n\n**Location:** Interior wall, left side upon entry\n\n**Surroundings:** White painted walls, oars/paddles mounted on wall, life jackets and marine equipment hanging, concrete floor\n\n---\n\n![Boat House Main Electrical Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jvNbMltcilUuthKz.jpg)\n\n**Type:** Square D circuit breaker panel\n\n**Circuit Directory** (yellow label-maker labels):\n\n**Left Column:**\n- DOCK\n\n**Right Column:**\n- 100 AMP MAIN\n- 200 AMP MAIN\n- W INCH\n- WINCH\n- INSIDE ROOM LIGHTS\n- OUTSIDE LIGHTS 20AMPS (blue label)\n- OUTSIDE OUTLET\n\n**Panel Label:** \"MAIN\" written above panel\n\n**Features:**\n- Dual main breakers (100A and 200A capacity)\n- Winch circuits for boat launching operations\n- Interior and exterior lighting circuits\n- Dock power distribution\n- Outdoor outlet circuits\n\n---\n\n### Main House Dock Panel\n\n![Main House Dock Walkway Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/CLygQJwZBMtxbWGL.jpg)\n\n**Location:** Mounted on post at beginning of wooden dock walkway\n\n**Type:** Weatherproof electrical panel box (gray/green)\n\n**Surroundings:** Water and aluminum dock ramp visible in background, moss-covered dock planks\n\n---\n\n![Main House Dock Panel Open](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/wrsIXFRmIPIxTAEV.jpg)\n\n**Panel:** Square D QO Load Center\n\n**Features:**\n- Circuit breakers with warning labels\n- \"QO LOAD CENTER\" label at top\n- Mounted on white PVC conduit post\n- Weatherproof enclosure for marine environment\n\n---\n\n![Main House Dock Outlet](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/WTNpRyMiJUmSVTAa.jpg)\n\n**Location:** Weatherproof electrical outlet mounted on wooden dock post at water's edge\n\n**Type:** Gray receptacle cover with orange/red outlet\n\n**Surroundings:** Rocky shoreline and clear water visible\n\n---\n\n### Boat House Dock Panel\n\n![Boat House Dock Outlet Box](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/MvlMAELgNbRofsYx.jpg)\n\n**Location:** Mounted on wooden dock post under covered dock structure\n\n**Type:** Weatherproof electrical outlet box with white/gray cover\n\n**Features:** Orange toggle switch visible on cover\n\n**Surroundings:** Calm water and rocky shoreline in background, moss-covered dock planks\n\n---\n\n![Boat House Dock Panel Open](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/FaUjRPQItVmKAjmc.jpg)\n\n**Circuit Breakers:** Located at top of panel\n\n**Outlets:**\n- **Yellow twist-lock outlet** (30A marine/RV style) - for high-power marine equipment\n- **Two standard black duplex outlets** (120V) - for general use\n\n**Installation:** Mounted under covered dock structure with water visible, mesh cable protection\n\n---\n\n### Boat Ramp Panel\n\n![Boat Ramp Panel Installation](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/RIMMvmUpyjhBnJAT.jpg)\n\n**Location:** Weathered outdoor electrical panel in wooded hillside area near water\n\n**Type:** Aged gray/blue panel boxes mounted on post\n\n**Condition:** Visible weathering and rust, exposed to elements\n\n**Surroundings:** Ferns and forest debris, natural hillside setting\n\n---\n\n![Boat Ramp Panel Open](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mHAOqLfCnOBlQoos.jpg)\n\n**Features:**\n- Circuit breaker at top\n- Twist-lock outlet (marine equipment)\n- Two standard duplex outlets below\n- Heavy weathering with rust on lower junction box\n\n**Purpose:** Power for boat ramp operations, marine equipment, and waterfront activities\n\n---\n\n### Electrical System Summary\n\n**Four Distribution Points:**\n\n1. **Main Interior Panel** - Building interior lights, winch operations, exterior lights, dock power, outlets\n2. **Main House Dock Panel** - Square D QO Load Center serving Main House dock walkway and waterfront\n3. **Boat House Dock Panel** - Marine-grade outlets (30A twist-lock + standard 120V) for boats and equipment\n4. **Boat Ramp Panel** - Weatherproof outdoor installation for boat launching and ramp operations\n\n**Power Capacity:**\n- Main panel: Dual mains (100A + 200A)\n- Specialized circuits for boat winch operations\n- Marine-grade 30A twist-lock outlets for high-power equipment\n- Standard 120V outlets for general use\n- Dedicated dock and outdoor lighting circuits\n\n**Safety Features:**\n- Weatherproof enclosures for marine environment\n- Circuit breaker protection at all distribution points\n- GFCI protection recommended for all waterfront outlets\n- Mesh cable protection on dock installations\n\n**Maintenance Notes:**\n- Boat ramp panel shows significant weathering and rust - monitor condition\n- All waterfront electrical should be inspected annually for corrosion\n- Test GFCI outlets monthly\n- Keep panel doors closed when not in use to prevent moisture intrusion\n- Verify all connections remain tight in marine environment\n- Consider panel replacement for heavily rusted boat ramp installation",
           "items": [],
-          "intro": "- **Type:** Sprinkler system\n- **Controller:** Rain Bird ESP-ME3\n- **Location:** Wall-mounted cabinet\n- **Features:** LNK WiFi Ready, Weather Sensor compatible, Seasonal Adjust, Flow Sensor compatible\n- **Programs:** A, B, C, D\n- **Current Status:** OFF (as of last photo)\n- **Coverage:** Landscaping around Main House\n- **Map:** Hand-drawn map available showing all head locations"
+          "intro": "The Boat House electrical system provides power distribution to the building interior, Main House docks, boat house docks, and boat ramp areas. The system consists of four separate panels and outlet installations."
+        },
+        {
+          "id": "boat-house-water-irrigation",
+          "title": "Water & Irrigation Systems",
+          "content": "The Boat House includes potable water connections and irrigation drainage systems.\n\n![Boat House - Irrigation Drain - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/fQFfExrqCHInUMfM.jpg)\n\n**Boat House - Irrigation Drain - Exterior**\n\n---\n\n![Boat House - Electrical & Water Access - Interior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/kyKHDHPshkgefaBO.jpg)\n\n**Boat House - Electrical & Water Access - Interior**\n\n---\n\n![Boat House - Valve Box - Potable & Irrigation Drain](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/CKMYzYGRHlLMwTyp.jpg)\n\n**Boat House - Valve Box - Potable & Irrigation Drain**\n\n---",
+          "items": [],
+          "intro": "The Boat House includes potable water connections and irrigation drainage systems."
         }
       ],
-      "intro": "**Status:** Partially Documented"
+      "intro": "**Status:** Documented\n\nThe Boat House is a dark wood structure with weathered metal roof located near the waterfront. It provides storage for marine equipment, boats, and water sports gear, with comprehensive electrical distribution serving the building interior, docks, boat ramp, and waterfront areas."
     },
     {
-      "id": "the-chalet",
-      "title": "The Chalet",
-      "content": "**Status:** Documented\n\n### Structure & Exterior\n- **Foundation:** Pier foundation\n- **Exterior:** Board-and-batten siding, painted tan/beige\n- **Rear:** Elevated deck with stairs and wire-mesh railing\n- **Front:** Covered porch with columns, water views\n\n### Heating & Comfort\n- **Thermostat (Zone 1 – Bedroom):** King Comfort Zone dial thermostat (by King Electric)\n- **Thermostat (Zone 2 – Living Area):** King Comfort Zone dial thermostat (by King Electric)\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove\n  - **Model:** JDV RP | **Serial:** 2684\n  - **Fuel:** Propane | **Input:** 19,000 BTUH | **Output:** 28,000 BTUH (19,600 BTUH Canadian rating)\n  - **Manufacturer:** Vermont Castings Majestic Products, Bethel, VT\n  - **Certified:** ANSI Z21.88B-1998, CGA 2.33B-M98\n  - **Supply Pressure (Propane):** 11.0– 13.0” W.C. | **Manifold Pressure:** 10.0” W.C.\n  - [View Manual](https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf)\n\n### Electrical\n- **Panel:** Square D QO Load Center (Cat. No. QOC-20M, Series B1), wall-mounted with cedar trim\n- **Circuit Directory:** Heat (×2 zones), Water Heater, Bedrooms, Living Room, Kitchen, Bathroom, Basement, Microwave\n\n### Kitchenette\n- **Refrigerator:** Danby Designer (Compact under-counter model)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel\n\n### Systems\n- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)\n\n### Maintenance Notes\n- **Winterization:** Ensure wall heaters are set to frost protection (approx. 45°F) during winter months.\n- **Water Heater:** Drain 1-2 gallons annually to remove sediment.",
-      "subsections": [
-        {
-          "id": "structure-exterior",
-          "title": "Structure & Exterior",
-          "content": "- **Foundation:** Pier foundation\n- **Exterior:** Board-and-batten siding, painted tan/beige\n- **Rear:** Elevated deck with stairs and wire-mesh railing\n- **Front:** Covered porch with columns, water views",
-          "items": [],
-          "intro": "- **Foundation:** Pier foundation\n- **Exterior:** Board-and-batten siding, painted tan/beige\n- **Rear:** Elevated deck with stairs and wire-mesh railing\n- **Front:** Covered porch with columns, water views",
-          "images": [
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/gvdiRDCvrEfkmvxw.jpg",
-              "caption": "Chalet exterior — rear view with elevated deck, stairs, and pier foundation"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ANuywJDYmKygDhKy.jpg",
-              "caption": "Chalet front entry — covered porch with columns, blue patio chairs, and water view"
-            }
-          ]
-        },
-        {
-          "id": "heating-and-comfort",
-          "title": "Heating & Comfort",
-          "content": "- **Thermostat (Zone 1 – Bedroom):** King Comfort Zone dial thermostat (by King Electric)\n- **Thermostat (Zone 2 – Living Area):** King Comfort Zone dial thermostat (by King Electric)\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove\n  - **Model:** JDV RP | **Serial:** 2684\n  - **Fuel:** Propane | **Input:** 19,000 BTUH | **Output:** 28,000 BTUH (19,600 BTUH Canadian rating)\n  - **Manufacturer:** Vermont Castings Majestic Products, Bethel, VT\n  - **Certified:** ANSI Z21.88B-1998, CGA 2.33B-M98\n  - **Supply Pressure (Propane):** 11.0– 13.0” W.C. | **Manifold Pressure:** 10.0” W.C.\n  - [View Manual](https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf)",
-          "items": [],
-          "intro": "- **Thermostat (Zone 1 – Bedroom):** King Comfort Zone dial thermostat\n- **Thermostat (Zone 2 – Living Area):** King Comfort Zone dial thermostat\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove (Model: JDV RP, Serial: 2684, Propane, 19,000 BTUH input / 28,000 BTUH output)",
-          "images": [
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/vwRQGqWkRmFOFVqC.jpg",
-              "caption": "King Comfort Zone dial thermostat — Zone 1 (bedroom area)"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/SCKLLYzfadMXynfL.jpg",
-              "caption": "King Comfort Zone dial thermostat — Zone 2 (living area)"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/HzuFBZQiNfoGatIA.jpg",
-              "caption": "Vermont Castings Jefferson Direct Vent Gas Stove — cast iron, propane"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/yrCqIXUInlwZtNJS.jpg",
-              "caption": "Gas stove operation and lighting instructions label"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/XfrGAbLPskWwpCVi.jpg",
-              "caption": "Gas stove rating plate — Model JDV RP, Serial 2684, Propane, 19,000 BTUH input / 28,000 BTUH output"
-            }
-          ]
-        },
-        {
-          "id": "electrical",
-          "title": "Electrical",
-          "content": "- **Panel:** Square D QO Load Center (Cat. No. QOC-20M, Series B1), wall-mounted with cedar trim\n- **Circuit Directory:**\n  - 1: Heat (Zone 1) | 2: Water Heater\n  - 3: Heat (Zone 1 Bed) | 4: Water Heater\n  - 5: Heat (Zone 2) | 6: Bed Room\n  - 7: Heat (Zone 2 Living) | 8: Heat\n  - 9: Living Room / Porch | 10: Ref. Ki. Rec.\n  - 11: Bed Room | 12: Bath. Rec.\n  - 13: Bed Room | 14: Basement / Light / Bed Bath\n  - 15: (spare) | 16: Basement / Garage\n  - 17: (spare) | 18: Microwave",
-          "items": [],
-          "intro": "- **Panel:** Square D QO Load Center (Cat. No. QOC-20M, Series B1), wall-mounted with cedar trim\n- **Circuits:** Heat (×2 zones), Water Heater, Bedrooms, Living Room, Kitchen, Bathroom, Basement, Microwave",
-          "images": [
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/wTDNByWwJlJSlueI.jpg",
-              "caption": "Electrical panel — closed, wall-mounted with cedar trim"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/DZHoowbFyEEtjoCD.jpg",
-              "caption": "Square D QO Load Center — panel open with handwritten circuit directory"
-            }
-          ]
-        },
-        {
-          "id": "kitchenette",
-          "title": "Kitchenette",
-          "content": "- **Refrigerator:** Danby Designer (Compact under-counter model)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel",
-          "items": [],
-          "intro": "- **Refrigerator:** Danby Designer (Compact under-counter model)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel",
-          "images": [
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/90bdd0cd-a84c-4885-a9c6-e67fd4288837350716809401078327.jpg",
-              "caption": "Danby Designer compact refrigerator — under-counter model"
-            }
-          ]
-        },
-        {
-          "id": "systems",
-          "title": "Systems",
-          "content": "- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)",
-          "items": [],
-          "intro": "- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)",
-          "images": [
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/JSvrHMtvXmnCGFak.jpg",
-              "caption": "Rheem 30 Gallon Electric Water Heater (Model: 81V30D) — interior installation"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/SWmCgJnSWMTbDrCv.jpg",
-              "caption": "Chalet water shutoff — exterior access"
-            }
-          ]
-        }
-      ],
-      "intro": "**Status:** Documented"
+      "id": "well-systems",
+      "title": "Well Systems",
+      "content": "**Status:** Documented\n\nThe property has multiple well systems including the New Well and Windmill Well, each with valve boxes and access points for potable and irrigation water.\n\n![Well Systems - Windmill Well - Potable & Irrigation Access](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/WATHuKMPstJWCVWU.jpg)\n\n**Well Systems - Windmill Well - Potable & Irrigation Access**\n\n---\n\n![Well Systems - New Well & Valve Box - Site](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/DvKfMToXjExfrZVy.jpg)\n\n**Well Systems - New Well & Valve Box - Site**\n\n---\n\n![Well Systems - Windmill Well & Valve Box - Site](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/LNMICMKgJGQVoSAL.jpg)\n\n**Well Systems - Windmill Well & Valve Box - Site**\n\n---\n\n![Well Systems - New Well Electrical Panel & Valve Box - Site](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/XopYLGpJPrqMvwHo.jpg)\n\n**Well Systems - New Well Electrical Panel & Valve Box - Site**\n\n---\n\n![Well Systems - New Well Valve Box & Meter - Site](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/kQRIOgRqJBhzGoRu.jpg)\n\n**Well Systems - New Well Valve Box & Meter - Site**\n\n---\n\n![Irrigation switch for well pumps in ponds, lower shop](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/yrsvQZtVevAxeXUj.jpg)\n\n**Irrigation switch for well pumps in ponds, lower shop**\n\n---\n\n",
+      "subsections": [],
+      "intro": "**Status:** Documented\n\nThe property has multiple well systems including the New Well and Windmill Well, each with valve boxes and access points for potable and irrigation water."
     },
     {
-      "id": "camp-kitchen",
-      "title": "Camp Kitchen",
-      "content": "**Status:** Documented\n\n### Structure\n- **Type:** Open-air timber frame pavilion with metal roof\n- **Flooring:** Concrete slab\n- **Lighting:** Overhead string lights and task lighting\n\n### Appliances\n- **Stove:** Propane Range (4-burner with oven)\n- **Refrigerator:** Full-size Refrigerator/Freezer\n- **Grill:** Weber Genesis II (Propane, 3-burner)\n- **Prep Area:** Large stainless steel prep table\n\n### Utilities & Systems\n- **Water Heater:** Rinnai Tankless Water Heater (Model: V53e) - [View Manual](https://media.rinnai.us/salsify_asset/s-38321af7-24bd-49ca-84c5-e554a678661f/100000256-V53e%20Installation%20and%20Operation%20Manual.pdf)\n- **Electrical:**\n  - **Transformer Enclosure:** Located near Camp Kitchen (Green box)\n  - **Meter & Shutoff:** Located by Camp Kitchen\n  - **Sub-panel:** Dedicated panel serving kitchen circuits\n- **Water:**\n  - **Supply:** Outdoor sink with hot/cold water\n  - **Exterior Spigot:** Located on Camp Kitchen exterior\n  - **Winterization:** Must be drained in freezing months\n- **Outlets:** Multiple outdoor-rated GFCI outlets for small appliances\n\n### Maintenance Notes\n- **Winterization:** Shut off water supply and drain lines to prevent freezing. Cover grill.\n- **Propane:** Check tank levels before large gatherings.",
-      "subsections": [
-        {
-          "id": "structure",
-          "title": "Structure",
-          "content": "- **Type:** Open-air timber frame pavilion with metal roof\n- **Flooring:** Concrete slab\n- **Lighting:** Overhead string lights and task lighting",
-          "items": [],
-          "intro": "- **Type:** Open-air timber frame pavilion with metal roof\n- **Flooring:** Concrete slab\n- **Lighting:** Overhead string lights and task lighting"
-        },
-        {
-          "id": "appliances",
-          "title": "Appliances",
-          "content": "- **Stove:** Amana Gas Range (Model: TX145BW, 4-burner with oven) - [View Manual](https://www.amana.com/content/dam/global/documents/201107/owners-manual-W10419399-RevA.pdf)\n- **Refrigerator:** Full-size Refrigerator/Freezer\n- **Grill:** Weber Genesis II (Propane, 3-burner)\n- **Prep Area:** Large stainless steel prep table",
-          "items": [],
-          "intro": "- **Stove:** Amana Gas Range (Model: TX145BW, 4-burner with oven) - [View Manual](https://www.amana.com/content/dam/global/documents/201107/owners-manual-W10419399-RevA.pdf)\n- **Refrigerator:** Full-size Refrigerator/Freezer\n- **Grill:** Weber Genesis II (Propane, 3-burner)\n- **Prep Area:** Large stainless steel prep table",
-          "images": [
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/FuEjdeWwDumEHkei.png",
-              "caption": "Amana TX145BW gas range — 4-burner with oven"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/SnNbtPxNZJFlAtly.png",
-              "caption": "Amana TX145BW rating plate — Model TX145BW, S/N 9709132252"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/spIaqUaJjFPIGnbx.png",
-              "caption": "Camp Kitchen refrigerator — full-size refrigerator/freezer"
-            }
-          ]
-        },
-        {
-          "id": "utilities-and-systems",
-          "title": "Utilities & Systems",
-          "content": "- **Water Heater:** Rinnai Tankless Water Heater (Model: V53e) - [View Manual](https://media.rinnai.us/salsify_asset/s-38321af7-24bd-49ca-84c5-e554a678661f/100000256-V53e%20Installation%20and%20Operation%20Manual.pdf)\n- **Electrical:** Transformer enclosure near kitchen, Meter & Shutoff by kitchen, Dedicated sub-panel\n- **Water:** Outdoor sink (hot/cold), Exterior spigot on building\n- **Winterization:** Must be drained in freezing months",
-          "items": [],
-          "intro": "- **Water Heater:** Rinnai Tankless Water Heater (Model: V53e) - [View Manual](https://media.rinnai.us/salsify_asset/s-38321af7-24bd-49ca-84c5-e554a678661f/100000256-V53e%20Installation%20and%20Operation%20Manual.pdf)\n- **Electrical:** Transformer enclosure near kitchen, Meter & Shutoff by kitchen, Dedicated sub-panel\n- **Water:** Outdoor sink (hot/cold), Exterior spigot on building\n- **Winterization:** Must be drained in freezing months",
-          "images": [
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ypYqUgrtvqdTXwaO.png",
-              "caption": "Generator enclosures with protective covers — green boxes, north view"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/XDSVoDssPrEGFgrC.png",
-              "caption": "Generator meter on enclosure — top view showing meter"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/lLSYEBKizwlXtUPl.jpg",
-              "caption": "Rinnai V53e tankless water heater — wall-mounted unit"
-            }
-          ]
-        },
-        {
-          "id": "generator",
-          "title": "Generator",
-          "content": "- **Location:** Behind Camp Kitchen\n- **Type:** Backup power generator\n- **Cover:** Protective cover for weather protection\n- **Access:** Multiple access points for maintenance",
-          "items": [],
-          "intro": "Backup power generator located behind Camp Kitchen with protective cover",
-          "images": [
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/xsjvwsjVBAzsjbGT.png",
-              "caption": "Generator operating instructions — handwritten steps for switching power"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/QpkLvkAUMMvwoPPv.png",
-              "caption": "Generator shed exterior — green enclosures with metal roof"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/pQonpVvSveVOTVRJ.png",
-              "caption": "Dayton generator unit — blue/teal color, under protective shed"
-            }
-          ]
-        },
-        {
-          "id": "electrical",
-          "title": "Electrical",
-          "content": "- **Main Panel:** Square D panel with handwritten circuit directory\n- **Main House Disconnect:** Square D disconnect switch labeled 'MAIN HOUSE DISCONNECT'\n- **Transfer Switch:** For generator power switching",
-          "items": [],
-          "intro": "Electrical panels and disconnect switches for Camp Kitchen",
-          "images": [
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/bIKeaYuBbWntfTcX.png",
-              "caption": "Electrical panel with circuit directory — Square D panel with handwritten labels"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TGAbhbXfYQUMaFsN.png",
-              "caption": "Main House disconnect switch — Square D labeled 'MAIN HOUSE DISCONNECT'"
-            }
-          ]
-        }
-      ],
-      "intro": "**Status:** Documented"
+      "id": "water-storage",
+      "title": "Water Storage",
+      "content": "**Status:** Documented\n\nThe 100,000-gallon water storage tank provides water supply for the property with shutoff valves and distribution controls.\n\n![Water Storage - 100K Tank Valves - Tank Site](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mmZRmskzVKaQvxPH.jpg)\n\n**Water Storage - 100K Tank Valves - Tank Site**\n\n---\n\n![Water Storage - 100K Tank - Tank Site](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/PDKsVPfGwBkOUUNn.jpg)\n\n**Water Storage - 100K Tank - Tank Site**\n\n---\n\n![Water Storage - 100K Tank Valves - Tank Site](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/IZTbTauEpCvpobUl.jpg)\n\n**Water Storage - 100K Tank Valves - Tank Site**\n\n---\n\n![Water Storage - 100K Tank Shutoff Valve Cover - Tank Site](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mabtjHqsnolsziEx.jpg)\n\n**Water Storage - 100K Tank Shutoff Valve Cover - Tank Site**\n\n---\n\n",
+      "subsections": [],
+      "intro": "**Status:** Documented\n\nThe 100,000-gallon water storage tank provides water supply for the property with shutoff valves and distribution controls."
     },
     {
-      "id": "caretaker",
-      "title": "Caretaker House",
-      "content": "**Status:** Documented\n\n### Kitchen Appliances\n- **Dishwasher:** KitchenAid Model KDFE104DBL5 (Black, built-in)\n- **Microwave:** GE Sensor Microwave Oven (White/cream, countertop, no model/serial available)\n- **Refrigerator:** Frigidaire Model FFHS2622MSNA, Serial 4A44813686 (Black, side-by-side with ice/water dispenser, manufactured 12/2014, ~11 years old, 8.50A 115V)\n- **Range:** Whirlpool Model WFC310S0EB1, Serial R81030795 (Black, 4-burner coil cooktop with oven, 120/208-240V, 8.8-11.7 KW)\n\n### Laundry\n- **Washer:** Whirlpool Model WFW4T20RW0, Serial CD3700848 (12.0A, 120V)\n- **Dryer:** Whirlpool Model WED7500GW0, Serial M74416721 (120/208V 23A or 120/240V 24A)\n\n### Water Heater\n- **Bradford White** Model RE350T6-1NCWW, Serial SB40976517 (50 gallon, Electric, 240V/208V, 4500W upper/lower elements)\n\n### Heating\n- **Wood Stove:** Fisher cast iron wood stove with blower motor, on brick hearth\n- **Furnace:** Thermo Pride Oil-Fired Furnace, No. AR773354, Model OC2 56D, oil burner TP-1401 (0.55 GPH, 120 PSI, 115V, 70,000 BTU input / 57,000 BTU output, 14.55 total amps)\n- **Thermostat:** Honeywell ProSeries (programmable, Heat/Cool modes)\n\n### Fuel\n- Two exterior above-ground oil tanks: Green tank (left) for house furnace, Silver/white tank (right) for generator\n\n### Structure & Exterior\n- Dark green vertical board siding, metal roof, stone chimney\n- Crawl space access on exterior with junction box above\n- Water shutoff located in crawl space\n\n### Electrical\n- **Main Breaker Panel:** Load center with handwritten circuit directory\n- **Transfer Switch:** MTS Manual Transfer Switch (Generator to Utility Power) by Elanor Electric, Everett WA\n- **Maximum Rating:** 100 Amps\n- **Panel Directory:** Includes circuits for range, dryer, bathroom water, hot water, lights, club, panel, utility room, washer, kitchen living, bathroom, appliances, office, laundry, and boot room",
-      "subsections": [
-        {
-          "id": "kitchen-appliances",
-          "title": "Kitchen Appliances",
-          "content": "- **Dishwasher:** KitchenAid Model KDFE104DBL5 (Black, built-in)\n- **Microwave:** GE Sensor Microwave Oven (White/cream, countertop, no model/serial available)\n- **Refrigerator:** Frigidaire Model FFHS2622MSNA, Serial 4A44813686 (Black, side-by-side with ice/water dispenser, manufactured 12/2014, ~11 years old, 8.50A 115V)\n- **Range:** Whirlpool Model WFC310S0EB1, Serial R81030795 (Black, 4-burner coil cooktop with oven, 120/208-240V, 8.8-11.7 KW)",
-          "items": [],
-          "intro": "- **Dishwasher:** KitchenAid Model KDFE104DBL5 (Black, built-in)\n- **Microwave:** GE Sensor Microwave Oven (White/cream, countertop)\n- **Refrigerator:** Frigidaire FFHS2622MSNA (Black, side-by-side, ~11 years old)\n- **Range:** Whirlpool WFC310S0EB1 (Black, 4-burner coil cooktop with oven)",
-          "images": [
-            {
-              "url": "/images/caretaker/kitchen-appliances/01_dishwasher_kitchenaid.jpg",
-              "caption": "KitchenAid Dishwasher KDFE104DBL5"
-            },
-            {
-              "url": "/images/caretaker/kitchen-appliances/02_dishwasher_model_label.jpg",
-              "caption": "Dishwasher Model Label"
-            },
-            {
-              "url": "/images/caretaker/kitchen-appliances/03_microwave_ge_sensor.jpg",
-              "caption": "GE Sensor Microwave Oven"
-            },
-            {
-              "url": "/images/caretaker/kitchen-appliances/04_refrigerator_frigidaire.jpg",
-              "caption": "Frigidaire Refrigerator FFHS2622MSNA"
-            },
-            {
-              "url": "/images/caretaker/kitchen-appliances/05_refrigerator_model_label.jpg",
-              "caption": "Refrigerator Model Label"
-            },
-            {
-              "url": "/images/caretaker/kitchen-appliances/06_range_whirlpool_label.jpg",
-              "caption": "Whirlpool Range Model Label"
-            },
-            {
-              "url": "/images/caretaker/kitchen-appliances/07_range_whirlpool_overview.jpg",
-              "caption": "Whirlpool Range Overview"
-            }
-          ]
-        },
-        {
-          "id": "laundry",
-          "title": "Laundry",
-          "content": "- **Washer:** Whirlpool Model WFW4T20RW0, Serial CD3700848 (12.0A, 120V)\n- **Dryer:** Whirlpool Model WED7500GW0, Serial M74416721 (120/208V 23A or 120/240V 24A)",
-          "items": [],
-          "intro": "- **Washer:** Whirlpool WFW4T20RW0 (Front-load, 12.0A, 120V)\n- **Dryer:** Whirlpool WED7500GW0 (120/208V 23A or 120/240V 24A)",
-          "images": [
-            {
-              "url": "/images/caretaker/laundry/01_washer_dryer_overview.jpg",
-              "caption": "Washer and Dryer Overview"
-            },
-            {
-              "url": "/images/caretaker/laundry/02_washer_model_label.jpg",
-              "caption": "Washer Model Label"
-            },
-            {
-              "url": "/images/caretaker/laundry/03_dryer_whirlpool.jpg",
-              "caption": "Whirlpool Dryer WED7500GW0"
-            },
-            {
-              "url": "/images/caretaker/laundry/04_dryer_model_label.jpg",
-              "caption": "Dryer Model Label"
-            }
-          ]
-        },
-        {
-          "id": "water-heater",
-          "title": "Water Heater",
-          "content": "- **Bradford White** Model RE350T6-1NCWW, Serial SB40976517\n- **Capacity:** 50 gallon\n- **Type:** Electric\n- **Voltage:** 240V/208V\n- **Wattage:** 4500W upper element / 4500W lower element",
-          "items": [],
-          "intro": "- **Bradford White** RE350T6-1NCWW (50 gallon, Electric, 240V/208V, 4500W upper/lower elements)",
-          "images": [
-            {
-              "url": "/images/caretaker/water-heater/01_water_heater_bradford_white.jpg",
-              "caption": "Bradford White Water Heater"
-            },
-            {
-              "url": "/images/caretaker/water-heater/02_water_heater_model_label.jpg",
-              "caption": "Water Heater Model Label"
-            }
-          ]
-        },
-        {
-          "id": "heating",
-          "title": "Heating",
-          "content": "- **Wood Stove:** Fisher cast iron wood stove with blower motor, on brick hearth\n- **Furnace:** Thermo Pride Oil-Fired Furnace, No. AR773354, Model OC2 56D, oil burner TP-1401 (0.55 GPH, 120 PSI, 115V, 70,000 BTU input / 57,000 BTU output, 14.55 total amps)\n- **Thermostat:** Honeywell ProSeries (programmable, Heat/Cool modes)",
-          "items": [],
-          "intro": "- **Wood Stove:** Fisher cast iron wood stove with blower motor\n- **Furnace:** Thermo Pride Oil-Fired Furnace, Model OC2 56D (70,000 BTU input / 57,000 BTU output)\n- **Thermostat:** Honeywell ProSeries (programmable)",
-          "images": [
-            {
-              "url": "/images/caretaker/heating/01_fisher_wood_stove.jpg",
-              "caption": "Fisher Cast Iron Wood Stove"
-            },
-            {
-              "url": "/images/caretaker/heating/02_furnace_thermo_pride.jpg",
-              "caption": "Thermo Pride Oil-Fired Furnace"
-            },
-            {
-              "url": "/images/caretaker/heating/03_furnace_model_label.jpg",
-              "caption": "Furnace Model Label"
-            },
-            {
-              "url": "/images/caretaker/heating/04_thermostat_honeywell.jpg",
-              "caption": "Honeywell ProSeries Thermostat"
-            }
-          ]
-        },
-        {
-          "id": "fuel",
-          "title": "Fuel",
-          "content": "- **Oil Tanks:** Two exterior above-ground oil tanks\n- **Green tank (left):** Supplies house furnace\n- **Silver/white tank (right):** Supplies generator",
-          "items": [],
-          "intro": "Two exterior above-ground oil tanks: Green tank (left) for house furnace, Silver/white tank (right) for generator",
-          "images": [
-            {
-              "url": "/images/caretaker/fuel/01_oil_tanks_exterior.jpg",
-              "caption": "Exterior Oil Tanks"
-            }
-          ]
-        },
-        {
-          "id": "structure-and-exterior",
-          "title": "Structure & Exterior",
-          "content": "- **Siding:** Dark green vertical board siding\n- **Roof:** Metal roof\n- **Chimney:** Stone chimney\n- **Crawl Space:** Access on exterior with junction box above\n- **Water Shutoff:** Located in crawl space",
-          "items": [],
-          "intro": "Dark green vertical board siding, metal roof, stone chimney. Crawl space access on exterior with junction box above. Water shutoff located in crawl space.",
-          "images": [
-            {
-              "url": "/images/caretaker/structure/01_crawl_space_access.jpg",
-              "caption": "Crawl Space Access"
-            },
-            {
-              "url": "/images/caretaker/structure/02_exterior_overview.jpg",
-              "caption": "Exterior Overview"
-            }
-          ]
-        },
-        {
-          "id": "electrical",
-          "title": "Electrical",
-          "content": "- **Main Breaker Panel:** Load center with handwritten circuit directory\n- **Transfer Switch:** MTS Manual Transfer Switch (Generator to Utility Power) by Elanor Electric, Everett WA\n- **Maximum Rating:** 100 Amps\n- **Panel Directory:** Includes circuits for range, dryer, bathroom water, hot water, lights, club, panel, utility room, washer, kitchen living, bathroom, appliances, office, laundry, and boot room",
-          "items": [],
-          "intro": "- **Main Breaker Panel:** Load center with handwritten circuit directory\n- **Transfer Switch:** MTS Manual Transfer Switch (Generator to Utility Power) by Elanor Electric, Everett WA\n- **Maximum Rating:** 100 Amps",
-          "images": [
-            {
-              "url": "/images/caretaker/electrical/01_electrical_panels_overview.jpg",
-              "caption": "Electrical Panels Overview"
-            },
-            {
-              "url": "/images/caretaker/electrical/02_main_breaker_panel.jpg",
-              "caption": "Main Breaker Panel"
-            },
-            {
-              "url": "/images/caretaker/electrical/03_mts_transfer_switch.jpg",
-              "caption": "MTS Transfer Switch"
-            }
-          ]
-        }
-      ],
-      "intro": "**Status:** Documented"
+      "id": "utility-buildings",
+      "title": "Utility Buildings",
+      "content": "**Status:** Documented\n\nUtility buildings across the property house water softener systems, irrigation controls, and equipment yard shutoffs.\n\n![Utility Buildings - Upper Shop Area - Irrigation System](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/XZVHMWvOWQUaKnNp.jpg)\n\n**Utility Buildings - Upper Shop Area - Irrigation System**\n\n---\n\n![Utility Buildings - Utility Shed - Soft Water System](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/nxjHEcQitFKmFVUx.jpg)\n\n**Utility Buildings - Utility Shed - Soft Water System**\n\n---\n\n![Utility Buildings - Water Softener Room - Shutoff to 10K Tank](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/KAhqkstrZsXBreZN.jpg)\n\n**Utility Buildings - Water Softener Room - Shutoff to 10K Tank**\n\n---\n\n![Utility Buildings - Equipment Yard - Potable & Irrigation Shutoff](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/GeOpYApbhAGZDOMJ.jpg)\n\n**Utility Buildings - Equipment Yard - Potable & Irrigation Shutoff**\n\n---\n\n![Utility Buildings - Lower Shop - Irrigation Expansion Tank](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/sswgsoHfNnuQUSSw.jpg)\n\n**Utility Buildings - Lower Shop - Irrigation Expansion Tank**\n\n---\n\n",
+      "subsections": [],
+      "intro": "**Status:** Documented\n\nUtility buildings across the property house water softener systems, irrigation controls, and equipment yard shutoffs."
+    }
+  ],
+  "locations": [
+    {
+      "id": "generator",
+      "name": "Generator",
+      "lat": 48.618,
+      "lng": -123.005,
+      "description": "Backup generator behind Camp Kitchen shelter"
+    },
+    {
+      "id": "utility-room",
+      "name": "Camp Kitchen Utility Room",
+      "lat": 48.6182,
+      "lng": -123.0052,
+      "description": "Contains Main House Disconnect and Transfer Switch"
+    },
+    {
+      "id": "rinnai-heater",
+      "name": "Rinnai Water Heater",
+      "lat": 48.6181,
+      "lng": -123.0051,
+      "description": "Propane water heater for Camp Kitchen"
     }
   ]
 }
