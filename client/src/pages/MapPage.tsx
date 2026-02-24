@@ -43,6 +43,37 @@ export default function MapPage() {
 
   return (
     <div className="container mx-auto py-8 px-4 h-[calc(100vh-4rem)] flex flex-col gap-6">
+      {/* Custom Property Map */}
+      <Card className="border-0 shadow-none md:border md:shadow-sm">
+        <CardHeader>
+          <div className="flex items-center justify-between">
+            <CardTitle className="flex items-center gap-2">
+              <MapPin className="h-5 w-5" />
+              Custom Property Map
+            </CardTitle>
+            <Button asChild variant="outline" size="sm">
+              <a href="https://www.google.com/maps/d/edit?mid=1QinoM5BBuovuEr0y3uske36ijanEeLQ&ll=48.61938820024422%2C-122.99050494999999&z=16" target="_blank" rel="noopener noreferrer">
+                Open in Google Maps
+              </a>
+            </Button>
+          </div>
+          <p className="text-sm text-muted-foreground mt-2">Detailed property boundaries, parcels, and features</p>
+        </CardHeader>
+        <CardContent>
+          <div className="w-full h-[600px] rounded-lg overflow-hidden border border-border">
+            <iframe
+              src="https://www.google.com/maps/d/embed?mid=1QinoM5BBuovuEr0y3uske36ijanEeLQ&ll=48.61938820024422%2C-122.99050494999999&z=16"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Custom Property Map"
+            />
+          </div>
+        </CardContent>
+      </Card>
       <div className="flex flex-col md:flex-row gap-6 h-full">
         {/* Sidebar List */}
         <Card className="w-full md:w-1/3 h-full flex flex-col border-0 shadow-none md:border md:shadow-sm">

@@ -103,3 +103,6 @@
 - [x] **Utilities & Systems photos:** Fixed by uploading to S3 (generator enclosures, meter)
 - [x] **Generator photos:** Fixed by uploading to S3 (operating instructions, shed exterior, Dayton unit)
 - [x] **Electrical photos:** Added new subsection with panel and Main House disconnect photos
+
+## Interactive Map Updates
+- [x] **Google Maps Link:** Add custom property map link to Interactive Map page
