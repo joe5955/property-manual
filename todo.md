@@ -95,3 +95,6 @@
 
 ## Photo Display Issues
 - [x] **Camp Kitchen Appliances Photos:** Photos #3, #12, #13 not displaying - fixed by uploading to S3
+
+## Chalet Photo Display Issues
+- [x] **All Chalet photos:** Fixed by uploading fresh copies from GitHub to S3 (Structure, Heating, Electrical sections)
