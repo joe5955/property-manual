@@ -33,9 +33,9 @@ export default function Home() {
 
   return (
     <Layout>
-      <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
-        {/* Hero Section */}
-        <section className="overflow-hidden rounded-xl shadow-xl">
+      {/* Hero Section - Full Width */}
+      <div className="-mx-4 md:-mx-8 lg:-mx-12 mb-8">
+        <section className="overflow-hidden shadow-xl">
           {/* Estate Photo Header */}
           <div className="w-full h-64 md:h-80 lg:h-96 overflow-hidden">
             <img 
@@ -109,7 +109,10 @@ export default function Home() {
           </div>
           </div>
         </section>
+      </div>
 
+      {/* Remaining Sections - Normal Width */}
+      <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
         {/* Arrival & Access Section */}
         <section className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="space-y-6">
