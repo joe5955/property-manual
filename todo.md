@@ -66,3 +66,6 @@
 - [x] **All Buildings:** Apply skill to add online manual links for all appliances and equipment
 - [x] **GitHub:** Push all updates to GitHub repository
 - [x] **The Chalet:** Integrate photos from GitHub repository with comprehensive documentation
+
+## Current Investigation
+- [x] **The Chalet Water Heater Photos:** Investigate missing water heater photos that were previously in the section (restored from git history)

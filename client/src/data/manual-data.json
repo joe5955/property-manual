@@ -154,7 +154,11 @@
           "title": "Systems",
           "content": "- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)",
           "items": [],
-          "intro": "- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)"
+          "intro": "- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)",
+          "images": [
+            {"url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/JSvrHMtvXmnCGFak.jpg", "caption": "Rheem 30 Gallon Electric Water Heater (Model: 81V30D) — interior installation"},
+            {"url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/SWmCgJnSWMTbDrCv.jpg", "caption": "Chalet water shutoff — exterior access"}
+          ]
         }
       ],
       "intro": "**Status:** Documented"
