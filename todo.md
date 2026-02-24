@@ -62,3 +62,6 @@
 - [x] **Home Page:** Make hero section full-width for more dramatic visual impact
 - [x] **Caretaker's House:** Create separate top-level section with all photos from GitHub - electrical, heating, appliances, laundry, water heater, structure, fuel systems
 - [x] **Caretaker's House:** Fix photo display issue - photos not showing up in section
+- [x] **Skill Creation:** Create appliance-manual-linker skill for finding and adding manufacturer manual links
+- [x] **All Buildings:** Apply skill to add online manual links for all appliances and equipment
+- [ ] **GitHub:** Push all updates to GitHub repository
