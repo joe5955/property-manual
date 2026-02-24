@@ -98,3 +98,8 @@
 
 ## Chalet Photo Display Issues
 - [x] **All Chalet photos:** Fixed by uploading fresh copies from GitHub to S3 (Structure, Heating, Electrical sections)
+
+## Camp Kitchen Photo Display Issues  
+- [x] **Utilities & Systems photos:** Fixed by uploading to S3 (generator enclosures, meter)
+- [x] **Generator photos:** Fixed by uploading to S3 (operating instructions, shed exterior, Dayton unit)
+- [x] **Electrical photos:** Added new subsection with panel and Main House disconnect photos

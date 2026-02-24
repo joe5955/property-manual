@@ -197,8 +197,8 @@
           "items": [],
           "intro": "- **Water Heater:** Rinnai Tankless Water Heater (Model: V53e) - [View Manual](https://media.rinnai.us/salsify_asset/s-38321af7-24bd-49ca-84c5-e554a678661f/100000256-V53e%20Installation%20and%20Operation%20Manual.pdf)\n- **Electrical:** Transformer enclosure near kitchen, Meter & Shutoff by kitchen, Dedicated sub-panel\n- **Water:** Outdoor sink (hot/cold), Exterior spigot on building\n- **Winterization:** Must be drained in freezing months",
           "images": [
-            {"url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/29fa362a-4d79-407f-bb3a-98121b15aee46441342934974945409_compressed.jpg", "caption": "Transformer enclosure and meter — green box near Camp Kitchen"},
-            {"url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/81e32e8a-7058-4926-a81e-b83471121c514600297826776263492.jpg", "caption": "Transformer and meter — electrical service connection"}
+            {"url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ypYqUgrtvqdTXwaO.png", "caption": "Generator enclosures with protective covers — green boxes, north view"},
+            {"url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/XDSVoDssPrEGFgrC.png", "caption": "Generator meter on enclosure — top view showing meter"}
           ]
         },
         {
@@ -208,9 +208,20 @@
           "items": [],
           "intro": "Backup power generator located behind Camp Kitchen with protective cover",
           "images": [
-            {"url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/2f265422-2b90-4423-a2d7-2696cdd4c4a21900058081199528871.jpg", "caption": "Generator operating instructions and safety labels"},
-            {"url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/405bdd32-de59-4592-a205-a2cf7167a2617457080908458409175.jpg", "caption": "Generator — north view"},
-            {"url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/8331d30c-51b1-42f4-aebb-781fa1a900756508522668081961412_compressed.jpg", "caption": "Generator — east view"}
+            {"url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/xsjvwsjVBAzsjbGT.png", "caption": "Generator operating instructions — handwritten steps for switching power"},
+            {"url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/QpkLvkAUMMvwoPPv.png", "caption": "Generator shed exterior — green enclosures with metal roof"},
+            {"url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/pQonpVvSveVOTVRJ.png", "caption": "Dayton generator unit — blue/teal color, under protective shed"}
+          ]
+        },
+        {
+          "id": "electrical",
+          "title": "Electrical",
+          "content": "- **Main Panel:** Square D panel with handwritten circuit directory\n- **Main House Disconnect:** Square D disconnect switch labeled 'MAIN HOUSE DISCONNECT'\n- **Transfer Switch:** For generator power switching",
+          "items": [],
+          "intro": "Electrical panels and disconnect switches for Camp Kitchen",
+          "images": [
+            {"url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/bIKeaYuBbWntfTcX.png", "caption": "Electrical panel with circuit directory — Square D panel with handwritten labels"},
+            {"url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TGAbhbXfYQUMaFsN.png", "caption": "Main House disconnect switch — Square D labeled 'MAIN HOUSE DISCONNECT'"}
           ]
         }
       ],
