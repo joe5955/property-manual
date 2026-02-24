@@ -50,9 +50,9 @@
         {
           "id": "water-heater-farm",
           "title": "Water Heater (Critical)",
-          "content": "### \u26a0\ufe0f URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 25 years old, this unit is more than double its expected lifespan. Risks include catastrophic tank failure, flooding, and safety hazards.\n\n**Immediate Actions:**\n1. Check daily for leaks.\n2. Listen for unusual noises.\n3. **Schedule replacement immediately.**",
+          "content": "### ⚠️ URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 25 years old, this unit is more than double its expected lifespan. Risks include catastrophic tank failure, flooding, and safety hazards.\n\n**Immediate Actions:**\n1. Check daily for leaks.\n2. Listen for unusual noises.\n3. **Schedule replacement immediately.**",
           "items": [],
-          "intro": "### \u26a0\ufe0f URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 25 years old, this unit is more than double its expected lifespan. Risks include catastrophic tank failure, flooding, and safety hazards.\n\n**Immediate Actions:**\n1. Check daily for leaks.\n2. Listen for unusual noises.\n3. **Schedule replacement immediately.**"
+          "intro": "### ⚠️ URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 25 years old, this unit is more than double its expected lifespan. Risks include catastrophic tank failure, flooding, and safety hazards.\n\n**Immediate Actions:**\n1. Check daily for leaks.\n2. Listen for unusual noises.\n3. **Schedule replacement immediately.**"
         }
       ],
       "intro": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC) - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)"
@@ -72,16 +72,85 @@
         {
           "id": "appliances",
           "title": "Appliances",
-          "content": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRBP1031T | ~19 years old (2007 model) | **Replacement Recommended** - Nearing end of life. |\n| Range | Bosch Electric Range | Good Condition | Stainless steel, ceramic cooktop, convection oven. |\n| Dishwasher | Bosch 300 Series | ~7 years old (2019 model) | Good condition. |\n| Washer | Maytag MHW8200FC0 | ~8 years old (2018 model) | Good condition. |\n| Dryer | Maytag MED8200FC2 | ~8 years old (2018 model) | Good condition. |",
+          "content": "| Item | Brand/Model | Specs | Age/Condition | Notes |\n|------|-------------|-------|---------------|-------|\n| Refrigerator | LG LRBP1031T | 115V, 60Hz, 2.6A, R134a refrigerant | ~19 years old (2007 model) | **Replacement Recommended** — Nearing end of life. Service: 1-800-243-0000 |\n| Range | Bosch Electric Range | Convection Self-Cleaning Oven, glass cooktop | Good Condition | Stainless steel, ceramic cooktop. Controls: Light, Time, Cooking Mode, Temperature, Start |\n| Dishwasher | Bosch 300 Series | Cycles: Delay Start, Regular Wash, Delicate/Rinse, Quick Wash, Rinse & Hold | ~7 years old (2019 model) | Good condition. Stainless steel. |\n| Microwave | Bosch HMV9305/01 | Serial FD8703001911, Mfg. March 2007, Made in Korea | ~19 years old (2007) | Over-the-range, stainless steel. **Replacement Recommended.** |\n| Washer | Maytag MHW8200FC0 | 12.0A, 120V, 60Hz, Type 171-02 | ~8 years old (2018 model) | Good condition. PowerWash, Direct Drive, 10 Year warranty. |\n| Dryer | Maytag MED8200FC2 | 120/208V 23A or 120/240V 24A, Type DALP-ELE-2406024-EL54 | ~8 years old (2018 model) | Good condition. 10 Year warranty. |",
           "items": [],
-          "intro": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRBP1031T | ~19 years old (2007 model) | **Replacement Recommended** - Nearing end of life. |\n| Range | Bosch Electric Range | Good Condition | Stainless steel, ceramic cooktop, convection oven. |\n| Dishwasher | Bosch 300 Series | ~7 years old (2019 model) | Good condition. |\n| Washer | Maytag MHW8200FC0 | ~8 years old (2018 model) | Good condition. |\n| Dryer | Maytag MED8200FC2 | ~8 years old (2018 model) | Good condition. |"
+          "intro": "| Item | Brand/Model | Specs | Age/Condition | Notes |\n|------|-------------|-------|---------------|-------|\n| Refrigerator | LG LRBP1031T | 115V, 60Hz, 2.6A, R134a refrigerant | ~19 years old (2007 model) | **Replacement Recommended** — Nearing end of life. Service: 1-800-243-0000 |\n| Range | Bosch Electric Range | Convection Self-Cleaning Oven, glass cooktop | Good Condition | Stainless steel, ceramic cooktop. Controls: Light, Time, Cooking Mode, Temperature, Start |\n| Dishwasher | Bosch 300 Series | Cycles: Delay Start, Regular Wash, Delicate/Rinse, Quick Wash, Rinse & Hold | ~7 years old (2019 model) | Good condition. Stainless steel. |\n| Microwave | Bosch HMV9305/01 | Serial FD8703001911, Mfg. March 2007, Made in Korea | ~19 years old (2007) | Over-the-range, stainless steel. **Replacement Recommended.** |\n| Washer | Maytag MHW8200FC0 | 12.0A, 120V, 60Hz, Type 171-02 | ~8 years old (2018 model) | Good condition. PowerWash, Direct Drive, 10 Year warranty. |\n| Dryer | Maytag MED8200FC2 | 120/208V 23A or 120/240V 24A, Type DALP-ELE-2406024-EL54 | ~8 years old (2018 model) | Good condition. 10 Year warranty. |",
+          "images": [
+            {
+              "url": "/images/beach-house/appliances/01_dishwasher_bosch_closed.jpg",
+              "caption": "Bosch Dishwasher — Stainless Steel, Closed"
+            },
+            {
+              "url": "/images/beach-house/appliances/02_dishwasher_bosch_control_panel.jpg",
+              "caption": "Bosch Dishwasher — Control Panel (Delay Start, Regular Wash, Delicate/Rinse, Quick Wash, Rinse & Hold)"
+            },
+            {
+              "url": "/images/beach-house/appliances/03_range_bosch_full_view.jpg",
+              "caption": "Bosch Electric Range — Stainless Steel, Glass Cooktop, Convection Self-Cleaning Oven"
+            },
+            {
+              "url": "/images/beach-house/appliances/04_range_bosch_control_panel.jpg",
+              "caption": "Bosch Range — Control Panel (Light, Time, Cooking Mode, Temperature, Start)"
+            },
+            {
+              "url": "/images/beach-house/appliances/05_refrigerator_lg_kitchen_overview.jpg",
+              "caption": "LG Bottom-Freezer Refrigerator — Stainless Steel, Kitchen Overview with Microwave and Range"
+            },
+            {
+              "url": "/images/beach-house/appliances/06_refrigerator_lg_label.jpg",
+              "caption": "LG Refrigerator Label: Model LRBP1031T, Serial 701TRMF00091, 115V 60Hz 2.6A, R134a"
+            },
+            {
+              "url": "/images/beach-house/appliances/07_microwave_bosch_overview.jpg",
+              "caption": "Bosch Over-the-Range Microwave — Stainless Steel"
+            },
+            {
+              "url": "/images/beach-house/appliances/08_microwave_bosch_label.jpg",
+              "caption": "Bosch Microwave Label: Model HMV9305/01, Serial FD8703001911, Manufactured March 2007, Made in Korea"
+            }
+          ]
         },
         {
           "id": "water-heater-beach",
           "title": "Water Heater (Critical)",
-          "content": "### \u26a0\ufe0f URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWM\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan. Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**",
+          "content": "### ⚠️ URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWW\n- **Serial:** DD9041943\n- **Capacity:** 65 gallons (246 liters)\n- **Type:** Electric, 240/208V, 1-Phase AC\n- **Upper Element:** 4500/3500 Watts\n- **Lower Element:** 4500/3500 Watts\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan (8–12 years). Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**",
           "items": [],
-          "intro": "### \u26a0\ufe0f URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWM\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan. Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**"
+          "intro": "### ⚠️ URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWW\n- **Serial:** DD9041943\n- **Capacity:** 65 gallons (246 liters)\n- **Type:** Electric, 240/208V, 1-Phase AC\n- **Upper Element:** 4500/3500 Watts\n- **Lower Element:** 4500/3500 Watts\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan (8–12 years). Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**",
+          "images": [
+            {
+              "url": "/images/beach-house/water-heater/01_bradford_white_water_heater.jpg",
+              "caption": "Bradford White Water Heater in Utility Closet"
+            },
+            {
+              "url": "/images/beach-house/water-heater/02_bradford_white_label.jpg",
+              "caption": "Bradford White Label: Model M265R6DS-1NCWW, Serial DD9041943, 65 Gallon, Electric 240/208V"
+            }
+          ]
+        },
+        {
+          "id": "laundry",
+          "title": "Laundry",
+          "content": "| Item | Brand/Model | Specs | Age/Condition | Notes |\n|------|-------------|-------|---------------|-------|\n| Washer | Maytag MHW8200FC0 | 12.0A, 120V, 60Hz, Type 171-02, Whirlpool Corp Benton Harbor MI | ~8 years old (2018 model) | Front-load, dark metallic. PowerWash, Direct Drive, 10 Year warranty. |\n| Dryer | Maytag MED8200FC2 | 120/208V 23A or 120/240V 24A, Type DALP-ELE-2406024-EL54, Serial M81603177 | ~8 years old (2018 model) | Front-load, dark metallic. 10 Year warranty. |",
+          "items": [],
+          "intro": "- **Washer:** Maytag MHW8200FC0 (front-load, ~8 years old, PowerWash, Direct Drive)\n- **Dryer:** Maytag MED8200FC2 (front-load, ~8 years old, 10 Year warranty)",
+          "images": [
+            {
+              "url": "/images/beach-house/laundry/01_dryer_maytag_overview.jpg",
+              "caption": "Maytag Dryer — Front-Load, Dark Metallic, 10 Year Warranty"
+            },
+            {
+              "url": "/images/beach-house/laundry/02_dryer_maytag_label.jpg",
+              "caption": "Maytag Dryer Label: Model MED8200FC2, Serial M81603177, 120/208V 23A or 120/240V 24A"
+            },
+            {
+              "url": "/images/beach-house/laundry/03_washer_maytag_overview.jpg",
+              "caption": "Maytag Washer — Front-Load, Dark Metallic, PowerWash, Direct Drive, 10 Year Warranty"
+            },
+            {
+              "url": "/images/beach-house/laundry/04_washer_maytag_label.jpg",
+              "caption": "Maytag Washer Label: Model MHW8200FC0, Serial C82350288, 12.0A 120V 60Hz, Whirlpool Corp"
+            }
+          ]
         }
       ],
       "intro": "**Parcel:** [To be documented] - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)"
@@ -104,7 +173,7 @@
     {
       "id": "the-chalet",
       "title": "The Chalet",
-      "content": "**Status:** Documented\n\n### Structure & Exterior\n- **Foundation:** Pier foundation\n- **Exterior:** Board-and-batten siding, painted tan/beige\n- **Rear:** Elevated deck with stairs and wire-mesh railing\n- **Front:** Covered porch with columns, water views\n\n### Heating & Comfort\n- **Thermostat (Zone 1 – Bedroom):** King Comfort Zone dial thermostat (by King Electric)\n- **Thermostat (Zone 2 – Living Area):** King Comfort Zone dial thermostat (by King Electric)\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove\n  - **Model:** JDV RP | **Serial:** 2684\n  - **Fuel:** Propane | **Input:** 19,000 BTUH | **Output:** 28,000 BTUH (19,600 BTUH Canadian rating)\n  - **Manufacturer:** Vermont Castings Majestic Products, Bethel, VT\n  - **Certified:** ANSI Z21.88B-1998, CGA 2.33B-M98\n  - **Supply Pressure (Propane):** 11.0\u2013 13.0\u201d W.C. | **Manifold Pressure:** 10.0\u201d W.C.\n  - [View Manual](https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf)\n\n### Electrical\n- **Panel:** Square D QO Load Center (Cat. No. QOC-20M, Series B1), wall-mounted with cedar trim\n- **Circuit Directory:** Heat (×2 zones), Water Heater, Bedrooms, Living Room, Kitchen, Bathroom, Basement, Microwave\n\n### Kitchenette\n- **Refrigerator:** Danby Designer (Compact under-counter model)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel\n\n### Systems\n- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)\n\n### Maintenance Notes\n- **Winterization:** Ensure wall heaters are set to frost protection (approx. 45\u00b0F) during winter months.\n- **Water Heater:** Drain 1-2 gallons annually to remove sediment.",
+      "content": "**Status:** Documented\n\n### Structure & Exterior\n- **Foundation:** Pier foundation\n- **Exterior:** Board-and-batten siding, painted tan/beige\n- **Rear:** Elevated deck with stairs and wire-mesh railing\n- **Front:** Covered porch with columns, water views\n\n### Heating & Comfort\n- **Thermostat (Zone 1 – Bedroom):** King Comfort Zone dial thermostat (by King Electric)\n- **Thermostat (Zone 2 – Living Area):** King Comfort Zone dial thermostat (by King Electric)\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove\n  - **Model:** JDV RP | **Serial:** 2684\n  - **Fuel:** Propane | **Input:** 19,000 BTUH | **Output:** 28,000 BTUH (19,600 BTUH Canadian rating)\n  - **Manufacturer:** Vermont Castings Majestic Products, Bethel, VT\n  - **Certified:** ANSI Z21.88B-1998, CGA 2.33B-M98\n  - **Supply Pressure (Propane):** 11.0– 13.0” W.C. | **Manifold Pressure:** 10.0” W.C.\n  - [View Manual](https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf)\n\n### Electrical\n- **Panel:** Square D QO Load Center (Cat. No. QOC-20M, Series B1), wall-mounted with cedar trim\n- **Circuit Directory:** Heat (×2 zones), Water Heater, Bedrooms, Living Room, Kitchen, Bathroom, Basement, Microwave\n\n### Kitchenette\n- **Refrigerator:** Danby Designer (Compact under-counter model)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel\n\n### Systems\n- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)\n\n### Maintenance Notes\n- **Winterization:** Ensure wall heaters are set to frost protection (approx. 45°F) during winter months.\n- **Water Heater:** Drain 1-2 gallons annually to remove sediment.",
       "subsections": [
         {
           "id": "structure-exterior",
@@ -113,22 +182,43 @@
           "items": [],
           "intro": "- **Foundation:** Pier foundation\n- **Exterior:** Board-and-batten siding, painted tan/beige\n- **Rear:** Elevated deck with stairs and wire-mesh railing\n- **Front:** Covered porch with columns, water views",
           "images": [
-            {"url": "/images/the-chalet/structure-exterior/01_chalet_exterior_rear_deck_pier_foundation.jpg", "caption": "Chalet exterior — rear view with elevated deck, stairs, and pier foundation"},
-            {"url": "/images/the-chalet/structure-exterior/02_chalet_front_entry_porch_water_view.jpg", "caption": "Chalet front entry — covered porch with columns, blue patio chairs, and water view"}
+            {
+              "url": "/images/the-chalet/structure-exterior/01_chalet_exterior_rear_deck_pier_foundation.jpg",
+              "caption": "Chalet exterior — rear view with elevated deck, stairs, and pier foundation"
+            },
+            {
+              "url": "/images/the-chalet/structure-exterior/02_chalet_front_entry_porch_water_view.jpg",
+              "caption": "Chalet front entry — covered porch with columns, blue patio chairs, and water view"
+            }
           ]
         },
         {
           "id": "heating-and-comfort",
           "title": "Heating & Comfort",
-          "content": "- **Thermostat (Zone 1 – Bedroom):** King Comfort Zone dial thermostat (by King Electric)\n- **Thermostat (Zone 2 – Living Area):** King Comfort Zone dial thermostat (by King Electric)\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove\n  - **Model:** JDV RP | **Serial:** 2684\n  - **Fuel:** Propane | **Input:** 19,000 BTUH | **Output:** 28,000 BTUH (19,600 BTUH Canadian rating)\n  - **Manufacturer:** Vermont Castings Majestic Products, Bethel, VT\n  - **Certified:** ANSI Z21.88B-1998, CGA 2.33B-M98\n  - **Supply Pressure (Propane):** 11.0\u2013 13.0\u201d W.C. | **Manifold Pressure:** 10.0\u201d W.C.\n  - [View Manual](https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf)",
+          "content": "- **Thermostat (Zone 1 – Bedroom):** King Comfort Zone dial thermostat (by King Electric)\n- **Thermostat (Zone 2 – Living Area):** King Comfort Zone dial thermostat (by King Electric)\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove\n  - **Model:** JDV RP | **Serial:** 2684\n  - **Fuel:** Propane | **Input:** 19,000 BTUH | **Output:** 28,000 BTUH (19,600 BTUH Canadian rating)\n  - **Manufacturer:** Vermont Castings Majestic Products, Bethel, VT\n  - **Certified:** ANSI Z21.88B-1998, CGA 2.33B-M98\n  - **Supply Pressure (Propane):** 11.0– 13.0” W.C. | **Manifold Pressure:** 10.0” W.C.\n  - [View Manual](https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf)",
           "items": [],
           "intro": "- **Thermostat (Zone 1 – Bedroom):** King Comfort Zone dial thermostat\n- **Thermostat (Zone 2 – Living Area):** King Comfort Zone dial thermostat\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove (Model: JDV RP, Serial: 2684, Propane, 19,000 BTUH input / 28,000 BTUH output)",
           "images": [
-            {"url": "/images/the-chalet/heating-and-comfort/01_king_comfort_zone_thermostat_zone1_bedroom.jpg", "caption": "King Comfort Zone dial thermostat — Zone 1 (bedroom area)"},
-            {"url": "/images/the-chalet/heating-and-comfort/02_king_comfort_zone_thermostat_zone2_living.jpg", "caption": "King Comfort Zone dial thermostat — Zone 2 (living area)"},
-            {"url": "/images/the-chalet/heating-and-comfort/03_vermont_castings_jefferson_gas_stove.jpg", "caption": "Vermont Castings Jefferson Direct Vent Gas Stove — cast iron, propane"},
-            {"url": "/images/the-chalet/heating-and-comfort/04_gas_stove_operation_lighting_instructions.jpg", "caption": "Gas stove operation and lighting instructions label"},
-            {"url": "/images/the-chalet/heating-and-comfort/05_gas_stove_rating_plate_jdv_rp_serial_2684.jpg", "caption": "Gas stove rating plate — Model JDV RP, Serial 2684, Propane, 19,000 BTUH input / 28,000 BTUH output"}
+            {
+              "url": "/images/the-chalet/heating-and-comfort/01_king_comfort_zone_thermostat_zone1_bedroom.jpg",
+              "caption": "King Comfort Zone dial thermostat — Zone 1 (bedroom area)"
+            },
+            {
+              "url": "/images/the-chalet/heating-and-comfort/02_king_comfort_zone_thermostat_zone2_living.jpg",
+              "caption": "King Comfort Zone dial thermostat — Zone 2 (living area)"
+            },
+            {
+              "url": "/images/the-chalet/heating-and-comfort/03_vermont_castings_jefferson_gas_stove.jpg",
+              "caption": "Vermont Castings Jefferson Direct Vent Gas Stove — cast iron, propane"
+            },
+            {
+              "url": "/images/the-chalet/heating-and-comfort/04_gas_stove_operation_lighting_instructions.jpg",
+              "caption": "Gas stove operation and lighting instructions label"
+            },
+            {
+              "url": "/images/the-chalet/heating-and-comfort/05_gas_stove_rating_plate_jdv_rp_serial_2684.jpg",
+              "caption": "Gas stove rating plate — Model JDV RP, Serial 2684, Propane, 19,000 BTUH input / 28,000 BTUH output"
+            }
           ]
         },
         {
@@ -138,8 +228,14 @@
           "items": [],
           "intro": "- **Panel:** Square D QO Load Center (Cat. No. QOC-20M, Series B1), wall-mounted with cedar trim\n- **Circuits:** Heat (×2 zones), Water Heater, Bedrooms, Living Room, Kitchen, Bathroom, Basement, Microwave",
           "images": [
-            {"url": "/images/the-chalet/electrical/01_electrical_panel_closed_cedar_trim.jpg", "caption": "Electrical panel — closed, wall-mounted with cedar trim"},
-            {"url": "/images/the-chalet/electrical/02_square_d_qo_load_center_open_circuit_directory.jpg", "caption": "Square D QO Load Center — panel open with handwritten circuit directory"}
+            {
+              "url": "/images/the-chalet/electrical/01_electrical_panel_closed_cedar_trim.jpg",
+              "caption": "Electrical panel — closed, wall-mounted with cedar trim"
+            },
+            {
+              "url": "/images/the-chalet/electrical/02_square_d_qo_load_center_open_circuit_directory.jpg",
+              "caption": "Square D QO Load Center — panel open with handwritten circuit directory"
+            }
           ]
         },
         {
@@ -200,13 +296,34 @@
           "items": [],
           "intro": "- **Dishwasher:** KitchenAid Model KDFE104DBL5 (Black, built-in)\n- **Microwave:** GE Sensor Microwave Oven (White/cream, countertop)\n- **Refrigerator:** Frigidaire FFHS2622MSNA (Black, side-by-side, ~11 years old)\n- **Range:** Whirlpool WFC310S0EB1 (Black, 4-burner coil cooktop with oven)",
           "images": [
-            {"url": "/images/caretaker/kitchen-appliances/01_dishwasher_kitchenaid.jpg", "caption": "KitchenAid Dishwasher KDFE104DBL5"},
-            {"url": "/images/caretaker/kitchen-appliances/02_dishwasher_model_label.jpg", "caption": "Dishwasher Model Label"},
-            {"url": "/images/caretaker/kitchen-appliances/03_microwave_ge_sensor.jpg", "caption": "GE Sensor Microwave Oven"},
-            {"url": "/images/caretaker/kitchen-appliances/04_refrigerator_frigidaire.jpg", "caption": "Frigidaire Refrigerator FFHS2622MSNA"},
-            {"url": "/images/caretaker/kitchen-appliances/05_refrigerator_model_label.jpg", "caption": "Refrigerator Model Label"},
-            {"url": "/images/caretaker/kitchen-appliances/06_range_whirlpool_label.jpg", "caption": "Whirlpool Range Model Label"},
-            {"url": "/images/caretaker/kitchen-appliances/07_range_whirlpool_overview.jpg", "caption": "Whirlpool Range Overview"}
+            {
+              "url": "/images/caretaker/kitchen-appliances/01_dishwasher_kitchenaid.jpg",
+              "caption": "KitchenAid Dishwasher KDFE104DBL5"
+            },
+            {
+              "url": "/images/caretaker/kitchen-appliances/02_dishwasher_model_label.jpg",
+              "caption": "Dishwasher Model Label"
+            },
+            {
+              "url": "/images/caretaker/kitchen-appliances/03_microwave_ge_sensor.jpg",
+              "caption": "GE Sensor Microwave Oven"
+            },
+            {
+              "url": "/images/caretaker/kitchen-appliances/04_refrigerator_frigidaire.jpg",
+              "caption": "Frigidaire Refrigerator FFHS2622MSNA"
+            },
+            {
+              "url": "/images/caretaker/kitchen-appliances/05_refrigerator_model_label.jpg",
+              "caption": "Refrigerator Model Label"
+            },
+            {
+              "url": "/images/caretaker/kitchen-appliances/06_range_whirlpool_label.jpg",
+              "caption": "Whirlpool Range Model Label"
+            },
+            {
+              "url": "/images/caretaker/kitchen-appliances/07_range_whirlpool_overview.jpg",
+              "caption": "Whirlpool Range Overview"
+            }
           ]
         },
         {
@@ -216,10 +333,22 @@
           "items": [],
           "intro": "- **Washer:** Whirlpool WFW4T20RW0 (Front-load, 12.0A, 120V)\n- **Dryer:** Whirlpool WED7500GW0 (120/208V 23A or 120/240V 24A)",
           "images": [
-            {"url": "/images/caretaker/laundry/01_washer_dryer_overview.jpg", "caption": "Washer and Dryer Overview"},
-            {"url": "/images/caretaker/laundry/02_washer_model_label.jpg", "caption": "Washer Model Label"},
-            {"url": "/images/caretaker/laundry/03_dryer_whirlpool.jpg", "caption": "Whirlpool Dryer WED7500GW0"},
-            {"url": "/images/caretaker/laundry/04_dryer_model_label.jpg", "caption": "Dryer Model Label"}
+            {
+              "url": "/images/caretaker/laundry/01_washer_dryer_overview.jpg",
+              "caption": "Washer and Dryer Overview"
+            },
+            {
+              "url": "/images/caretaker/laundry/02_washer_model_label.jpg",
+              "caption": "Washer Model Label"
+            },
+            {
+              "url": "/images/caretaker/laundry/03_dryer_whirlpool.jpg",
+              "caption": "Whirlpool Dryer WED7500GW0"
+            },
+            {
+              "url": "/images/caretaker/laundry/04_dryer_model_label.jpg",
+              "caption": "Dryer Model Label"
+            }
           ]
         },
         {
@@ -229,8 +358,14 @@
           "items": [],
           "intro": "- **Bradford White** RE350T6-1NCWW (50 gallon, Electric, 240V/208V, 4500W upper/lower elements)",
           "images": [
-            {"url": "/images/caretaker/water-heater/01_water_heater_bradford_white.jpg", "caption": "Bradford White Water Heater"},
-            {"url": "/images/caretaker/water-heater/02_water_heater_model_label.jpg", "caption": "Water Heater Model Label"}
+            {
+              "url": "/images/caretaker/water-heater/01_water_heater_bradford_white.jpg",
+              "caption": "Bradford White Water Heater"
+            },
+            {
+              "url": "/images/caretaker/water-heater/02_water_heater_model_label.jpg",
+              "caption": "Water Heater Model Label"
+            }
           ]
         },
         {
@@ -240,10 +375,22 @@
           "items": [],
           "intro": "- **Wood Stove:** Fisher cast iron wood stove with blower motor\n- **Furnace:** Thermo Pride Oil-Fired Furnace, Model OC2 56D (70,000 BTU input / 57,000 BTU output)\n- **Thermostat:** Honeywell ProSeries (programmable)",
           "images": [
-            {"url": "/images/caretaker/heating/01_fisher_wood_stove.jpg", "caption": "Fisher Cast Iron Wood Stove"},
-            {"url": "/images/caretaker/heating/02_furnace_thermo_pride.jpg", "caption": "Thermo Pride Oil-Fired Furnace"},
-            {"url": "/images/caretaker/heating/03_furnace_model_label.jpg", "caption": "Furnace Model Label"},
-            {"url": "/images/caretaker/heating/04_thermostat_honeywell.jpg", "caption": "Honeywell ProSeries Thermostat"}
+            {
+              "url": "/images/caretaker/heating/01_fisher_wood_stove.jpg",
+              "caption": "Fisher Cast Iron Wood Stove"
+            },
+            {
+              "url": "/images/caretaker/heating/02_furnace_thermo_pride.jpg",
+              "caption": "Thermo Pride Oil-Fired Furnace"
+            },
+            {
+              "url": "/images/caretaker/heating/03_furnace_model_label.jpg",
+              "caption": "Furnace Model Label"
+            },
+            {
+              "url": "/images/caretaker/heating/04_thermostat_honeywell.jpg",
+              "caption": "Honeywell ProSeries Thermostat"
+            }
           ]
         },
         {
@@ -253,7 +400,10 @@
           "items": [],
           "intro": "Two exterior above-ground oil tanks: Green tank (left) for house furnace, Silver/white tank (right) for generator",
           "images": [
-            {"url": "/images/caretaker/fuel/01_oil_tanks_exterior.jpg", "caption": "Exterior Oil Tanks"}
+            {
+              "url": "/images/caretaker/fuel/01_oil_tanks_exterior.jpg",
+              "caption": "Exterior Oil Tanks"
+            }
           ]
         },
         {
@@ -263,8 +413,14 @@
           "items": [],
           "intro": "Dark green vertical board siding, metal roof, stone chimney. Crawl space access on exterior with junction box above. Water shutoff located in crawl space.",
           "images": [
-            {"url": "/images/caretaker/structure/01_crawl_space_access.jpg", "caption": "Crawl Space Access"},
-            {"url": "/images/caretaker/structure/02_exterior_overview.jpg", "caption": "Exterior Overview"}
+            {
+              "url": "/images/caretaker/structure/01_crawl_space_access.jpg",
+              "caption": "Crawl Space Access"
+            },
+            {
+              "url": "/images/caretaker/structure/02_exterior_overview.jpg",
+              "caption": "Exterior Overview"
+            }
           ]
         },
         {
@@ -274,9 +430,18 @@
           "items": [],
           "intro": "- **Main Breaker Panel:** Load center with handwritten circuit directory\n- **Transfer Switch:** MTS Manual Transfer Switch (Generator to Utility Power) by Elanor Electric, Everett WA\n- **Maximum Rating:** 100 Amps",
           "images": [
-            {"url": "/images/caretaker/electrical/01_electrical_panels_overview.jpg", "caption": "Electrical Panels Overview"},
-            {"url": "/images/caretaker/electrical/02_main_breaker_panel.jpg", "caption": "Main Breaker Panel"},
-            {"url": "/images/caretaker/electrical/03_mts_transfer_switch.jpg", "caption": "MTS Transfer Switch"}
+            {
+              "url": "/images/caretaker/electrical/01_electrical_panels_overview.jpg",
+              "caption": "Electrical Panels Overview"
+            },
+            {
+              "url": "/images/caretaker/electrical/02_main_breaker_panel.jpg",
+              "caption": "Main Breaker Panel"
+            },
+            {
+              "url": "/images/caretaker/electrical/03_mts_transfer_switch.jpg",
+              "caption": "MTS Transfer Switch"
+            }
           ]
         }
       ],
