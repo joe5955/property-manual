@@ -75,3 +75,15 @@
 
 ## Photo Integration
 - [x] **Chalet Refrigerator:** Add photo #17 from existing 26 photos to Kitchenette section
+
+## Camp Kitchen Photo Integration
+- [x] **Photo #3:** Camp Kitchen stove (added to Appliances)
+- [x] **Photo #4:** Camp Kitchen transformer enclosure and meter (added to Utilities & Systems)
+- [x] **Photo #7:** Camp Kitchen genset instructions (added to Generator)
+- [x] **Photo #9:** Camp Kitchen genset north view (added to Generator)
+- [x] **Photo #12 & #13:** Camp Kitchen refrigerator (added to Appliances)
+- [x] **Photo #14:** Camp Kitchen transformer and meter (added to Utilities & Systems)
+- [x] **Photo #15:** Camp Kitchen genset east view (added to Generator)
+- [ ] **Photo #18:** Verify if duplicate of #15 or add as separate genset photo
+- [ ] **Photo #19:** Already integrated - verify display
+- [ ] **Photo #20:** Already integrated - verify display
