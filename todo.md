@@ -87,3 +87,11 @@
 - [ ] **Photo #18:** Verify if duplicate of #15 or add as separate genset photo
 - [ ] **Photo #19:** Already integrated - verify display
 - [ ] **Photo #20:** Already integrated - verify display
+
+### Manufacturer Manual Links
+- [x] **Camp Kitchen Propane Range:** Amana TX145BW manual added (generic Amana gas range manual)
+- [ ] **Camp Kitchen Refrigerator:** Awaiting model number from rating plate photo
+- [x] **Camp Kitchen Rinnai Water Heater:** Already has manual link (Model V53e)3e)
+
+## Photo Display Issues
+- [x] **Camp Kitchen Appliances Photos:** Photos #3, #12, #13 not displaying - fixed by uploading to S3
