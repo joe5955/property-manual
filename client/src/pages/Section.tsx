@@ -24,6 +24,7 @@ interface ManualSubsection {
   content: string;
   intro?: string;
   items?: ManualItem[];
+  images?: Array<{url: string; caption: string}>;
 }
 
 interface ManualSection {
@@ -168,6 +169,28 @@ export default function Section() {
                     <div className="text-sm leading-relaxed">
                       <div className="prose prose-stone dark:prose-invert max-w-none">
                         <Streamdown>{subsection.content}</Streamdown>
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Display images if they exist */}
+                  {subsection.images && subsection.images.length > 0 && (
+                    <div className="mt-6 space-y-4">
+                      <h4 className="font-medium text-foreground">Photos</h4>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        {subsection.images.map((image, imgIdx) => (
+                          <div key={imgIdx} className="space-y-2">
+                            <div className="aspect-[4/3] overflow-hidden rounded-lg border border-border/60 bg-muted">
+                              <img 
+                                src={image.url} 
+                                alt={image.caption}
+                                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                                loading="lazy"
+                              />
+                            </div>
+                            <p className="text-xs text-muted-foreground">{image.caption}</p>
+                          </div>
+                        ))}
                       </div>
                     </div>
                   )}

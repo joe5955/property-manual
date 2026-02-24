@@ -40,7 +40,7 @@
 - [x] **Beach House:** Fix Water Systems Photos section - only showing 1 of 5 photos
 
 ## Missing Photos Issues
-- [ ] **The Chalet:** Propane stove and appliance photos from first batch not showing in section
+- [x] **The Chalet:** Propane stove and appliance photos from first batch not showing in section (fixed by adding image rendering to Section.tsx)
 
 ## Documentation & Archive
 - [x] **GitHub Archive:** Create new GitHub repository to archive task thread and documentation
@@ -65,3 +65,4 @@
 - [x] **Skill Creation:** Create appliance-manual-linker skill for finding and adding manufacturer manual links
 - [x] **All Buildings:** Apply skill to add online manual links for all appliances and equipment
 - [x] **GitHub:** Push all updates to GitHub repository
+- [x] **The Chalet:** Integrate photos from GitHub repository with comprehensive documentation
