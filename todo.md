@@ -69,3 +69,6 @@
 
 ## Current Investigation
 - [x] **The Chalet Water Heater Photos:** Investigate missing water heater photos that were previously in the section (restored from git history)
+
+## Workflow Improvements
+- [x] **GitHub Integration:** Document best practice to always use fresh clone when checking for new photos (documented in GITHUB_WORKFLOW.md)
