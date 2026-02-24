@@ -66,3 +66,12 @@
 - [x] **Integrate Beach House Photos:** Add new photos to Beach House section in manual-data.json
 - [x] **Upload Beach House Photos:** Uploaded 14 photos to CDN (appliances: 8, laundry: 4, water heater: 2)
 - [x] **Add Laundry Subsection:** Created new Laundry subsection with Maytag washer and dryer photos
+
+## Photo Display Bug Fix
+- [x] **Investigate Photo Display Issue:** Debug why photos added to manual-data.json don't display on website
+- [x] **Fix Photo Rendering:** Ensure photos render correctly in Section.tsx component
+- [x] **Document Root Cause:** Create permanent solution to prevent recurring photo display issues
+
+**ROOT CAUSE:** Section.tsx was missing code to render subsection.images[] array
+**FIX:** Added image rendering logic after subsection content (lines 183-203 in Section.tsx)
+**RESULT:** All subsection photos now display correctly in 2-column grid with captions

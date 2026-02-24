@@ -179,6 +179,28 @@ export default function Section() {
                       </div>
                     </div>
                   )}
+
+                  {/* Render subsection images if they exist */}
+                  {(subsection as any).images && (subsection as any).images.length > 0 && (
+                    <div className="mt-6 space-y-4">
+                      <h4 className="font-medium text-foreground">{subsection.title} Photos</h4>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        {(subsection as any).images.map((image: any, imgIdx: number) => (
+                          <div key={imgIdx} className="space-y-2">
+                            <img 
+                              src={image.url} 
+                              alt={image.caption || `${subsection.title} photo ${imgIdx + 1}`}
+                              className="w-full h-auto rounded-lg border border-border shadow-sm hover:shadow-md transition-shadow"
+                              loading="lazy"
+                            />
+                            {image.caption && (
+                              <p className="text-sm text-muted-foreground text-center">{image.caption}</p>
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </CardContent>
               </Card>
               );
