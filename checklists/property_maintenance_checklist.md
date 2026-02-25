@@ -1,17 +1,17 @@
 # Property Maintenance Checklist
 
-**Generated:** February 24, 2026  
+**Generated:** February 25, 2026  
 **Property Manager Walk-Through**
 
 ---
 
 ## Summary
 
-This checklist contains 7 maintenance items identified during property inspection. Items are organized by category and priority level.
+This checklist contains 8 maintenance items identified during property inspection. Items are organized by category and priority level.
 
 ### Priority Breakdown
 - **High Priority:** 1 item
-- **Medium Priority:** 5 items
+- **Medium Priority:** 6 items
 - **Low Priority:** 1 item
 
 ---
@@ -57,11 +57,18 @@ This checklist contains 7 maintenance items identified during property inspectio
 **Notes:** Potable and irrigation water outlet area heavily overgrown with dead grasses and weeds; utility box visible in background  
 **Photo:** water_outlets_overgrown.jpg
 
+### 6. Clean Farm House In-Ground Valve Box
+**Priority:** Medium  
+**Category:** Utilities/Farm House  
+**Action Required:** Clean out debris from valve box, ensure valve is accessible and operable  
+**Status:** Pending  
+**Notes:** Valve box near Farm House foundation currently filled with debris, valve needs to be accessible for emergencies.
+
 ---
 
 ## Landscaping & Exterior
 
-### 6. Remove Old Metal Burn Pit
+### 7. Remove Old Metal Burn Pit
 **Priority:** Medium  
 **Category:** Exterior/Yard  
 **Action Required:** Arrange scrap metal removal or disposal service  
@@ -69,7 +76,7 @@ This checklist contains 7 maintenance items identified during property inspectio
 **Notes:** Metal debris/old burn pit visible in yard area near field  
 **Photo:** old_burn_pit.jpg
 
-### 7. Add Gravel Around Fire Hydrant
+### 8. Add Gravel Around Fire Hydrant
 **Priority:** Medium  
 **Category:** Landscaping/Safety  
 **Action Required:** Purchase and spread gravel around hydrant area  
@@ -86,6 +93,7 @@ This checklist contains 7 maintenance items identified during property inspectio
 2. **Schedule Soon (Medium Priority):**
    - Fix pickup truck
    - Clear vegetation around water outlets
+   - Clean Farm House in-ground valve box
    - Remove old metal burn pit
    - Add gravel around fire hydrant
 
