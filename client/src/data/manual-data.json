@@ -3,7 +3,8 @@
   "metadata": {
     "created": "February 13, 2026",
     "updated": "February 25, 2026",
-    "owner": "Shady Cove LLC"
+    "owner": "Shady Cove LLC",
+    "lastUpdated": "February 25, 2026"
   },
   "sections": [
     {
@@ -540,6 +541,102 @@
         }
       ],
       "intro": "**Status:** Documented"
+    },
+    {
+      "id": "genset-shed",
+      "title": "Genset Shed",
+      "description": "Backup power generator system serving the Caretaker House, Farm House, and Beach House. Northern Lights Series 3 with John Deere 4039D diesel engine, 36/40kW.",
+      "subsections": [
+        {
+          "id": "exterior",
+          "title": "Exterior",
+          "content": "The genset shed has green/sage vertical board siding with a metal roof, located on the lawn near the tree line and apple trees.",
+          "items": [],
+          "images": [
+            {
+              "url": "/images/genset-shed/exterior/01_genset_shed_exterior.jpg",
+              "caption": "Exterior view of the generator shed. Green/sage vertical board siding, metal roof, gable end facing camera. On lawn near tree line with apple trees nearby."
+            }
+          ]
+        },
+        {
+          "id": "interior",
+          "title": "Interior",
+          "content": "The interior currently has gym equipment (Nautilus weights, power rack, bench) stored in front of the generator, blocking access. This is a maintenance priority \u2014 see maintenance checklist item #8.",
+          "items": [],
+          "images": [
+            {
+              "url": "/images/genset-shed/interior/01_genset_shed_interior_overview.jpg",
+              "caption": "Interior overview showing gym equipment (Nautilus weights 25lbs/11.3kg, power rack, bench) stored in front of the generator, blocking access. Generator visible in back."
+            }
+          ]
+        },
+        {
+          "id": "equipment",
+          "title": "Generator Equipment",
+          "content": "**Northern Lights Series 3 Generator**\n- **Serial:** LM176191-1294\n- **Part:** 36081853\n- **Output:** 36 kW (Prime) / 40 kW (Standby)\n- **Voltage:** 120/240V, 150A\n- **Engine Hours:** ~345 (Feb 2026)\n\n**John Deere Engine**\n- **Model:** 4039DF001\n- **Serial:** T04039D474319\n- **Manufacturer:** Deere & Company, Moline, Illinois",
+          "items": [
+            {
+              "name": "Northern Lights Series 3 Generator",
+              "serial": "LM176191-1294",
+              "part": "36081853",
+              "output_kw_prime": "36",
+              "output_kw_standby": "40",
+              "voltage": "120/240V",
+              "amps": "150",
+              "engine_hours": "~345 (Feb 2026)"
+            },
+            {
+              "name": "John Deere Engine",
+              "model": "4039DF001",
+              "serial": "T04039D474319",
+              "manufacturer": "Deere & Company, Moline, Illinois"
+            }
+          ],
+          "images": [
+            {
+              "url": "/images/genset-shed/equipment/01_genset_full_view.jpg",
+              "caption": "Northern Lights diesel genset on steel skid frame. John Deere diesel engine (white/cream), radiator with fan on left end, large alternator on right. Electrical distribution panel and disconnect switches mounted on wall behind."
+            },
+            {
+              "url": "/images/genset-shed/equipment/02_genset_control_panel.jpg",
+              "caption": "Northern Lights Series 3 Generator Set Control Panel (Alaska Diesel Electric Inc., Seattle, USA). VDO gauges: Oil Pressure, Engine Temperature, DC Voltage, Engine Hours (~00345 hours). Shutdown Bypass & Preheat Switch, Engine Control (Run/Start/Stop)."
+            },
+            {
+              "url": "/images/genset-shed/equipment/03_genset_nameplate.jpg",
+              "caption": "Northern Lights nameplate: Serial LM176191-1294, Part 36081853, KW 36/40, KVA 36/40, Volts 120/240, Amps 150, Duty Prime/Standby. Alaska Diesel Electric, 4420 14th Ave NW, Seattle WA 98107."
+            },
+            {
+              "url": "/images/genset-shed/equipment/04_engine_plate.jpg",
+              "caption": "John Deere engine plate: Engine Serial Number T04039D474319, Model 4039DF001, Deere & Company, Moline, Illinois, Made in USA."
+            }
+          ]
+        },
+        {
+          "id": "electrical",
+          "title": "Electrical & Transfer Switch",
+          "content": "**Power Switchover \u2014 To Generator:**\n1. Turn on OPALCO flood light\n2. Turn main switch to OFF\n3. Start generator \u2014 warm up\n4. Turn main switch to GENSET\n\n**Power Switchover \u2014 To OPALCO:**\n1. Turn main switch to OFF\n2. Turn off generator\n3. Turn main switch to OPALCO\n4. Turn off OPALCO flood light\n\n**Transfer Switch:** Square D manual safety switch, 3-position (GENSET / OFF / OPALCO)\n\n**Distribution Panel:** Square D QO Load Center serving Beach House, Farm House, Caretaker's House, and sub-panel circuits.\n\n**Sub-Panel:** Square D QO2-4L70S, 70A, 240V, Single Phase. Labeled 'CHARGE ONLY / PLUGS'.",
+          "items": [],
+          "images": [
+            {
+              "url": "/images/genset-shed/electrical/01_switchover_instructions.jpg",
+              "caption": "Handwritten switchover procedure posted on wall. TO GENERATOR: 1. Turn on OPALCO flood light, 2. Turn main switch off, 3. Start generator - warm up, 4. Turn main switch to gen-set. TO OPALCO: 1. Turn main switch to off, 2. Turn off generator, 3. Turn main switch to OPALCO, 4. Turn off OPALCO flood light."
+            },
+            {
+              "url": "/images/genset-shed/electrical/02_transfer_switch.jpg",
+              "caption": "Square D safety switch / manual transfer switch. 3-position handle: GENSET (top), OFF (middle), OPALCO (bottom). Square D Company label with DANGER warning."
+            },
+            {
+              "url": "/images/genset-shed/electrical/03_distribution_panel.jpg",
+              "caption": "Square D QO Load Center breaker panel (open). Main Principal breaker at top. Circuit directory serves Beach House, Farm House, Caretaker's House, and various outlets/circuits."
+            },
+            {
+              "url": "/images/genset-shed/electrical/04_sub_panel.jpg",
+              "caption": "Square D QO Load Center sub-panel, catalog QO2-4L70S, single phase, 240V, 70A max. Single breaker in I/ON position. Written on wall above: 'CHARGE ONLY' and 'PLUGS'."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
