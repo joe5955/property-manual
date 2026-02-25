@@ -8,13 +8,13 @@ The Farm House is a wood-frame farmhouse with cedar shingle siding and distincti
 
 ## Equipment Inventory
 
-| Item | Brand / Model | Key Specs | Est. Age | Rec. Replace |
-|------|--------------|-----------|----------|--------------|
-| Refrigerator | LG LRTP0931W | 115V~ 60Hz 1.5A, R134a 120g, CSA LR41087, Made in Korea | ~10–15 yrs | 2028 |
-| Electric Range | Brand/Model Unknown | 4-burner coil cooktop, oven, broiler/storage drawer | Unknown | Inspect when serviced |
-| Water Heater | Bradford White MI150S6DS21 | 50 gal, 240V AC, 4500W upper/lower elements, 150 psi working | ~25 yrs (Feb 2001) | **IMMEDIATE — CRITICAL** |
-| Electrical Panel | MTS Manual Transfer Switch | Kylander Electric, Everett WA; generator interlock | Unknown | Inspect annually |
-| Thermostat | King "Comfort Zone" | Analog dial, LO–90°F range; controls baseboard heaters | Unknown | As needed |
+| Item | Brand / Model | Key Specs | Est. Age | Rec. Replace | Manual |
+|------|--------------|-----------|----------|--------------|--------|
+| Refrigerator | LG LRTP0931W | 115V~ 60Hz 1.5A, R134a 120g, CSA LR41087, Made in Korea | ~10–15 yrs | 2028 | [View Manual](https://www.appliancefactoryparts.com/content/pdfs/161181-1.pdf) |
+| Electric Range | Brand/Model Unknown | 4-burner coil cooktop, oven, broiler/storage drawer | Unknown | Inspect when serviced | Not Found |
+| Water Heater | Bradford White MI150S6DS21 | 50 gal, 240V AC, 4500W upper/lower elements, 150 psi working | ~25 yrs (Feb 2001) | **IMMEDIATE — CRITICAL** | [View Manual](https://docs.bradfordwhite.com/I&O/238-54649-00_Current.pdf) |
+| Electrical Panel | MTS Manual Transfer Switch | Kylander Electric, Everett WA; generator interlock | Unknown | Inspect annually | Not Found |
+| Thermostat | King "Comfort Zone" | Analog dial, LO–90°F range; controls baseboard heaters | Unknown | As needed | [View Manual](https://king-electric.com/wp-content/uploads/kel_product_files/K101-K102-Instructions-Manual.pdf) |
 
 ---
 
@@ -69,6 +69,7 @@ Close-up of LG model label.
 | CSA File No. | LR41087 |
 | Origin | Made in Korea |
 | Recommended Replace | 2028 |
+| Manual | [View Manual](https://www.appliancefactoryparts.com/content/pdfs/161181-1.pdf) |
 
 ### Electric Range — Brand/Model Unknown
 
@@ -88,7 +89,7 @@ Back of electric range showing wiring diagram, terminal board access panel, bodi
 | Type | Freestanding electric range |
 | Cooktop | 4-burner coil |
 | Features | Oven, storage/broiler drawer |
-| Manual | On-site (generic Electric Range Use and Care Manual) |
+| Manual | On-site (generic Electric Range Use and Care Manual) - [View Generic Manual](https://media3.bosch-home.com/Documents/9000087183_A.pdf) |
 | Anti-Tip Bracket | Required — see back panel diagram |
 
 > **Safety Note:** Ensure the anti-tip bracket is properly installed per the diagram on the back panel. Ranges without anti-tip brackets are a tip-over hazard.
@@ -111,6 +112,7 @@ MTS manual transfer switch (Kylander Electric, Everett WA) with generator interl
 | Installer | Kylander Electric, Everett WA |
 | Location | Interior wall (dining room area) |
 | Capability | Generator interlock — switches between utility and generator power |
+| Manual | Not Found |
 
 **Circuit Directory (from panel label):**
 
@@ -144,7 +146,7 @@ To return to utility (OPALCO) power:
 
 ### Heating System
 
-The Farm House uses **electric baseboard heating** throughout, controlled by a King "Comfort Zone" analog dial thermostat (LO–90°F range). The thermostat is located on the interior wall.
+The Farm House uses **electric baseboard heating** throughout, controlled by a King "Comfort Zone" analog dial thermostat (LO–90°F range). The thermostat is located on the interior wall. ([View Manual](https://king-electric.com/wp-content/uploads/kel_product_files/K101-K102-Instructions-Manual.pdf))
 
 ### Water Shutoff
 
@@ -183,6 +185,7 @@ Close-up of Bradford White data label.
 | Installed | ~February 2001 |
 | Age | ~25 years |
 | **Status** | **CRITICAL FAILURE RISK — Replace Immediately** |
+| Manual | [View Manual](https://docs.bradfordwhite.com/I&O/238-54649-00_Current.pdf) |
 
 **Immediate Actions:**
 1. Check daily for signs of leaks (pooling water, rust staining, dampness around base).
