@@ -75,6 +75,22 @@ This document provides a master index of all appliance and equipment manuals for
 
 ---
 
+## Madrona House
+
+| Appliance | Model Number | Manual Link |
+|---|---|---|
+| Refrigerator | GE ETS22XBPBRBB | Not Found |
+| Range | GE Electric Range (model unknown) | Not Found |
+| Dishwasher | Frigidaire (model unknown) | Not Found |
+| Microwave | Sharp Carousel (model unknown) | Not Found |
+| Water Heater | A.O. Smith ES12-50R55DV 110 | Not Found |
+| Washer | LG WM3270CW | [View Manual](https://www.lg.com/us/support/manuals-documents?search=WM3270CW) |
+| Dryer | LG DLE3170W | [View Manual](https://www.lg.com/us/support/manuals-documents?search=DLE3170W) |
+| Electrical Panel (North) | Square D QO Load Center | [View Manual](https://download.schneider-electric.com/files?p_enDocType=Instruction+sheet&p_File_Name=S1B33894.pdf&p_Doc_Ref=S1B33894) |
+| Electrical Panel (South) | Square D HOM24/30UC | [View Manual](https://download.schneider-electric.com/files?p_enDocType=Instruction+sheet&p_File_Name=S1B33894.pdf&p_Doc_Ref=S1B33894) |
+
+---
+
 ## Genset Shed
 
 | Appliance | Model Number | Manual Link |

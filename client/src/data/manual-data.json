@@ -543,6 +543,191 @@
       "intro": "**Status:** Documented"
     },
     {
+      "id": "madrona-house",
+      "title": "Madrona House",
+      "intro": "The Madrona House is a residence on the property featuring dark brown and tan board-and-batten siding, a standing seam metal roof, and a large covered deck with peeled log post columns. It is situated in a woodland setting with a manicured lawn and flagstone patio.",
+      "content": "**Status:** Documented\n\n### Kitchen Appliances\n- **Dishwasher:** Frigidaire (Black, built-in \u2014 model number not readable from label)\n- **Range:** GE Electric Range (Black, 4-burner coil cooktop, digital clock/timer \u2014 no model/serial found)\n- **Microwave:** Sharp Carousel (White, countertop, Sensor Cook presets \u2014 no model/serial found)\n- **Refrigerator:** GE Model ETS22XBPBRBB, Serial AG309845 (Black, top-freezer, 110-127V, 11.6A, R134a 4.5 oz, Made in Mexico)\n\n### Laundry\n- **Washer:** LG Model WM3270CW, Serial 702VWFW1C667 (White, front-load, 120V, 60Hz, 5A, Made in Vietnam)\n- **Dryer:** LG Model DLE3170W, Serial 703KWTA14577 (White, front-load, 120/240V, 60Hz, 25A, Made in Korea)\n\n### Water Heater\n- **A.O. Smith** Model ES12-50R55DV 110, Serial 1735107390037 (50 Gal, 240V, 5500W, hybrid/heat pump, exterior closet on north end)\n\n### Electrical\n- **North Bedroom Panel:** Square D QO Load Center \u2014 circuits include Range, Hot Water, Living Room Heat, Dining, Bath Heat, Bedrooms, Entry, Outside, Porch/Water Heater, Smoke Detector/Lights\n- **South Bedroom Panel:** Square D QO Load Center, Cat No. HOM24/30UC \u2014 circuits include Portable/Ref, Laundry/Dryer, Stove; GFCI/AFCI breakers\n\n### Septic\n- **North:** Two green access risers in yard near deck steps\n- **South:** Two green access risers in mossy lawn near tree line; alarm panel and GFCI outlet on south exterior wall\n\n### Irrigation\n- In-ground valve box on north end; two solenoid valves controlled by Rain Bird ESP-ME3 at main house; includes flow sensor and anti-siphon backflow preventer",
+      "subsections": [
+        {
+          "id": "exterior",
+          "title": "Exterior",
+          "intro": "Dark brown board-and-batten siding on the front, tan/beige on the back. Standing seam metal roof, covered entry porch, and a large covered deck with peeled log post columns.",
+          "content": "Dark brown board-and-batten siding on the front, tan/beige on the back. Standing seam metal roof, covered entry porch, and a large covered deck with peeled log post columns.",
+          "items": [],
+          "images": [
+            {
+              "url": "/images/madrona-house/exterior/madrona-house-front.jpg",
+              "caption": "Madrona House \u2014 Front/Entry Side"
+            },
+            {
+              "url": "/images/madrona-house/exterior/madrona-yard-art-truck.jpg",
+              "caption": "Yard Art \u2014 Antique Truck Chassis (~1928-1931 Ford Model A/AA)"
+            },
+            {
+              "url": "/images/madrona-house/exterior/madrona-house-back.jpg",
+              "caption": "Madrona House \u2014 Back/Deck Side with Covered Veranda"
+            }
+          ]
+        },
+        {
+          "id": "north-end",
+          "title": "North End",
+          "intro": "The north end of the house contains the water heater access door, septic alarm, irrigation controls, and crawl space access deck.",
+          "content": "The north end of the house contains the water heater access door, septic alarm, irrigation controls, and crawl space access deck.",
+          "items": [],
+          "images": [
+            {
+              "url": "/images/madrona-house/north-end/madrona-north-end.jpg",
+              "caption": "North End \u2014 Water Heater Door, Septic Alarm, Irrigation Controls, Crawl Space Access"
+            }
+          ]
+        },
+        {
+          "id": "water-heater",
+          "title": "Water Heater",
+          "intro": "A.O. Smith hybrid/heat pump electric water heater in an exterior closet on the north end. 50 gallon, 240V, 5500W.",
+          "content": "- **Brand:** A.O. Smith\n- **Model:** ES12-50R55DV 110\n- **Serial:** 1735107390037\n- **Type:** Hybrid/Heat Pump Electric Storage Tank\n- **Capacity:** 50 US Gal\n- **Voltage:** 240V AC, 1 Phase\n- **Wattage:** 5500W (Upper/Lower)\n- **Max Pressure:** 150 psi\n- **Accessories:** Amtrol expansion tank, Grundfos recirculation pump, drain pan, leak sensor",
+          "items": [],
+          "images": [
+            {
+              "url": "/images/madrona-house/water-heater/madrona-water-heater.jpg",
+              "caption": "A.O. Smith Water Heater with Expansion Tank and Recirculation Pump"
+            },
+            {
+              "url": "/images/madrona-house/water-heater/madrona-water-heater-label.jpg",
+              "caption": "A.O. Smith Water Heater Model Label \u2014 ES12-50R55DV 110"
+            }
+          ]
+        },
+        {
+          "id": "irrigation",
+          "title": "Irrigation Controls",
+          "intro": "In-ground valve box on the north end with two solenoid valves controlled by the Rain Bird ESP-ME3 at the main house.",
+          "content": "Cedar-framed in-ground valve box containing two irrigation solenoid valves on PVC lines. Controlled by Rain Bird ESP-ME3 at the main house (low-voltage wiring). Includes PVC manifold, manual brass gate valve shutoff, anti-siphon/backflow preventer, and a large gray flow sensor.",
+          "items": [],
+          "images": [
+            {
+              "url": "/images/madrona-house/irrigation/madrona-irrigation-valves.jpg",
+              "caption": "Irrigation Valve Box \u2014 Two Solenoid Valves, Flow Sensor, Backflow Preventer"
+            }
+          ]
+        },
+        {
+          "id": "electrical",
+          "title": "Electrical Panels",
+          "intro": "The house has two Square D electrical panels: one in the north bedroom and one in the south bedroom closet.",
+          "content": "**North Bedroom Panel (Square D QO Load Center):**\n- 2/4: Range\n- 3: Range/HVAC\n- 5: Ki/Ref\n- 6: Hot Water\n- 7: Elec\n- 10: Living Room Heat\n- 11: Disposal\n- 12: Dining\n- 14: Bath Heat\n- 15: Bed Room/Dishwash\n- 16: Bed Room\n- 17: De ki\n- 18: Mstr Rec\n- 19: Entry\n- 20: ALL\n- 21: Outside\n- 22: Entry\n- 24: Outside\n- 25: Multi\n- 26: Bath/Rec\n- 28: Porch/Water Heater\n- 29: Lights\n- 30: Smoke Detector/Lights\n\n**South Bedroom Panel (Square D HOM24/30UC):**\n- 2: Portable/Ref\n- 4: Laundry/Dryer\n- 6: Stove\n- GFCI/AFCI breakers (Square D CAFI)\n- WA State L&I inspection sticker",
+          "items": [],
+          "images": [
+            {
+              "url": "/images/madrona-house/electrical/madrona-panel-north-location.jpg",
+              "caption": "North Bedroom Panel \u2014 Location on Knotty Pine Wall"
+            },
+            {
+              "url": "/images/madrona-house/electrical/madrona-panel-north-open.jpg",
+              "caption": "North Bedroom Panel \u2014 Square D QO Load Center, Circuit Directory"
+            },
+            {
+              "url": "/images/madrona-house/south-bedroom/madrona-panel-south-closed.jpg",
+              "caption": "South Bedroom Panel \u2014 Closed, Flush-Mounted in Closet Alcove"
+            },
+            {
+              "url": "/images/madrona-house/south-bedroom/madrona-panel-south-open.jpg",
+              "caption": "South Bedroom Panel \u2014 Square D HOM24/30UC Open, GFCI/AFCI Breakers"
+            }
+          ]
+        },
+        {
+          "id": "kitchen-appliances",
+          "title": "Kitchen Appliances",
+          "intro": "Black GE refrigerator, black GE range, black Frigidaire dishwasher, and white Sharp Carousel microwave.",
+          "content": "- **Dishwasher:** Frigidaire (Black, built-in \u2014 model number not readable from label; Electrolux Home Products)\n- **Range:** GE Electric Range (Black, 4-burner coil cooktop, digital clock/timer \u2014 no model/serial found)\n- **Microwave:** Sharp Carousel (White, countertop, Sensor Cook presets \u2014 no model/serial found)\n- **Refrigerator:** GE Model ETS22XBPBRBB, Serial AG309845 (Black, top-freezer, 110-127V, 11.6A, R134a 4.5 oz, Made in Mexico, Appliance Park, Louisville KY)",
+          "items": [],
+          "images": [
+            {
+              "url": "/images/madrona-house/kitchen-appliances/madrona-dishwasher.jpg",
+              "caption": "Frigidaire Dishwasher \u2014 Black, Built-In"
+            },
+            {
+              "url": "/images/madrona-house/kitchen-appliances/madrona-dishwasher-label.jpg",
+              "caption": "Frigidaire Dishwasher Label (model not readable)"
+            },
+            {
+              "url": "/images/madrona-house/kitchen-appliances/madrona-range.jpg",
+              "caption": "GE Electric Range \u2014 Black, 4-Burner Coil Cooktop"
+            },
+            {
+              "url": "/images/madrona-house/kitchen-appliances/madrona-microwave.jpg",
+              "caption": "Sharp Carousel Microwave \u2014 White, Countertop"
+            },
+            {
+              "url": "/images/madrona-house/kitchen-appliances/madrona-refrigerator.jpg",
+              "caption": "GE Refrigerator \u2014 Black, Top-Freezer"
+            },
+            {
+              "url": "/images/madrona-house/kitchen-appliances/madrona-refrigerator-label.jpg",
+              "caption": "GE Refrigerator Label \u2014 Model ETS22XBPBRBB, Serial AG309845"
+            }
+          ]
+        },
+        {
+          "id": "laundry",
+          "title": "Laundry",
+          "intro": "LG stacked front-load washer and dryer in a laundry closet.",
+          "content": "- **Washer:** LG Model WM3270CW, Serial 702VWFW1C667 (White, front-load, 120V, 60Hz, 5A, Made in Vietnam)\n- **Dryer:** LG Model DLE3170W, Serial 703KWTA14577 (White, front-load, 120/240V, 60Hz, 25A, 22.5 lb, Made in Korea)",
+          "items": [],
+          "images": [
+            {
+              "url": "/images/madrona-house/laundry/madrona-washer-dryer.jpg",
+              "caption": "LG Stacked Washer and Dryer \u2014 White, Front-Load"
+            },
+            {
+              "url": "/images/madrona-house/laundry/madrona-washer-label.jpg",
+              "caption": "LG Washer Label \u2014 Model WM3270CW, Serial 702VWFW1C667"
+            },
+            {
+              "url": "/images/madrona-house/laundry/madrona-dryer-label.jpg",
+              "caption": "LG Dryer Label \u2014 Model DLE3170W, Serial 703KWTA14577"
+            }
+          ]
+        },
+        {
+          "id": "south-bedroom",
+          "title": "South Bedroom",
+          "intro": "Walk-in closet with built-in maple shelving and the south electrical panel.",
+          "content": "The south bedroom features a walk-in closet with built-in maple shelving, a hanging rod, and storage cubbies with pull-out bins. The south electrical panel (Square D HOM24/30UC) is flush-mounted in a closet alcove.",
+          "items": [],
+          "images": [
+            {
+              "url": "/images/madrona-house/south-bedroom/madrona-south-bedroom-closet.jpg",
+              "caption": "South Bedroom Walk-In Closet \u2014 Built-In Maple Shelving and Storage"
+            }
+          ]
+        },
+        {
+          "id": "septic",
+          "title": "Septic System",
+          "intro": "Two separate septic systems: one on the north side (two access risers near deck steps) and one on the south side (two access risers near tree line, with alarm panel on south wall).",
+          "content": "**North Septic:** Two green access risers at grade level in the yard near the deck steps. Boulders and landscaping surround them.\n\n**South Septic:** Two green access risers in the mossy lawn south of the house near the tree line. The alarm panel and GFCI outlet are mounted on the south exterior wall, with EMT conduit and pump wiring running to the foundation.",
+          "items": [],
+          "images": [
+            {
+              "url": "/images/madrona-house/septic/madrona-septic-north.jpg",
+              "caption": "North Septic \u2014 Two Green Access Risers Near Deck Steps"
+            },
+            {
+              "url": "/images/madrona-house/septic/madrona-septic-alarm-south.jpg",
+              "caption": "South Septic \u2014 Alarm Panel and GFCI Outlet on South Exterior Wall"
+            },
+            {
+              "url": "/images/madrona-house/septic/madrona-septic-tank-south.jpg",
+              "caption": "South Septic \u2014 Two Green Access Risers in Mossy Lawn Near Tree Line"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "genset-shed",
       "title": "Genset Shed",
       "description": "Backup power generator system serving the Caretaker House, Farm House, and Beach House. Northern Lights Series 3 with John Deere 4039D diesel engine, 36/40kW.",
