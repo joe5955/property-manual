@@ -2,7 +2,7 @@
   "title": "San Juan County, Washington - Private Property",
   "metadata": {
     "created": "February 13, 2026",
-    "updated": "February 14, 2026",
+    "updated": "February 25, 2026",
     "owner": "Shady Cove LLC"
   },
   "sections": [
@@ -24,7 +24,7 @@
     {
       "id": "farm-house",
       "title": "Farm House",
-      "content": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC) - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)\n\n### Structure & Exterior\n- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers\n\n### Kitchen Appliances\n- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities\n\n### Electrical System\n- **Panel:** MTS electrical panel in dining room with generator transfer capability\n- **Circuits:** Complete handwritten directory available\n\n### Heating System\n- **Type:** Electric baseboard heating (multiple zones)\n\n### Septic System\n- **Pump:** On \"DINING - SEPTIC\" circuit\n\n### Water Heater\n- **Model:** Bradford White MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK (Expected life 8-12 years)\n- **Action:** Replace immediately",
+      "content": "### Structure & Exterior\n- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)\n- **Exterior:** Wood siding with distinctive green/teal trim\n- **Roof:** Gray asphalt shingles with dormers\n\n### Kitchen Appliances\n- LG top-freezer refrigerator, white, Model LRTP0931W, 115V 60Hz 1.5A, Refrigerant R134a, Made in Korea. Located in green kitchen next to exterior door with glass panes. Toaster and crackers on counter beside it.\n- Close-up of LG model label: Model LRTP0931W, 115V~ 60Hz 1.5A, Refrigerant R134a 120g, CSA File No. LR41087, Free Standing Installation Only, Made in Korea.\n- White electric range, 4-burner coil cooktop with oven and storage/broiler drawer. Tea kettle on top. Next to green beadboard cabinets. Brand/model unknown.\n- \"Use and Care Manual and Installation Instructions - Electric Range\" manual cover page. Generic manual, no brand visible.\n- Back of electric range showing wiring diagram, terminal board access panel, bodily injury and electrical shock hazard warnings, anti-tip bracket installation diagram. No serial/model plate found.\n\n### Systems & Utilities\n- Flush-mounted breaker panel on interior wall, door closed.\n- MTS manual transfer switch (Kylander Electric, Everett WA) with generator interlock, opened showing breakers and circuit directory. Panel directory shows circuits: Bath, Bed Room, Range, Smoke Det, Heat, Water, Dining, Kitchen, and others. \"CAUTION HAZARDOUS VOLTAGE\" warning label. Power from generator / power from utility switching.\n\n### Water Heater (Critical)\n- Bradford White automatic storage water heater with PHCC label, in utility/laundry closet. Copper plumbing visible on top with flexible connectors.\n- Bradford White label close-up: Model MI150S6DS21, Serial ZB2783563, 50 gallon (189.3 liters), 240V AC only 50/60 Hz, Upper Element 4500W, Lower Element 4500W, Max 4500W, Test pressure 300 psi, Working 150 psi. EnergyGuide: 4721 kWh/year, estimated $397/year, first hour rating 67 gallons.\n\n### Exterior\n- Exterior shot showing hose bib/water spigot area along cedar shingle siding with green rabbit cutout decoration, raised garden beds adjacent. Crawl space access area.\n- In-ground valve box (water shutoff or irrigation valve) near the foundation, opened showing dirt and debris inside with visible pipe/valve at bottom.\n- Removable board access panel at foundation level, between siding and raised garden bed. Orange extension cord running through area. Moss and gravel ground cover.\n\n### Root Cellar\n- Log construction root cellar built into hillside, gable roof, weathered wood door with window pane. Rustic wooden gate in front, large boulders and flagstone path, dried hydrangeas, forest hillside with tall conifers behind.\n- Interior with skylights in sloped ceiling providing natural light. Currently used as garden storage: galvanized trash cans, buckets, garden tools, dried herbs hanging from line, green garden hose, Roundup, spray cans, Dr. Earth fertilizer, birdhouses on shelf, old crosscut saw on wall, shelving on left wall.\n\n### Interior\n- Room with quilted wall hanging (blue/green/floral banner pattern with tassel), white spindle chair, baseboard heater visible at floor level, light switch and outlet on wall. Yellow walls with green trim/baseboards.\n- King brand analog dial thermostat, \"Comfort Zone\" label, range LO through 50-60-70-80-90\u00b0F. Controls baseboard heaters. Red tulip wall clock above it.",
       "subsections": [
         {
           "id": "structure-and-exterior",
@@ -36,23 +36,117 @@
         {
           "id": "kitchen-appliances",
           "title": "Kitchen Appliances",
-          "content": "- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities",
+          "content": "- LG top-freezer refrigerator, white, Model LRTP0931W, 115V 60Hz 1.5A, Refrigerant R134a, Made in Korea. Located in green kitchen next to exterior door with glass panes. Toaster and crackers on counter beside it.\n- Close-up of LG model label: Model LRTP0931W, 115V~ 60Hz 1.5A, Refrigerant R134a 120g, CSA File No. LR41087, Free Standing Installation Only, Made in Korea.\n- White electric range, 4-burner coil cooktop with oven and storage/broiler drawer. Tea kettle on top. Next to green beadboard cabinets. Brand/model unknown.\n- \"Use and Care Manual and Installation Instructions - Electric Range\" manual cover page. Generic manual, no brand visible.\n- Back of electric range showing wiring diagram, terminal board access panel, bodily injury and electrical shock hazard warnings, anti-tip bracket installation diagram. No serial/model plate found.",
           "items": [],
-          "intro": "- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities"
+          "intro": "- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*\n- **Range:** Premier Electric (4-burner coil cooktop)\n- **Amenities:** No dishwasher, microwave, or laundry facilities",
+          "images": [
+            {
+              "url": "/images/farm-house/kitchen-appliances/01_refrigerator_lg_overview.jpg",
+              "caption": "LG top-freezer refrigerator, white, Model LRTP0931W, 115V 60Hz 1.5A, Refrigerant R134a, Made in Korea. Located in green kitchen next to exterior door with glass panes. Toaster and crackers on counter beside it."
+            },
+            {
+              "url": "/images/farm-house/kitchen-appliances/02_refrigerator_lg_label.jpg",
+              "caption": "Close-up of LG model label: Model LRTP0931W, 115V~ 60Hz 1.5A, Refrigerant R134a 120g, CSA File No. LR41087, Free Standing Installation Only, Made in Korea."
+            },
+            {
+              "url": "/images/farm-house/kitchen-appliances/03_range_electric_overview.jpg",
+              "caption": "White electric range, 4-burner coil cooktop with oven and storage/broiler drawer. Tea kettle on top. Next to green beadboard cabinets. Brand/model unknown."
+            },
+            {
+              "url": "/images/farm-house/kitchen-appliances/04_range_use_care_manual.jpg",
+              "caption": "\"Use and Care Manual and Installation Instructions - Electric Range\" manual cover page. Generic manual, no brand visible."
+            },
+            {
+              "url": "/images/farm-house/kitchen-appliances/05_range_back_panel.jpg",
+              "caption": "Back of electric range showing wiring diagram, terminal board access panel, bodily injury and electrical shock hazard warnings, anti-tip bracket installation diagram. No serial/model plate found."
+            }
+          ]
         },
         {
           "id": "systems-and-utilities",
           "title": "Systems & Utilities",
-          "content": "- **Electrical:** MTS electrical panel in dining room with generator transfer capability\n- **Heating:** Electric baseboard heating (multiple zones)\n- **Septic:** Septic system with pump (Pump on \"DINING - SEPTIC\" circuit)",
+          "content": "- Flush-mounted breaker panel on interior wall, door closed.\n- MTS manual transfer switch (Kylander Electric, Everett WA) with generator interlock, opened showing breakers and circuit directory. Panel directory shows circuits: Bath, Bed Room, Range, Smoke Det, Heat, Water, Dining, Kitchen, and others. \"CAUTION HAZARDOUS VOLTAGE\" warning label. Power from generator / power from utility switching.",
           "items": [],
-          "intro": "- **Electrical:** MTS electrical panel in dining room with generator transfer capability\n- **Heating:** Electric baseboard heating (multiple zones)\n- **Septic:** Septic system with pump (Pump on \"DINING - SEPTIC\" circuit)"
+          "intro": "- **Electrical:** MTS electrical panel in dining room with generator transfer capability\n- **Heating:** Electric baseboard heating (multiple zones)\n- **Septic:** Septic system with pump (Pump on \"DINING - SEPTIC\" circuit)",
+          "images": [
+            {
+              "url": "/images/farm-house/systems-and-utilities/01_electrical_panel_closed.jpg",
+              "caption": "Flush-mounted breaker panel on interior wall, door closed."
+            },
+            {
+              "url": "/images/farm-house/systems-and-utilities/02_electrical_panel_open_mts.jpg",
+              "caption": "MTS manual transfer switch (Kylander Electric, Everett WA) with generator interlock, opened showing breakers and circuit directory. Panel directory shows circuits: Bath, Bed Room, Range, Smoke Det, Heat, Water, Dining, Kitchen, and others. \"CAUTION HAZARDOUS VOLTAGE\" warning label. Power from generator / power from utility switching."
+            }
+          ]
         },
         {
           "id": "water-heater-farm",
           "title": "Water Heater (Critical)",
-          "content": "### ⚠️ URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 25 years old, this unit is more than double its expected lifespan. Risks include catastrophic tank failure, flooding, and safety hazards.\n\n**Immediate Actions:**\n1. Check daily for leaks.\n2. Listen for unusual noises.\n3. **Schedule replacement immediately.**",
+          "content": "- Bradford White automatic storage water heater with PHCC label, in utility/laundry closet. Copper plumbing visible on top with flexible connectors.\n- Bradford White label close-up: Model MI150S6DS21, Serial ZB2783563, 50 gallon (189.3 liters), 240V AC only 50/60 Hz, Upper Element 4500W, Lower Element 4500W, Max 4500W, Test pressure 300 psi, Working 150 psi. EnergyGuide: 4721 kWh/year, estimated $397/year, first hour rating 67 gallons.",
           "items": [],
-          "intro": "### ⚠️ URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 25 years old, this unit is more than double its expected lifespan. Risks include catastrophic tank failure, flooding, and safety hazards.\n\n**Immediate Actions:**\n1. Check daily for leaks.\n2. Listen for unusual noises.\n3. **Schedule replacement immediately.**"
+          "intro": "### \u26a0\ufe0f URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 25 years old, this unit is more than double its expected lifespan. Risks include catastrophic tank failure, flooding, and safety hazards.\n\n**Immediate Actions:**\n1. Check daily for leaks.\n2. Listen for unusual noises.\n3. **Schedule replacement immediately.**",
+          "images": [
+            {
+              "url": "/images/farm-house/water-heater-farm/01_water_heater_bradford_white.jpg",
+              "caption": "Bradford White automatic storage water heater with PHCC label, in utility/laundry closet. Copper plumbing visible on top with flexible connectors."
+            },
+            {
+              "url": "/images/farm-house/water-heater-farm/02_water_heater_label.jpg",
+              "caption": "Bradford White label close-up: Model MI150S6DS21, Serial ZB2783563, 50 gallon (189.3 liters), 240V AC only 50/60 Hz, Upper Element 4500W, Lower Element 4500W, Max 4500W, Test pressure 300 psi, Working 150 psi. EnergyGuide: 4721 kWh/year, estimated $397/year, first hour rating 67 gallons."
+            }
+          ]
+        },
+        {
+          "id": "exterior",
+          "title": "Exterior",
+          "content": "- Exterior shot showing hose bib/water spigot area along cedar shingle siding with green rabbit cutout decoration, raised garden beds adjacent. Crawl space access area.\n- In-ground valve box (water shutoff or irrigation valve) near the foundation, opened showing dirt and debris inside with visible pipe/valve at bottom.\n- Removable board access panel at foundation level, between siding and raised garden bed. Orange extension cord running through area. Moss and gravel ground cover.",
+          "items": [],
+          "images": [
+            {
+              "url": "/images/farm-house/exterior/01_crawlspace_access_exterior.jpg",
+              "caption": "Exterior shot showing hose bib/water spigot area along cedar shingle siding with green rabbit cutout decoration, raised garden beds adjacent. Crawl space access area."
+            },
+            {
+              "url": "/images/farm-house/exterior/02_crawlspace_valve_box.jpg",
+              "caption": "In-ground valve box (water shutoff or irrigation valve) near the foundation, opened showing dirt and debris inside with visible pipe/valve at bottom."
+            },
+            {
+              "url": "/images/farm-house/exterior/03_crawlspace_access_panel.jpg",
+              "caption": "Removable board access panel at foundation level, between siding and raised garden bed. Orange extension cord running through area. Moss and gravel ground cover."
+            }
+          ]
+        },
+        {
+          "id": "root-cellar",
+          "title": "Root Cellar",
+          "content": "- Log construction root cellar built into hillside, gable roof, weathered wood door with window pane. Rustic wooden gate in front, large boulders and flagstone path, dried hydrangeas, forest hillside with tall conifers behind.\n- Interior with skylights in sloped ceiling providing natural light. Currently used as garden storage: galvanized trash cans, buckets, garden tools, dried herbs hanging from line, green garden hose, Roundup, spray cans, Dr. Earth fertilizer, birdhouses on shelf, old crosscut saw on wall, shelving on left wall.",
+          "items": [],
+          "images": [
+            {
+              "url": "/images/farm-house/root-cellar/01_root_cellar_exterior.jpg",
+              "caption": "Log construction root cellar built into hillside, gable roof, weathered wood door with window pane. Rustic wooden gate in front, large boulders and flagstone path, dried hydrangeas, forest hillside with tall conifers behind."
+            },
+            {
+              "url": "/images/farm-house/root-cellar/02_root_cellar_interior.jpg",
+              "caption": "Interior with skylights in sloped ceiling providing natural light. Currently used as garden storage: galvanized trash cans, buckets, garden tools, dried herbs hanging from line, green garden hose, Roundup, spray cans, Dr. Earth fertilizer, birdhouses on shelf, old crosscut saw on wall, shelving on left wall."
+            }
+          ]
+        },
+        {
+          "id": "interior",
+          "title": "Interior",
+          "content": "- Room with quilted wall hanging (blue/green/floral banner pattern with tassel), white spindle chair, baseboard heater visible at floor level, light switch and outlet on wall. Yellow walls with green trim/baseboards.\n- King brand analog dial thermostat, \"Comfort Zone\" label, range LO through 50-60-70-80-90\u00b0F. Controls baseboard heaters. Red tulip wall clock above it.",
+          "items": [],
+          "images": [
+            {
+              "url": "/images/farm-house/interior/01_room_quilt_wall_hanging.jpg",
+              "caption": "Room with quilted wall hanging (blue/green/floral banner pattern with tassel), white spindle chair, baseboard heater visible at floor level, light switch and outlet on wall. Yellow walls with green trim/baseboards."
+            },
+            {
+              "url": "/images/farm-house/interior/02_thermostat_king_comfort_zone.jpg",
+              "caption": "King brand analog dial thermostat, \"Comfort Zone\" label, range LO through 50-60-70-80-90\u00b0F. Controls baseboard heaters. Red tulip wall clock above it."
+            }
+          ]
         }
       ],
       "intro": "**Parcel:** 260833006000 (23.74 acres - Shady Cove LLC) - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)"
@@ -72,29 +166,29 @@
         {
           "id": "appliances",
           "title": "Appliances",
-          "content": "| Item | Brand/Model | Specs | Age/Condition | Notes |\n|------|-------------|-------|---------------|-------|\n| Refrigerator | LG LRBP1031T | 115V, 60Hz, 2.6A, R134a refrigerant | ~19 years old (2007 model) | **Replacement Recommended** — Nearing end of life. Service: 1-800-243-0000 |\n| Range | Bosch Electric Range | Convection Self-Cleaning Oven, glass cooktop | Good Condition | Stainless steel, ceramic cooktop. Controls: Light, Time, Cooking Mode, Temperature, Start |\n| Dishwasher | Bosch 300 Series | Cycles: Delay Start, Regular Wash, Delicate/Rinse, Quick Wash, Rinse & Hold | ~7 years old (2019 model) | Good condition. Stainless steel. |\n| Microwave | Bosch HMV9305/01 | Serial FD8703001911, Mfg. March 2007, Made in Korea | ~19 years old (2007) | Over-the-range, stainless steel. **Replacement Recommended.** |\n| Washer | Maytag MHW8200FC0 | 12.0A, 120V, 60Hz, Type 171-02 | ~8 years old (2018 model) | Good condition. PowerWash, Direct Drive, 10 Year warranty. |\n| Dryer | Maytag MED8200FC2 | 120/208V 23A or 120/240V 24A, Type DALP-ELE-2406024-EL54 | ~8 years old (2018 model) | Good condition. 10 Year warranty. |",
+          "content": "| Item | Brand/Model | Specs | Age/Condition | Notes |\n|------|-------------|-------|---------------|-------|\n| Refrigerator | LG LRBP1031T | 115V, 60Hz, 2.6A, R134a refrigerant | ~19 years old (2007 model) | **Replacement Recommended** \u2014 Nearing end of life. Service: 1-800-243-0000 |\n| Range | Bosch Electric Range | Convection Self-Cleaning Oven, glass cooktop | Good Condition | Stainless steel, ceramic cooktop. Controls: Light, Time, Cooking Mode, Temperature, Start |\n| Dishwasher | Bosch 300 Series | Cycles: Delay Start, Regular Wash, Delicate/Rinse, Quick Wash, Rinse & Hold | ~7 years old (2019 model) | Good condition. Stainless steel. |\n| Microwave | Bosch HMV9305/01 | Serial FD8703001911, Mfg. March 2007, Made in Korea | ~19 years old (2007) | Over-the-range, stainless steel. **Replacement Recommended.** |\n| Washer | Maytag MHW8200FC0 | 12.0A, 120V, 60Hz, Type 171-02 | ~8 years old (2018 model) | Good condition. PowerWash, Direct Drive, 10 Year warranty. |\n| Dryer | Maytag MED8200FC2 | 120/208V 23A or 120/240V 24A, Type DALP-ELE-2406024-EL54 | ~8 years old (2018 model) | Good condition. 10 Year warranty. |",
           "items": [],
-          "intro": "| Item | Brand/Model | Specs | Age/Condition | Notes |\n|------|-------------|-------|---------------|-------|\n| Refrigerator | LG LRBP1031T | 115V, 60Hz, 2.6A, R134a refrigerant | ~19 years old (2007 model) | **Replacement Recommended** — Nearing end of life. Service: 1-800-243-0000 |\n| Range | Bosch Electric Range | Convection Self-Cleaning Oven, glass cooktop | Good Condition | Stainless steel, ceramic cooktop. Controls: Light, Time, Cooking Mode, Temperature, Start |\n| Dishwasher | Bosch 300 Series | Cycles: Delay Start, Regular Wash, Delicate/Rinse, Quick Wash, Rinse & Hold | ~7 years old (2019 model) | Good condition. Stainless steel. |\n| Microwave | Bosch HMV9305/01 | Serial FD8703001911, Mfg. March 2007, Made in Korea | ~19 years old (2007) | Over-the-range, stainless steel. **Replacement Recommended.** |\n| Washer | Maytag MHW8200FC0 | 12.0A, 120V, 60Hz, Type 171-02 | ~8 years old (2018 model) | Good condition. PowerWash, Direct Drive, 10 Year warranty. |\n| Dryer | Maytag MED8200FC2 | 120/208V 23A or 120/240V 24A, Type DALP-ELE-2406024-EL54 | ~8 years old (2018 model) | Good condition. 10 Year warranty. |",
+          "intro": "| Item | Brand/Model | Specs | Age/Condition | Notes |\n|------|-------------|-------|---------------|-------|\n| Refrigerator | LG LRBP1031T | 115V, 60Hz, 2.6A, R134a refrigerant | ~19 years old (2007 model) | **Replacement Recommended** \u2014 Nearing end of life. Service: 1-800-243-0000 |\n| Range | Bosch Electric Range | Convection Self-Cleaning Oven, glass cooktop | Good Condition | Stainless steel, ceramic cooktop. Controls: Light, Time, Cooking Mode, Temperature, Start |\n| Dishwasher | Bosch 300 Series | Cycles: Delay Start, Regular Wash, Delicate/Rinse, Quick Wash, Rinse & Hold | ~7 years old (2019 model) | Good condition. Stainless steel. |\n| Microwave | Bosch HMV9305/01 | Serial FD8703001911, Mfg. March 2007, Made in Korea | ~19 years old (2007) | Over-the-range, stainless steel. **Replacement Recommended.** |\n| Washer | Maytag MHW8200FC0 | 12.0A, 120V, 60Hz, Type 171-02 | ~8 years old (2018 model) | Good condition. PowerWash, Direct Drive, 10 Year warranty. |\n| Dryer | Maytag MED8200FC2 | 120/208V 23A or 120/240V 24A, Type DALP-ELE-2406024-EL54 | ~8 years old (2018 model) | Good condition. 10 Year warranty. |",
           "images": [
             {
               "url": "/images/beach-house/appliances/01_dishwasher_bosch_closed.jpg",
-              "caption": "Bosch Dishwasher — Stainless Steel, Closed"
+              "caption": "Bosch Dishwasher \u2014 Stainless Steel, Closed"
             },
             {
               "url": "/images/beach-house/appliances/02_dishwasher_bosch_control_panel.jpg",
-              "caption": "Bosch Dishwasher — Control Panel (Delay Start, Regular Wash, Delicate/Rinse, Quick Wash, Rinse & Hold)"
+              "caption": "Bosch Dishwasher \u2014 Control Panel (Delay Start, Regular Wash, Delicate/Rinse, Quick Wash, Rinse & Hold)"
             },
             {
               "url": "/images/beach-house/appliances/03_range_bosch_full_view.jpg",
-              "caption": "Bosch Electric Range — Stainless Steel, Glass Cooktop, Convection Self-Cleaning Oven"
+              "caption": "Bosch Electric Range \u2014 Stainless Steel, Glass Cooktop, Convection Self-Cleaning Oven"
             },
             {
               "url": "/images/beach-house/appliances/04_range_bosch_control_panel.jpg",
-              "caption": "Bosch Range — Control Panel (Light, Time, Cooking Mode, Temperature, Start)"
+              "caption": "Bosch Range \u2014 Control Panel (Light, Time, Cooking Mode, Temperature, Start)"
             },
             {
               "url": "/images/beach-house/appliances/05_refrigerator_lg_kitchen_overview.jpg",
-              "caption": "LG Bottom-Freezer Refrigerator — Stainless Steel, Kitchen Overview with Microwave and Range"
+              "caption": "LG Bottom-Freezer Refrigerator \u2014 Stainless Steel, Kitchen Overview with Microwave and Range"
             },
             {
               "url": "/images/beach-house/appliances/06_refrigerator_lg_label.jpg",
@@ -102,7 +196,7 @@
             },
             {
               "url": "/images/beach-house/appliances/07_microwave_bosch_overview.jpg",
-              "caption": "Bosch Over-the-Range Microwave — Stainless Steel"
+              "caption": "Bosch Over-the-Range Microwave \u2014 Stainless Steel"
             },
             {
               "url": "/images/beach-house/appliances/08_microwave_bosch_label.jpg",
@@ -113,9 +207,9 @@
         {
           "id": "water-heater-beach",
           "title": "Water Heater (Critical)",
-          "content": "### ⚠️ URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWW\n- **Serial:** DD9041943\n- **Capacity:** 65 gallons (246 liters)\n- **Type:** Electric, 240/208V, 1-Phase AC\n- **Upper Element:** 4500/3500 Watts\n- **Lower Element:** 4500/3500 Watts\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan (8–12 years). Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**",
+          "content": "### \u26a0\ufe0f URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWW\n- **Serial:** DD9041943\n- **Capacity:** 65 gallons (246 liters)\n- **Type:** Electric, 240/208V, 1-Phase AC\n- **Upper Element:** 4500/3500 Watts\n- **Lower Element:** 4500/3500 Watts\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan (8\u201312 years). Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**",
           "items": [],
-          "intro": "### ⚠️ URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWW\n- **Serial:** DD9041943\n- **Capacity:** 65 gallons (246 liters)\n- **Type:** Electric, 240/208V, 1-Phase AC\n- **Upper Element:** 4500/3500 Watts\n- **Lower Element:** 4500/3500 Watts\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan (8–12 years). Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**",
+          "intro": "### \u26a0\ufe0f URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWW\n- **Serial:** DD9041943\n- **Capacity:** 65 gallons (246 liters)\n- **Type:** Electric, 240/208V, 1-Phase AC\n- **Upper Element:** 4500/3500 Watts\n- **Lower Element:** 4500/3500 Watts\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan (8\u201312 years). Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**",
           "images": [
             {
               "url": "/images/beach-house/water-heater/01_bradford_white_water_heater.jpg",
@@ -136,7 +230,7 @@
           "images": [
             {
               "url": "/images/beach-house/laundry/01_dryer_maytag_overview.jpg",
-              "caption": "Maytag Dryer — Front-Load, Dark Metallic, 10 Year Warranty"
+              "caption": "Maytag Dryer \u2014 Front-Load, Dark Metallic, 10 Year Warranty"
             },
             {
               "url": "/images/beach-house/laundry/02_dryer_maytag_label.jpg",
@@ -144,7 +238,7 @@
             },
             {
               "url": "/images/beach-house/laundry/03_washer_maytag_overview.jpg",
-              "caption": "Maytag Washer — Front-Load, Dark Metallic, PowerWash, Direct Drive, 10 Year Warranty"
+              "caption": "Maytag Washer \u2014 Front-Load, Dark Metallic, PowerWash, Direct Drive, 10 Year Warranty"
             },
             {
               "url": "/images/beach-house/laundry/04_washer_maytag_label.jpg",
@@ -173,7 +267,7 @@
     {
       "id": "the-chalet",
       "title": "The Chalet",
-      "content": "**Status:** Documented\n\n### Structure & Exterior\n- **Foundation:** Pier foundation\n- **Exterior:** Board-and-batten siding, painted tan/beige\n- **Rear:** Elevated deck with stairs and wire-mesh railing\n- **Front:** Covered porch with columns, water views\n\n### Heating & Comfort\n- **Thermostat (Zone 1 – Bedroom):** King Comfort Zone dial thermostat (by King Electric)\n- **Thermostat (Zone 2 – Living Area):** King Comfort Zone dial thermostat (by King Electric)\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove\n  - **Model:** JDV RP | **Serial:** 2684\n  - **Fuel:** Propane | **Input:** 19,000 BTUH | **Output:** 28,000 BTUH (19,600 BTUH Canadian rating)\n  - **Manufacturer:** Vermont Castings Majestic Products, Bethel, VT\n  - **Certified:** ANSI Z21.88B-1998, CGA 2.33B-M98\n  - **Supply Pressure (Propane):** 11.0– 13.0” W.C. | **Manifold Pressure:** 10.0” W.C.\n  - [View Manual](https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf)\n\n### Electrical\n- **Panel:** Square D QO Load Center (Cat. No. QOC-20M, Series B1), wall-mounted with cedar trim\n- **Circuit Directory:** Heat (×2 zones), Water Heater, Bedrooms, Living Room, Kitchen, Bathroom, Basement, Microwave\n\n### Kitchenette\n- **Refrigerator:** Danby Designer (Compact under-counter model)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel\n\n### Systems\n- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)\n\n### Maintenance Notes\n- **Winterization:** Ensure wall heaters are set to frost protection (approx. 45°F) during winter months.\n- **Water Heater:** Drain 1-2 gallons annually to remove sediment.",
+      "content": "**Status:** Documented\n\n### Structure & Exterior\n- **Foundation:** Pier foundation\n- **Exterior:** Board-and-batten siding, painted tan/beige\n- **Rear:** Elevated deck with stairs and wire-mesh railing\n- **Front:** Covered porch with columns, water views\n\n### Heating & Comfort\n- **Thermostat (Zone 1 \u2013 Bedroom):** King Comfort Zone dial thermostat (by King Electric)\n- **Thermostat (Zone 2 \u2013 Living Area):** King Comfort Zone dial thermostat (by King Electric)\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove\n  - **Model:** JDV RP | **Serial:** 2684\n  - **Fuel:** Propane | **Input:** 19,000 BTUH | **Output:** 28,000 BTUH (19,600 BTUH Canadian rating)\n  - **Manufacturer:** Vermont Castings Majestic Products, Bethel, VT\n  - **Certified:** ANSI Z21.88B-1998, CGA 2.33B-M98\n  - **Supply Pressure (Propane):** 11.0\u2013 13.0\u201d W.C. | **Manifold Pressure:** 10.0\u201d W.C.\n  - [View Manual](https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf)\n\n### Electrical\n- **Panel:** Square D QO Load Center (Cat. No. QOC-20M, Series B1), wall-mounted with cedar trim\n- **Circuit Directory:** Heat (\u00d72 zones), Water Heater, Bedrooms, Living Room, Kitchen, Bathroom, Basement, Microwave\n\n### Kitchenette\n- **Refrigerator:** Danby Designer (Compact under-counter model)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel\n\n### Systems\n- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D)\n\n### Maintenance Notes\n- **Winterization:** Ensure wall heaters are set to frost protection (approx. 45\u00b0F) during winter months.\n- **Water Heater:** Drain 1-2 gallons annually to remove sediment.",
       "subsections": [
         {
           "id": "structure-exterior",
@@ -184,32 +278,32 @@
           "images": [
             {
               "url": "/images/the-chalet/structure-exterior/01_chalet_exterior_rear_deck_pier_foundation.jpg",
-              "caption": "Chalet exterior — rear view with elevated deck, stairs, and pier foundation"
+              "caption": "Chalet exterior \u2014 rear view with elevated deck, stairs, and pier foundation"
             },
             {
               "url": "/images/the-chalet/structure-exterior/02_chalet_front_entry_porch_water_view.jpg",
-              "caption": "Chalet front entry — covered porch with columns, blue patio chairs, and water view"
+              "caption": "Chalet front entry \u2014 covered porch with columns, blue patio chairs, and water view"
             }
           ]
         },
         {
           "id": "heating-and-comfort",
           "title": "Heating & Comfort",
-          "content": "- **Thermostat (Zone 1 – Bedroom):** King Comfort Zone dial thermostat (by King Electric)\n- **Thermostat (Zone 2 – Living Area):** King Comfort Zone dial thermostat (by King Electric)\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove\n  - **Model:** JDV RP | **Serial:** 2684\n  - **Fuel:** Propane | **Input:** 19,000 BTUH | **Output:** 28,000 BTUH (19,600 BTUH Canadian rating)\n  - **Manufacturer:** Vermont Castings Majestic Products, Bethel, VT\n  - **Certified:** ANSI Z21.88B-1998, CGA 2.33B-M98\n  - **Supply Pressure (Propane):** 11.0– 13.0” W.C. | **Manifold Pressure:** 10.0” W.C.\n  - [View Manual](https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf)",
+          "content": "- **Thermostat (Zone 1 \u2013 Bedroom):** King Comfort Zone dial thermostat (by King Electric)\n- **Thermostat (Zone 2 \u2013 Living Area):** King Comfort Zone dial thermostat (by King Electric)\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove\n  - **Model:** JDV RP | **Serial:** 2684\n  - **Fuel:** Propane | **Input:** 19,000 BTUH | **Output:** 28,000 BTUH (19,600 BTUH Canadian rating)\n  - **Manufacturer:** Vermont Castings Majestic Products, Bethel, VT\n  - **Certified:** ANSI Z21.88B-1998, CGA 2.33B-M98\n  - **Supply Pressure (Propane):** 11.0\u2013 13.0\u201d W.C. | **Manifold Pressure:** 10.0\u201d W.C.\n  - [View Manual](https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf)",
           "items": [],
-          "intro": "- **Thermostat (Zone 1 – Bedroom):** King Comfort Zone dial thermostat\n- **Thermostat (Zone 2 – Living Area):** King Comfort Zone dial thermostat\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove (Model: JDV RP, Serial: 2684, Propane, 19,000 BTUH input / 28,000 BTUH output)",
+          "intro": "- **Thermostat (Zone 1 \u2013 Bedroom):** King Comfort Zone dial thermostat\n- **Thermostat (Zone 2 \u2013 Living Area):** King Comfort Zone dial thermostat\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove (Model: JDV RP, Serial: 2684, Propane, 19,000 BTUH input / 28,000 BTUH output)",
           "images": [
             {
               "url": "/images/the-chalet/heating-and-comfort/01_king_comfort_zone_thermostat_zone1_bedroom.jpg",
-              "caption": "King Comfort Zone dial thermostat — Zone 1 (bedroom area)"
+              "caption": "King Comfort Zone dial thermostat \u2014 Zone 1 (bedroom area)"
             },
             {
               "url": "/images/the-chalet/heating-and-comfort/02_king_comfort_zone_thermostat_zone2_living.jpg",
-              "caption": "King Comfort Zone dial thermostat — Zone 2 (living area)"
+              "caption": "King Comfort Zone dial thermostat \u2014 Zone 2 (living area)"
             },
             {
               "url": "/images/the-chalet/heating-and-comfort/03_vermont_castings_jefferson_gas_stove.jpg",
-              "caption": "Vermont Castings Jefferson Direct Vent Gas Stove — cast iron, propane"
+              "caption": "Vermont Castings Jefferson Direct Vent Gas Stove \u2014 cast iron, propane"
             },
             {
               "url": "/images/the-chalet/heating-and-comfort/04_gas_stove_operation_lighting_instructions.jpg",
@@ -217,7 +311,7 @@
             },
             {
               "url": "/images/the-chalet/heating-and-comfort/05_gas_stove_rating_plate_jdv_rp_serial_2684.jpg",
-              "caption": "Gas stove rating plate — Model JDV RP, Serial 2684, Propane, 19,000 BTUH input / 28,000 BTUH output"
+              "caption": "Gas stove rating plate \u2014 Model JDV RP, Serial 2684, Propane, 19,000 BTUH input / 28,000 BTUH output"
             }
           ]
         },
@@ -226,15 +320,15 @@
           "title": "Electrical",
           "content": "- **Panel:** Square D QO Load Center (Cat. No. QOC-20M, Series B1), wall-mounted with cedar trim\n- **Circuit Directory:**\n  - 1: Heat (Zone 1) | 2: Water Heater\n  - 3: Heat (Zone 1 Bed) | 4: Water Heater\n  - 5: Heat (Zone 2) | 6: Bed Room\n  - 7: Heat (Zone 2 Living) | 8: Heat\n  - 9: Living Room / Porch | 10: Ref. Ki. Rec.\n  - 11: Bed Room | 12: Bath. Rec.\n  - 13: Bed Room | 14: Basement / Light / Bed Bath\n  - 15: (spare) | 16: Basement / Garage\n  - 17: (spare) | 18: Microwave",
           "items": [],
-          "intro": "- **Panel:** Square D QO Load Center (Cat. No. QOC-20M, Series B1), wall-mounted with cedar trim\n- **Circuits:** Heat (×2 zones), Water Heater, Bedrooms, Living Room, Kitchen, Bathroom, Basement, Microwave",
+          "intro": "- **Panel:** Square D QO Load Center (Cat. No. QOC-20M, Series B1), wall-mounted with cedar trim\n- **Circuits:** Heat (\u00d72 zones), Water Heater, Bedrooms, Living Room, Kitchen, Bathroom, Basement, Microwave",
           "images": [
             {
               "url": "/images/the-chalet/electrical/01_electrical_panel_closed_cedar_trim.jpg",
-              "caption": "Electrical panel — closed, wall-mounted with cedar trim"
+              "caption": "Electrical panel \u2014 closed, wall-mounted with cedar trim"
             },
             {
               "url": "/images/the-chalet/electrical/02_square_d_qo_load_center_open_circuit_directory.jpg",
-              "caption": "Square D QO Load Center — panel open with handwritten circuit directory"
+              "caption": "Square D QO Load Center \u2014 panel open with handwritten circuit directory"
             }
           ]
         },
