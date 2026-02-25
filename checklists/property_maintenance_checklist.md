@@ -7,11 +7,11 @@
 
 ## Summary
 
-This checklist contains 9 maintenance items identified during property inspection. Items are organized by category and priority level.
+This checklist contains 10 maintenance items identified during property inspection. Items are organized by category and priority level.
 
 ### Priority Breakdown
 - **High Priority:** 2 items
-- **Medium Priority:** 6 items
+- **Medium Priority:** 7 items
 - **Low Priority:** 1 item
 
 ---
@@ -71,11 +71,18 @@ This checklist contains 9 maintenance items identified during property inspectio
 **Status:** Pending  
 **Notes:** Genset is a Northern Lights Series 3 with John Deere 4039D diesel engine, 36/40kW, serving caretaker house, farm house, and beach house via Square D transfer switch.
 
+### 8. Clean Genset Shed Area
+**Priority:** Medium  
+**Category:** Utilities/Generator  
+**Action Required:** Remove or reorganize gym equipment and other items blocking access to the generator to ensure clear working space for maintenance, safety, and emergency operation.  
+**Status:** Pending  
+**Notes:** Gym equipment (Nautilus weights, power rack, bench) and other items are blocking access to the Northern Lights genset.
+
 ---
 
 ## Landscaping & Exterior
 
-### 8. Remove Old Metal Burn Pit
+### 9. Remove Old Metal Burn Pit
 **Priority:** Medium  
 **Category:** Exterior/Yard  
 **Action Required:** Arrange scrap metal removal or disposal service  
@@ -83,7 +90,7 @@ This checklist contains 9 maintenance items identified during property inspectio
 **Notes:** Metal debris/old burn pit visible in yard area near field  
 **Photo:** old_burn_pit.jpg
 
-### 9. Add Gravel Around Fire Hydrant
+### 10. Add Gravel Around Fire Hydrant
 **Priority:** Medium  
 **Category:** Landscaping/Safety  
 **Action Required:** Purchase and spread gravel around hydrant area  
@@ -102,6 +109,7 @@ This checklist contains 9 maintenance items identified during property inspectio
    - Fix pickup truck
    - Clear vegetation around water outlets
    - Clean Farm House in-ground valve box
+   - Clean Genset Shed Area
    - Remove old metal burn pit
    - Add gravel around fire hydrant
 
