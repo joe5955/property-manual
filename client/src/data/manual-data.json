@@ -660,6 +660,68 @@
           ]
         }
       ]
+    },
+    {
+      "id": "pump-shed",
+      "title": "Pump Shed",
+      "subsections": [
+        {
+          "id": "exterior",
+          "title": "Exterior",
+          "images": [
+            {
+              "src": "images/pump-shed/exterior/01_pump_shed_exterior.jpg",
+              "caption": "Exterior view of the pump shed, a small building with a shake roof and vertical board siding."
+            }
+          ]
+        },
+        {
+          "id": "interior",
+          "title": "Interior",
+          "images": [
+            {
+              "src": "images/pump-shed/interior/01_pump_shed_interior_overview.jpg",
+              "caption": "Overview of the narrow interior, showing the water softener, salt bags, heaters, well head, and electrical panels."
+            }
+          ]
+        },
+        {
+          "id": "equipment",
+          "title": "Well & Water Treatment Equipment",
+          "images": [
+            {
+              "src": "images/pump-shed/equipment/01_well_head.jpg",
+              "caption": "The floor-mounted wellhead with a pitless adapter and brass fittings. A crack is visible in the concrete slab near the well head."
+            },
+            {
+              "src": "images/pump-shed/equipment/02_pump_controls.jpg",
+              "caption": "The pump control boxes, including a Franklin Electric Submersible Motor Control and a SymCom PumpSaver Model SP-23. A Spectrum Water Analysis Test Kit is sitting on top."
+            },
+            {
+              "src": "images/pump-shed/equipment/03_water_treatment_system.jpg",
+              "caption": "The water treatment system, including two large fiberglass tanks, a black brine tank, and an extensive PVC piping manifold."
+            },
+            {
+              "src": "images/pump-shed/equipment/04_distribution_manifold.jpg",
+              "caption": "The property-wide water distribution manifold with multiple PVC branch lines and red-handled ball valves."
+            },
+            {
+              "src": "images/pump-shed/equipment/05_north_star_controllers.jpg",
+              "caption": "Two North Star Commercial Universal Control panels for the water softening system. The left unit shows a water flow rate of 2.0 GPM."
+            }
+          ]
+        },
+        {
+          "id": "electrical",
+          "title": "Electrical",
+          "images": [
+            {
+              "src": "images/pump-shed/electrical/01_electrical_panel.jpg",
+              "caption": "The main Square D QO electrical panel (200A) for the pump shed, with circuits for the pump, controls, and other buildings."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -7,11 +7,11 @@
 
 ## Summary
 
-This checklist contains 10 maintenance items identified during property inspection. Items are organized by category and priority level.
+This checklist contains 13 maintenance items identified during property inspection. Items are organized by category and priority level.
 
 ### Priority Breakdown
 - **High Priority:** 2 items
-- **Medium Priority:** 7 items
+- **Medium Priority:** 10 items
 - **Low Priority:** 1 item
 
 ---
@@ -78,11 +78,32 @@ This checklist contains 10 maintenance items identified during property inspecti
 **Status:** Pending  
 **Notes:** Gym equipment (Nautilus weights, power rack, bench) and other items are blocking access to the Northern Lights genset.
 
+### 9. Get Well Information for Pump Shed
+**Priority:** Medium  
+**Category:** Utilities/Water System  
+**Action Required:** Obtain well depth, pump specs, GPM capacity, water quality test results, and well drilling records. Document in property manual.  
+**Status:** Pending  
+**Notes:** The Spectrum Water Analysis Test Kit is already on-site in the pump shed. Contact Coldspring Pumps (Bob Lyons) for pump and well records.
+
+### 10. Document Pump Shed Electrical Panel and Pump Saver Details
+**Priority:** Medium  
+**Category:** Utilities/Water System  
+**Action Required:** Get full specs from Franklin Electric motor control and PumpSaver SP-23. Record Coldspring Pumps contact info (Bob Lyons). Note that Spectrum Water Analysis Test Kit is on-site.  
+**Status:** Pending  
+**Notes:** Franklin Electric Submersible Motor Control and SymCom PumpSaver Model SP-23 are installed in the pump shed. Full model/serial numbers and settings need to be documented.
+
+### 11. Document Pump Shed Water Distribution — Map Branch Lines
+**Priority:** Medium  
+**Category:** Utilities/Water System  
+**Action Required:** Trace and map which branch lines from the distribution manifold go to which buildings. Label the ball valves/shutoffs.  
+**Status:** Pending  
+**Notes:** The distribution manifold has multiple unlabeled PVC branch lines and red-handled ball valves. Mapping these is essential for emergency shutoff and maintenance.
+
 ---
 
 ## Landscaping & Exterior
 
-### 9. Remove Old Metal Burn Pit
+### 12. Remove Old Metal Burn Pit
 **Priority:** Medium  
 **Category:** Exterior/Yard  
 **Action Required:** Arrange scrap metal removal or disposal service  
@@ -90,7 +111,7 @@ This checklist contains 10 maintenance items identified during property inspecti
 **Notes:** Metal debris/old burn pit visible in yard area near field  
 **Photo:** old_burn_pit.jpg
 
-### 10. Add Gravel Around Fire Hydrant
+### 13. Add Gravel Around Fire Hydrant
 **Priority:** Medium  
 **Category:** Landscaping/Safety  
 **Action Required:** Purchase and spread gravel around hydrant area  
@@ -110,6 +131,9 @@ This checklist contains 10 maintenance items identified during property inspecti
    - Clear vegetation around water outlets
    - Clean Farm House in-ground valve box
    - Clean Genset Shed Area
+   - Get well information for pump shed
+   - Document pump shed electrical panel and pump saver details
+   - Document pump shed water distribution — map branch lines
    - Remove old metal burn pit
    - Add gravel around fire hydrant
 
@@ -124,3 +148,4 @@ This checklist contains 10 maintenance items identified during property inspecti
 - Follow-up photos needed for water outlet area detailed assessment
 - Consider scheduling multiple tasks together for efficiency (e.g., all fuel/oil tank work at once)
 - Scrap metal removal may require special disposal service or recycling center drop-off
+- Coldspring Pumps (Bob Lyons) is the service contact for the well and pump system
