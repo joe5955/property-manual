@@ -82,3 +82,9 @@
 - [x] **Upload Photos to CDN:** Use manus-upload-file to upload all photos and get CDN URLs (118 photos uploaded)
 - [x] **Integrate Content:** Add photos and any new content to manual-data.json (118 photos across 9 buildings)
 - [x] **Verify Display:** Check that all photos display correctly on the website (verified Caretaker House & Farm House - all photos rendering correctly)
+
+## Camp Kitchen Photos Missing
+- [x] **Check GitHub Repository:** Find all Camp Kitchen photos in the repository (found 14 photos in Photo Review)
+- [x] **Upload Missing Photos:** Upload Camp Kitchen photos to CDN (already uploaded via Photo Upload Form)
+- [x] **Integrate Photos:** Add photos to Camp Kitchen section in manual-data.json (added to images[] arrays)
+- [x] **Verify Display:** Check that Camp Kitchen photos display correctly (all 14 photos rendering in 4 subsections)
