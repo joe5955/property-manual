@@ -802,6 +802,98 @@
           ]
         }
       ]
+    },
+    {
+      "id": "lower-shop",
+      "title": "Lower Shop",
+      "subsections": [
+        {
+          "id": "south-side",
+          "title": "South Side",
+          "images": [
+            {
+              "src": "images/lower-shop/south-side/01_exterior_south.jpg",
+              "caption": "Exterior view showing the large sliding door, covered carport with a silver SUV, and a John Deere tractor parked outside."
+            },
+            {
+              "src": "images/lower-shop/south-side/02_interior_south.jpg",
+              "caption": "Interior view showing the loft with storage, a motorcycle/scooter, and general workshop clutter."
+            },
+            {
+              "src": "images/lower-shop/south-side/03_electrical_area.jpg",
+              "caption": "The main electrical area, including the closed main breaker panel, pond pump pressure switch, and tool storage."
+            },
+            {
+              "src": "images/lower-shop/south-side/04_panel_south.jpg",
+              "caption": "The Square D QO Load Center (Cat No. QOC30U) labeled \"Pond Panel,\" which serves as the service disconnect."
+            },
+            {
+              "src": "images/lower-shop/south-side/05_pond_pump_switch.jpg",
+              "caption": "The pressure switch that controls the two property pond circulation pumps (\"Pond #1\" and \"Pond #2 Runway\")."
+            }
+          ]
+        },
+        {
+          "id": "north-end",
+          "title": "North End",
+          "images": [
+            {
+              "src": "images/lower-shop/north-end/01_exterior_north.jpg",
+              "caption": "Exterior view of the north end, showing the person door and a Nissan Leaf plugged into the EV charger."
+            },
+            {
+              "src": "images/lower-shop/north-end/02_woodshop.jpg",
+              "caption": "The main woodshop area, featuring a table saw, bench grinder, drill press, wood lathe, and extensive dust collection."
+            },
+            {
+              "src": "images/lower-shop/north-end/03_compressor.jpg",
+              "caption": "An Industrial Air vertical air compressor."
+            },
+            {
+              "src": "images/lower-shop/north-end/04_wellxtrol_pressure_tank.jpg",
+              "caption": "A blue Well-X-Trol pressure tank."
+            },
+            {
+              "src": "images/lower-shop/north-end/05_panel_north_closed.jpg",
+              "caption": "The flush-mounted Square D electrical panel on the north wall."
+            },
+            {
+              "src": "images/lower-shop/north-end/06_panel_north_open.jpg",
+              "caption": "The open Square D panel. The circuit directory is not legible in the photo."
+            },
+            {
+              "src": "images/lower-shop/north-end/07_phase_splitter_closed.jpg",
+              "caption": "A Phase Splitter by Kylander Electric (Model SB), which converts single-phase 240V power to 3-phase for specific equipment."
+            },
+            {
+              "src": "images/lower-shop/north-end/08_phase_splitter_open.jpg",
+              "caption": "The interior of the Kylander Phase Adder, showing wiring diagrams and control breakers."
+            }
+          ]
+        },
+        {
+          "id": "west-end",
+          "title": "West End",
+          "images": [
+            {
+              "src": "images/lower-shop/west-end/01_woodshop_west.jpg",
+              "caption": "The west end woodshop area, containing large green industrial machinery such as a planer/jointer, wide drum sander, and bandsaw."
+            },
+            {
+              "src": "images/lower-shop/west-end/02_panel_west.jpg",
+              "caption": "The Square D QO Load Center for the west end, with its own service disconnect."
+            },
+            {
+              "src": "images/lower-shop/west-end/03_ronk_phase_converter.jpg",
+              "caption": "A Ronk Auto-Transformer / Phase Converter mounted on the wall, providing 3-phase power."
+            },
+            {
+              "src": "images/lower-shop/west-end/04_safety_disconnect.jpg",
+              "caption": "A Square D General Duty Safety Switch and various outlets near the doorway to the north end."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
