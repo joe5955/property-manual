@@ -637,6 +637,29 @@
           ]
         }
       ]
+    },
+    {
+      "id": "fire-suppression",
+      "title": "Fire Suppression",
+      "description": "Property-wide fire suppression system with a 10,000-gallon reservoir and a 6-inch hydrant standpipe. This is an insurance requirement.",
+      "subsections": [
+        {
+          "id": "system-overview",
+          "title": "System Overview",
+          "content": "**Insurance Requirement:** This system is a requirement for property insurance.\n\n**System Components:**\n- 10,000-gallon dedicated water reservoir tank.\n- 6-inch underground supply line.\n- 6-inch galvanized fire hydrant standpipe.",
+          "items": [],
+          "images": [
+            {
+              "url": "/images/fire-suppression/01_fire_hydrant_standpipe.jpg",
+              "caption": "6-inch galvanized fire hydrant standpipe with elbow fitting, on a concrete/gravel pad with access hatch. Located on gravel drive area among conifers."
+            },
+            {
+              "url": "/images/fire-suppression/02_water_reservoir_tank.jpg",
+              "caption": "10,000-gallon water reservoir tank for fire suppression. Large dark horizontal cylindrical tank elevated on steel/concrete cradle supports among the trees."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
