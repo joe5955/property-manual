@@ -75,3 +75,10 @@
 **ROOT CAUSE:** Section.tsx was missing code to render subsection.images[] array
 **FIX:** Added image rendering logic after subsection content (lines 183-203 in Section.tsx)
 **RESULT:** All subsection photos now display correctly in 2-column grid with captions
+
+## GitHub Content Integration
+- [x] **Fresh Clone Repository:** Clone joe5955/property-manual repository to get latest content
+- [x] **Discover All Photos:** Find all building photos in the repository (Main House, Farm House, Madrona, etc.)
+- [x] **Upload Photos to CDN:** Use manus-upload-file to upload all photos and get CDN URLs (118 photos uploaded)
+- [x] **Integrate Content:** Add photos and any new content to manual-data.json (118 photos across 9 buildings)
+- [x] **Verify Display:** Check that all photos display correctly on the website (verified Caretaker House & Farm House - all photos rendering correctly)
