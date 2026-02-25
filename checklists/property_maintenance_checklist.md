@@ -7,10 +7,10 @@
 
 ## Summary
 
-This checklist contains 8 maintenance items identified during property inspection. Items are organized by category and priority level.
+This checklist contains 9 maintenance items identified during property inspection. Items are organized by category and priority level.
 
 ### Priority Breakdown
-- **High Priority:** 1 item
+- **High Priority:** 2 items
 - **Medium Priority:** 6 items
 - **Low Priority:** 1 item
 
@@ -64,11 +64,18 @@ This checklist contains 8 maintenance items identified during property inspectio
 **Status:** Pending  
 **Notes:** Valve box near Farm House foundation currently filled with debris, valve needs to be accessible for emergencies.
 
+### 7. Create Detailed Generator Operating Instructions
+**Priority:** High  
+**Category:** Utilities/Generator  
+**Action Required:** Develop comprehensive documentation for generator operation and maintenance, including startup/shutdown, transfer switch procedures, safety, maintenance schedule, and served circuits/buildings.  
+**Status:** Pending  
+**Notes:** Genset is a Northern Lights Series 3 with John Deere 4039D diesel engine, 36/40kW, serving caretaker house, farm house, and beach house via Square D transfer switch.
+
 ---
 
 ## Landscaping & Exterior
 
-### 7. Remove Old Metal Burn Pit
+### 8. Remove Old Metal Burn Pit
 **Priority:** Medium  
 **Category:** Exterior/Yard  
 **Action Required:** Arrange scrap metal removal or disposal service  
@@ -76,7 +83,7 @@ This checklist contains 8 maintenance items identified during property inspectio
 **Notes:** Metal debris/old burn pit visible in yard area near field  
 **Photo:** old_burn_pit.jpg
 
-### 8. Add Gravel Around Fire Hydrant
+### 9. Add Gravel Around Fire Hydrant
 **Priority:** Medium  
 **Category:** Landscaping/Safety  
 **Action Required:** Purchase and spread gravel around hydrant area  
@@ -89,6 +96,7 @@ This checklist contains 8 maintenance items identified during property inspectio
 
 1. **Immediate Action (High Priority):**
    - Pump water from fuel tank bottom at main house
+   - Create Detailed Generator Operating Instructions
 
 2. **Schedule Soon (Medium Priority):**
    - Fix pickup truck
