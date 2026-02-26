@@ -119,3 +119,16 @@
 - [x] **Increase Main Content Width:** Make center content area approximately twice as wide on laptop screens (max-w-5xl → max-w-7xl)
 - [x] **Adjust Sidebar Width:** Make sidebar narrower to accommodate wider content area (w-72 → w-64 on desktop)
 - [x] **Test Responsive Layout:** Verify layout works on different screen sizes (mobile keeps w-72, desktop uses w-64)
+
+## Boat House Photos
+- [ ] **Check GitHub Repository:** Look for Boat House photos in GitHub repository
+- [ ] **Upload Photos:** If photos exist, upload to CDN
+- [ ] **Integrate Photos:** Add photos to Boat House section in manual-data.json
+- [ ] **Verify Display:** Check that Boat House photos display correctly
+
+## Camp Kitchen GitHub Photos Integration
+- [x] **Fresh Clone:** Clone latest GitHub repository to get new Camp Kitchen photos
+- [x] **Verify Photos Exist:** Confirm Camp Kitchen photos are in repository (25 photos found in 3 subdirectories)
+- [x] **Upload to CDN:** Upload all Camp Kitchen photos to CDN (25 photos: 6 appliances, 5 structure, 14 utilities)
+- [x] **Replace URLs:** Update manual-data.json with new CDN URLs (25 photos mapped to subsections)
+- [x] **Verify Clean Display:** Confirm photos display without text overlays ✓ SUCCESS - all photos clean!
