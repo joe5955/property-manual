@@ -7,10 +7,10 @@
 
 ## Summary
 
-This checklist contains 13 maintenance items identified during property inspection. Items are organized by category and priority level.
+This checklist contains 14 maintenance items identified during property inspection. Items are organized by category and priority level.
 
 ### Priority Breakdown
-- **High Priority:** 2 items
+- **High Priority:** 3 items
 - **Medium Priority:** 10 items
 - **Low Priority:** 1 item
 
@@ -101,9 +101,20 @@ This checklist contains 13 maintenance items identified during property inspecti
 
 ---
 
+## Documentation & Media
+
+### 12. Retake and Push Camp Kitchen Photos
+**Priority:** High  
+**Category:** Documentation  
+**Action Required:** Retake all Camp Kitchen photos and push them through the standard photo workflow.  
+**Status:** Pending  
+**Notes:** Camp Kitchen photos have never been properly pushed to the GitHub repo. The directory structure exists (client/public/images/camp-kitchen/ with appliances, structure, utilities-and-systems subdirectories) but only contains .gitkeep placeholders. This is the third attempt — previous photos were lost during earlier sessions.
+
+---
+
 ## Landscaping & Exterior
 
-### 12. Remove Old Metal Burn Pit
+### 13. Remove Old Metal Burn Pit
 **Priority:** Medium  
 **Category:** Exterior/Yard  
 **Action Required:** Arrange scrap metal removal or disposal service  
@@ -111,7 +122,7 @@ This checklist contains 13 maintenance items identified during property inspecti
 **Notes:** Metal debris/old burn pit visible in yard area near field  
 **Photo:** old_burn_pit.jpg
 
-### 13. Add Gravel Around Fire Hydrant
+### 14. Add Gravel Around Fire Hydrant
 **Priority:** Medium  
 **Category:** Landscaping/Safety  
 **Action Required:** Purchase and spread gravel around hydrant area  
@@ -125,6 +136,7 @@ This checklist contains 13 maintenance items identified during property inspecti
 1. **Immediate Action (High Priority):**
    - Pump water from fuel tank bottom at main house
    - Create Detailed Generator Operating Instructions
+   - Retake and Push Camp Kitchen Photos
 
 2. **Schedule Soon (Medium Priority):**
    - Fix pickup truck
