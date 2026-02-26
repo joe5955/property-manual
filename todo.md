@@ -88,3 +88,8 @@
 - [x] **Upload Missing Photos:** Upload Camp Kitchen photos to CDN (already uploaded via Photo Upload Form)
 - [x] **Integrate Photos:** Add photos to Camp Kitchen section in manual-data.json (added to images[] arrays)
 - [x] **Verify Display:** Check that Camp Kitchen photos display correctly (all 14 photos rendering in 4 subsections)
+
+## Camp Kitchen Content Cleanup - COMPLETED
+- [x] **Identified Issue:** Found duplicate photos - inline images in content AND images[] array
+- [x] **Removed Duplicates:** Removed inline images from Appliances content field
+- [x] **Verified Clean Display:** Camp Kitchen now displays cleanly with photos only in dedicated Photos sections
