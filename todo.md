@@ -148,3 +148,5 @@
 - [x] **Fix Appliances Section Duplication:** Remove duplicate appliance listings and embed photos directly under each appliance description
 
 - [x] **Fix Beach House Appliances Duplication:** Remove duplicate appliance table and embed photos directly under each appliance description
+
+- [x] **Move Washer/Dryer Photos to Appliances:** Move washer and dryer photos from Laundry section to Appliances section under respective descriptions, then eliminate Laundry section
