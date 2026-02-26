@@ -156,3 +156,8 @@
 - [x] **Eliminate All Duplicate Content:** Systematically audit and remove duplicate photos, text, and subsections across all building sections in the manual
 
 - [x] **Eliminate Duplicate Photo Subsections:** Fixed duplicate subsection IDs causing Water Systems Photos to appear multiple times
+
+- [x] **Reorganize Chalet Photos:** Place photos next to their corresponding descriptions (same pattern as Camp Kitchen/Beach House)
+- [ ] **Reorganize Farm House Photos:** Place photos next to their corresponding descriptions (same pattern as Camp Kitchen/Beach House)
+- [ ] **Move Main House Dock Panel Photo:** Move dock panel photo from Boat House section to Main House section (property has two separate docks)
+- [ ] **Investigate White Genset:** Check for photos and information about white generator unit
