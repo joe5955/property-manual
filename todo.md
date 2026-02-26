@@ -153,4 +153,4 @@
 
 - [x] **Fix Beach House Water Heater Duplication:** Remove duplicate URGENT warning content from Water Heater section
 
-- [ ] **Eliminate All Duplicate Content:** Systematically audit and remove duplicate photos, text, and subsections across all building sections in the manual
+- [x] **Eliminate All Duplicate Content:** Systematically audit and remove duplicate photos, text, and subsections across all building sections in the manual
