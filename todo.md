@@ -140,3 +140,5 @@
 - [x] **Move Picnic Shelter Photo:** Move Picnic Shelter photo from Camp Kitchen section to Picnic Shelter section
 
 - [x] **Reorganize Central Utilities Photos:** Display photos under each corresponding utility component instead of grouped at bottom
+
+- [x] **Reorganize Central Utilities Photos:** Place each component's photo directly under its description instead of grouped at bottom

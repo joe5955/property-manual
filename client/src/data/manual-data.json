@@ -190,39 +190,10 @@
         {
           "id": "central-utilities",
           "title": "Central Utilities",
-          "content": "- **Camp Kitchen Panel & Transfer Switch:**\n  ![Panel & Transfer Switch](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/df4c4dfb-0ec5-4319-9a53-4b48e915025e1628003542767182916.jpg)\n- **Transformer Enclosure & Meter:**\n  ![Transformer & Meter](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/wPmNbQjYxZzQjJkL.jpg)\n- **Meter & Shutoff:**\n  ![Meter & Shutoff](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/xZzQjJkLwPmNbQjY.jpg)\n  *Located behind Camp Kitchen.*\n- **Main House Disconnect:**\n  ![Main House Disconnect](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jRxxxLnuiCjfrfbD.jpg)\n  *Located in Camp Kitchen Utility Room.*",
+          "content": "### Camp Kitchen Panel & Transfer Switch\n\n![Panel & Transfer Switch](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/df4c4dfb-0ec5-4319-9a53-4b48e915025e1628003542767182916.jpg)\n\n![Generator Transfer Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/vWfhbvUAVsmOJSNj.jpg)\n\n![Generator Switchover Instructions](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/zPcUvboHFdnNUOQh.jpg)\n\nMain electrical panel and automatic transfer switch for Camp Kitchen. Transfer switch automatically switches between utility power and generator power during outages.\n\n---\n\n### Breaker Panel\n\n![Breaker Panel Circuit Directory](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/FMdEONNghVEhnjTr.jpg)\n\n![Sub Panel Closed](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ksvLDLSVdXAyVihi.jpg)\n\nCircuit breaker panel with labeled circuit directory for easy identification of electrical circuits.\n\n---\n\n### Transformer Enclosure & Meter\n\n![Transformer & Meter](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/wPmNbQjYxZzQjJkL.jpg)\n\n![Meter & Shutoff](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/xZzQjJkLwPmNbQjY.jpg)\n\n**Location:** Behind Camp Kitchen\n**Components:** Transformer, electric meter, main shutoff\n\n---\n\n### Main House Disconnect\n\n![Main House Disconnect](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jRxxxLnuiCjfrfbD.jpg)\n\n![Main House Disconnect Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/uifDjSuNbQsEEpiB.jpg)\n\n**Location:** Camp Kitchen Utility Room\n**Purpose:** Main electrical disconnect for Main House\n\n---\n\n### Utility Room & Water Shutoff\n\n![Utility Room Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/pfAXJQVRMNTmTWRD.jpg)\n\n![Water Shutoff Valve](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/QWpHpZktcsacAtYz.jpg)\n\nUtility room housing electrical panels and water shutoff valve.",
           "items": [],
-          "intro": "- **Camp Kitchen Panel & Transfer Switch:**\n  ![Panel & Transfer Switch](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/df4c4dfb-0ec5-4319-9a53-4b48e915025e1628003542767182916.jpg)\n- **Transformer Enclosure & Meter:**\n  ![Transformer & Meter](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/wPmNbQjYxZzQjJkL.jpg)\n- **Meter & Shutoff:**\n  ![Meter & Shutoff](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/xZzQjJkLwPmNbQjY.jpg)\n  *Located behind Camp Kitchen.*\n- **Main House Disconnect:**\n  ![Main House Disconnect](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jRxxxLnuiCjfrfbD.jpg)\n  *Located in Camp Kitchen Utility Room.*",
-          "images": [
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/FMdEONNghVEhnjTr.jpg",
-              "caption": "Breaker Panel Circuit Directory"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/zPcUvboHFdnNUOQh.jpg",
-              "caption": "Generator Switchover Instructions"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/vWfhbvUAVsmOJSNj.jpg",
-              "caption": "Generator Transfer Panel"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/uifDjSuNbQsEEpiB.jpg",
-              "caption": "Main House Disconnect Panel"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ksvLDLSVdXAyVihi.jpg",
-              "caption": "Sub Panel Closed"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/pfAXJQVRMNTmTWRD.jpg",
-              "caption": "Utility Room Exterior"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/QWpHpZktcsacAtYz.jpg",
-              "caption": "Water Shutoff Valve"
-            }
-          ]
+          "intro": "Electrical infrastructure including breaker panels, transfer switches, transformers, and utility disconnects. Central electrical distribution point for Camp Kitchen and Main House systems.",
+          "images": []
         },
         {
           "id": "generator-system",
