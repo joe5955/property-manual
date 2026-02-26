@@ -134,3 +134,5 @@
 - [x] **Verify Clean Display:** Confirm photos display without text overlays ✓ SUCCESS - all photos clean!
 
 - [x] **Reorganize Appliance Photos:** Display photos under each corresponding appliance instead of grouped at bottom
+
+- [x] **Reorganize Generator System Photos:** Display photos under each corresponding component instead of grouped at bottom
