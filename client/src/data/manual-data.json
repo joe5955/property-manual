@@ -231,9 +231,9 @@
         {
           "id": "water-heater-camp",
           "title": "Water Heater",
-          "content": "![Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TVXbeLJBrtMTMeiC.jpg)\n\n![Rinnai Tankless Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/aHBYvHAlilRIPRFF.jpg)\n\n![Rinnai Water Heater Control Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/cyEkQAVeqzggTXyd.jpg)\n\n**Rinnai On-Demand Water Heater**\n\n**Brand:** Rinnai\n**Type:** Tankless/On-Demand\n**Location:** Utility room\n**Features:** Energy-efficient tankless design, digital control panel",
+          "content": "![Rinnai Tankless Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/aHBYvHAlilRIPRFF.jpg)\n\n![Rinnai Water Heater Control Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/cyEkQAVeqzggTXyd.jpg)\n\n**Rinnai On-Demand Water Heater**\n\n**Brand:** Rinnai\n**Type:** Tankless/On-Demand\n**Location:** Utility room\n**Features:** Energy-efficient tankless design, digital control panel",
           "items": [],
-          "intro": "![Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TVXbeLJBrtMTMeiC.jpg)\n\n**Rinnai On-Demand Water Heater**\n\nLocated in utility room.",
+          "intro": "**Rinnai On-Demand Water Heater**\n\nLocated in utility room.",
           "images": []
         }
       ],
@@ -249,7 +249,7 @@
     {
       "id": "beach-house",
       "title": "Beach House",
-      "content": "**Parcel:** [To be documented] - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)\n\n### Utilities & Systems\n- **Water Shutoff:** Exterior access box near main entry by \"Lighthouse Point\" sign (Blue-handled ball valve)\n- **WiFi:** Network: **Ned&Haleh** | Password: **Beachhouse1**\n- **Security:** First Alert FA260 Professional alarm system\n\n### Appliances\n- **Refrigerator:** LG LRBP1031T (19 years old) - *Rec. Replace Immediately*\n- **Range:** Bosch Electric (Stainless steel, ceramic cooktop)\n- **Dishwasher:** Bosch 300 Series SHP53C06UC30 (~7 years old)\n  ![Dishwasher](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/AuVzGNUJIvPpXZSq.jpg)\n- **Washer:** Maytag MHW8200FC0 (8 years old)\n- **Dryer:** Maytag MED8200FC2 (8 years old)\n  ![Washer/Dryer](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/OADzIdSGqHlidPqA.jpg)\n\n### Water Heater\n- **Model:** Bradford White M265R6DS-1NCWM\n  ![Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TVXbeLJBrtMTMeiC.jpg)\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK (Expected life 8-12 years)\n- **Action:** Replace immediately",
+      "content": "**Parcel:** [To be documented] - [View on Polaris GIS](https://gis.sanjuancountywa.gov/polaris/)\n\n### Utilities & Systems\n- **Water Shutoff:** Exterior access box near main entry by \"Lighthouse Point\" sign (Blue-handled ball valve)\n- **WiFi:** Network: **Ned&Haleh** | Password: **Beachhouse1**\n- **Security:** First Alert FA260 Professional alarm system\n\n### Appliances\n- **Refrigerator:** LG LRBP1031T (19 years old) - *Rec. Replace Immediately*\n- **Range:** Bosch Electric (Stainless steel, ceramic cooktop)\n- **Dishwasher:** Bosch 300 Series SHP53C06UC30 (~7 years old)\n  ![Dishwasher](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/AuVzGNUJIvPpXZSq.jpg)\n- **Washer:** Maytag MHW8200FC0 (8 years old)\n- **Dryer:** Maytag MED8200FC2 (8 years old)\n  ![Washer/Dryer](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/OADzIdSGqHlidPqA.jpg)\n\n### Water Heater\n- **Model:** Bradford White M265R6DS-1NCWM\n- **Serial:** DD9041943\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK (Expected life 8-12 years)\n- **Action:** Replace immediately",
       "subsections": [
         {
           "id": "utilities-and-systems",
