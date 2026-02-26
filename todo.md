@@ -93,3 +93,18 @@
 - [x] **Identified Issue:** Found duplicate photos - inline images in content AND images[] array
 - [x] **Removed Duplicates:** Removed inline images from Appliances content field
 - [x] **Verified Clean Display:** Camp Kitchen now displays cleanly with photos only in dedicated Photos sections
+
+## Photo Overlay Issue - ROOT CAUSE INVESTIGATION
+- [ ] **Fresh Clone GitHub:** Clone joe5955/property-manual repository to inspect source photos
+- [ ] **Identify Composite Photos:** Find which photos have text overlays baked into the image files
+- [ ] **Replace with Clean Photos:** Upload clean versions without text overlays
+- [ ] **Document Workflow:** Create guidelines to prevent composite photos from being uploaded in the future
+
+## Remove Photo Upload Form - GitHub Only Workflow
+- [x] **Remove Photo Upload Form Link:** Delete from sidebar navigation in Layout.tsx
+- [x] **Remove Photo Review Link:** Removed from sidebar navigation in Layout.tsx
+- [ ] **Remove Photo Upload Form Page:** Delete PhotoUploadForm.tsx and route from App.tsx
+- [ ] **Remove Photo Review Page:** Delete PhotoReview.tsx and route from App.tsx (no longer needed with GitHub workflow)
+- [x] **Get GitHub Photos:** Fresh clone and upload all photos from GitHub repository to CDN (133 photos uploaded)
+- [x] **Replace Photo URLs:** Update all manual-data.json photo URLs to use GitHub-sourced clean photos (71 photos updated across 10 buildings)
+- [x] **Document Workflow:** Create PHOTO_WORKFLOW.md documenting GitHub-only process
