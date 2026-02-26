@@ -2,9 +2,9 @@
   "title": "San Juan County, Washington - Private Property",
   "metadata": {
     "created": "February 13, 2026",
-    "updated": "February 25, 2026",
+    "updated": "February 26, 2026",
     "owner": "Shady Cove LLC",
-    "lastUpdated": "February 25, 2026"
+    "lastUpdated": "February 26, 2026"
   },
   "sections": [
     {
@@ -70,7 +70,7 @@
           "title": "Water Heater (Critical)",
           "content": "- Bradford White automatic storage water heater with PHCC label, in utility/laundry closet. Copper plumbing visible on top with flexible connectors.\n- Bradford White label close-up: Model MI150S6DS21, Serial ZB2783563, 50 gallon (189.3 liters), 240V AC only 50/60 Hz, Upper Element 4500W, Lower Element 4500W, Max 4500W, Test pressure 300 psi, Working 150 psi. EnergyGuide: 4721 kWh/year, estimated $397/year, first hour rating 67 gallons. ([View Manual](https://docs.bradfordwhite.com/I&O/238-54649-00_Current.pdf))",
           "items": [],
-          "intro": "### \u26a0\ufe0f URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 25 years old, this unit is more than double its expected lifespan. Risks include catastrophic tank failure, flooding, and safety hazards.\n\n**Immediate Actions:**\n1. Check daily for leaks.\n2. Listen for unusual noises.\n3. **Schedule replacement immediately.**",
+          "intro": "### ⚠️ URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** MI150S6DS21\n- **Serial:** ZB2783563\n- **Age:** 25 years (Feb 2001)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 25 years old, this unit is more than double its expected lifespan. Risks include catastrophic tank failure, flooding, and safety hazards.\n\n**Immediate Actions:**\n1. Check daily for leaks.\n2. Listen for unusual noises.\n3. **Schedule replacement immediately.**",
           "images": [
             {
               "url": "/images/farm-house/water-heater-farm/01_water_heater_bradford_white.jpg",
@@ -121,7 +121,7 @@
         {
           "id": "interior",
           "title": "Interior",
-          "content": "- Room with quilted wall hanging (blue/green/floral banner pattern with tassel), white spindle chair, baseboard heater visible at floor level, light switch and outlet on wall. Yellow walls with green trim/baseboards.\n- King brand analog dial thermostat, \"Comfort Zone\" label, range LO through 50-60-70-80-90\u00b0F. Controls baseboard heaters. Red tulip wall clock above it.",
+          "content": "- Room with quilted wall hanging (blue/green/floral banner pattern with tassel), white spindle chair, baseboard heater visible at floor level, light switch and outlet on wall. Yellow walls with green trim/baseboards.\n- King brand analog dial thermostat, \"Comfort Zone\" label, range LO through 50-60-70-80-90°F. Controls baseboard heaters. Red tulip wall clock above it.",
           "items": [],
           "images": [
             {
@@ -130,7 +130,7 @@
             },
             {
               "url": "/images/farm-house/interior/02_thermostat_king_comfort_zone.jpg",
-              "caption": "King brand analog dial thermostat, \"Comfort Zone\" label, range LO through 50-60-70-80-90\u00b0F. Controls baseboard heaters. Red tulip wall clock above it."
+              "caption": "King brand analog dial thermostat, \"Comfort Zone\" label, range LO through 50-60-70-80-90°F. Controls baseboard heaters. Red tulip wall clock above it."
             }
           ]
         }
@@ -152,29 +152,29 @@
         {
           "id": "appliances",
           "title": "Appliances",
-          "content": "| Item | Brand/Model | Specs | Age/Condition | Notes |\n|------|-------------|-------|---------------|-------|\n| Refrigerator | LG LRBP1031T | 115V, 60Hz, 2.6A, R134a refrigerant | ~19 years old (2007 model) | **Replacement Recommended** \u2014 Nearing end of life. Service: 1-800-243-0000 |\n| Range | Bosch Electric Range | Convection Self-Cleaning Oven, glass cooktop | Good Condition | Stainless steel, ceramic cooktop. Controls: Light, Time, Cooking Mode, Temperature, Start |\n| Dishwasher | Bosch 300 Series | Cycles: Delay Start, Regular Wash, Delicate/Rinse, Quick Wash, Rinse & Hold | ~7 years old (2019 model) | Good condition. Stainless steel. |\n| Microwave | Bosch HMV9305/01 | Serial FD8703001911, Mfg. March 2007, Made in Korea | ~19 years old (2007) | Over-the-range, stainless steel. **Replacement Recommended.** |\n| Washer | Maytag MHW8200FC0 | 12.0A, 120V, 60Hz, Type 171-02 | ~8 years old (2018 model) | Good condition. PowerWash, Direct Drive, 10 Year warranty. |\n| Dryer | Maytag MED8200FC2 | 120/208V 23A or 120/240V 24A, Type DALP-ELE-2406024-EL54 | ~8 years old (2018 model) | Good condition. 10 Year warranty. |",
+          "content": "| Item | Brand/Model | Specs | Age/Condition | Notes |\n|------|-------------|-------|---------------|-------|\n| Refrigerator | LG LRBP1031T | 115V, 60Hz, 2.6A, R134a refrigerant | ~19 years old (2007 model) | **Replacement Recommended** — Nearing end of life. Service: 1-800-243-0000 |\n| Range | Bosch Electric Range | Convection Self-Cleaning Oven, glass cooktop | Good Condition | Stainless steel, ceramic cooktop. Controls: Light, Time, Cooking Mode, Temperature, Start |\n| Dishwasher | Bosch 300 Series | Cycles: Delay Start, Regular Wash, Delicate/Rinse, Quick Wash, Rinse & Hold | ~7 years old (2019 model) | Good condition. Stainless steel. |\n| Microwave | Bosch HMV9305/01 | Serial FD8703001911, Mfg. March 2007, Made in Korea | ~19 years old (2007) | Over-the-range, stainless steel. **Replacement Recommended.** |\n| Washer | Maytag MHW8200FC0 | 12.0A, 120V, 60Hz, Type 171-02 | ~8 years old (2018 model) | Good condition. PowerWash, Direct Drive, 10 Year warranty. |\n| Dryer | Maytag MED8200FC2 | 120/208V 23A or 120/240V 24A, Type DALP-ELE-2406024-EL54 | ~8 years old (2018 model) | Good condition. 10 Year warranty. |",
           "items": [],
-          "intro": "| Item | Brand/Model | Specs | Age/Condition | Notes |\n|------|-------------|-------|---------------|-------|\n| Refrigerator | LG LRBP1031T | 115V, 60Hz, 2.6A, R134a refrigerant | ~19 years old (2007 model) | **Replacement Recommended** \u2014 Nearing end of life. Service: 1-800-243-0000 |\n| Range | Bosch Electric Range | Convection Self-Cleaning Oven, glass cooktop | Good Condition | Stainless steel, ceramic cooktop. Controls: Light, Time, Cooking Mode, Temperature, Start |\n| Dishwasher | Bosch 300 Series | Cycles: Delay Start, Regular Wash, Delicate/Rinse, Quick Wash, Rinse & Hold | ~7 years old (2019 model) | Good condition. Stainless steel. |\n| Microwave | Bosch HMV9305/01 | Serial FD8703001911, Mfg. March 2007, Made in Korea | ~19 years old (2007) | Over-the-range, stainless steel. **Replacement Recommended.** |\n| Washer | Maytag MHW8200FC0 | 12.0A, 120V, 60Hz, Type 171-02 | ~8 years old (2018 model) | Good condition. PowerWash, Direct Drive, 10 Year warranty. |\n| Dryer | Maytag MED8200FC2 | 120/208V 23A or 120/240V 24A, Type DALP-ELE-2406024-EL54 | ~8 years old (2018 model) | Good condition. 10 Year warranty. |",
+          "intro": "| Item | Brand/Model | Specs | Age/Condition | Notes |\n|------|-------------|-------|---------------|-------|\n| Refrigerator | LG LRBP1031T | 115V, 60Hz, 2.6A, R134a refrigerant | ~19 years old (2007 model) | **Replacement Recommended** — Nearing end of life. Service: 1-800-243-0000 |\n| Range | Bosch Electric Range | Convection Self-Cleaning Oven, glass cooktop | Good Condition | Stainless steel, ceramic cooktop. Controls: Light, Time, Cooking Mode, Temperature, Start |\n| Dishwasher | Bosch 300 Series | Cycles: Delay Start, Regular Wash, Delicate/Rinse, Quick Wash, Rinse & Hold | ~7 years old (2019 model) | Good condition. Stainless steel. |\n| Microwave | Bosch HMV9305/01 | Serial FD8703001911, Mfg. March 2007, Made in Korea | ~19 years old (2007) | Over-the-range, stainless steel. **Replacement Recommended.** |\n| Washer | Maytag MHW8200FC0 | 12.0A, 120V, 60Hz, Type 171-02 | ~8 years old (2018 model) | Good condition. PowerWash, Direct Drive, 10 Year warranty. |\n| Dryer | Maytag MED8200FC2 | 120/208V 23A or 120/240V 24A, Type DALP-ELE-2406024-EL54 | ~8 years old (2018 model) | Good condition. 10 Year warranty. |",
           "images": [
             {
               "url": "/images/beach-house/appliances/01_dishwasher_bosch_closed.jpg",
-              "caption": "Bosch Dishwasher \u2014 Stainless Steel, Closed"
+              "caption": "Bosch Dishwasher — Stainless Steel, Closed"
             },
             {
               "url": "/images/beach-house/appliances/02_dishwasher_bosch_control_panel.jpg",
-              "caption": "Bosch Dishwasher \u2014 Control Panel (Delay Start, Regular Wash, Delicate/Rinse, Quick Wash, Rinse & Hold)"
+              "caption": "Bosch Dishwasher — Control Panel (Delay Start, Regular Wash, Delicate/Rinse, Quick Wash, Rinse & Hold)"
             },
             {
               "url": "/images/beach-house/appliances/03_range_bosch_full_view.jpg",
-              "caption": "Bosch Electric Range \u2014 Stainless Steel, Glass Cooktop, Convection Self-Cleaning Oven"
+              "caption": "Bosch Electric Range — Stainless Steel, Glass Cooktop, Convection Self-Cleaning Oven"
             },
             {
               "url": "/images/beach-house/appliances/04_range_bosch_control_panel.jpg",
-              "caption": "Bosch Range \u2014 Control Panel (Light, Time, Cooking Mode, Temperature, Start)"
+              "caption": "Bosch Range — Control Panel (Light, Time, Cooking Mode, Temperature, Start)"
             },
             {
               "url": "/images/beach-house/appliances/05_refrigerator_lg_kitchen_overview.jpg",
-              "caption": "LG Bottom-Freezer Refrigerator \u2014 Stainless Steel, Kitchen Overview with Microwave and Range"
+              "caption": "LG Bottom-Freezer Refrigerator — Stainless Steel, Kitchen Overview with Microwave and Range"
             },
             {
               "url": "/images/beach-house/appliances/06_refrigerator_lg_label.jpg",
@@ -182,7 +182,7 @@
             },
             {
               "url": "/images/beach-house/appliances/07_microwave_bosch_overview.jpg",
-              "caption": "Bosch Over-the-Range Microwave \u2014 Stainless Steel"
+              "caption": "Bosch Over-the-Range Microwave — Stainless Steel"
             },
             {
               "url": "/images/beach-house/appliances/08_microwave_bosch_label.jpg",
@@ -193,9 +193,9 @@
         {
           "id": "water-heater-beach",
           "title": "Water Heater (Critical)",
-          "content": "### \u26a0\ufe0f URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWW\n- **Serial:** DD9041943\n- **Capacity:** 65 gallons (246 liters)\n- **Type:** Electric, 240/208V, 1-Phase AC\n- **Upper Element:** 4500/3500 Watts\n- **Lower Element:** 4500/3500 Watts\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan (8\u201312 years). Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**",
+          "content": "### ⚠️ URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWW\n- **Serial:** DD9041943\n- **Capacity:** 65 gallons (246 liters)\n- **Type:** Electric, 240/208V, 1-Phase AC\n- **Upper Element:** 4500/3500 Watts\n- **Lower Element:** 4500/3500 Watts\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan (8–12 years). Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**",
           "items": [],
-          "intro": "### \u26a0\ufe0f URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWW\n- **Serial:** DD9041943\n- **Capacity:** 65 gallons (246 liters)\n- **Type:** Electric, 240/208V, 1-Phase AC\n- **Upper Element:** 4500/3500 Watts\n- **Lower Element:** 4500/3500 Watts\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan (8\u201312 years). Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**",
+          "intro": "### ⚠️ URGENT: Replacement Needed\n**Bradford White Water Heater**\n- **Model:** M265R6DS-1NCWW\n- **Serial:** DD9041943\n- **Capacity:** 65 gallons (246 liters)\n- **Type:** Electric, 240/208V, 1-Phase AC\n- **Upper Element:** 4500/3500 Watts\n- **Lower Element:** 4500/3500 Watts\n- **Age:** 22 years (2004)\n- **Status:** CRITICAL FAILURE RISK\n\n**Why This Is Urgent:**\nAt 22 years old, this unit is significantly beyond its expected lifespan (8–12 years). Risks include tank failure, flooding, and loss of hot water.\n\n**Immediate Actions:**\n1. Monitor for leaks.\n2. **Budget for immediate replacement.**",
           "images": [
             {
               "url": "/images/beach-house/water-heater/01_bradford_white_water_heater.jpg",
@@ -216,7 +216,7 @@
           "images": [
             {
               "url": "/images/beach-house/laundry/01_dryer_maytag_overview.jpg",
-              "caption": "Maytag Dryer \u2014 Front-Load, Dark Metallic, 10 Year Warranty"
+              "caption": "Maytag Dryer — Front-Load, Dark Metallic, 10 Year Warranty"
             },
             {
               "url": "/images/beach-house/laundry/02_dryer_maytag_label.jpg",
@@ -224,7 +224,7 @@
             },
             {
               "url": "/images/beach-house/laundry/03_washer_maytag_overview.jpg",
-              "caption": "Maytag Washer \u2014 Front-Load, Dark Metallic, PowerWash, Direct Drive, 10 Year Warranty"
+              "caption": "Maytag Washer — Front-Load, Dark Metallic, PowerWash, Direct Drive, 10 Year Warranty"
             },
             {
               "url": "/images/beach-house/laundry/04_washer_maytag_label.jpg",
@@ -253,7 +253,7 @@
     {
       "id": "the-chalet",
       "title": "The Chalet",
-      "content": "**Status:** Documented\n\n### Structure & Exterior\n- **Foundation:** Pier foundation\n- **Exterior:** Board-and-batten siding, painted tan/beige\n- **Rear:** Elevated deck with stairs and wire-mesh railing\n- **Front:** Covered porch with columns, water views\n\n### Heating & Comfort\n- **Thermostat (Zone 1 \u2013 Bedroom):** King Comfort Zone dial thermostat (by King Electric)\n- **Thermostat (Zone 2 \u2013 Living Area):** King Comfort Zone dial thermostat (by King Electric)\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove\n  - **Model:** JDV RP | **Serial:** 2684\n  - **Fuel:** Propane | **Input:** 19,000 BTUH | **Output:** 28,000 BTUH (19,600 BTUH Canadian rating)\n  - **Manufacturer:** Vermont Castings Majestic Products, Bethel, VT\n  - **Certified:** ANSI Z21.88B-1998, CGA 2.33B-M98\n  - **Supply Pressure (Propane):** 11.0\u2013 13.0\u201d W.C. | **Manifold Pressure:** 10.0\u201d W.C.\n  - [View Manual](https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf)\n\n### Electrical\n- **Panel:** Square D QO Load Center (Cat. No. QOC-20M, Series B1), wall-mounted with cedar trim - [View Manual](https://download.schneider-electric.com/files?p_Doc_Ref=S1B33894&p_enDocType=Instruction+sheet&p_File_Name=S1B33894.pdf)\n- **Circuit Directory:** Heat (\u00d72 zones), Water Heater, Bedrooms, Living Room, Kitchen, Bathroom, Basement, Microwave\n\n### Kitchenette\n- **Refrigerator:** Danby Designer (Compact under-counter model)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel\n\n### Systems\n- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D) - [View Manual](https://files.rheem.com/blobazrheem/wp-content/uploads/sites/2/AP21831-Rev-2-SHEG-TriBrand-UC.pdf)\n\n### Maintenance Notes\n- **Winterization:** Ensure wall heaters are set to frost protection (approx. 45\u00b0F) during winter months.\n- **Water Heater:** Drain 1-2 gallons annually to remove sediment.",
+      "content": "**Status:** Documented\n\n### Structure & Exterior\n- **Foundation:** Pier foundation\n- **Exterior:** Board-and-batten siding, painted tan/beige\n- **Rear:** Elevated deck with stairs and wire-mesh railing\n- **Front:** Covered porch with columns, water views\n\n### Heating & Comfort\n- **Thermostat (Zone 1 – Bedroom):** King Comfort Zone dial thermostat (by King Electric)\n- **Thermostat (Zone 2 – Living Area):** King Comfort Zone dial thermostat (by King Electric)\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove\n  - **Model:** JDV RP | **Serial:** 2684\n  - **Fuel:** Propane | **Input:** 19,000 BTUH | **Output:** 28,000 BTUH (19,600 BTUH Canadian rating)\n  - **Manufacturer:** Vermont Castings Majestic Products, Bethel, VT\n  - **Certified:** ANSI Z21.88B-1998, CGA 2.33B-M98\n  - **Supply Pressure (Propane):** 11.0– 13.0” W.C. | **Manifold Pressure:** 10.0” W.C.\n  - [View Manual](https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf)\n\n### Electrical\n- **Panel:** Square D QO Load Center (Cat. No. QOC-20M, Series B1), wall-mounted with cedar trim - [View Manual](https://download.schneider-electric.com/files?p_Doc_Ref=S1B33894&p_enDocType=Instruction+sheet&p_File_Name=S1B33894.pdf)\n- **Circuit Directory:** Heat (×2 zones), Water Heater, Bedrooms, Living Room, Kitchen, Bathroom, Basement, Microwave\n\n### Kitchenette\n- **Refrigerator:** Danby Designer (Compact under-counter model)\n- **Microwave:** Countertop model\n- **Sink:** Single basin stainless steel\n\n### Systems\n- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D) - [View Manual](https://files.rheem.com/blobazrheem/wp-content/uploads/sites/2/AP21831-Rev-2-SHEG-TriBrand-UC.pdf)\n\n### Maintenance Notes\n- **Winterization:** Ensure wall heaters are set to frost protection (approx. 45°F) during winter months.\n- **Water Heater:** Drain 1-2 gallons annually to remove sediment.",
       "subsections": [
         {
           "id": "structure-exterior",
@@ -264,32 +264,32 @@
           "images": [
             {
               "url": "/images/the-chalet/structure-exterior/01_chalet_exterior_rear_deck_pier_foundation.jpg",
-              "caption": "Chalet exterior \u2014 rear view with elevated deck, stairs, and pier foundation"
+              "caption": "Chalet exterior — rear view with elevated deck, stairs, and pier foundation"
             },
             {
               "url": "/images/the-chalet/structure-exterior/02_chalet_front_entry_porch_water_view.jpg",
-              "caption": "Chalet front entry \u2014 covered porch with columns, blue patio chairs, and water view"
+              "caption": "Chalet front entry — covered porch with columns, blue patio chairs, and water view"
             }
           ]
         },
         {
           "id": "heating-and-comfort",
           "title": "Heating & Comfort",
-          "content": "- **Thermostat (Zone 1 \u2013 Bedroom):** King Comfort Zone dial thermostat (by King Electric)\n- **Thermostat (Zone 2 \u2013 Living Area):** King Comfort Zone dial thermostat (by King Electric)\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove\n  - **Model:** JDV RP | **Serial:** 2684\n  - **Fuel:** Propane | **Input:** 19,000 BTUH | **Output:** 28,000 BTUH (19,600 BTUH Canadian rating)\n  - **Manufacturer:** Vermont Castings Majestic Products, Bethel, VT\n  - **Certified:** ANSI Z21.88B-1998, CGA 2.33B-M98\n  - **Supply Pressure (Propane):** 11.0\u2013 13.0\u201d W.C. | **Manifold Pressure:** 10.0\u201d W.C.\n  - [View Manual](https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf)",
+          "content": "- **Thermostat (Zone 1 – Bedroom):** King Comfort Zone dial thermostat (by King Electric)\n- **Thermostat (Zone 2 – Living Area):** King Comfort Zone dial thermostat (by King Electric)\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove\n  - **Model:** JDV RP | **Serial:** 2684\n  - **Fuel:** Propane | **Input:** 19,000 BTUH | **Output:** 28,000 BTUH (19,600 BTUH Canadian rating)\n  - **Manufacturer:** Vermont Castings Majestic Products, Bethel, VT\n  - **Certified:** ANSI Z21.88B-1998, CGA 2.33B-M98\n  - **Supply Pressure (Propane):** 11.0– 13.0” W.C. | **Manifold Pressure:** 10.0” W.C.\n  - [View Manual](https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf)",
           "items": [],
-          "intro": "- **Thermostat (Zone 1 \u2013 Bedroom):** King Comfort Zone dial thermostat\n- **Thermostat (Zone 2 \u2013 Living Area):** King Comfort Zone dial thermostat\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove (Model: JDV RP, Serial: 2684, Propane, 19,000 BTUH input / 28,000 BTUH output)",
+          "intro": "- **Thermostat (Zone 1 – Bedroom):** King Comfort Zone dial thermostat\n- **Thermostat (Zone 2 – Living Area):** King Comfort Zone dial thermostat\n- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove (Model: JDV RP, Serial: 2684, Propane, 19,000 BTUH input / 28,000 BTUH output)",
           "images": [
             {
               "url": "/images/the-chalet/heating-and-comfort/01_king_comfort_zone_thermostat_zone1_bedroom.jpg",
-              "caption": "King Comfort Zone dial thermostat \u2014 Zone 1 (bedroom area)"
+              "caption": "King Comfort Zone dial thermostat — Zone 1 (bedroom area)"
             },
             {
               "url": "/images/the-chalet/heating-and-comfort/02_king_comfort_zone_thermostat_zone2_living.jpg",
-              "caption": "King Comfort Zone dial thermostat \u2014 Zone 2 (living area)"
+              "caption": "King Comfort Zone dial thermostat — Zone 2 (living area)"
             },
             {
               "url": "/images/the-chalet/heating-and-comfort/03_vermont_castings_jefferson_gas_stove.jpg",
-              "caption": "Vermont Castings Jefferson Direct Vent Gas Stove \u2014 cast iron, propane"
+              "caption": "Vermont Castings Jefferson Direct Vent Gas Stove — cast iron, propane"
             },
             {
               "url": "/images/the-chalet/heating-and-comfort/04_gas_stove_operation_lighting_instructions.jpg",
@@ -297,7 +297,7 @@
             },
             {
               "url": "/images/the-chalet/heating-and-comfort/05_gas_stove_rating_plate_jdv_rp_serial_2684.jpg",
-              "caption": "Gas stove rating plate \u2014 Model JDV RP, Serial 2684, Propane, 19,000 BTUH input / 28,000 BTUH output"
+              "caption": "Gas stove rating plate — Model JDV RP, Serial 2684, Propane, 19,000 BTUH input / 28,000 BTUH output"
             }
           ]
         },
@@ -306,15 +306,15 @@
           "title": "Electrical",
           "content": "- **Panel:** Square D QO Load Center (Cat. No. QOC-20M, Series B1), wall-mounted with cedar trim - [View Manual](https://download.schneider-electric.com/files?p_Doc_Ref=S1B33894&p_enDocType=Instruction+sheet&p_File_Name=S1B33894.pdf)\n- **Circuit Directory:**\n  - 1: Heat (Zone 1) | 2: Water Heater\n  - 3: Heat (Zone 1 Bed) | 4: Water Heater\n  - 5: Heat (Zone 2) | 6: Bed Room\n  - 7: Heat (Zone 2 Living) | 8: Heat\n  - 9: Living Room / Porch | 10: Ref. Ki. Rec.\n  - 11: Bed Room | 12: Bath. Rec.\n  - 13: Bed Room | 14: Basement / Light / Bed Bath\n  - 15: (spare) | 16: Basement / Garage\n  - 17: (spare) | 18: Microwave",
           "items": [],
-          "intro": "- **Panel:** Square D QO Load Center (Cat. No. QOC-20M, Series B1), wall-mounted with cedar trim - [View Manual](https://download.schneider-electric.com/files?p_Doc_Ref=S1B33894&p_enDocType=Instruction+sheet&p_File_Name=S1B33894.pdf)\n- **Circuits:** Heat (\u00d72 zones), Water Heater, Bedrooms, Living Room, Kitchen, Bathroom, Basement, Microwave",
+          "intro": "- **Panel:** Square D QO Load Center (Cat. No. QOC-20M, Series B1), wall-mounted with cedar trim - [View Manual](https://download.schneider-electric.com/files?p_Doc_Ref=S1B33894&p_enDocType=Instruction+sheet&p_File_Name=S1B33894.pdf)\n- **Circuits:** Heat (×2 zones), Water Heater, Bedrooms, Living Room, Kitchen, Bathroom, Basement, Microwave",
           "images": [
             {
               "url": "/images/the-chalet/electrical/01_electrical_panel_closed_cedar_trim.jpg",
-              "caption": "Electrical panel \u2014 closed, wall-mounted with cedar trim"
+              "caption": "Electrical panel — closed, wall-mounted with cedar trim"
             },
             {
               "url": "/images/the-chalet/electrical/02_square_d_qo_load_center_open_circuit_directory.jpg",
-              "caption": "Square D QO Load Center \u2014 panel open with handwritten circuit directory"
+              "caption": "Square D QO Load Center — panel open with handwritten circuit directory"
             }
           ]
         },
@@ -338,31 +338,171 @@
     {
       "id": "camp-kitchen",
       "title": "Camp Kitchen",
-      "content": "**Status:** Documented\n\n### Structure\n- **Type:** Open-air timber frame pavilion with metal roof\n- **Flooring:** Concrete slab\n- **Lighting:** Overhead string lights and task lighting\n\n### Appliances\n- **Stove:** Propane Range (4-burner with oven)\n- **Refrigerator:** Full-size Refrigerator/Freezer\n- **Grill:** Weber Genesis II (Propane, 3-burner) - [View Manual](https://www.weber.com/on/demandware.static/-/Library-Sites-library-apac/en_JP/v1562868910965/pdf/Gas/Genesis%20II/E310%20E410%20GBS/User%20Guide%20EN/59460_040118_WEB.pdf)\n- **Prep Area:** Large stainless steel prep table\n\n### Utilities & Systems\n- **Water Heater:** Rinnai Tankless Water Heater (Model: V53e) - [View Manual](https://media.rinnai.us/salsify_asset/s-38321af7-24bd-49ca-84c5-e554a678661f/100000256-V53e%20Installation%20and%20Operation%20Manual.pdf)\n- **Electrical:**\n  - **Transformer Enclosure:** Located near Camp Kitchen (Green box)\n  - **Meter & Shutoff:** Located by Camp Kitchen\n  - **Sub-panel:** Dedicated panel serving kitchen circuits\n- **Water:**\n  - **Supply:** Outdoor sink with hot/cold water\n  - **Exterior Spigot:** Located on Camp Kitchen exterior\n  - **Winterization:** Must be drained in freezing months\n- **Outlets:** Multiple outdoor-rated GFCI outlets for small appliances\n\n### Maintenance Notes\n- **Winterization:** Shut off water supply and drain lines to prevent freezing. Cover grill.\n- **Propane:** Check tank levels before large gatherings.",
+      "content": "**Status:** Documented — Photos added February 26, 2026\n\n### Structure\n- **Type:** Camp Kitchen building with attached bathroom, changing room/shower, and bunk room\n- **Picnic Shelter:** Timber-frame open-air structure with shake roof (adjacent)\n- **Bathroom:** Double-sink vanity with granite countertop, mirror, built-in shelving\n- **Changing Room:** Shower area with life jacket storage cubbies\n- **Bunk Room:** Wooden bunk beds, dehumidifier, beadboard wainscoting\n\n### Appliances\n- **Refrigerator:** Amana TX18VW (White, top-freezer) — S/N 9709132282, 115VAC/60Hz, 7.17A, 4.50oz R134a — *Rec. Replace: Overdue (1997 manufacture)*\n- **Range:** GE Profile Gas Range (Stainless steel, 5-burner, dual oven with lower warming drawer, convection bake/roast, broil, probe, digital display)\n- **Dishwasher:** Maytag MDB4000AWB (Black front) — S/N 12559635SY, 120V/60Hz, Motor 6.5A, Heater 6A, Max Load 12.0A\n\n### Utilities & Systems\n- **Water Heater:** Rinnai R75LS Tankless Water Heater (set at 135°F)\n- **Electrical:**\n  - Square D main house disconnect panel\n  - Square D utility/generator transfer panel\n  - Sub-panel (breaker panel with circuit directory)\n- **Water:** Water shut-off valve for camp kitchen\n- **Generator:** Genset unit/shed (south side behind Camp Kitchen) with diesel engine, Legend battery, Square D breaker panel, and control panel\n\n### Generator Switchover Instructions (Transcribed from Handwritten Note)\n**Steps to Switch to Generator Power:**\n1. Start generator\n2. Turn off House Main Switch #1\n3. Turn off main switch on panel #2\n4. Switch #3 Transfer Switch to Gen.Set\n5. Turn on House Main Switch #1\n6. Turn on main switch on panel #2\n\n**To Switch Back to OPALCO Power:**\n1. Turn off House Main Switch #1\n2. Turn off main switch on panel #2\n3. Switch #3 Transfer Switch to OPALCO\n4. Turn off generator\n5. Turn on House Main Switch #1\n6. Turn on main switch on panel #2\n\n### Maintenance Notes\n- **Winterization:** Shut off water supply and drain lines to prevent freezing.\n- **Refrigerator:** Amana TX18VW is from 1997 — replacement strongly recommended.\n- **Water Heater:** Rinnai R75LS set at 135°F — verify temperature setting periodically.",
       "subsections": [
         {
           "id": "structure",
           "title": "Structure",
-          "content": "- **Type:** Open-air timber frame pavilion with metal roof\n- **Flooring:** Concrete slab\n- **Lighting:** Overhead string lights and task lighting",
+          "content": "- **Camp Kitchen Building:** Main building with exterior shown\n- **Picnic Shelter:** Timber-frame open-air structure with shake roof (adjacent to Camp Kitchen)\n- **Bathroom:** Double-sink vanity with granite countertop, mirror, built-in shelving\n- **Changing Room/Shower:** Shower area with life jacket storage cubbies\n- **Bunk Room:** Wooden bunk beds, dehumidifier, beadboard wainscoting",
           "items": [],
-          "intro": "- **Type:** Open-air timber frame pavilion with metal roof\n- **Flooring:** Concrete slab\n- **Lighting:** Overhead string lights and task lighting"
+          "intro": "The Camp Kitchen building includes a bathroom with double-sink vanity, a changing room/shower area with life jacket storage, and a bunk room with wooden bunk beds. The adjacent Picnic Shelter is a timber-frame open-air structure with a shake roof.",
+          "images": [
+            {
+              "url": "/images/camp-kitchen/structure/camp-kitchen-exterior.jpg",
+              "caption": "Camp Kitchen building exterior"
+            },
+            {
+              "url": "/images/camp-kitchen/structure/picnic-shelter-exterior.jpg",
+              "caption": "Picnic Shelter exterior — timber-frame open-air structure with shake roof"
+            },
+            {
+              "url": "/images/camp-kitchen/structure/bathroom-double-sink-vanity.jpg",
+              "caption": "Bathroom: double-sink vanity with granite countertop, mirror, built-in shelving"
+            },
+            {
+              "url": "/images/camp-kitchen/structure/changing-room-shower-area.jpg",
+              "caption": "Changing room/shower area with life jacket storage cubbies"
+            },
+            {
+              "url": "/images/camp-kitchen/structure/bunk-room.jpg",
+              "caption": "Bunk room with wooden bunk beds, dehumidifier, beadboard wainscoting"
+            }
+          ]
         },
         {
           "id": "appliances",
           "title": "Appliances",
-          "content": "- **Stove:** Propane Range (4-burner with oven)\n- **Refrigerator:** Full-size Refrigerator/Freezer\n- **Grill:** Weber Genesis II (Propane, 3-burner) - [View Manual](https://www.weber.com/on/demandware.static/-/Library-Sites-library-apac/en_JP/v1562868910965/pdf/Gas/Genesis%20II/E310%20E410%20GBS/User%20Guide%20EN/59460_040118_WEB.pdf)\n- **Prep Area:** Large stainless steel prep table",
-          "items": [],
-          "intro": "- **Stove:** Propane Range (4-burner with oven)\n- **Refrigerator:** Full-size Refrigerator/Freezer\n- **Grill:** Weber Genesis II (Propane, 3-burner) - [View Manual](https://www.weber.com/on/demandware.static/-/Library-Sites-library-apac/en_JP/v1562868910965/pdf/Gas/Genesis%20II/E310%20E410%20GBS/User%20Guide%20EN/59460_040118_WEB.pdf)\n- **Prep Area:** Large stainless steel prep table"
+          "content": "- **Refrigerator:** Amana TX18VW (White, top-freezer) — S/N 9709132282, 115VAC/60Hz, 7.17A, 4.50oz R134a — *Rec. Replace: Overdue (1997 manufacture)*\n- **Range:** GE Profile Gas Range (Stainless steel, 5-burner, dual oven with lower warming drawer, convection bake/roast, broil, probe, digital display)\n- **Dishwasher:** Maytag MDB4000AWB (Black front) — S/N 12559635SY, 120V/60Hz, Motor 6.5A, Heater 6A, Max Load 12.0A",
+          "items": [
+            {
+              "name": "Amana Refrigerator",
+              "model": "TX18VW",
+              "serial": "9709132282",
+              "type": "Top-freezer refrigerator, white",
+              "voltage": "115VAC/60Hz",
+              "amperage": "7.17A",
+              "refrigerant": "R134a (4.50 oz)",
+              "manufacture_year": "1997",
+              "recommended_replace": "Overdue"
+            },
+            {
+              "name": "GE Profile Gas Range",
+              "type": "Gas range, stainless steel, 5-burner, dual oven with lower warming drawer",
+              "features": "Convection bake/roast, broil, probe, digital display"
+            },
+            {
+              "name": "Maytag Dishwasher",
+              "model": "MDB4000AWB",
+              "serial": "12559635SY",
+              "type": "Built-in dishwasher, black front",
+              "voltage": "120V/60Hz",
+              "motor_amperage": "6.5A",
+              "heater_amperage": "6A",
+              "max_load_amperage": "12.0A"
+            }
+          ],
+          "intro": "- **Refrigerator:** Amana TX18VW (White, top-freezer, 1997) — *Replacement overdue*\n- **Range:** GE Profile Gas Range (Stainless steel, 5-burner, dual oven, convection)\n- **Dishwasher:** Maytag MDB4000AWB (Black front)",
+          "images": [
+            {
+              "url": "/images/camp-kitchen/appliances/amana-refrigerator.jpg",
+              "caption": "Amana refrigerator (white top-freezer, full view)"
+            },
+            {
+              "url": "/images/camp-kitchen/appliances/amana-refrigerator-data-plate.jpg",
+              "caption": "Amana refrigerator data plate: Model TX18VW, S/N 9709132282, 115VAC/60Hz, 7.17A, 4.50oz R134a"
+            },
+            {
+              "url": "/images/camp-kitchen/appliances/ge-profile-range.jpg",
+              "caption": "GE Profile gas range (stainless steel, 5-burner, dual oven with lower warming drawer)"
+            },
+            {
+              "url": "/images/camp-kitchen/appliances/ge-profile-range-control-panel.jpg",
+              "caption": "GE Profile range control panel (convection bake/roast, broil, probe, digital display)"
+            },
+            {
+              "url": "/images/camp-kitchen/appliances/maytag-dishwasher.jpg",
+              "caption": "Maytag dishwasher (black front, full view)"
+            },
+            {
+              "url": "/images/camp-kitchen/appliances/maytag-dishwasher-data-plate.jpg",
+              "caption": "Maytag dishwasher data plate: Model MDB4000AWB, S/N 12559635SY, 120V/60Hz, Motor 6.5A, Heater 6A, Max Load 12.0A"
+            }
+          ]
         },
         {
           "id": "utilities-and-systems",
           "title": "Utilities & Systems",
-          "content": "- **Water Heater:** Rinnai Tankless Water Heater (Model: V53e) - [View Manual](https://media.rinnai.us/salsify_asset/s-38321af7-24bd-49ca-84c5-e554a678661f/100000256-V53e%20Installation%20and%20Operation%20Manual.pdf)\n- **Electrical:** Transformer enclosure near kitchen, Meter & Shutoff by kitchen, Dedicated sub-panel\n- **Water:** Outdoor sink (hot/cold), Exterior spigot on building\n- **Winterization:** Must be drained in freezing months",
-          "items": [],
-          "intro": "- **Water Heater:** Rinnai Tankless Water Heater (Model: V53e) - [View Manual](https://media.rinnai.us/salsify_asset/s-38321af7-24bd-49ca-84c5-e554a678661f/100000256-V53e%20Installation%20and%20Operation%20Manual.pdf)\n- **Electrical:** Transformer enclosure near kitchen, Meter & Shutoff by kitchen, Dedicated sub-panel\n- **Water:** Outdoor sink (hot/cold), Exterior spigot on building\n- **Winterization:** Must be drained in freezing months"
+          "content": "- **Water Heater:** Rinnai R75LS Tankless Water Heater (set at 135°F)\n- **Water Shut-off:** Dedicated shut-off valve for camp kitchen water supply\n- **Electrical Panels:**\n  - Square D main house disconnect panel\n  - Square D utility/generator transfer panel\n  - Sub-panel with breaker panel and circuit directory\n- **Generator (South Side):**\n  - Genset unit/shed behind Camp Kitchen\n  - Diesel engine with Legend battery\n  - Genset control panel\n  - Square D breaker panel\n\n### Generator Switchover Instructions (Transcribed from Handwritten Note)\n**Steps to Switch to Generator Power:**\n1. Start generator\n2. Turn off House Main Switch #1\n3. Turn off main switch on panel #2\n4. Switch #3 Transfer Switch to Gen.Set\n5. Turn on House Main Switch #1\n6. Turn on main switch on panel #2\n\n**To Switch Back to OPALCO Power:**\n1. Turn off House Main Switch #1\n2. Turn off main switch on panel #2\n3. Switch #3 Transfer Switch to OPALCO\n4. Turn off generator\n5. Turn on House Main Switch #1\n6. Turn on main switch on panel #2",
+          "items": [
+            {
+              "name": "Rinnai Tankless Water Heater",
+              "model": "R75LS",
+              "type": "Tankless water heater",
+              "temperature_setting": "135°F"
+            }
+          ],
+          "intro": "- **Water Heater:** Rinnai R75LS Tankless (set at 135°F)\n- **Electrical:** Square D disconnect panel, generator transfer panel, sub-panel with circuit directory\n- **Water:** Dedicated shut-off valve\n- **Generator:** Genset unit/shed on south side with diesel engine and Square D breaker panel",
+          "images": [
+            {
+              "url": "/images/camp-kitchen/utilities-and-systems/water-shutoff-valve.jpg",
+              "caption": "Water shut-off valve for camp kitchen"
+            },
+            {
+              "url": "/images/camp-kitchen/utilities-and-systems/utility-room-exterior.jpg",
+              "caption": "Utility room door/exterior"
+            },
+            {
+              "url": "/images/camp-kitchen/utilities-and-systems/main-house-disconnect-panel.jpg",
+              "caption": "Square D main house disconnect panel"
+            },
+            {
+              "url": "/images/camp-kitchen/utilities-and-systems/generator-transfer-panel.jpg",
+              "caption": "Square D utility/generator transfer panel"
+            },
+            {
+              "url": "/images/camp-kitchen/utilities-and-systems/sub-panel-closed.jpg",
+              "caption": "Sub-panel (closed view)"
+            },
+            {
+              "url": "/images/camp-kitchen/utilities-and-systems/breaker-panel-circuit-directory.jpg",
+              "caption": "Breaker panel with circuit directory"
+            },
+            {
+              "url": "/images/camp-kitchen/utilities-and-systems/generator-switchover-instructions.jpg",
+              "caption": "Generator switchover instructions (handwritten procedure — see transcription in Utilities & Systems section)"
+            },
+            {
+              "url": "/images/camp-kitchen/utilities-and-systems/rinnai-tankless-water-heater.jpg",
+              "caption": "Rinnai R75LS tankless water heater (set at 135°F)"
+            },
+            {
+              "url": "/images/camp-kitchen/utilities-and-systems/rinnai-water-heater-control-panel.jpg",
+              "caption": "Rinnai water heater control panel closeup"
+            },
+            {
+              "url": "/images/camp-kitchen/utilities-and-systems/genset-exterior.jpg",
+              "caption": "Genset unit/shed exterior (behind Camp Kitchen, south side)"
+            },
+            {
+              "url": "/images/camp-kitchen/utilities-and-systems/genset-exterior-angle.jpg",
+              "caption": "Genset from another angle"
+            },
+            {
+              "url": "/images/camp-kitchen/utilities-and-systems/genset-control-panel.jpg",
+              "caption": "Genset control panel"
+            },
+            {
+              "url": "/images/camp-kitchen/utilities-and-systems/genset-diesel-engine.jpg",
+              "caption": "Genset diesel engine with Legend battery"
+            },
+            {
+              "url": "/images/camp-kitchen/utilities-and-systems/genset-breaker-panel.jpg",
+              "caption": "Genset Square D breaker panel"
+            }
+          ]
         }
       ],
-      "intro": "**Status:** Documented"
+      "intro": "**Status:** Documented — 25 photos added February 26, 2026"
     },
     {
       "id": "caretaker",
@@ -531,7 +671,7 @@
       "id": "madrona-house",
       "title": "Madrona House",
       "intro": "The Madrona House is a residence on the property featuring dark brown and tan board-and-batten siding, a standing seam metal roof, and a large covered deck with peeled log post columns. It is situated in a woodland setting with a manicured lawn and flagstone patio.",
-      "content": "**Status:** Documented\n\n### Kitchen Appliances\n- **Dishwasher:** Frigidaire (Black, built-in \u2014 model number not readable from label)\n- **Range:** GE Electric Range (Black, 4-burner coil cooktop, digital clock/timer \u2014 no model/serial found)\n- **Microwave:** Sharp Carousel (White, countertop, Sensor Cook presets \u2014 no model/serial found)\n- **Refrigerator:** GE Model ETS22XBPBRBB, Serial AG309845 (Black, top-freezer, 110-127V, 11.6A, R134a 4.5 oz, Made in Mexico)\n\n### Laundry\n- **Washer:** LG Model WM3270CW, Serial 702VWFW1C667 (White, front-load, 120V, 60Hz, 5A, Made in Vietnam)\n- **Dryer:** LG Model DLE3170W, Serial 703KWTA14577 (White, front-load, 120/240V, 60Hz, 25A, Made in Korea)\n\n### Water Heater\n- **A.O. Smith** Model ES12-50R55DV 110, Serial 1735107390037 (50 Gal, 240V, 5500W, hybrid/heat pump, exterior closet on north end)\n\n### Electrical\n- **North Bedroom Panel:** Square D QO Load Center \u2014 circuits include Range, Hot Water, Living Room Heat, Dining, Bath Heat, Bedrooms, Entry, Outside, Porch/Water Heater, Smoke Detector/Lights\n- **South Bedroom Panel:** Square D QO Load Center, Cat No. HOM24/30UC \u2014 circuits include Portable/Ref, Laundry/Dryer, Stove; GFCI/AFCI breakers\n\n### Septic\n- **North:** Two green access risers in yard near deck steps\n- **South:** Two green access risers in mossy lawn near tree line; alarm panel and GFCI outlet on south exterior wall\n\n### Irrigation\n- In-ground valve box on north end; two solenoid valves controlled by Rain Bird ESP-ME3 at main house; includes flow sensor and anti-siphon backflow preventer",
+      "content": "**Status:** Documented\n\n### Kitchen Appliances\n- **Dishwasher:** Frigidaire (Black, built-in — model number not readable from label)\n- **Range:** GE Electric Range (Black, 4-burner coil cooktop, digital clock/timer — no model/serial found)\n- **Microwave:** Sharp Carousel (White, countertop, Sensor Cook presets — no model/serial found)\n- **Refrigerator:** GE Model ETS22XBPBRBB, Serial AG309845 (Black, top-freezer, 110-127V, 11.6A, R134a 4.5 oz, Made in Mexico)\n\n### Laundry\n- **Washer:** LG Model WM3270CW, Serial 702VWFW1C667 (White, front-load, 120V, 60Hz, 5A, Made in Vietnam)\n- **Dryer:** LG Model DLE3170W, Serial 703KWTA14577 (White, front-load, 120/240V, 60Hz, 25A, Made in Korea)\n\n### Water Heater\n- **A.O. Smith** Model ES12-50R55DV 110, Serial 1735107390037 (50 Gal, 240V, 5500W, hybrid/heat pump, exterior closet on north end)\n\n### Electrical\n- **North Bedroom Panel:** Square D QO Load Center — circuits include Range, Hot Water, Living Room Heat, Dining, Bath Heat, Bedrooms, Entry, Outside, Porch/Water Heater, Smoke Detector/Lights\n- **South Bedroom Panel:** Square D QO Load Center, Cat No. HOM24/30UC — circuits include Portable/Ref, Laundry/Dryer, Stove; GFCI/AFCI breakers\n\n### Septic\n- **North:** Two green access risers in yard near deck steps\n- **South:** Two green access risers in mossy lawn near tree line; alarm panel and GFCI outlet on south exterior wall\n\n### Irrigation\n- In-ground valve box on north end; two solenoid valves controlled by Rain Bird ESP-ME3 at main house; includes flow sensor and anti-siphon backflow preventer",
       "subsections": [
         {
           "id": "exterior",
@@ -542,15 +682,15 @@
           "images": [
             {
               "url": "/images/madrona-house/exterior/madrona-house-front.jpg",
-              "caption": "Madrona House \u2014 Front/Entry Side"
+              "caption": "Madrona House — Front/Entry Side"
             },
             {
               "url": "/images/madrona-house/exterior/madrona-yard-art-truck.jpg",
-              "caption": "Yard Art \u2014 Antique Truck Chassis (~1928-1931 Ford Model A/AA)"
+              "caption": "Yard Art — Antique Truck Chassis (~1928-1931 Ford Model A/AA)"
             },
             {
               "url": "/images/madrona-house/exterior/madrona-house-back.jpg",
-              "caption": "Madrona House \u2014 Back/Deck Side with Covered Veranda"
+              "caption": "Madrona House — Back/Deck Side with Covered Veranda"
             }
           ]
         },
@@ -563,7 +703,7 @@
           "images": [
             {
               "url": "/images/madrona-house/north-end/madrona-north-end.jpg",
-              "caption": "North End \u2014 Water Heater Door, Septic Alarm, Irrigation Controls, Crawl Space Access"
+              "caption": "North End — Water Heater Door, Septic Alarm, Irrigation Controls, Crawl Space Access"
             }
           ]
         },
@@ -580,7 +720,7 @@
             },
             {
               "url": "/images/madrona-house/water-heater/madrona-water-heater-label.jpg",
-              "caption": "A.O. Smith Water Heater Model Label \u2014 ES12-50R55DV 110"
+              "caption": "A.O. Smith Water Heater Model Label — ES12-50R55DV 110"
             }
           ]
         },
@@ -593,7 +733,7 @@
           "images": [
             {
               "url": "/images/madrona-house/irrigation/madrona-irrigation-valves.jpg",
-              "caption": "Irrigation Valve Box \u2014 Two Solenoid Valves, Flow Sensor, Backflow Preventer"
+              "caption": "Irrigation Valve Box — Two Solenoid Valves, Flow Sensor, Backflow Preventer"
             }
           ]
         },
@@ -606,19 +746,19 @@
           "images": [
             {
               "url": "/images/madrona-house/electrical/madrona-panel-north-location.jpg",
-              "caption": "North Bedroom Panel \u2014 Location on Knotty Pine Wall"
+              "caption": "North Bedroom Panel — Location on Knotty Pine Wall"
             },
             {
               "url": "/images/madrona-house/electrical/madrona-panel-north-open.jpg",
-              "caption": "North Bedroom Panel \u2014 Square D QO Load Center, Circuit Directory"
+              "caption": "North Bedroom Panel — Square D QO Load Center, Circuit Directory"
             },
             {
               "url": "/images/madrona-house/south-bedroom/madrona-panel-south-closed.jpg",
-              "caption": "South Bedroom Panel \u2014 Closed, Flush-Mounted in Closet Alcove"
+              "caption": "South Bedroom Panel — Closed, Flush-Mounted in Closet Alcove"
             },
             {
               "url": "/images/madrona-house/south-bedroom/madrona-panel-south-open.jpg",
-              "caption": "South Bedroom Panel \u2014 Square D HOM24/30UC Open, GFCI/AFCI Breakers"
+              "caption": "South Bedroom Panel — Square D HOM24/30UC Open, GFCI/AFCI Breakers"
             }
           ]
         },
@@ -626,12 +766,12 @@
           "id": "kitchen-appliances",
           "title": "Kitchen Appliances",
           "intro": "Black GE refrigerator, black GE range, black Frigidaire dishwasher, and white Sharp Carousel microwave.",
-          "content": "- **Dishwasher:** Frigidaire (Black, built-in \u2014 model number not readable from label; Electrolux Home Products)\n- **Range:** GE Electric Range (Black, 4-burner coil cooktop, digital clock/timer \u2014 no model/serial found)\n- **Microwave:** Sharp Carousel (White, countertop, Sensor Cook presets \u2014 no model/serial found)\n- **Refrigerator:** GE Model ETS22XBPBRBB, Serial AG309845 (Black, top-freezer, 110-127V, 11.6A, R134a 4.5 oz, Made in Mexico, Appliance Park, Louisville KY)",
+          "content": "- **Dishwasher:** Frigidaire (Black, built-in — model number not readable from label; Electrolux Home Products)\n- **Range:** GE Electric Range (Black, 4-burner coil cooktop, digital clock/timer — no model/serial found)\n- **Microwave:** Sharp Carousel (White, countertop, Sensor Cook presets — no model/serial found)\n- **Refrigerator:** GE Model ETS22XBPBRBB, Serial AG309845 (Black, top-freezer, 110-127V, 11.6A, R134a 4.5 oz, Made in Mexico, Appliance Park, Louisville KY)",
           "items": [],
           "images": [
             {
               "url": "/images/madrona-house/kitchen-appliances/madrona-dishwasher.jpg",
-              "caption": "Frigidaire Dishwasher \u2014 Black, Built-In"
+              "caption": "Frigidaire Dishwasher — Black, Built-In"
             },
             {
               "url": "/images/madrona-house/kitchen-appliances/madrona-dishwasher-label.jpg",
@@ -639,19 +779,19 @@
             },
             {
               "url": "/images/madrona-house/kitchen-appliances/madrona-range.jpg",
-              "caption": "GE Electric Range \u2014 Black, 4-Burner Coil Cooktop"
+              "caption": "GE Electric Range — Black, 4-Burner Coil Cooktop"
             },
             {
               "url": "/images/madrona-house/kitchen-appliances/madrona-microwave.jpg",
-              "caption": "Sharp Carousel Microwave \u2014 White, Countertop"
+              "caption": "Sharp Carousel Microwave — White, Countertop"
             },
             {
               "url": "/images/madrona-house/kitchen-appliances/madrona-refrigerator.jpg",
-              "caption": "GE Refrigerator \u2014 Black, Top-Freezer"
+              "caption": "GE Refrigerator — Black, Top-Freezer"
             },
             {
               "url": "/images/madrona-house/kitchen-appliances/madrona-refrigerator-label.jpg",
-              "caption": "GE Refrigerator Label \u2014 Model ETS22XBPBRBB, Serial AG309845"
+              "caption": "GE Refrigerator Label — Model ETS22XBPBRBB, Serial AG309845"
             }
           ]
         },
@@ -664,15 +804,15 @@
           "images": [
             {
               "url": "/images/madrona-house/laundry/madrona-washer-dryer.jpg",
-              "caption": "LG Stacked Washer and Dryer \u2014 White, Front-Load"
+              "caption": "LG Stacked Washer and Dryer — White, Front-Load"
             },
             {
               "url": "/images/madrona-house/laundry/madrona-washer-label.jpg",
-              "caption": "LG Washer Label \u2014 Model WM3270CW, Serial 702VWFW1C667"
+              "caption": "LG Washer Label — Model WM3270CW, Serial 702VWFW1C667"
             },
             {
               "url": "/images/madrona-house/laundry/madrona-dryer-label.jpg",
-              "caption": "LG Dryer Label \u2014 Model DLE3170W, Serial 703KWTA14577"
+              "caption": "LG Dryer Label — Model DLE3170W, Serial 703KWTA14577"
             }
           ]
         },
@@ -685,7 +825,7 @@
           "images": [
             {
               "url": "/images/madrona-house/south-bedroom/madrona-south-bedroom-closet.jpg",
-              "caption": "South Bedroom Walk-In Closet \u2014 Built-In Maple Shelving and Storage"
+              "caption": "South Bedroom Walk-In Closet — Built-In Maple Shelving and Storage"
             }
           ]
         },
@@ -698,15 +838,15 @@
           "images": [
             {
               "url": "/images/madrona-house/septic/madrona-septic-north.jpg",
-              "caption": "North Septic \u2014 Two Green Access Risers Near Deck Steps"
+              "caption": "North Septic — Two Green Access Risers Near Deck Steps"
             },
             {
               "url": "/images/madrona-house/septic/madrona-septic-alarm-south.jpg",
-              "caption": "South Septic \u2014 Alarm Panel and GFCI Outlet on South Exterior Wall"
+              "caption": "South Septic — Alarm Panel and GFCI Outlet on South Exterior Wall"
             },
             {
               "url": "/images/madrona-house/septic/madrona-septic-tank-south.jpg",
-              "caption": "South Septic \u2014 Two Green Access Risers in Mossy Lawn Near Tree Line"
+              "caption": "South Septic — Two Green Access Risers in Mossy Lawn Near Tree Line"
             }
           ]
         }
@@ -732,7 +872,7 @@
         {
           "id": "interior",
           "title": "Interior",
-          "content": "The interior currently has gym equipment (Nautilus weights, power rack, bench) stored in front of the generator, blocking access. This is a maintenance priority \u2014 see maintenance checklist item #8.",
+          "content": "The interior currently has gym equipment (Nautilus weights, power rack, bench) stored in front of the generator, blocking access. This is a maintenance priority — see maintenance checklist item #8.",
           "items": [],
           "images": [
             {
@@ -744,7 +884,7 @@
         {
           "id": "equipment",
           "title": "Generator Equipment",
-          "content": "**Northern Lights Series 3 Generator** \u2014 [Operator's Manual](https://www.northern-lights.com/media/PDFs/manual_pdfs/ONL944.pdf)\n- **Serial:** LM176191-1294\n- **Part:** 36081853\n- **Output:** 36 kW (Prime) / 40 kW (Standby)\n- **Voltage:** 120/240V, 150A\n- **Engine Hours:** ~345 (Feb 2026)\n\n**John Deere Engine** \u2014 [Operator's Manual](https://csdieselgenerators.com/Images/Generators/2079/John_Deere_300_3029_4039_4045_6059_6068_engine_operation_and_service_manual.pdf)\n- **Model:** 4039DF001\n- **Serial:** T04039D474319\n- **Manufacturer:** Deere & Company, Moline, Illinois",
+          "content": "**Northern Lights Series 3 Generator** — [Operator's Manual](https://www.northern-lights.com/media/PDFs/manual_pdfs/ONL944.pdf)\n- **Serial:** LM176191-1294\n- **Part:** 36081853\n- **Output:** 36 kW (Prime) / 40 kW (Standby)\n- **Voltage:** 120/240V, 150A\n- **Engine Hours:** ~345 (Feb 2026)\n\n**John Deere Engine** — [Operator's Manual](https://csdieselgenerators.com/Images/Generators/2079/John_Deere_300_3029_4039_4045_6059_6068_engine_operation_and_service_manual.pdf)\n- **Model:** 4039DF001\n- **Serial:** T04039D474319\n- **Manufacturer:** Deere & Company, Moline, Illinois",
           "items": [
             {
               "name": "Northern Lights Series 3 Generator",
@@ -785,7 +925,7 @@
         {
           "id": "electrical",
           "title": "Electrical & Transfer Switch",
-          "content": "**Power Switchover \u2014 To Generator:**\n1. Turn on OPALCO flood light\n2. Turn main switch to OFF\n3. Start generator \u2014 warm up\n4. Turn main switch to GENSET\n\n**Power Switchover \u2014 To OPALCO:**\n1. Turn main switch to OFF\n2. Turn off generator\n3. Turn main switch to OPALCO\n4. Turn off OPALCO flood light\n\n**Transfer Switch:** Square D manual safety switch, 3-position (GENSET / OFF / OPALCO)\n\n**Distribution Panel:** Square D QO Load Center serving Beach House, Farm House, Caretaker's House, and sub-panel circuits.\n\n**Sub-Panel:** Square D QO2-4L70S \u2014 [View Manual](https://download.schneider-electric.com/files?p_enDocType=Instruction+sheet&p_File_Name=S1B33894.pdf&p_Doc_Ref=S1B33894), 70A, 240V, Single Phase. Labeled 'CHARGE ONLY / PLUGS'.",
+          "content": "**Power Switchover — To Generator:**\n1. Turn on OPALCO flood light\n2. Turn main switch to OFF\n3. Start generator — warm up\n4. Turn main switch to GENSET\n\n**Power Switchover — To OPALCO:**\n1. Turn main switch to OFF\n2. Turn off generator\n3. Turn main switch to OPALCO\n4. Turn off OPALCO flood light\n\n**Transfer Switch:** Square D manual safety switch, 3-position (GENSET / OFF / OPALCO)\n\n**Distribution Panel:** Square D QO Load Center serving Beach House, Farm House, Caretaker's House, and sub-panel circuits.\n\n**Sub-Panel:** Square D QO2-4L70S — [View Manual](https://download.schneider-electric.com/files?p_enDocType=Instruction+sheet&p_File_Name=S1B33894.pdf&p_Doc_Ref=S1B33894), 70A, 240V, Single Phase. Labeled 'CHARGE ONLY / PLUGS'.",
           "items": [],
           "images": [
             {
@@ -880,7 +1020,7 @@
               "caption": "Two North Star Commercial Universal Control panels for the water softening system. The left unit shows a water flow rate of 2.0 GPM."
             }
           ],
-          "content": "**Well & Water Treatment Equipment:**\n\n- **Well Pump Motor Control:** Franklin Electric Submersible Motor Control \u2014 [AIM Manual](https://www.geotechenv.com/Manuals/Franklin_AIM/Electric_Submersible_Motors_AIM.pdf)\n- **Pump Protector:** SymCom PumpSaver Model SP-23 (233P) \u2014 [View Manual](https://www.xylem.com/siteassets/brand/goulds-water-technology/resources/manual/ii_233p-111p-233p-1.5_a1.pdf)\n- **Water Softener Controllers:** North Star Commercial Universal Control (x2) \u2014 [Owner's Manuals](https://northstarwater.zendesk.com/hc/en-us/categories/4403157826455-Owner-s-Manuals)\n- **Distribution Manifold:** Multiple PVC branch lines with red-handled ball valves\n\n> **Maintenance Note:** A crack is visible in the concrete slab near the well head \u2014 monitor and repair as needed."
+          "content": "**Well & Water Treatment Equipment:**\n\n- **Well Pump Motor Control:** Franklin Electric Submersible Motor Control — [AIM Manual](https://www.geotechenv.com/Manuals/Franklin_AIM/Electric_Submersible_Motors_AIM.pdf)\n- **Pump Protector:** SymCom PumpSaver Model SP-23 (233P) — [View Manual](https://www.xylem.com/siteassets/brand/goulds-water-technology/resources/manual/ii_233p-111p-233p-1.5_a1.pdf)\n- **Water Softener Controllers:** North Star Commercial Universal Control (x2) — [Owner's Manuals](https://northstarwater.zendesk.com/hc/en-us/categories/4403157826455-Owner-s-Manuals)\n- **Distribution Manifold:** Multiple PVC branch lines with red-handled ball valves\n\n> **Maintenance Note:** A crack is visible in the concrete slab near the well head — monitor and repair as needed."
         },
         {
           "id": "electrical",
@@ -891,7 +1031,7 @@
               "caption": "The main Square D QO electrical panel (200A) for the pump shed, with circuits for the pump, controls, and other buildings."
             }
           ],
-          "content": "**Electrical Panel:** Square D QO Load Center, 200A \u2014 [View Manual](https://download.schneider-electric.com/files?p_enDocType=Instruction+sheet&p_File_Name=S1B33894.pdf&p_Doc_Ref=S1B33894)\n\nThe panel serves the pump, controls, and other buildings on the property."
+          "content": "**Electrical Panel:** Square D QO Load Center, 200A — [View Manual](https://download.schneider-electric.com/files?p_enDocType=Instruction+sheet&p_File_Name=S1B33894.pdf&p_Doc_Ref=S1B33894)\n\nThe panel serves the pump, controls, and other buildings on the property."
         }
       ]
     },
