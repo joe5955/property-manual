@@ -182,35 +182,10 @@
         {
           "id": "appliances-camp",
           "title": "Appliances",
-          "content": "- **Stove:**\n- **Refrigerator (Amana):**\n- **Refrigerator (Camp Kitchen):**\n- **Rinnai Water Heater:** *Fuel: Propane*",
+          "content": "### Refrigerator (Amana)\n\n![Amana Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/DYMwnZAYjYUbiFCz.jpg)\n\n![Amana Refrigerator Data Plate](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/FQQmmktdylASMQiL.jpg)\n\n**Brand:** Amana\n**Model:** [To be extracted from data plate]\n**Serial:** [To be extracted from data plate]\n**Type:** Refrigerator\n**Location:** Camp Kitchen\n\n---\n\n### Range (GE Profile)\n\n![GE Profile Range](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ByzTDFOyCssgWyXR.jpg)\n\n![GE Profile Range Control Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/xOzyQbfWHLBderRg.jpg)\n\n**Brand:** GE Profile\n**Model:** [To be extracted from control panel]\n**Type:** Gas or Electric Range\n**Location:** Camp Kitchen\n\n---\n\n### Dishwasher (Maytag)\n\n![Maytag Dishwasher](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mAGuJIpcwnrpBwmV.jpg)\n\n![Maytag Dishwasher Data Plate](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/FxRrxmrXWTUoQLbS.jpg)\n\n**Brand:** Maytag\n**Model:** [To be extracted from data plate]\n**Serial:** [To be extracted from data plate]\n**Type:** Dishwasher\n**Location:** Camp Kitchen",
           "items": [],
-          "intro": "- **Stove:**\n  ![Stove](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mNbQjYxZzQjJkLwP.jpg)\n- **Refrigerator (Amana):**\n  ![Amana Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/jYxZzQjJkLwPmNbQ.jpg)\n- **Refrigerator (Camp Kitchen):**\n  ![Camp Kitchen Refrigerator](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/zQjJkLwPmNbQjYxZ.jpg)\n- **Rinnai Water Heater:**\n  ![Rinnai Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/07bca6a5-60ed-4caf-8b68-2f58b9180c821930086556249108561.jpg)\n  *Fuel: Propane*",
-          "images": [
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/FQQmmktdylASMQiL.jpg",
-              "caption": "Amana Refrigerator Data Plate"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/DYMwnZAYjYUbiFCz.jpg",
-              "caption": "Amana Refrigerator"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/xOzyQbfWHLBderRg.jpg",
-              "caption": "Ge Profile Range Control Panel"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ByzTDFOyCssgWyXR.jpg",
-              "caption": "Ge Profile Range"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/FxRrxmrXWTUoQLbS.jpg",
-              "caption": "Maytag Dishwasher Data Plate"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mAGuJIpcwnrpBwmV.jpg",
-              "caption": "Maytag Dishwasher"
-            }
-          ]
+          "intro": "Camp Kitchen appliances including refrigerator, range, and dishwasher with model information and photos.",
+          "images": []
         },
         {
           "id": "central-utilities",

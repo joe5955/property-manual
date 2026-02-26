@@ -132,3 +132,5 @@
 - [x] **Upload to CDN:** Upload all Camp Kitchen photos to CDN (25 photos: 6 appliances, 5 structure, 14 utilities)
 - [x] **Replace URLs:** Update manual-data.json with new CDN URLs (25 photos mapped to subsections)
 - [x] **Verify Clean Display:** Confirm photos display without text overlays ✓ SUCCESS - all photos clean!
+
+- [x] **Reorganize Appliance Photos:** Display photos under each corresponding appliance instead of grouped at bottom

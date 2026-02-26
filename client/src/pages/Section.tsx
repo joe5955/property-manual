@@ -171,8 +171,8 @@ export default function Section() {
                     </div>
                   )}
 
-                  {/* If no items but content exists */}
-                  {(!subsection.items || subsection.items.length === 0) && subsection.content && !subsection.intro && (
+                  {/* Render content if it exists (regardless of intro) */}
+                  {(!subsection.items || subsection.items.length === 0) && subsection.content && (
                     <div className="text-sm leading-relaxed">
                       <div className="prose prose-stone dark:prose-invert max-w-none">
                         <Streamdown>{subsection.content}</Streamdown>
