@@ -136,3 +136,5 @@
 - [x] **Reorganize Appliance Photos:** Display photos under each corresponding appliance instead of grouped at bottom
 
 - [x] **Reorganize Generator System Photos:** Display photos under each corresponding component instead of grouped at bottom
+
+- [x] **Move Picnic Shelter Photo:** Move Picnic Shelter photo from Camp Kitchen section to Picnic Shelter section

@@ -282,10 +282,6 @@
             {
               "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/wNoQxhlZzDoNHSOf.jpg",
               "caption": "Changing Room Shower Area"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/lqaWjVrlwNjDJafZ.jpg",
-              "caption": "Picnic Shelter Exterior"
             }
           ]
         },
@@ -303,9 +299,9 @@
     {
       "id": "picnic-shelter",
       "title": "Picnic Shelter",
-      "content": "**Status:** Documented\n\nThe Picnic Shelter area contains multiple irrigation valve boxes for controlling water distribution.\n\n![Picnic Shelter - Irrigation Valve Boxes - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ovWGhZSWhHoFYCYh.jpg)\n\n**Picnic Shelter - Irrigation Valve Boxes - Exterior**\n\n---\n\n![Picnic Shelter - Irrigation Valve Boxes - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/RKPEOwBboDVdwUMI.jpg)\n\n**Picnic Shelter - Irrigation Valve Boxes - Exterior**\n\n---\n\n![Picnic Shelter - Irrigation Valve Boxes - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mQyAWYdwZalaPwkc.jpg)\n\n**Picnic Shelter - Irrigation Valve Boxes - Exterior**\n\n---\n\n![Picnic Shelter - Irrigation Valve Boxes - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/VRlAzToMNnbxmsNQ.jpg)\n\n**Picnic Shelter - Irrigation Valve Boxes - Exterior**\n\n---\n\n",
+      "content": "**Status:** Documented\n\n### Picnic Shelter Structure\n\n![Picnic Shelter Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/lqaWjVrlwNjDJafZ.jpg)\n\n**Picnic Shelter Exterior**\n\nOutdoor covered shelter structure for dining and gatherings.\n\n---\n\n### Irrigation Valve Boxes\n\nThe Picnic Shelter area contains multiple irrigation valve boxes for controlling water distribution.\n\n![Picnic Shelter - Irrigation Valve Boxes - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ovWGhZSWhHoFYCYh.jpg)\n\n**Picnic Shelter - Irrigation Valve Boxes - Exterior**\n\n---\n\n![Picnic Shelter - Irrigation Valve Boxes - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/RKPEOwBboDVdwUMI.jpg)\n\n**Picnic Shelter - Irrigation Valve Boxes - Exterior**\n\n---\n\n![Picnic Shelter - Irrigation Valve Boxes - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mQyAWYdwZalaPwkc.jpg)\n\n**Picnic Shelter - Irrigation Valve Boxes - Exterior**\n\n---\n\n![Picnic Shelter - Irrigation Valve Boxes - Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/VRlAzToMNnbxmsNQ.jpg)\n\n**Picnic Shelter - Irrigation Valve Boxes - Exterior**\n\n---\n\n",
       "subsections": [],
-      "intro": "**Status:** Documented\n\nThe Picnic Shelter area contains multiple irrigation valve boxes for controlling water distribution."
+      "intro": "**Status:** Documented\n\nOutdoor covered shelter structure for dining and gatherings. Area includes multiple irrigation valve boxes for controlling water distribution."
     },
     {
       "id": "beach-house",

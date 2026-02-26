@@ -207,7 +207,7 @@ export default function Section() {
             })}
 
             {/* Fallback if no subsections */}
-            {section.subsections.length === 0 && section.content && !section.intro && (
+            {section.subsections.length === 0 && section.content && (
               <Card>
                 <CardContent className="p-6">
                   <div className="prose prose-stone dark:prose-invert max-w-none">
