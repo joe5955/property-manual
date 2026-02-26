@@ -207,36 +207,8 @@
               "caption": "Generator Transfer Panel"
             },
             {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/HJoYfFiyCqTlKrZc.jpg",
-              "caption": "Genset Breaker Panel"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/KuWBQgcDIAdWDHSK.jpg",
-              "caption": "Genset Control Panel"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/qBmGhpQtCfjUmOtZ.jpg",
-              "caption": "Genset Diesel Engine"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/PfDxVicoreTqjXbR.jpg",
-              "caption": "Genset Exterior Angle"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/bkAexaDOXojZMxSW.jpg",
-              "caption": "Genset Exterior"
-            },
-            {
               "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/uifDjSuNbQsEEpiB.jpg",
               "caption": "Main House Disconnect Panel"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/aHBYvHAlilRIPRFF.jpg",
-              "caption": "Rinnai Tankless Water Heater"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/cyEkQAVeqzggTXyd.jpg",
-              "caption": "Rinnai Water Heater Control Panel"
             },
             {
               "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ksvLDLSVdXAyVihi.jpg",
@@ -255,7 +227,7 @@
         {
           "id": "generator-system",
           "title": "Generator System",
-          "content": "**Location:** Behind Camp Kitchen Shelter\n\n### Generator Unit (Dayton)\n\n![Generator Cover On - North View](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/QjJkLwPmNbQjYxZz.jpg)\n\n![Generator Cover Off - North View](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/iUzQjJkLwPmNbQjY.jpg)\n\n![Generator East View](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/PmNbQjYxZzQjJkLw.jpg)\n\n**Brand:** Dayton\n**Model:** [To be extracted from photos]\n**Serial:** [To be extracted from photos]\n**Fuel Type:** Diesel\n**Location:** Behind Camp Kitchen Shelter\n**Enclosure:** Weather-protected housing with removable cover\n\n---\n\n### Generator Enclosure\n\n![Generator Shed](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/NbQjYxZzQjJkLwPm.jpg)\n\n**Type:** Outdoor protective enclosure\n**Construction:** Metal housing with access panels\n**Location:** Behind Camp Kitchen Shelter\n**Features:** Ventilation, weather protection, sound dampening",
+          "content": "**Location:** Behind Camp Kitchen Shelter\n\n### Generator Unit (Dayton)\n\n![Generator Cover On - North View](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/QjJkLwPmNbQjYxZz.jpg)\n\n![Generator Cover Off - North View](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/iUzQjJkLwPmNbQjY.jpg)\n\n![Generator East View](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/PmNbQjYxZzQjJkLw.jpg)\n\n![Genset Exterior](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/bkAexaDOXojZMxSW.jpg)\n\n![Genset Exterior Angle](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/PfDxVicoreTqjXbR.jpg)\n\n**Brand:** Dayton\n**Model:** [To be extracted from photos]\n**Serial:** [To be extracted from photos]\n**Fuel Type:** Diesel\n**Location:** Behind Camp Kitchen Shelter\n**Enclosure:** Weather-protected housing with removable cover\n\n---\n\n### Generator Control Panels\n\n![Genset Control Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/KuWBQgcDIAdWDHSK.jpg)\n\n![Genset Breaker Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/HJoYfFiyCqTlKrZc.jpg)\n\n**Control Panel:** Generator operating controls and status indicators\n**Breaker Panel:** Circuit protection for generator output\n\n---\n\n### Generator Engine\n\n![Genset Diesel Engine](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/qBmGhpQtCfjUmOtZ.jpg)\n\n**Engine Type:** Diesel\n**Maintenance:** Regular oil changes and fuel system maintenance required\n\n---\n\n### Generator Enclosure\n\n![Generator Shed](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/NbQjYxZzQjJkLwPm.jpg)\n\n**Type:** Outdoor protective enclosure\n**Construction:** Metal housing with access panels\n**Location:** Behind Camp Kitchen Shelter\n**Features:** Ventilation, weather protection, sound dampening",
           "items": [],
           "intro": "Backup power generation system located behind Camp Kitchen Shelter. Includes Dayton diesel generator with protective enclosure and transfer switch for emergency power.",
           "images": []
@@ -288,7 +260,7 @@
         {
           "id": "water-heater-camp",
           "title": "Water Heater",
-          "content": "![Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TVXbeLJBrtMTMeiC.jpg)\n\n**Rinnai On-Demand Water Heater**\n\nLocated in utility room.",
+          "content": "![Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TVXbeLJBrtMTMeiC.jpg)\n\n![Rinnai Tankless Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/aHBYvHAlilRIPRFF.jpg)\n\n![Rinnai Water Heater Control Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/cyEkQAVeqzggTXyd.jpg)\n\n**Rinnai On-Demand Water Heater**\n\n**Brand:** Rinnai\n**Type:** Tankless/On-Demand\n**Location:** Utility room\n**Features:** Energy-efficient tankless design, digital control panel",
           "items": [],
           "intro": "![Water Heater](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/TVXbeLJBrtMTMeiC.jpg)\n\n**Rinnai On-Demand Water Heater**\n\nLocated in utility room.",
           "images": []
