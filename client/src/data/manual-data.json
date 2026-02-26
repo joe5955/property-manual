@@ -261,51 +261,10 @@
         {
           "id": "appliances",
           "title": "Appliances",
-          "content": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRBP1031T | ~19 years old (2007 model) | **Replacement Recommended** - Nearing end of life. |\n| Range | Bosch Electric Range | Good Condition | Stainless steel, ceramic cooktop, convection oven. |\n| Dishwasher | Bosch 300 Series | ~7 years old (2019 model) | Good condition. |\n| Washer | Maytag MHW8200FC0 | ~8 years old (2018 model) | Good condition. |\n| Dryer | Maytag MED8200FC2 | ~8 years old (2018 model) | Good condition. |",
+          "content": "### Refrigerator (LG)\n\n![Refrigerator Lg Kitchen Overview](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/nCZaFOWhIVlZvVOS.jpg)\n\n![Refrigerator Lg Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/MGTzjApIkPZfEBJn.jpg)\n\n**Brand:** LG\n**Model:** LRBP1031T\n**Age:** ~19 years old (2007 model)\n**Status:** **Replacement Recommended** - Nearing end of life\n**Location:** Beach House Kitchen\n\n---\n\n### Range (Bosch Electric)\n\n![Range Bosch Full View](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/zbRADdCkvZLQqoHu.jpg)\n\n![Range Bosch Control Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/lSbKXvbgNyeoIeDd.jpg)\n\n**Brand:** Bosch\n**Type:** Electric Range\n**Condition:** Good\n**Features:** Stainless steel, ceramic cooktop, convection oven\n**Location:** Beach House Kitchen\n\n---\n\n### Dishwasher (Bosch 300 Series)\n\n![Dishwasher Bosch Closed](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mvmGtSVnCgZmitMY.jpg)\n\n![Dishwasher Bosch Control Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/MSfHBnXIkiCcgUOs.jpg)\n\n**Brand:** Bosch\n**Series:** 300 Series\n**Age:** ~7 years old (2019 model)\n**Condition:** Good\n**Location:** Beach House Kitchen\n\n---\n\n### Microwave (Bosch)\n\n![Microwave Bosch Overview](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ldAHfaWvIiEOtWvR.jpg)\n\n![Microwave Bosch Label](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/lABzWsaCvVbBVpCP.jpg)\n\n**Brand:** Bosch\n**Type:** Built-in Microwave\n**Location:** Beach House Kitchen\n\n---\n\n### Washer (Maytag)\n\n**Brand:** Maytag\n**Model:** MHW8200FC0\n**Age:** ~8 years old (2018 model)\n**Condition:** Good\n**Location:** Beach House Laundry\n\n---\n\n### Dryer (Maytag)\n\n**Brand:** Maytag\n**Model:** MED8200FC2\n**Age:** ~8 years old (2018 model)\n**Condition:** Good\n**Location:** Beach House Laundry",
           "items": [],
-          "intro": "| Item | Brand/Model | Age/Condition | Notes |\n|------|-------------|---------------|-------|\n| Refrigerator | LG LRBP1031T | ~19 years old (2007 model) | **Replacement Recommended** - Nearing end of life. |\n| Range | Bosch Electric Range | Good Condition | Stainless steel, ceramic cooktop, convection oven. |\n| Dishwasher | Bosch 300 Series | ~7 years old (2019 model) | Good condition. |\n| Washer | Maytag MHW8200FC0 | ~8 years old (2018 model) | Good condition. |\n| Dryer | Maytag MED8200FC2 | ~8 years old (2018 model) | Good condition. |",
-          "images": [
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/mvmGtSVnCgZmitMY.jpg",
-              "caption": "Dishwasher Bosch Closed",
-              "filename": "01_dishwasher_bosch_closed.jpg"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/MSfHBnXIkiCcgUOs.jpg",
-              "caption": "Dishwasher Bosch Control Panel",
-              "filename": "02_dishwasher_bosch_control_panel.jpg"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/zbRADdCkvZLQqoHu.jpg",
-              "caption": "Range Bosch Full View",
-              "filename": "03_range_bosch_full_view.jpg"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/lSbKXvbgNyeoIeDd.jpg",
-              "caption": "Range Bosch Control Panel",
-              "filename": "04_range_bosch_control_panel.jpg"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/nCZaFOWhIVlZvVOS.jpg",
-              "caption": "Refrigerator Lg Kitchen Overview",
-              "filename": "05_refrigerator_lg_kitchen_overview.jpg"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/MGTzjApIkPZfEBJn.jpg",
-              "caption": "Refrigerator Lg Label",
-              "filename": "06_refrigerator_lg_label.jpg"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/ldAHfaWvIiEOtWvR.jpg",
-              "caption": "Microwave Bosch Overview",
-              "filename": "07_microwave_bosch_overview.jpg"
-            },
-            {
-              "url": "https://files.manuscdn.com/user_upload_by_module/session_file/113311765/lABzWsaCvVbBVpCP.jpg",
-              "caption": "Microwave Bosch Label",
-              "filename": "08_microwave_bosch_label.jpg"
-            }
-          ]
+          "intro": "Beach House appliances including refrigerator, range, dishwasher, microwave, washer, and dryer with model information and photos.",
+          "images": []
         },
         {
           "id": "water-heater-beach",
