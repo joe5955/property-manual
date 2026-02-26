@@ -144,3 +144,5 @@
 - [x] **Reorganize Central Utilities Photos:** Place each component's photo directly under its description instead of grouped at bottom
 
 - [x] **Remove Electrical Panel from Water Heater Section:** Removed misplaced electrical panel photo from Water Heater section (was incorrectly labeled as water heater)
+
+- [x] **Fix Appliances Section Duplication:** Remove duplicate appliance listings and embed photos directly under each appliance description
