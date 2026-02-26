@@ -108,3 +108,14 @@
 - [x] **Get GitHub Photos:** Fresh clone and upload all photos from GitHub repository to CDN (133 photos uploaded)
 - [x] **Replace Photo URLs:** Update all manual-data.json photo URLs to use GitHub-sourced clean photos (71 photos updated across 10 buildings)
 - [x] **Document Workflow:** Create PHOTO_WORKFLOW.md documenting GitHub-only process
+
+## Picnic Shelter Photos Missing
+- [ ] **Check GitHub Repository:** Verify if Picnic Shelter photos exist in GitHub repository
+- [ ] **Upload Photos:** If photos exist, upload to CDN
+- [ ] **Integrate Photos:** Add photos to Picnic Shelter section in manual-data.json
+- [ ] **Verify Display:** Check that Picnic Shelter photos display correctly
+
+## Layout Width Adjustment
+- [x] **Increase Main Content Width:** Make center content area approximately twice as wide on laptop screens (max-w-5xl → max-w-7xl)
+- [x] **Adjust Sidebar Width:** Make sidebar narrower to accommodate wider content area (w-72 → w-64 on desktop)
+- [x] **Test Responsive Layout:** Verify layout works on different screen sizes (mobile keeps w-72, desktop uses w-64)

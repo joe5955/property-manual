@@ -68,7 +68,7 @@ export default function Layout({ children }: LayoutProps) {
       {/* Sidebar Navigation */}
       <aside 
         className={cn(
-          "fixed inset-y-0 left-0 z-40 w-72 bg-sidebar border-r border-sidebar-border transform transition-transform duration-300 ease-in-out lg:translate-x-0 shadow-xl lg:shadow-none",
+          "fixed inset-y-0 left-0 z-40 w-72 lg:w-64 bg-sidebar border-r border-sidebar-border transform transition-transform duration-300 ease-in-out lg:translate-x-0 shadow-xl lg:shadow-none",
           sidebarOpen ? "translate-x-0" : "-translate-x-full"
         )}
       >
@@ -205,17 +205,17 @@ export default function Layout({ children }: LayoutProps) {
       {/* Main Content */}
       <main 
         className={cn(
-          "lg:pl-72 min-h-screen transition-all duration-300",
+          "lg:pl-64 min-h-screen transition-all duration-300",
           "pt-16 lg:pt-0" // Add padding for mobile header
         )}
       >
-        <div className="container max-w-5xl mx-auto p-4 md:p-8 lg:p-12 animate-in fade-in slide-in-from-bottom-4 duration-500">
+        <div className="container max-w-full lg:max-w-7xl mx-auto p-4 md:p-8 lg:p-12 animate-in fade-in slide-in-from-bottom-4 duration-500">
           {children}
         </div>
         
         {/* Footer */}
-        <footer className="lg:pl-72 py-8 border-t border-border/40 mt-auto">
-          <div className="container max-w-5xl mx-auto px-4 text-center md:text-left">
+        <footer className="lg:pl-64 py-8 border-t border-border/40 mt-auto">
+          <div className="container max-w-full lg:max-w-7xl mx-auto px-4 text-center md:text-left">
             <p className="text-sm text-muted-foreground">
               &copy; {new Date().getFullYear()} San Juan County Estate Property Manual. Confidential Document.
             </p>
