@@ -170,3 +170,4 @@
 - [ ] **Display Manual Links:** Update Section.tsx to display "View Manual" links for equipment with manual URLs
 - [ ] **Verify All Links:** Test that all manual links work and point to correct documentation
 - [x] Reduce image display size to 50% on all section pages
+- [x] Remove all manual/owner's manual photos from all sections (will be replaced by links)
