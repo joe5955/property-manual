@@ -87,9 +87,9 @@ export default function Section() {
         <Separator />
 
         {/* Main Content */}
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
           {/* Content Area */}
-          <div className="lg:col-span-3 space-y-8">
+          <div className="lg:col-span-4 space-y-8">
             {/* Intro Content */}
             {section.intro && (
               <Card className="border-none shadow-none bg-transparent">

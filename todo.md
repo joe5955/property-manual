@@ -171,3 +171,4 @@
 - [ ] **Verify All Links:** Test that all manual links work and point to correct documentation
 - [x] Reduce image display size to 50% on all section pages
 - [x] Remove all manual/owner's manual photos from all sections (will be replaced by links)
+- [x] Match section page content width to the wider layout used on the home/dashboard page
