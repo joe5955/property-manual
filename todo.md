@@ -163,3 +163,10 @@
 - [ ] **Investigate White Genset:** Check for photos and information about white generator unit
 
 - [x] **Fix HTML Nesting Error:** Fix invalid <p> containing <div> error on Main House section page (RESOLVED - added custom img component to Streamdown)
+
+## Manufacturer Manual Links
+- [ ] **Search for Manufacturer Manuals:** Find online PDF manuals for all appliances and equipment
+- [ ] **Add Manual Links to Data:** Add manufacturer manual URLs to manual-data.json for each appliance
+- [ ] **Display Manual Links:** Update Section.tsx to display "View Manual" links for equipment with manual URLs
+- [ ] **Verify All Links:** Test that all manual links work and point to correct documentation
+- [x] Reduce image display size to 50% on all section pages

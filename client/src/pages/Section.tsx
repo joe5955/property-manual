@@ -98,7 +98,7 @@ export default function Section() {
                     <Streamdown
                       components={{
                         img: ({ src, alt }) => (
-                          <img src={src} alt={alt} className="rounded-lg w-full h-auto" loading="lazy" />
+                          <img src={src} alt={alt} className="rounded-lg max-w-[50%] h-auto" loading="lazy" />
                         ),
                       }}
                     >{section.intro}</Streamdown>
@@ -156,7 +156,7 @@ export default function Section() {
                       <Streamdown
                         components={{
                           img: ({ src, alt }) => (
-                            <img src={src} alt={alt} className="rounded-lg w-full h-auto" loading="lazy" />
+                            <img src={src} alt={alt} className="rounded-lg max-w-[50%] h-auto" loading="lazy" />
                           ),
                         }}
                       >{subsection.intro}</Streamdown>
@@ -185,7 +185,7 @@ export default function Section() {
                       <Streamdown
                         components={{
                           img: ({ src, alt }) => (
-                            <img src={src} alt={alt} className="rounded-lg w-full h-auto" loading="lazy" />
+                            <img src={src} alt={alt} className="rounded-lg max-w-[50%] h-auto" loading="lazy" />
                           ),
                         }}
                       >{subsection.content}</Streamdown>
@@ -226,7 +226,7 @@ export default function Section() {
                     <Streamdown
                       components={{
                         img: ({ src, alt }) => (
-                          <img src={src} alt={alt} className="rounded-lg w-full h-auto" loading="lazy" />
+                          <img src={src} alt={alt} className="rounded-lg max-w-[50%] h-auto" loading="lazy" />
                         ),
                       }}
                     >{section.content}</Streamdown>
