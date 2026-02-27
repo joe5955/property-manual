@@ -162,4 +162,4 @@
 - [ ] **Move Main House Dock Panel Photo:** Move dock panel photo from Boat House section to Main House section (property has two separate docks)
 - [ ] **Investigate White Genset:** Check for photos and information about white generator unit
 
-- [x] **Fix HTML Nesting Error:** Fix invalid <p> containing <div> error on Main House section page
+- [x] **Fix HTML Nesting Error:** Fix invalid <p> containing <div> error on Main House section page (RESOLVED - added custom img component to Streamdown)

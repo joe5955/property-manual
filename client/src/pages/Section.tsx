@@ -94,9 +94,15 @@ export default function Section() {
             {section.intro && (
               <Card className="border-none shadow-none bg-transparent">
                 <CardContent className="p-0">
-                  <div className="prose prose-stone dark:prose-invert max-w-none">
-                    <Streamdown>{section.intro}</Streamdown>
-                  </div>
+                  <article className="prose prose-stone dark:prose-invert max-w-none">
+                    <Streamdown
+                      components={{
+                        img: ({ src, alt }) => (
+                          <img src={src} alt={alt} className="rounded-lg w-full h-auto" loading="lazy" />
+                        ),
+                      }}
+                    >{section.intro}</Streamdown>
+                  </article>
                 </CardContent>
               </Card>
             )}
@@ -146,9 +152,15 @@ export default function Section() {
                   </CardHeader>
                   <CardContent className="p-6 space-y-6">
                   {subsection.intro && (
-                    <div className="prose prose-stone dark:prose-invert max-w-none text-sm">
-                      <Streamdown>{subsection.intro}</Streamdown>
-                    </div>
+                    <article className="prose prose-stone dark:prose-invert max-w-none text-sm">
+                      <Streamdown
+                        components={{
+                          img: ({ src, alt }) => (
+                            <img src={src} alt={alt} className="rounded-lg w-full h-auto" loading="lazy" />
+                          ),
+                        }}
+                      >{subsection.intro}</Streamdown>
+                    </article>
                   )}
                   
                   {subsection.items && subsection.items.length > 0 && (
@@ -169,9 +181,15 @@ export default function Section() {
 
                   {/* Render content if it exists (regardless of intro) */}
                   {(!subsection.items || subsection.items.length === 0) && subsection.content && (
-                    <div className="prose prose-stone dark:prose-invert max-w-none text-sm">
-                      <Streamdown>{subsection.content}</Streamdown>
-                    </div>
+                    <article className="prose prose-stone dark:prose-invert max-w-none text-sm">
+                      <Streamdown
+                        components={{
+                          img: ({ src, alt }) => (
+                            <img src={src} alt={alt} className="rounded-lg w-full h-auto" loading="lazy" />
+                          ),
+                        }}
+                      >{subsection.content}</Streamdown>
+                    </article>
                   )}
 
                   {/* Render subsection images if they exist */}
@@ -204,9 +222,15 @@ export default function Section() {
             {section.subsections.length === 0 && section.content && (
               <Card>
                 <CardContent className="p-6">
-                  <div className="prose prose-stone dark:prose-invert max-w-none">
-                    <Streamdown>{section.content}</Streamdown>
-                  </div>
+                  <article className="prose prose-stone dark:prose-invert max-w-none">
+                    <Streamdown
+                      components={{
+                        img: ({ src, alt }) => (
+                          <img src={src} alt={alt} className="rounded-lg w-full h-auto" loading="lazy" />
+                        ),
+                      }}
+                    >{section.content}</Streamdown>
+                  </article>
                 </CardContent>
               </Card>
             )}
