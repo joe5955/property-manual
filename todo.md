@@ -172,3 +172,10 @@
 - [x] Reduce image display size to 50% on all section pages
 - [x] Remove all manual/owner's manual photos from all sections (will be replaced by links)
 - [x] Match section page content width to the wider layout used on the home/dashboard page
+- [x] Restore missing Appliances subsection in Chalet section (appliances still need kitchenette photos)
+- [ ] Integrate 7 property map PDFs (SCpg1-SCpg7) from Google Drive into the website (on hold)
+- [ ] Upload 7 property map sheet images to CDN
+- [ ] Build interactive site plan viewer with clickable location markers
+- [ ] Add database schema for map markers (location, title, photos, notes)
+- [ ] Implement photo popup with QR code generation for each marker
+- [ ] Embed relevant map sheets in building/utility sections
