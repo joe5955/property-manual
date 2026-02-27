@@ -101,9 +101,9 @@
         {
           "id": "systems-chalet",
           "title": "Systems",
-          "content": "- **Electrical Panel:**\n  ![Electrical Panel](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/dffbb478-923b-4ef6-a2aa-45deb5c85c9a1153162560789571651.jpg)\n- **Heating:** [Type]\n- **Water Heater:** [Type/Location]",
+          "content": "- **Electrical Panel:** Located in the bathroom. See Electrical section below for panel photos.\n- **Heating:** Electric baseboard heating throughout\n- **Water Heater:** Located in the crawlspace\n\n> **Note:** Crawlspace water heater photo needed — add to GitHub under `the-chalet/systems/`",
           "items": [],
-          "intro": "Chalet electrical panel, heating, and water heater system information."
+          "intro": "Chalet electrical panel (bathroom), baseboard heating, and water heater (crawlspace) information."
         },
         {
           "id": "water-systems-photos-the-chalet",
@@ -116,7 +116,7 @@
           "id": "electrical-chalet",
           "title": "Electrical",
           "intro": "Chalet electrical panel with Square D QO load center and circuit directory.",
-          "content": "### Electrical Panel (Square D QO Load Center)\n\nLocation: [Location in Chalet]\n\n![Electrical Panel Closed](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/JtMinhbaJwhuPFbN.jpg)\n**Electrical Panel Closed - Cedar Trim**\n\n![Square D QO Load Center Open](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/OOQrmywkGJUtkjJz.jpg)\n**Square D QO Load Center Open - Circuit Directory**",
+          "content": "### Electrical Panel (Square D QO Load Center)\n\nLocation: Bathroom\n\n![Electrical Panel Closed](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/JtMinhbaJwhuPFbN.jpg)\n**Electrical Panel Closed - Cedar Trim**\n\n![Square D QO Load Center Open](https://files.manuscdn.com/user_upload_by_module/session_file/113311765/OOQrmywkGJUtkjJz.jpg)\n**Square D QO Load Center Open - Circuit Directory**",
           "items": []
         },
         {

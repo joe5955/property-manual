@@ -179,3 +179,8 @@
 - [ ] Add database schema for map markers (location, title, photos, notes)
 - [ ] Implement photo popup with QR code generation for each marker
 - [ ] Embed relevant map sheets in building/utility sections
+- [x] Fill in Chalet Systems section: electrical panel in bathroom, baseboard heating, water heater in crawlspace
+- [ ] Add crawlspace photo for Chalet water heater (photo missing - needs to be taken and uploaded)
+- [ ] Add Chalet appliances photos: Whirlpool refrigerator and propane stove (not yet in GitHub)
+- [x] Fill in Chalet Electrical Panel location (bathroom)
+- [ ] Fill in Chalet Propane Stove label/model info
