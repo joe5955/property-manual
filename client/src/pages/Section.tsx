@@ -146,10 +146,8 @@ export default function Section() {
                   </CardHeader>
                   <CardContent className="p-6 space-y-6">
                   {subsection.intro && (
-                    <div className="text-sm leading-relaxed">
-                      <div className="prose prose-stone dark:prose-invert max-w-none">
-                        <Streamdown>{subsection.intro}</Streamdown>
-                      </div>
+                    <div className="prose prose-stone dark:prose-invert max-w-none text-sm">
+                      <Streamdown>{subsection.intro}</Streamdown>
                     </div>
                   )}
                   
@@ -161,10 +159,8 @@ export default function Section() {
                             <div className="h-1.5 w-1.5 rounded-full bg-secondary"></div>
                             {item.title}
                           </h4>
-                          <div className="text-sm text-muted-foreground">
-                            <div className="prose prose-sm dark:prose-invert max-w-none">
-                              <Streamdown>{item.content}</Streamdown>
-                            </div>
+                          <div className="prose prose-sm dark:prose-invert max-w-none text-sm text-muted-foreground">
+                            <Streamdown>{item.content}</Streamdown>
                           </div>
                         </div>
                       ))}
@@ -173,10 +169,8 @@ export default function Section() {
 
                   {/* Render content if it exists (regardless of intro) */}
                   {(!subsection.items || subsection.items.length === 0) && subsection.content && (
-                    <div className="text-sm leading-relaxed">
-                      <div className="prose prose-stone dark:prose-invert max-w-none">
-                        <Streamdown>{subsection.content}</Streamdown>
-                      </div>
+                    <div className="prose prose-stone dark:prose-invert max-w-none text-sm">
+                      <Streamdown>{subsection.content}</Streamdown>
                     </div>
                   )}
 
