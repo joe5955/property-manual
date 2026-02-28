@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Chalet — Shady Cove Property Manual</title>
+    <style>
+    :root {
+        --bg: #f8f9fa;
+        --card-bg: #ffffff;
+        --text: #1a1a2e;
+        --text-secondary: #555;
+        --accent: #2d6a4f;
+        --accent-light: #40916c;
+        --border: #dee2e6;
+        --shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+    }
+    .container { max-width: 900px; margin: 0 auto; padding: 1rem; }
+    header {
+        background: var(--accent);
+        color: white;
+        padding: 1.5rem 0;
+        box-shadow: var(--shadow);
+    }
+    header h1 { font-size: 1.5rem; font-weight: 700; }
+    header p { opacity: 0.9; font-size: 0.9rem; margin-top: 0.25rem; }
+    header a { color: white; text-decoration: none; }
+    header a:hover { text-decoration: underline; }
+    nav.breadcrumb {
+        padding: 0.75rem 0;
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+    }
+    nav.breadcrumb a { color: var(--accent); text-decoration: none; }
+    nav.breadcrumb a:hover { text-decoration: underline; }
+    .card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        box-shadow: var(--shadow);
+    }
+    .card h2 {
+        font-size: 1.3rem;
+        color: var(--accent);
+        margin-bottom: 0.75rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid var(--accent);
+    }
+    .card h3 {
+        font-size: 1.1rem;
+        color: var(--text);
+        margin: 1rem 0 0.5rem;
+    }
+    .card h4 {
+        font-size: 1rem;
+        color: var(--text-secondary);
+        margin: 0.75rem 0 0.5rem;
+    }
+    .card p { margin: 0.5rem 0; }
+    .card ul { padding-left: 1.5rem; margin: 0.5rem 0; }
+    .card li { margin: 0.25rem 0; }
+    .card a { color: var(--accent-light); }
+    .card hr { border: none; border-top: 1px solid var(--border); margin: 1rem 0; }
+    .section-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1rem;
+        margin: 1.5rem 0;
+    }
+    .section-link {
+        display: block;
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.25rem;
+        text-decoration: none;
+        color: var(--text);
+        box-shadow: var(--shadow);
+        transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .section-link:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    }
+    .section-link h3 {
+        color: var(--accent);
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+    .section-link p {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+    }
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1rem;
+        margin: 1rem 0;
+    }
+    .image-card {
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        overflow: hidden;
+        background: var(--card-bg);
+    }
+    .image-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+    }
+    .image-card .caption {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+    }
+    .toc {
+        background: #f0f7f4;
+        border: 1px solid #b7e4c7;
+        border-radius: 8px;
+        padding: 1rem 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+    .toc h3 { font-size: 0.95rem; margin-bottom: 0.5rem; color: var(--accent); }
+    .toc ul { list-style: none; padding: 0; }
+    .toc li { margin: 0.25rem 0; }
+    .toc a {
+        color: var(--accent-light);
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+    .toc a:hover { text-decoration: underline; }
+    .badge {
+        display: inline-block;
+        background: #d8f3dc;
+        color: var(--accent);
+        padding: 0.15rem 0.5rem;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    footer {
+        text-align: center;
+        padding: 2rem 0;
+        color: var(--text-secondary);
+        font-size: 0.8rem;
+    }
+    @media (max-width: 600px) {
+        .container { padding: 0.75rem; }
+        header h1 { font-size: 1.2rem; }
+        .section-grid { grid-template-columns: 1fr; }
+        .image-grid { grid-template-columns: 1fr; }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="/property-manual/">Shady Cove Property Manual</a></h1>
+            <p>San Juan County, Washington — Private Property</p>
+        </div>
+    </header>
+    <nav class="breadcrumb container"><a href="/property-manual/">Home</a> / The Chalet</nav>
+    <main class="container">
+        
+    
+        <div class="toc">
+            <h3>On This Page</h3>
+            <ul><li><a href="#structure-exterior">Structure &amp; Exterior</a></li><li><a href="#heating-and-comfort">Heating &amp; Comfort</a></li><li><a href="#electrical">Electrical</a></li><li><a href="#kitchenette">Kitchenette</a></li><li><a href="#systems">Systems</a></li></ul>
+        </div>
+    <div class="card">
+        <h2>The Chalet — Overview</h2>
+        <strong>Status:</strong> Documented
+
+<h3>Structure &amp; Exterior</h3>
+<ul><li><strong>Foundation:</strong> Pier foundation</li>
+<li><strong>Exterior:</strong> Board-and-batten siding, painted tan/beige</li>
+<li><strong>Rear:</strong> Elevated deck with stairs and wire-mesh railing</li>
+<li><strong>Front:</strong> Covered porch with columns, water views</li>
+</ul>
+<h3>Heating &amp; Comfort</h3>
+<ul><li><strong>Thermostat (Zone 1 – Bedroom):</strong> King Comfort Zone dial thermostat (by King Electric)</li>
+<li><strong>Thermostat (Zone 2 – Living Area):</strong> King Comfort Zone dial thermostat (by King Electric)</li>
+<li><strong>Gas Stove:</strong> Vermont Castings Jefferson Direct Vent Gas Stove</li>
+</ul>  - <strong>Model:</strong> JDV RP | <strong>Serial:</strong> 2684
+<p>- <strong>Fuel:</strong> Propane | <strong>Input:</strong> 19,000 BTUH | <strong>Output:</strong> 28,000 BTUH (19,600 BTUH Canadian rating)</p>
+<p>- <strong>Manufacturer:</strong> Vermont Castings Majestic Products, Bethel, VT</p>
+<p>- <strong>Certified:</strong> ANSI Z21.88B-1998, CGA 2.33B-M98</p>
+<p>- <strong>Supply Pressure (Propane):</strong> 11.0– 13.0” W.C. | <strong>Manifold Pressure:</strong> 10.0” W.C.</p>
+<p>- <a href="https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf" target="_blank" rel="noopener">View Manual</a></p>
+
+<h3>Electrical</h3>
+<ul><li><strong>Panel:</strong> Square D QO Load Center (Cat. No. QOC-20M, Series B1), wall-mounted with cedar trim - <a href="https://download.schneider-electric.com/files?p_Doc_Ref=S1B33894&amp;p_enDocType=Instruction+sheet&amp;p_File_Name=S1B33894.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Circuit Directory:</strong> Heat (×2 zones), Water Heater, Bedrooms, Living Room, Kitchen, Bathroom, Basement, Microwave</li>
+</ul>
+<h3>Kitchenette</h3>
+<ul><li><strong>Refrigerator:</strong> Danby Designer (Compact under-counter model)</li>
+<li><strong>Microwave:</strong> Countertop model</li>
+<li><strong>Sink:</strong> Single basin stainless steel</li>
+</ul>
+<h3>Systems</h3>
+<ul><li><strong>Water Heater:</strong> Rheem 30 Gallon Electric (Model: 81V30D) - <a href="https://files.rheem.com/blobazrheem/wp-content/uploads/sites/2/AP21831-Rev-2-SHEG-TriBrand-UC.pdf" target="_blank" rel="noopener">View Manual</a></li>
+</ul>
+<h3>Maintenance Notes</h3>
+<ul><li><strong>Winterization:</strong> Ensure wall heaters are set to frost protection (approx. 45°F) during winter months.</li>
+<li><strong>Water Heater:</strong> Drain 1-2 gallons annually to remove sediment.</li></ul>
+        
+    </div>
+    
+        <div class="card" id="structure-exterior">
+            <h2>Structure &amp; Exterior</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">- **Foundation:** Pier foundation
+- **Exterior:** Board-and-batten siding, painted tan/beige
+- **Rear:** Elevated deck with stairs and wire-mesh railing
+- **Front:** Covered porch with columns, water views</p>
+            <ul><li><strong>Foundation:</strong> Pier foundation</li>
+<li><strong>Exterior:</strong> Board-and-batten siding, painted tan/beige</li>
+<li><strong>Rear:</strong> Elevated deck with stairs and wire-mesh railing</li>
+<li><strong>Front:</strong> Covered porch with columns, water views</li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/the-chalet/structure-exterior/01_chalet_exterior_rear_deck_pier_foundation.jpg" alt="Chalet exterior — rear view with elevated deck, stairs, and pier foundation" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Chalet exterior — rear view with elevated deck, stairs, and pier foundation</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/the-chalet/structure-exterior/02_chalet_front_entry_porch_water_view.jpg" alt="Chalet front entry — covered porch with columns, blue patio chairs, and water view" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Chalet front entry — covered porch with columns, blue patio chairs, and water view</div>
+                </div></div>
+        </div>
+        <div class="card" id="heating-and-comfort">
+            <h2>Heating &amp; Comfort</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">- **Thermostat (Zone 1 – Bedroom):** King Comfort Zone dial thermostat
+- **Thermostat (Zone 2 – Living Area):** King Comfort Zone dial thermostat
+- **Gas Stove:** Vermont Castings Jefferson Direct Vent Gas Stove (Model: JDV RP, Serial: 2684, Propane, 19,000 BTUH input / 28,000 BTUH output)</p>
+            <ul><li><strong>Thermostat (Zone 1 – Bedroom):</strong> King Comfort Zone dial thermostat (by King Electric)</li>
+<li><strong>Thermostat (Zone 2 – Living Area):</strong> King Comfort Zone dial thermostat (by King Electric)</li>
+<li><strong>Gas Stove:</strong> Vermont Castings Jefferson Direct Vent Gas Stove</li>
+</ul>  - <strong>Model:</strong> JDV RP | <strong>Serial:</strong> 2684
+<p>- <strong>Fuel:</strong> Propane | <strong>Input:</strong> 19,000 BTUH | <strong>Output:</strong> 28,000 BTUH (19,600 BTUH Canadian rating)</p>
+<p>- <strong>Manufacturer:</strong> Vermont Castings Majestic Products, Bethel, VT</p>
+<p>- <strong>Certified:</strong> ANSI Z21.88B-1998, CGA 2.33B-M98</p>
+<p>- <strong>Supply Pressure (Propane):</strong> 11.0– 13.0” W.C. | <strong>Manifold Pressure:</strong> 10.0” W.C.</p>
+<p>- <a href="https://manuals.fire-parts.com/aws-assets/vermont-castings-jefferson-jdv-2820-jefferson_jdv_2820_install-pdf.pdf" target="_blank" rel="noopener">View Manual</a></p>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/the-chalet/heating-and-comfort/01_king_comfort_zone_thermostat_zone1_bedroom.jpg" alt="King Comfort Zone dial thermostat — Zone 1 (bedroom area)" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">King Comfort Zone dial thermostat — Zone 1 (bedroom area)</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/the-chalet/heating-and-comfort/02_king_comfort_zone_thermostat_zone2_living.jpg" alt="King Comfort Zone dial thermostat — Zone 2 (living area)" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">King Comfort Zone dial thermostat — Zone 2 (living area)</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/the-chalet/heating-and-comfort/03_vermont_castings_jefferson_gas_stove.jpg" alt="Vermont Castings Jefferson Direct Vent Gas Stove — cast iron, propane" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Vermont Castings Jefferson Direct Vent Gas Stove — cast iron, propane</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/the-chalet/heating-and-comfort/04_gas_stove_operation_lighting_instructions.jpg" alt="Gas stove operation and lighting instructions label" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Gas stove operation and lighting instructions label</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/the-chalet/heating-and-comfort/05_gas_stove_rating_plate_jdv_rp_serial_2684.jpg" alt="Gas stove rating plate — Model JDV RP, Serial 2684, Propane, 19,000 BTUH input / 28,000 BTUH output" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Gas stove rating plate — Model JDV RP, Serial 2684, Propane, 19,000 BTUH input / 28,000 BTUH output</div>
+                </div></div>
+        </div>
+        <div class="card" id="electrical">
+            <h2>Electrical</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">- **Panel:** Square D QO Load Center (Cat. No. QOC-20M, Series B1), wall-mounted with cedar trim - [View Manual](https://download.schneider-electric.com/files?p_Doc_Ref=S1B33894&amp;p_enDocType=Instruction+sheet&amp;p_File_Name=S1B33894.pdf)
+- **Circuits:** Heat (×2 zones), Water Heater, Bedrooms, Living Room, Kitchen, Bathroom, Basement, Microwave</p>
+            <ul><li><strong>Panel:</strong> Square D QO Load Center (Cat. No. QOC-20M, Series B1), wall-mounted with cedar trim - <a href="https://download.schneider-electric.com/files?p_Doc_Ref=S1B33894&amp;p_enDocType=Instruction+sheet&amp;p_File_Name=S1B33894.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Circuit Directory:</strong></li>
+</ul>  - 1: Heat (Zone 1) | 2: Water Heater
+<p>- 3: Heat (Zone 1 Bed) | 4: Water Heater</p>
+<p>- 5: Heat (Zone 2) | 6: Bed Room</p>
+<p>- 7: Heat (Zone 2 Living) | 8: Heat</p>
+<p>- 9: Living Room / Porch | 10: Ref. Ki. Rec.</p>
+<p>- 11: Bed Room | 12: Bath. Rec.</p>
+<p>- 13: Bed Room | 14: Basement / Light / Bed Bath</p>
+<p>- 15: (spare) | 16: Basement / Garage</p>
+<p>- 17: (spare) | 18: Microwave</p>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/the-chalet/electrical/01_electrical_panel_closed_cedar_trim.jpg" alt="Electrical panel — closed, wall-mounted with cedar trim" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Electrical panel — closed, wall-mounted with cedar trim</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/the-chalet/electrical/02_square_d_qo_load_center_open_circuit_directory.jpg" alt="Square D QO Load Center — panel open with handwritten circuit directory" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Square D QO Load Center — panel open with handwritten circuit directory</div>
+                </div></div>
+        </div>
+        <div class="card" id="kitchenette">
+            <h2>Kitchenette</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">- **Refrigerator:** Danby Designer (Compact under-counter model)
+- **Microwave:** Countertop model
+- **Sink:** Single basin stainless steel</p>
+            <ul><li><strong>Refrigerator:</strong> Danby Designer (Compact under-counter model)</li>
+<li><strong>Microwave:</strong> Countertop model</li>
+<li><strong>Sink:</strong> Single basin stainless steel</li></ul>
+            
+            
+        </div>
+        <div class="card" id="systems">
+            <h2>Systems</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">- **Water Heater:** Rheem 30 Gallon Electric (Model: 81V30D) - [View Manual](https://files.rheem.com/blobazrheem/wp-content/uploads/sites/2/AP21831-Rev-2-SHEG-TriBrand-UC.pdf)</p>
+            <ul><li><strong>Water Heater:</strong> Rheem 30 Gallon Electric (Model: 81V30D) - <a href="https://files.rheem.com/blobazrheem/wp-content/uploads/sites/2/AP21831-Rev-2-SHEG-TriBrand-UC.pdf" target="_blank" rel="noopener">View Manual</a></li></ul>
+            
+            
+        </div>
+    
+    </main>
+    <footer>
+        <div class="container">
+            Shady Cove Property Manual &mdash; QR Code System Proof of Concept
+        </div>
+    </footer>
+</body>
+</html>

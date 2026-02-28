@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genset Shed — Shady Cove Property Manual</title>
+    <style>
+    :root {
+        --bg: #f8f9fa;
+        --card-bg: #ffffff;
+        --text: #1a1a2e;
+        --text-secondary: #555;
+        --accent: #2d6a4f;
+        --accent-light: #40916c;
+        --border: #dee2e6;
+        --shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+    }
+    .container { max-width: 900px; margin: 0 auto; padding: 1rem; }
+    header {
+        background: var(--accent);
+        color: white;
+        padding: 1.5rem 0;
+        box-shadow: var(--shadow);
+    }
+    header h1 { font-size: 1.5rem; font-weight: 700; }
+    header p { opacity: 0.9; font-size: 0.9rem; margin-top: 0.25rem; }
+    header a { color: white; text-decoration: none; }
+    header a:hover { text-decoration: underline; }
+    nav.breadcrumb {
+        padding: 0.75rem 0;
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+    }
+    nav.breadcrumb a { color: var(--accent); text-decoration: none; }
+    nav.breadcrumb a:hover { text-decoration: underline; }
+    .card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        box-shadow: var(--shadow);
+    }
+    .card h2 {
+        font-size: 1.3rem;
+        color: var(--accent);
+        margin-bottom: 0.75rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid var(--accent);
+    }
+    .card h3 {
+        font-size: 1.1rem;
+        color: var(--text);
+        margin: 1rem 0 0.5rem;
+    }
+    .card h4 {
+        font-size: 1rem;
+        color: var(--text-secondary);
+        margin: 0.75rem 0 0.5rem;
+    }
+    .card p { margin: 0.5rem 0; }
+    .card ul { padding-left: 1.5rem; margin: 0.5rem 0; }
+    .card li { margin: 0.25rem 0; }
+    .card a { color: var(--accent-light); }
+    .card hr { border: none; border-top: 1px solid var(--border); margin: 1rem 0; }
+    .section-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1rem;
+        margin: 1.5rem 0;
+    }
+    .section-link {
+        display: block;
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.25rem;
+        text-decoration: none;
+        color: var(--text);
+        box-shadow: var(--shadow);
+        transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .section-link:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    }
+    .section-link h3 {
+        color: var(--accent);
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+    .section-link p {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+    }
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1rem;
+        margin: 1rem 0;
+    }
+    .image-card {
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        overflow: hidden;
+        background: var(--card-bg);
+    }
+    .image-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+    }
+    .image-card .caption {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+    }
+    .toc {
+        background: #f0f7f4;
+        border: 1px solid #b7e4c7;
+        border-radius: 8px;
+        padding: 1rem 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+    .toc h3 { font-size: 0.95rem; margin-bottom: 0.5rem; color: var(--accent); }
+    .toc ul { list-style: none; padding: 0; }
+    .toc li { margin: 0.25rem 0; }
+    .toc a {
+        color: var(--accent-light);
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+    .toc a:hover { text-decoration: underline; }
+    .badge {
+        display: inline-block;
+        background: #d8f3dc;
+        color: var(--accent);
+        padding: 0.15rem 0.5rem;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    footer {
+        text-align: center;
+        padding: 2rem 0;
+        color: var(--text-secondary);
+        font-size: 0.8rem;
+    }
+    @media (max-width: 600px) {
+        .container { padding: 0.75rem; }
+        header h1 { font-size: 1.2rem; }
+        .section-grid { grid-template-columns: 1fr; }
+        .image-grid { grid-template-columns: 1fr; }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="/property-manual/">Shady Cove Property Manual</a></h1>
+            <p>San Juan County, Washington — Private Property</p>
+        </div>
+    </header>
+    <nav class="breadcrumb container"><a href="/property-manual/">Home</a> / Genset Shed</nav>
+    <main class="container">
+        
+    
+        <div class="toc">
+            <h3>On This Page</h3>
+            <ul><li><a href="#exterior">Exterior</a></li><li><a href="#interior">Interior</a></li><li><a href="#equipment">Generator Equipment</a></li><li><a href="#electrical">Electrical &amp; Transfer Switch</a></li></ul>
+        </div>
+    <div class="card">
+        <h2>Genset Shed — Overview</h2>
+        
+        
+    </div>
+    
+        <div class="card" id="exterior">
+            <h2>Exterior</h2>
+            
+            <p>The genset shed has green/sage vertical board siding with a metal roof, located on the lawn near the tree line and apple trees.</p>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/genset-shed/exterior/01_genset_shed_exterior.jpg" alt="Exterior view of the generator shed. Green/sage vertical board siding, metal roof, gable end facing camera. On lawn near tree line with apple trees nearby." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Exterior view of the generator shed. Green/sage vertical board siding, metal roof, gable end facing camera. On lawn near tree line with apple trees nearby.</div>
+                </div></div>
+        </div>
+        <div class="card" id="interior">
+            <h2>Interior</h2>
+            
+            <p>The interior currently has gym equipment (Nautilus weights, power rack, bench) stored in front of the generator, blocking access. This is a maintenance priority — see maintenance checklist item #8.</p>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/genset-shed/interior/01_genset_shed_interior_overview.jpg" alt="Interior overview showing gym equipment (Nautilus weights 25lbs/11.3kg, power rack, bench) stored in front of the generator, blocking access. Generator visible in back." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Interior overview showing gym equipment (Nautilus weights 25lbs/11.3kg, power rack, bench) stored in front of the generator, blocking access. Generator visible in back.</div>
+                </div></div>
+        </div>
+        <div class="card" id="equipment">
+            <h2>Generator Equipment</h2>
+            
+            <strong>Northern Lights Series 3 Generator</strong> — <a href="https://www.northern-lights.com/media/PDFs/manual_pdfs/ONL944.pdf" target="_blank" rel="noopener">Operator&#x27;s Manual</a>
+<ul><li><strong>Serial:</strong> LM176191-1294</li>
+<li><strong>Part:</strong> 36081853</li>
+<li><strong>Output:</strong> 36 kW (Prime) / 40 kW (Standby)</li>
+<li><strong>Voltage:</strong> 120/240V, 150A</li>
+<li><strong>Engine Hours:</strong> ~345 (Feb 2026)</li>
+</ul>
+<strong>John Deere Engine</strong> — <a href="https://csdieselgenerators.com/Images/Generators/2079/John_Deere_300_3029_4039_4045_6059_6068_engine_operation_and_service_manual.pdf" target="_blank" rel="noopener">Operator&#x27;s Manual</a>
+<ul><li><strong>Model:</strong> 4039DF001</li>
+<li><strong>Serial:</strong> T04039D474319</li>
+<li><strong>Manufacturer:</strong> Deere &amp; Company, Moline, Illinois</li></ul>
+            
+                <div style="margin: 0.75rem 0; padding: 0.75rem; background: #f8f9fa; border-radius: 6px;">
+                    <h4>Northern Lights Series 3 Generator</h4>
+                    <ul><li><strong>Serial:</strong> LM176191-1294</li>
+<li><strong>Part:</strong> 36081853</li>
+<li><strong>Output Kw Prime:</strong> 36</li>
+<li><strong>Output Kw Standby:</strong> 40</li>
+<li><strong>Voltage:</strong> 120/240V</li>
+<li><strong>Amps:</strong> 150</li>
+<li><strong>Engine Hours:</strong> ~345 (Feb 2026)</li></ul>
+                </div>
+                <div style="margin: 0.75rem 0; padding: 0.75rem; background: #f8f9fa; border-radius: 6px;">
+                    <h4>John Deere Engine</h4>
+                    <ul><li><strong>Model:</strong> 4039DF001</li>
+<li><strong>Serial:</strong> T04039D474319</li>
+<li><strong>Manufacturer:</strong> Deere &amp; Company, Moline, Illinois</li></ul>
+                </div>
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/genset-shed/equipment/01_genset_full_view.jpg" alt="Northern Lights diesel genset on steel skid frame. John Deere diesel engine (white/cream), radiator with fan on left end, large alternator on right. Electrical distribution panel and disconnect switches mounted on wall behind." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Northern Lights diesel genset on steel skid frame. John Deere diesel engine (white/cream), radiator with fan on left end, large alternator on right. Electrical distribution panel and disconnect switches mounted on wall behind.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/genset-shed/equipment/02_genset_control_panel.jpg" alt="Northern Lights Series 3 Generator Set Control Panel (Alaska Diesel Electric Inc., Seattle, USA). VDO gauges: Oil Pressure, Engine Temperature, DC Voltage, Engine Hours (~00345 hours). Shutdown Bypass &amp; Preheat Switch, Engine Control (Run/Start/Stop)." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Northern Lights Series 3 Generator Set Control Panel (Alaska Diesel Electric Inc., Seattle, USA). VDO gauges: Oil Pressure, Engine Temperature, DC Voltage, Engine Hours (~00345 hours). Shutdown Bypass &amp; Preheat Switch, Engine Control (Run/Start/Stop).</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/genset-shed/equipment/03_genset_nameplate.jpg" alt="Northern Lights nameplate: Serial LM176191-1294, Part 36081853, KW 36/40, KVA 36/40, Volts 120/240, Amps 150, Duty Prime/Standby. Alaska Diesel Electric, 4420 14th Ave NW, Seattle WA 98107." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Northern Lights nameplate: Serial LM176191-1294, Part 36081853, KW 36/40, KVA 36/40, Volts 120/240, Amps 150, Duty Prime/Standby. Alaska Diesel Electric, 4420 14th Ave NW, Seattle WA 98107.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/genset-shed/equipment/04_engine_plate.jpg" alt="John Deere engine plate: Engine Serial Number T04039D474319, Model 4039DF001, Deere &amp; Company, Moline, Illinois, Made in USA." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">John Deere engine plate: Engine Serial Number T04039D474319, Model 4039DF001, Deere &amp; Company, Moline, Illinois, Made in USA.</div>
+                </div></div>
+        </div>
+        <div class="card" id="electrical">
+            <h2>Electrical &amp; Transfer Switch</h2>
+            
+            <strong>Power Switchover — To Generator:</strong>
+<ul><li>Turn on OPALCO flood light</li>
+<li>Turn main switch to OFF</li>
+<li>Start generator — warm up</li>
+<li>Turn main switch to GENSET</li>
+</ul>
+<strong>Power Switchover — To OPALCO:</strong>
+<ul><li>Turn main switch to OFF</li>
+<li>Turn off generator</li>
+<li>Turn main switch to OPALCO</li>
+<li>Turn off OPALCO flood light</li>
+</ul>
+<strong>Transfer Switch:</strong> Square D manual safety switch, 3-position (GENSET / OFF / OPALCO)
+
+<strong>Distribution Panel:</strong> Square D QO Load Center serving Beach House, Farm House, Caretaker&#x27;s House, and sub-panel circuits.
+
+<strong>Sub-Panel:</strong> Square D QO2-4L70S — <a href="https://download.schneider-electric.com/files?p_enDocType=Instruction+sheet&amp;p_File_Name=S1B33894.pdf&amp;p_Doc_Ref=S1B33894" target="_blank" rel="noopener">View Manual</a>, 70A, 240V, Single Phase. Labeled &#x27;CHARGE ONLY / PLUGS&#x27;.
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/genset-shed/electrical/01_switchover_instructions.jpg" alt="Handwritten switchover procedure posted on wall. TO GENERATOR: 1. Turn on OPALCO flood light, 2. Turn main switch off, 3. Start generator - warm up, 4. Turn main switch to gen-set. TO OPALCO: 1. Turn main switch to off, 2. Turn off generator, 3. Turn main switch to OPALCO, 4. Turn off OPALCO flood light." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Handwritten switchover procedure posted on wall. TO GENERATOR: 1. Turn on OPALCO flood light, 2. Turn main switch off, 3. Start generator - warm up, 4. Turn main switch to gen-set. TO OPALCO: 1. Turn main switch to off, 2. Turn off generator, 3. Turn main switch to OPALCO, 4. Turn off OPALCO flood light.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/genset-shed/electrical/02_transfer_switch.jpg" alt="Square D safety switch / manual transfer switch. 3-position handle: GENSET (top), OFF (middle), OPALCO (bottom). Square D Company label with DANGER warning." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Square D safety switch / manual transfer switch. 3-position handle: GENSET (top), OFF (middle), OPALCO (bottom). Square D Company label with DANGER warning.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/genset-shed/electrical/03_distribution_panel.jpg" alt="Square D QO Load Center breaker panel (open). Main Principal breaker at top. Circuit directory serves Beach House, Farm House, Caretaker&#x27;s House, and various outlets/circuits." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Square D QO Load Center breaker panel (open). Main Principal breaker at top. Circuit directory serves Beach House, Farm House, Caretaker&#x27;s House, and various outlets/circuits.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/genset-shed/electrical/04_sub_panel.jpg" alt="Square D QO Load Center sub-panel, catalog QO2-4L70S, single phase, 240V, 70A max. Single breaker in I/ON position. Written on wall above: &#x27;CHARGE ONLY&#x27; and &#x27;PLUGS&#x27;." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Square D QO Load Center sub-panel, catalog QO2-4L70S, single phase, 240V, 70A max. Single breaker in I/ON position. Written on wall above: &#x27;CHARGE ONLY&#x27; and &#x27;PLUGS&#x27;.</div>
+                </div></div>
+        </div>
+    
+    </main>
+    <footer>
+        <div class="container">
+            Shady Cove Property Manual &mdash; QR Code System Proof of Concept
+        </div>
+    </footer>
+</body>
+</html>

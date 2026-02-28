@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main House — Shady Cove Property Manual</title>
+    <style>
+    :root {
+        --bg: #f8f9fa;
+        --card-bg: #ffffff;
+        --text: #1a1a2e;
+        --text-secondary: #555;
+        --accent: #2d6a4f;
+        --accent-light: #40916c;
+        --border: #dee2e6;
+        --shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+    }
+    .container { max-width: 900px; margin: 0 auto; padding: 1rem; }
+    header {
+        background: var(--accent);
+        color: white;
+        padding: 1.5rem 0;
+        box-shadow: var(--shadow);
+    }
+    header h1 { font-size: 1.5rem; font-weight: 700; }
+    header p { opacity: 0.9; font-size: 0.9rem; margin-top: 0.25rem; }
+    header a { color: white; text-decoration: none; }
+    header a:hover { text-decoration: underline; }
+    nav.breadcrumb {
+        padding: 0.75rem 0;
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+    }
+    nav.breadcrumb a { color: var(--accent); text-decoration: none; }
+    nav.breadcrumb a:hover { text-decoration: underline; }
+    .card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        box-shadow: var(--shadow);
+    }
+    .card h2 {
+        font-size: 1.3rem;
+        color: var(--accent);
+        margin-bottom: 0.75rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid var(--accent);
+    }
+    .card h3 {
+        font-size: 1.1rem;
+        color: var(--text);
+        margin: 1rem 0 0.5rem;
+    }
+    .card h4 {
+        font-size: 1rem;
+        color: var(--text-secondary);
+        margin: 0.75rem 0 0.5rem;
+    }
+    .card p { margin: 0.5rem 0; }
+    .card ul { padding-left: 1.5rem; margin: 0.5rem 0; }
+    .card li { margin: 0.25rem 0; }
+    .card a { color: var(--accent-light); }
+    .card hr { border: none; border-top: 1px solid var(--border); margin: 1rem 0; }
+    .section-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1rem;
+        margin: 1.5rem 0;
+    }
+    .section-link {
+        display: block;
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.25rem;
+        text-decoration: none;
+        color: var(--text);
+        box-shadow: var(--shadow);
+        transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .section-link:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    }
+    .section-link h3 {
+        color: var(--accent);
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+    .section-link p {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+    }
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1rem;
+        margin: 1rem 0;
+    }
+    .image-card {
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        overflow: hidden;
+        background: var(--card-bg);
+    }
+    .image-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+    }
+    .image-card .caption {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+    }
+    .toc {
+        background: #f0f7f4;
+        border: 1px solid #b7e4c7;
+        border-radius: 8px;
+        padding: 1rem 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+    .toc h3 { font-size: 0.95rem; margin-bottom: 0.5rem; color: var(--accent); }
+    .toc ul { list-style: none; padding: 0; }
+    .toc li { margin: 0.25rem 0; }
+    .toc a {
+        color: var(--accent-light);
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+    .toc a:hover { text-decoration: underline; }
+    .badge {
+        display: inline-block;
+        background: #d8f3dc;
+        color: var(--accent);
+        padding: 0.15rem 0.5rem;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    footer {
+        text-align: center;
+        padding: 2rem 0;
+        color: var(--text-secondary);
+        font-size: 0.8rem;
+    }
+    @media (max-width: 600px) {
+        .container { padding: 0.75rem; }
+        header h1 { font-size: 1.2rem; }
+        .section-grid { grid-template-columns: 1fr; }
+        .image-grid { grid-template-columns: 1fr; }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="/property-manual/">Shady Cove Property Manual</a></h1>
+            <p>San Juan County, Washington — Private Property</p>
+        </div>
+    </header>
+    <nav class="breadcrumb container"><a href="/property-manual/">Home</a> / Main House</nav>
+    <main class="container">
+        
+    
+        <div class="toc">
+            <h3>On This Page</h3>
+            <ul><li><a href="#kitchen-appliances">Kitchen Appliances</a></li><li><a href="#laundry">Laundry</a></li><li><a href="#water-heater">Water Heaters</a></li><li><a href="#heating">Heating</a></li><li><a href="#electrical">Electrical</a></li><li><a href="#water-shutoff">Water Shutoff</a></li><li><a href="#irrigation-system">Irrigation System</a></li><li><a href="#exterior">Structure &amp; Exterior</a></li></ul>
+        </div>
+    <div class="card">
+        <h2>Main House — Overview</h2>
+        <strong>Status:</strong> Documented — 40 photos added February 27, 2026
+
+<h3>Kitchen Appliances</h3>
+<ul><li><strong>Refrigerator (Primary):</strong> KitchenAid built-in refrigerator, Model KBLS36MHX01, Serial QK5009101 (stainless steel, panel-front built-in) - <a href="https://www.kitchenaid.com/content/dam/global/documents/201408/owners-manual-w10417002-reva.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Refrigerator (Secondary):</strong> Hotpoint top-freezer refrigerator, Model CTX14EYXKRWH, Serial LR788759 (white, 115 VAC 60 Hz, located in utility/laundry area)</li>
+<li><strong>Range:</strong> GE Monogram dual-fuel range (stainless steel, gas cooktop with dual ovens)</li>
+<li><strong>Dishwasher:</strong> Bosch DLX Series (stainless steel, built-in, under granite countertop)</li>
+<li><strong>Microwave:</strong> Sharp Carousel Smart &amp; Easy (black, countertop, 2450 MHz)</li>
+</ul>
+<h3>Laundry</h3>
+<ul><li><strong>Washer:</strong> Maytag front-loading washer, Model MFW9700SQ1, Serial CSU3707671 (12A, 120V, 60Hz) - <a href="https://www.maytag.com/content/dam/global/documents/201305/owners-manual-W10254443-RevA.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Dryer:</strong> Maytag electric dryer, Model MED9700SQ0, Serial MW3013978 (120/208V 23A or 120/240V 24A, 60Hz) - <a href="https://www.maytag.com/content/dam/global/documents/201305/owners-manual-W10254443-RevA.pdf" target="_blank" rel="noopener">View Manual</a></li>
+</ul>
+<h3>Water Heater #1 (ICON System)</h3>
+<ul><li><strong>Bradford White</strong> Model ERE350S6-1NCWW, Serial ZC51064910 - <a href="https://docs.bradfordwhite.com/I&amp;O/238-54649-00_Current.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Capacity:</strong> 50 US gallon (189.2 liters)</li>
+<li><strong>Voltage:</strong> 240V / 208V, 50/60 Hz</li>
+<li><strong>Wattage:</strong> 4500W / 3500W</li>
+<li><strong>Pressure:</strong> Test 300 psi, Working 150 psi</li>
+<li><strong>Features:</strong> ICON System control panel, metal straps, drain pan</li>
+</ul>
+<h3>Water Heater #2 (Hydrojet)</h3>
+<ul><li><strong>Bradford White</strong> Model ERE250T6-1NCWW, Serial BB54805614 - <a href="https://docs.bradfordwhite.com/I&amp;O/238-54649-00_Current.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Capacity:</strong> 50 US gallon (189.2 liters)</li>
+<li><strong>Voltage:</strong> 240V</li>
+<li><strong>Wattage:</strong> 4500W</li>
+<li><strong>Pressure:</strong> Test 300 psi, Working 150 psi</li>
+<li><strong>Features:</strong> Hydrojet technology, copper plumbing</li>
+</ul>
+<h3>Heating</h3>
+<ul><li><strong>Furnace:</strong> Thermo Pride (oil-fired furnace in basement with ductwork)</li>
+<li><strong>Thermostats:</strong> Honeywell digital thermostats (multiple zones, programmable, Heat mode, set to 60°F hold)</li>
+</ul>
+<h3>Electrical</h3>
+<ul><li><strong>Main Panel:</strong> Pushmatic Electri-Center by Bulldog Electric Products Co. (push-button breakers, circuits include furnace, hot water, lights, dryer, range, floods)</li>
+<li><strong>Sub-Panel:</strong> Square D QO Load Center, Model QOC12UF, 100A main breaker (serves Main House, Docks, and Boat House)</li>
+</ul>
+<h3>Water Shutoff</h3>
+<ul><li>Main water shutoff valve with blue circular access cover (in-ground)</li>
+<li>T-handle water shutoff key location near outbuilding</li>
+<li>Underground shutoff valve with blue handle</li>
+<li>Crawlspace water shutoff with copper piping</li>
+</ul>
+<h3>Irrigation System</h3>
+<ul><li><strong>Controller:</strong> Rain Bird ESP-ME3 - <a href="https://www.rainbird.com/sites/default/files/media/documents/2020-03/d41274_15ja20_esp-me3-user-manual-advanced-dom_en-en.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Location:</strong> Wall-mounted cabinet</li>
+<li><strong>Features:</strong> LNK WiFi Ready, Weather Sensor compatible, Seasonal Adjust, Flow Sensor compatible</li>
+<li><strong>Programs:</strong> A, B, C, D</li>
+<li><strong>Valve Boxes:</strong> Multiple in-ground valve boxes with PVC piping and solenoid valves</li>
+<li><strong>Coverage:</strong> Landscaping around Main House and Madrona House</li>
+<li><strong>Map:</strong> Hand-drawn map available showing all head locations</li>
+</ul>
+<h3>Structure &amp; Exterior</h3>
+<ul><li>Stone and concrete foundation with green roof</li>
+<li>Basement entrance with screen door</li>
+<li>Crawlspace access with metal cover</li>
+<li>Landscaped grounds with mature plantings</li></ul>
+        
+    </div>
+    
+        <div class="card" id="kitchen-appliances">
+            <h2>Kitchen Appliances</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">- **Refrigerator (Primary):** KitchenAid KBLS36MHX01 (built-in, panel-front, stainless steel)
+- **Refrigerator (Secondary):** Hotpoint CTX14EYXKRWH (white, top-freezer, utility area)
+- **Range:** GE Monogram (dual-fuel, gas cooktop, dual ovens)
+- **Dishwasher:** Bosch DLX Series (stainless steel, built-in)
+- **Microwave:** Sharp Carousel Smart &amp; Easy (black, countertop)</p>
+            <ul><li><strong>Refrigerator (Primary):</strong> KitchenAid built-in refrigerator, Model KBLS36MHX01, Serial QK5009101 (stainless steel, panel-front built-in) - <a href="https://www.kitchenaid.com/content/dam/global/documents/201408/owners-manual-w10417002-reva.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Refrigerator (Secondary):</strong> Hotpoint top-freezer refrigerator, Model CTX14EYXKRWH, Serial LR788759 (white, 115 VAC 60 Hz, located in utility/laundry area)</li>
+<li><strong>Range:</strong> GE Monogram dual-fuel range (stainless steel, gas cooktop with dual ovens)</li>
+<li><strong>Dishwasher:</strong> Bosch DLX Series (stainless steel, built-in, under granite countertop)</li>
+<li><strong>Microwave:</strong> Sharp Carousel Smart &amp; Easy (black, countertop, 2450 MHz)</li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/kitchen-appliances/01_refrigerator_kitchenaid_built_in_overview.png" alt="KitchenAid built-in refrigerator with wood panel front, installed in kitchen" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">KitchenAid built-in refrigerator with wood panel front, installed in kitchen</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/kitchen-appliances/02_refrigerator_kitchenaid_data_plate.png" alt="KitchenAid refrigerator data plate — Model KBLS36MHX01, Serial QK5009101" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">KitchenAid refrigerator data plate — Model KBLS36MHX01, Serial QK5009101</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/kitchen-appliances/03_refrigerator_hotpoint_overview.png" alt="Hotpoint white top-freezer refrigerator in utility/laundry area" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Hotpoint white top-freezer refrigerator in utility/laundry area</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/kitchen-appliances/04_refrigerator_hotpoint_data_plate.png" alt="Hotpoint refrigerator data plate — Model CTX14EYXKRWH, Serial LR788759, 115 VAC 60 Hz" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Hotpoint refrigerator data plate — Model CTX14EYXKRWH, Serial LR788759, 115 VAC 60 Hz</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/kitchen-appliances/05_range_monogram_overview.png" alt="GE Monogram stainless steel dual-fuel range with gas cooktop and dual ovens" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">GE Monogram stainless steel dual-fuel range with gas cooktop and dual ovens</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/kitchen-appliances/06_range_monogram_kitchen_view.png" alt="GE Monogram range installed in kitchen with granite countertops" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">GE Monogram range installed in kitchen with granite countertops</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/kitchen-appliances/07_dishwasher_bosch_dlx_overview.png" alt="Bosch DLX Series stainless steel dishwasher, built-in under granite countertop" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Bosch DLX Series stainless steel dishwasher, built-in under granite countertop</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/kitchen-appliances/08_microwave_sharp_carousel_overview.png" alt="Sharp Carousel Smart &amp; Easy microwave oven, black, countertop" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Sharp Carousel Smart &amp; Easy microwave oven, black, countertop</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/kitchen-appliances/09_microwave_sharp_data_plate.png" alt="Sharp microwave data plate — 2450 MHz" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Sharp microwave data plate — 2450 MHz</div>
+                </div></div>
+        </div>
+        <div class="card" id="laundry">
+            <h2>Laundry</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">- **Washer:** Maytag MFW9700SQ1 (front-load, 12A, 120V)
+- **Dryer:** Maytag MED9700SQ0 (120/208V 23A or 120/240V 24A)</p>
+            <ul><li><strong>Washer:</strong> Maytag front-loading washer, Model MFW9700SQ1, Serial CSU3707671 (12A, 120V, 60Hz) - <a href="https://www.maytag.com/content/dam/global/documents/201305/owners-manual-W10254443-RevA.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Dryer:</strong> Maytag electric dryer, Model MED9700SQ0, Serial MW3013978 (120/208V 23A or 120/240V 24A, 60Hz) - <a href="https://www.maytag.com/content/dam/global/documents/201305/owners-manual-W10254443-RevA.pdf" target="_blank" rel="noopener">View Manual</a></li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/laundry/01_washer_dryer_maytag_overview.png" alt="Maytag front-loading washer and matching electric dryer in laundry room" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Maytag front-loading washer and matching electric dryer in laundry room</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/laundry/02_washer_maytag_data_plate.png" alt="Maytag washer data plate — Model MFW9700SQ1, Serial CSU3707671, 12A 120V 60Hz" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Maytag washer data plate — Model MFW9700SQ1, Serial CSU3707671, 12A 120V 60Hz</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/laundry/03_dryer_maytag_data_plate.png" alt="Maytag dryer data plate — Model MED9700SQ0, Serial MW3013978, 120/208V 23A or 120/240V 24A" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Maytag dryer data plate — Model MED9700SQ0, Serial MW3013978, 120/208V 23A or 120/240V 24A</div>
+                </div></div>
+        </div>
+        <div class="card" id="water-heater">
+            <h2>Water Heaters</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">Two Bradford White electric water heaters:
+- **#1 (ICON):** ERE350S6-1NCWW, Serial ZC51064910 (50 gal, 240V/208V, 4500W/3500W)
+- **#2 (Hydrojet):** ERE250T6-1NCWW, Serial BB54805614 (50 gal, 240V, 4500W)</p>
+            <strong>Water Heater #1 (ICON System):</strong>
+<ul><li><strong>Bradford White</strong> Model ERE350S6-1NCWW, Serial ZC51064910 - <a href="https://docs.bradfordwhite.com/I&amp;O/238-54649-00_Current.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Capacity:</strong> 50 US gallon (189.2 liters)</li>
+<li><strong>Voltage:</strong> 240V / 208V, 50/60 Hz</li>
+<li><strong>Wattage:</strong> 4500W / 3500W</li>
+<li><strong>Pressure:</strong> Test 300 psi, Working 150 psi</li>
+<li><strong>Features:</strong> ICON System control panel, metal straps, drain pan</li>
+</ul>
+<strong>Water Heater #2 (Hydrojet):</strong>
+<ul><li><strong>Bradford White</strong> Model ERE250T6-1NCWW, Serial BB54805614 - <a href="https://docs.bradfordwhite.com/I&amp;O/238-54649-00_Current.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Capacity:</strong> 50 US gallon (189.2 liters)</li>
+<li><strong>Voltage:</strong> 240V</li>
+<li><strong>Wattage:</strong> 4500W</li>
+<li><strong>Pressure:</strong> Test 300 psi, Working 150 psi</li>
+<li><strong>Features:</strong> Hydrojet technology, copper plumbing</li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/water-heater/01_water_heater_bradford_white_icon_overview.png" alt="Bradford White water heater #1 with ICON System control panel, secured with metal straps in drain pan" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Bradford White water heater #1 with ICON System control panel, secured with metal straps in drain pan</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/water-heater/02_water_heater_bradford_white_data_plate_1.png" alt="Bradford White water heater #1 data plate — Model ERE350S6-1NCWW, Serial ZC51064910, 50 gal, 240V/208V, 4500W/3500W" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Bradford White water heater #1 data plate — Model ERE350S6-1NCWW, Serial ZC51064910, 50 gal, 240V/208V, 4500W/3500W</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/water-heater/03_water_heater_bradford_white_data_plate_1b.png" alt="Bradford White water heater #1 data plate — additional specifications view" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Bradford White water heater #1 data plate — additional specifications view</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/water-heater/04_water_heater_bradford_white_hydrojet_overview.png" alt="Bradford White water heater #2 with Hydrojet technology, copper plumbing visible" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Bradford White water heater #2 with Hydrojet technology, copper plumbing visible</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/water-heater/05_water_heater_bradford_white_hydrojet_overview_2.png" alt="Bradford White water heater #2 — second overview in utility room" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Bradford White water heater #2 — second overview in utility room</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/water-heater/06_water_heater_bradford_white_data_plate_2.png" alt="Bradford White water heater #2 data plate — Model ERE250T6-1NCWW, Serial BB54805614, 50 gal, 240V, 4500W" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Bradford White water heater #2 data plate — Model ERE250T6-1NCWW, Serial BB54805614, 50 gal, 240V, 4500W</div>
+                </div></div>
+        </div>
+        <div class="card" id="heating">
+            <h2>Heating</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">- **Furnace:** Thermo Pride oil-fired furnace (basement, with ductwork)
+- **Thermostats:** Honeywell digital (multiple zones, programmable, currently set to Hold 60°F)</p>
+            <ul><li><strong>Furnace:</strong> Thermo Pride oil-fired furnace in basement with ductwork</li>
+<li><strong>Thermostats:</strong> Honeywell digital thermostats (multiple zones, programmable, Heat mode)</li>
+<li><strong>Current Settings:</strong> Hold at 60°F across zones</li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/heating/01_furnace_thermo_pride_overview.png" alt="Thermo Pride oil-fired furnace with associated ductwork" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Thermo Pride oil-fired furnace with associated ductwork</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/heating/02_furnace_thermo_pride_basement_view.png" alt="Thermo Pride furnace in basement setting with adjacent electrical panel" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Thermo Pride furnace in basement setting with adjacent electrical panel</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/heating/03_heating_system_access_door.png" alt="Heating system access door in storage area with space heater nearby" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Heating system access door in storage area with space heater nearby</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/heating/04_thermostat_honeywell_zone1.png" alt="Honeywell digital thermostat — Zone 1, set to 60°F" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Honeywell digital thermostat — Zone 1, set to 60°F</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/heating/05_thermostat_honeywell_zone2.png" alt="Honeywell thermostat — Zone 2, display showing Hold 60°F, Heat mode" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Honeywell thermostat — Zone 2, display showing Hold 60°F, Heat mode</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/heating/06_thermostat_honeywell_zone3.png" alt="Honeywell thermostat — Zone 3, display showing Hold 60°F" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Honeywell thermostat — Zone 3, display showing Hold 60°F</div>
+                </div></div>
+        </div>
+        <div class="card" id="electrical">
+            <h2>Electrical</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">- **Main Panel:** Pushmatic Electri-Center by Bulldog Electric Products Co. (push-button breakers)
+- **Sub-Panel:** Square D QO Load Center QOC12UF (100A, serves Main House, Docks, Boat House)</p>
+            <ul><li><strong>Main Panel:</strong> Pushmatic Electri-Center by Bulldog Electric Products Co. (push-button breakers)</li>
+<li><strong>Circuit Directory:</strong> Furnace, Hot Water, Lights, Dryer, Water Heater, Range, Floods, and other house circuits</li>
+<li><strong>Sub-Panel:</strong> Square D QO Load Center, Model QOC12UF, 100A main breaker, 22,000 AIR</li>
+<li><strong>Sub-Panel Serves:</strong> Main House, Docks, and Boat House</li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/electrical/01_electrical_panel_pushmatic_overview.png" alt="Pushmatic Electri-Center main panel by Bulldog Electric Products Co. — overview showing circuit breaker layout" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Pushmatic Electri-Center main panel by Bulldog Electric Products Co. — overview showing circuit breaker layout</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/electrical/02_electrical_panel_pushmatic_circuits.png" alt="Pushmatic Electri-Center — open view showing labeled push-button breakers for dryer, water heater, range, and other circuits" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Pushmatic Electri-Center — open view showing labeled push-button breakers for dryer, water heater, range, and other circuits</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/electrical/03_electrical_panel_pushmatic_detail.png" alt="Pushmatic Electri-Center — detail view showing circuit labels for furnace, hot water, lights, and floods" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Pushmatic Electri-Center — detail view showing circuit labels for furnace, hot water, lights, and floods</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/electrical/04_electrical_panel_square_d_sub_panel.png" alt="Square D QO Load Center sub-panel — Model QOC12UF, 100A main breaker, serves Main House, Docks, and Boat House" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Square D QO Load Center sub-panel — Model QOC12UF, 100A main breaker, serves Main House, Docks, and Boat House</div>
+                </div></div>
+        </div>
+        <div class="card" id="water-shutoff">
+            <h2>Water Shutoff</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">Multiple water shutoff points: main in-ground valve with blue cover, underground valve with blue handle, and crawlspace shutoff with copper piping.</p>
+            <ul><li><strong>Main Shutoff:</strong> In-ground valve with blue circular access cover</li>
+<li><strong>Shutoff Key:</strong> T-handle water shutoff key location near green outbuilding</li>
+<li><strong>Underground Valve:</strong> Blue-handle shutoff valve in underground utility box</li>
+<li><strong>Secondary Valve:</strong> Additional shutoff valve in underground box</li>
+<li><strong>Crawlspace Shutoff:</strong> Water shutoff valve with copper piping in crawlspace</li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/water-shutoff/01_water_shutoff_cover_main.png" alt="Main water shutoff — blue circular access cover, partially buried in ground" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Main water shutoff — blue circular access cover, partially buried in ground</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/water-shutoff/02_water_shutoff_key_location.png" alt="T-handle water shutoff key in ground, indicating valve location near green outbuilding" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">T-handle water shutoff key in ground, indicating valve location near green outbuilding</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/water-shutoff/03_water_shutoff_valve_underground.png" alt="Underground water shutoff valve with blue handle in utility box" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Underground water shutoff valve with blue handle in utility box</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/water-shutoff/04_water_shutoff_valve_box.png" alt="Water shutoff valve in underground box" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Water shutoff valve in underground box</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/water-shutoff/05_water_shutoff_crawlspace.png" alt="Crawlspace water shutoff valve with copper piping" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Crawlspace water shutoff valve with copper piping</div>
+                </div></div>
+        </div>
+        <div class="card" id="irrigation-system">
+            <h2>Irrigation System</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">- **Controller:** Rain Bird ESP-ME3 (WiFi Ready, wall-mounted cabinet)
+- **Valve Boxes:** Multiple in-ground boxes with PVC piping and solenoid valves
+- **Coverage:** Main House and Madrona House landscaping</p>
+            <ul><li><strong>Controller:</strong> Rain Bird ESP-ME3 - <a href="https://www.rainbird.com/sites/default/files/media/documents/2020-03/d41274_15ja20_esp-me3-user-manual-advanced-dom_en-en.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Location:</strong> Wall-mounted cabinet</li>
+<li><strong>Features:</strong> LNK WiFi Ready, Weather Sensor compatible, Seasonal Adjust, Flow Sensor compatible</li>
+<li><strong>Programs:</strong> A, B, C, D</li>
+<li><strong>Valve Boxes:</strong> Multiple in-ground valve boxes with PVC piping and solenoid valves</li>
+<li><strong>Coverage:</strong> Landscaping around Main House and Madrona House</li>
+<li><strong>Map:</strong> Hand-drawn map available showing all head locations</li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/irrigation-system/01_irrigation_valve_box_open.png" alt="Irrigation valve box open — multiple PVC pipes, valves, and wiring for automated sprinkler system" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Irrigation valve box open — multiple PVC pipes, valves, and wiring for automated sprinkler system</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/irrigation-system/02_irrigation_valve_box_single.png" alt="In-ground green irrigation valve box — single valve with PVC piping and electrical wiring" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">In-ground green irrigation valve box — single valve with PVC piping and electrical wiring</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/irrigation-system/03_irrigation_valve_covers_ground.png" alt="Two blue irrigation valve box covers in wooded area with marker post" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Two blue irrigation valve box covers in wooded area with marker post</div>
+                </div></div>
+        </div>
+        <div class="card" id="exterior">
+            <h2>Structure &amp; Exterior</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">Stone and concrete foundation, green roof, exterior basement entrance, crawlspace access with metal cover, and mature landscaped grounds.</p>
+            <ul><li><strong>Foundation:</strong> Stone and concrete</li>
+<li><strong>Roof:</strong> Green roof</li>
+<li><strong>Basement:</strong> Accessible via exterior entrance with screen door</li>
+<li><strong>Crawlspace:</strong> Metal access cover at ground level</li>
+<li><strong>Grounds:</strong> Mature landscaping with established plantings, driveway access</li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/exterior/01_exterior_side_view.png" alt="Main House exterior — side view showing stone construction and green roof" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Main House exterior — side view showing stone construction and green roof</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/exterior/02_exterior_driveway_landscaping.png" alt="Main House exterior — driveway and mature landscaping" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Main House exterior — driveway and mature landscaping</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/exterior/03_exterior_basement_entrance.png" alt="Basement entrance — screen door, decorative lifebuoy, stone and concrete foundation" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Basement entrance — screen door, decorative lifebuoy, stone and concrete foundation</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/main-house/exterior/04_exterior_crawlspace_access.png" alt="Crawlspace access — metal cover at ground level below window" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Crawlspace access — metal cover at ground level below window</div>
+                </div></div>
+        </div>
+    
+    </main>
+    <footer>
+        <div class="container">
+            Shady Cove Property Manual &mdash; QR Code System Proof of Concept
+        </div>
+    </footer>
+</body>
+</html>

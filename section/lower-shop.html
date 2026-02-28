@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lower Shop — Shady Cove Property Manual</title>
+    <style>
+    :root {
+        --bg: #f8f9fa;
+        --card-bg: #ffffff;
+        --text: #1a1a2e;
+        --text-secondary: #555;
+        --accent: #2d6a4f;
+        --accent-light: #40916c;
+        --border: #dee2e6;
+        --shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+    }
+    .container { max-width: 900px; margin: 0 auto; padding: 1rem; }
+    header {
+        background: var(--accent);
+        color: white;
+        padding: 1.5rem 0;
+        box-shadow: var(--shadow);
+    }
+    header h1 { font-size: 1.5rem; font-weight: 700; }
+    header p { opacity: 0.9; font-size: 0.9rem; margin-top: 0.25rem; }
+    header a { color: white; text-decoration: none; }
+    header a:hover { text-decoration: underline; }
+    nav.breadcrumb {
+        padding: 0.75rem 0;
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+    }
+    nav.breadcrumb a { color: var(--accent); text-decoration: none; }
+    nav.breadcrumb a:hover { text-decoration: underline; }
+    .card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        box-shadow: var(--shadow);
+    }
+    .card h2 {
+        font-size: 1.3rem;
+        color: var(--accent);
+        margin-bottom: 0.75rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid var(--accent);
+    }
+    .card h3 {
+        font-size: 1.1rem;
+        color: var(--text);
+        margin: 1rem 0 0.5rem;
+    }
+    .card h4 {
+        font-size: 1rem;
+        color: var(--text-secondary);
+        margin: 0.75rem 0 0.5rem;
+    }
+    .card p { margin: 0.5rem 0; }
+    .card ul { padding-left: 1.5rem; margin: 0.5rem 0; }
+    .card li { margin: 0.25rem 0; }
+    .card a { color: var(--accent-light); }
+    .card hr { border: none; border-top: 1px solid var(--border); margin: 1rem 0; }
+    .section-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1rem;
+        margin: 1.5rem 0;
+    }
+    .section-link {
+        display: block;
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.25rem;
+        text-decoration: none;
+        color: var(--text);
+        box-shadow: var(--shadow);
+        transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .section-link:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    }
+    .section-link h3 {
+        color: var(--accent);
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+    .section-link p {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+    }
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1rem;
+        margin: 1rem 0;
+    }
+    .image-card {
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        overflow: hidden;
+        background: var(--card-bg);
+    }
+    .image-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+    }
+    .image-card .caption {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+    }
+    .toc {
+        background: #f0f7f4;
+        border: 1px solid #b7e4c7;
+        border-radius: 8px;
+        padding: 1rem 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+    .toc h3 { font-size: 0.95rem; margin-bottom: 0.5rem; color: var(--accent); }
+    .toc ul { list-style: none; padding: 0; }
+    .toc li { margin: 0.25rem 0; }
+    .toc a {
+        color: var(--accent-light);
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+    .toc a:hover { text-decoration: underline; }
+    .badge {
+        display: inline-block;
+        background: #d8f3dc;
+        color: var(--accent);
+        padding: 0.15rem 0.5rem;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    footer {
+        text-align: center;
+        padding: 2rem 0;
+        color: var(--text-secondary);
+        font-size: 0.8rem;
+    }
+    @media (max-width: 600px) {
+        .container { padding: 0.75rem; }
+        header h1 { font-size: 1.2rem; }
+        .section-grid { grid-template-columns: 1fr; }
+        .image-grid { grid-template-columns: 1fr; }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="/property-manual/">Shady Cove Property Manual</a></h1>
+            <p>San Juan County, Washington — Private Property</p>
+        </div>
+    </header>
+    <nav class="breadcrumb container"><a href="/property-manual/">Home</a> / Lower Shop</nav>
+    <main class="container">
+        
+    
+        <div class="toc">
+            <h3>On This Page</h3>
+            <ul><li><a href="#south-side">South Side</a></li><li><a href="#north-end">North End</a></li><li><a href="#west-end">West End</a></li></ul>
+        </div>
+    <div class="card">
+        <h2>Lower Shop — Overview</h2>
+        
+        
+    </div>
+    
+        <div class="card" id="south-side">
+            <h2>South Side</h2>
+            
+            
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/lower-shop/south-side/01_exterior_south.jpg" alt="Exterior view showing the large sliding door, covered carport with a silver SUV, and a John Deere tractor parked outside." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Exterior view showing the large sliding door, covered carport with a silver SUV, and a John Deere tractor parked outside.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/lower-shop/south-side/02_interior_south.jpg" alt="Interior view showing the loft with storage, a motorcycle/scooter, and general workshop clutter." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Interior view showing the loft with storage, a motorcycle/scooter, and general workshop clutter.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/lower-shop/south-side/03_electrical_area.jpg" alt="The main electrical area, including the closed main breaker panel, pond pump pressure switch, and tool storage." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">The main electrical area, including the closed main breaker panel, pond pump pressure switch, and tool storage.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/lower-shop/south-side/04_panel_south.jpg" alt="The Square D QO Load Center (Cat No. QOC30U) labeled &quot;Pond Panel,&quot; which serves as the service disconnect." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">The Square D QO Load Center (Cat No. QOC30U) labeled &quot;Pond Panel,&quot; which serves as the service disconnect.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/lower-shop/south-side/05_pond_pump_switch.jpg" alt="The pressure switch that controls the two property pond circulation pumps (&quot;Pond #1&quot; and &quot;Pond #2 Runway&quot;)." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">The pressure switch that controls the two property pond circulation pumps (&quot;Pond #1&quot; and &quot;Pond #2 Runway&quot;).</div>
+                </div></div>
+        </div>
+        <div class="card" id="north-end">
+            <h2>North End</h2>
+            
+            
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/lower-shop/north-end/01_exterior_north.jpg" alt="Exterior view of the north end, showing the person door and a Nissan Leaf plugged into the EV charger." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Exterior view of the north end, showing the person door and a Nissan Leaf plugged into the EV charger.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/lower-shop/north-end/02_woodshop.jpg" alt="The main woodshop area, featuring a table saw, bench grinder, drill press, wood lathe, and extensive dust collection." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">The main woodshop area, featuring a table saw, bench grinder, drill press, wood lathe, and extensive dust collection.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/lower-shop/north-end/03_compressor.jpg" alt="An Industrial Air vertical air compressor." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">An Industrial Air vertical air compressor.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/lower-shop/north-end/04_wellxtrol_pressure_tank.jpg" alt="A blue Well-X-Trol pressure tank." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">A blue Well-X-Trol pressure tank.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/lower-shop/north-end/05_panel_north_closed.jpg" alt="The flush-mounted Square D electrical panel on the north wall." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">The flush-mounted Square D electrical panel on the north wall.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/lower-shop/north-end/06_panel_north_open.jpg" alt="The open Square D panel. The circuit directory is not legible in the photo." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">The open Square D panel. The circuit directory is not legible in the photo.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/lower-shop/north-end/07_phase_splitter_closed.jpg" alt="A Phase Splitter by Kylander Electric (Model SB), which converts single-phase 240V power to 3-phase for specific equipment." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">A Phase Splitter by Kylander Electric (Model SB), which converts single-phase 240V power to 3-phase for specific equipment.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/lower-shop/north-end/08_phase_splitter_open.jpg" alt="The interior of the Kylander Phase Adder, showing wiring diagrams and control breakers." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">The interior of the Kylander Phase Adder, showing wiring diagrams and control breakers.</div>
+                </div></div>
+        </div>
+        <div class="card" id="west-end">
+            <h2>West End</h2>
+            
+            
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/lower-shop/west-end/01_woodshop_west.jpg" alt="The west end woodshop area, containing large green industrial machinery such as a planer/jointer, wide drum sander, and bandsaw." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">The west end woodshop area, containing large green industrial machinery such as a planer/jointer, wide drum sander, and bandsaw.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/lower-shop/west-end/02_panel_west.jpg" alt="The Square D QO Load Center for the west end, with its own service disconnect." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">The Square D QO Load Center for the west end, with its own service disconnect.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/lower-shop/west-end/03_ronk_phase_converter.jpg" alt="A Ronk Auto-Transformer / Phase Converter mounted on the wall, providing 3-phase power." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">A Ronk Auto-Transformer / Phase Converter mounted on the wall, providing 3-phase power.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/lower-shop/west-end/04_safety_disconnect.jpg" alt="A Square D General Duty Safety Switch and various outlets near the doorway to the north end." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">A Square D General Duty Safety Switch and various outlets near the doorway to the north end.</div>
+                </div></div>
+        </div>
+    
+    </main>
+    <footer>
+        <div class="container">
+            Shady Cove Property Manual &mdash; QR Code System Proof of Concept
+        </div>
+    </footer>
+</body>
+</html>

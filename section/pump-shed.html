@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pump Shed — Shady Cove Property Manual</title>
+    <style>
+    :root {
+        --bg: #f8f9fa;
+        --card-bg: #ffffff;
+        --text: #1a1a2e;
+        --text-secondary: #555;
+        --accent: #2d6a4f;
+        --accent-light: #40916c;
+        --border: #dee2e6;
+        --shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+    }
+    .container { max-width: 900px; margin: 0 auto; padding: 1rem; }
+    header {
+        background: var(--accent);
+        color: white;
+        padding: 1.5rem 0;
+        box-shadow: var(--shadow);
+    }
+    header h1 { font-size: 1.5rem; font-weight: 700; }
+    header p { opacity: 0.9; font-size: 0.9rem; margin-top: 0.25rem; }
+    header a { color: white; text-decoration: none; }
+    header a:hover { text-decoration: underline; }
+    nav.breadcrumb {
+        padding: 0.75rem 0;
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+    }
+    nav.breadcrumb a { color: var(--accent); text-decoration: none; }
+    nav.breadcrumb a:hover { text-decoration: underline; }
+    .card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        box-shadow: var(--shadow);
+    }
+    .card h2 {
+        font-size: 1.3rem;
+        color: var(--accent);
+        margin-bottom: 0.75rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid var(--accent);
+    }
+    .card h3 {
+        font-size: 1.1rem;
+        color: var(--text);
+        margin: 1rem 0 0.5rem;
+    }
+    .card h4 {
+        font-size: 1rem;
+        color: var(--text-secondary);
+        margin: 0.75rem 0 0.5rem;
+    }
+    .card p { margin: 0.5rem 0; }
+    .card ul { padding-left: 1.5rem; margin: 0.5rem 0; }
+    .card li { margin: 0.25rem 0; }
+    .card a { color: var(--accent-light); }
+    .card hr { border: none; border-top: 1px solid var(--border); margin: 1rem 0; }
+    .section-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1rem;
+        margin: 1.5rem 0;
+    }
+    .section-link {
+        display: block;
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.25rem;
+        text-decoration: none;
+        color: var(--text);
+        box-shadow: var(--shadow);
+        transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .section-link:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    }
+    .section-link h3 {
+        color: var(--accent);
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+    .section-link p {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+    }
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1rem;
+        margin: 1rem 0;
+    }
+    .image-card {
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        overflow: hidden;
+        background: var(--card-bg);
+    }
+    .image-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+    }
+    .image-card .caption {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+    }
+    .toc {
+        background: #f0f7f4;
+        border: 1px solid #b7e4c7;
+        border-radius: 8px;
+        padding: 1rem 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+    .toc h3 { font-size: 0.95rem; margin-bottom: 0.5rem; color: var(--accent); }
+    .toc ul { list-style: none; padding: 0; }
+    .toc li { margin: 0.25rem 0; }
+    .toc a {
+        color: var(--accent-light);
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+    .toc a:hover { text-decoration: underline; }
+    .badge {
+        display: inline-block;
+        background: #d8f3dc;
+        color: var(--accent);
+        padding: 0.15rem 0.5rem;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    footer {
+        text-align: center;
+        padding: 2rem 0;
+        color: var(--text-secondary);
+        font-size: 0.8rem;
+    }
+    @media (max-width: 600px) {
+        .container { padding: 0.75rem; }
+        header h1 { font-size: 1.2rem; }
+        .section-grid { grid-template-columns: 1fr; }
+        .image-grid { grid-template-columns: 1fr; }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="/property-manual/">Shady Cove Property Manual</a></h1>
+            <p>San Juan County, Washington — Private Property</p>
+        </div>
+    </header>
+    <nav class="breadcrumb container"><a href="/property-manual/">Home</a> / Pump Shed</nav>
+    <main class="container">
+        
+    
+        <div class="toc">
+            <h3>On This Page</h3>
+            <ul><li><a href="#exterior">Exterior</a></li><li><a href="#interior">Interior</a></li><li><a href="#equipment">Well &amp; Water Treatment Equipment</a></li><li><a href="#electrical">Electrical</a></li></ul>
+        </div>
+    <div class="card">
+        <h2>Pump Shed — Overview</h2>
+        
+        
+    </div>
+    
+        <div class="card" id="exterior">
+            <h2>Exterior</h2>
+            
+            
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/pump-shed/exterior/01_pump_shed_exterior.jpg" alt="Exterior view of the pump shed, a small building with a shake roof and vertical board siding." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Exterior view of the pump shed, a small building with a shake roof and vertical board siding.</div>
+                </div></div>
+        </div>
+        <div class="card" id="interior">
+            <h2>Interior</h2>
+            
+            
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/pump-shed/interior/01_pump_shed_interior_overview.jpg" alt="Overview of the narrow interior, showing the water softener, salt bags, heaters, well head, and electrical panels." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Overview of the narrow interior, showing the water softener, salt bags, heaters, well head, and electrical panels.</div>
+                </div></div>
+        </div>
+        <div class="card" id="equipment">
+            <h2>Well &amp; Water Treatment Equipment</h2>
+            
+            <strong>Well &amp; Water Treatment Equipment:</strong>
+
+<ul><li><strong>Well Pump Motor Control:</strong> Franklin Electric Submersible Motor Control — <a href="https://www.geotechenv.com/Manuals/Franklin_AIM/Electric_Submersible_Motors_AIM.pdf" target="_blank" rel="noopener">AIM Manual</a></li>
+<li><strong>Pump Protector:</strong> SymCom PumpSaver Model SP-23 (233P) — <a href="https://www.xylem.com/siteassets/brand/goulds-water-technology/resources/manual/ii_233p-111p-233p-1.5_a1.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Water Softener Controllers:</strong> North Star Commercial Universal Control (x2) — <a href="https://northstarwater.zendesk.com/hc/en-us/categories/4403157826455-Owner-s-Manuals" target="_blank" rel="noopener">Owner&#x27;s Manuals</a></li>
+<li><strong>Distribution Manifold:</strong> Multiple PVC branch lines with red-handled ball valves</li>
+</ul>
+<p>&gt; <strong>Maintenance Note:</strong> A crack is visible in the concrete slab near the well head — monitor and repair as needed.</p>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/pump-shed/equipment/01_well_head.jpg" alt="The floor-mounted wellhead with a pitless adapter and brass fittings. A crack is visible in the concrete slab near the well head." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">The floor-mounted wellhead with a pitless adapter and brass fittings. A crack is visible in the concrete slab near the well head.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/pump-shed/equipment/02_pump_controls.jpg" alt="The pump control boxes, including a Franklin Electric Submersible Motor Control and a SymCom PumpSaver Model SP-23. A Spectrum Water Analysis Test Kit is sitting on top." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">The pump control boxes, including a Franklin Electric Submersible Motor Control and a SymCom PumpSaver Model SP-23. A Spectrum Water Analysis Test Kit is sitting on top.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/pump-shed/equipment/03_water_treatment_system.jpg" alt="The water treatment system, including two large fiberglass tanks, a black brine tank, and an extensive PVC piping manifold." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">The water treatment system, including two large fiberglass tanks, a black brine tank, and an extensive PVC piping manifold.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/pump-shed/equipment/04_distribution_manifold.jpg" alt="The property-wide water distribution manifold with multiple PVC branch lines and red-handled ball valves." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">The property-wide water distribution manifold with multiple PVC branch lines and red-handled ball valves.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/pump-shed/equipment/05_north_star_controllers.jpg" alt="Two North Star Commercial Universal Control panels for the water softening system. The left unit shows a water flow rate of 2.0 GPM." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Two North Star Commercial Universal Control panels for the water softening system. The left unit shows a water flow rate of 2.0 GPM.</div>
+                </div></div>
+        </div>
+        <div class="card" id="electrical">
+            <h2>Electrical</h2>
+            
+            <strong>Electrical Panel:</strong> Square D QO Load Center, 200A — <a href="https://download.schneider-electric.com/files?p_enDocType=Instruction+sheet&amp;p_File_Name=S1B33894.pdf&amp;p_Doc_Ref=S1B33894" target="_blank" rel="noopener">View Manual</a>
+
+<p>The panel serves the pump, controls, and other buildings on the property.</p>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/pump-shed/electrical/01_electrical_panel.jpg" alt="The main Square D QO electrical panel (200A) for the pump shed, with circuits for the pump, controls, and other buildings." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">The main Square D QO electrical panel (200A) for the pump shed, with circuits for the pump, controls, and other buildings.</div>
+                </div></div>
+        </div>
+    
+    </main>
+    <footer>
+        <div class="container">
+            Shady Cove Property Manual &mdash; QR Code System Proof of Concept
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madrona House — Shady Cove Property Manual</title>
+    <style>
+    :root {
+        --bg: #f8f9fa;
+        --card-bg: #ffffff;
+        --text: #1a1a2e;
+        --text-secondary: #555;
+        --accent: #2d6a4f;
+        --accent-light: #40916c;
+        --border: #dee2e6;
+        --shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+    }
+    .container { max-width: 900px; margin: 0 auto; padding: 1rem; }
+    header {
+        background: var(--accent);
+        color: white;
+        padding: 1.5rem 0;
+        box-shadow: var(--shadow);
+    }
+    header h1 { font-size: 1.5rem; font-weight: 700; }
+    header p { opacity: 0.9; font-size: 0.9rem; margin-top: 0.25rem; }
+    header a { color: white; text-decoration: none; }
+    header a:hover { text-decoration: underline; }
+    nav.breadcrumb {
+        padding: 0.75rem 0;
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+    }
+    nav.breadcrumb a { color: var(--accent); text-decoration: none; }
+    nav.breadcrumb a:hover { text-decoration: underline; }
+    .card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        box-shadow: var(--shadow);
+    }
+    .card h2 {
+        font-size: 1.3rem;
+        color: var(--accent);
+        margin-bottom: 0.75rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid var(--accent);
+    }
+    .card h3 {
+        font-size: 1.1rem;
+        color: var(--text);
+        margin: 1rem 0 0.5rem;
+    }
+    .card h4 {
+        font-size: 1rem;
+        color: var(--text-secondary);
+        margin: 0.75rem 0 0.5rem;
+    }
+    .card p { margin: 0.5rem 0; }
+    .card ul { padding-left: 1.5rem; margin: 0.5rem 0; }
+    .card li { margin: 0.25rem 0; }
+    .card a { color: var(--accent-light); }
+    .card hr { border: none; border-top: 1px solid var(--border); margin: 1rem 0; }
+    .section-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1rem;
+        margin: 1.5rem 0;
+    }
+    .section-link {
+        display: block;
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.25rem;
+        text-decoration: none;
+        color: var(--text);
+        box-shadow: var(--shadow);
+        transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .section-link:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    }
+    .section-link h3 {
+        color: var(--accent);
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+    .section-link p {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+    }
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1rem;
+        margin: 1rem 0;
+    }
+    .image-card {
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        overflow: hidden;
+        background: var(--card-bg);
+    }
+    .image-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+    }
+    .image-card .caption {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+    }
+    .toc {
+        background: #f0f7f4;
+        border: 1px solid #b7e4c7;
+        border-radius: 8px;
+        padding: 1rem 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+    .toc h3 { font-size: 0.95rem; margin-bottom: 0.5rem; color: var(--accent); }
+    .toc ul { list-style: none; padding: 0; }
+    .toc li { margin: 0.25rem 0; }
+    .toc a {
+        color: var(--accent-light);
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+    .toc a:hover { text-decoration: underline; }
+    .badge {
+        display: inline-block;
+        background: #d8f3dc;
+        color: var(--accent);
+        padding: 0.15rem 0.5rem;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    footer {
+        text-align: center;
+        padding: 2rem 0;
+        color: var(--text-secondary);
+        font-size: 0.8rem;
+    }
+    @media (max-width: 600px) {
+        .container { padding: 0.75rem; }
+        header h1 { font-size: 1.2rem; }
+        .section-grid { grid-template-columns: 1fr; }
+        .image-grid { grid-template-columns: 1fr; }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="/property-manual/">Shady Cove Property Manual</a></h1>
+            <p>San Juan County, Washington — Private Property</p>
+        </div>
+    </header>
+    <nav class="breadcrumb container"><a href="/property-manual/">Home</a> / Madrona House</nav>
+    <main class="container">
+        
+    
+        <div class="toc">
+            <h3>On This Page</h3>
+            <ul><li><a href="#exterior">Exterior</a></li><li><a href="#north-end">North End</a></li><li><a href="#water-heater">Water Heater</a></li><li><a href="#irrigation">Irrigation Controls</a></li><li><a href="#electrical">Electrical Panels</a></li><li><a href="#kitchen-appliances">Kitchen Appliances</a></li><li><a href="#laundry">Laundry</a></li><li><a href="#south-bedroom">South Bedroom</a></li><li><a href="#septic">Septic System</a></li></ul>
+        </div>
+    <div class="card">
+        <h2>Madrona House — Overview</h2>
+        <strong>Status:</strong> Documented
+
+<h3>Kitchen Appliances</h3>
+<ul><li><strong>Dishwasher:</strong> Frigidaire (Black, built-in — model number not readable from label)</li>
+<li><strong>Range:</strong> GE Electric Range (Black, 4-burner coil cooktop, digital clock/timer — no model/serial found)</li>
+<li><strong>Microwave:</strong> Sharp Carousel (White, countertop, Sensor Cook presets — no model/serial found)</li>
+<li><strong>Refrigerator:</strong> GE Model ETS22XBPBRBB, Serial AG309845 (Black, top-freezer, 110-127V, 11.6A, R134a 4.5 oz, Made in Mexico)</li>
+</ul>
+<h3>Laundry</h3>
+<ul><li><strong>Washer:</strong> LG Model WM3270CW, Serial 702VWFW1C667 (White, front-load, 120V, 60Hz, 5A, Made in Vietnam)</li>
+<li><strong>Dryer:</strong> LG Model DLE3170W, Serial 703KWTA14577 (White, front-load, 120/240V, 60Hz, 25A, Made in Korea)</li>
+</ul>
+<h3>Water Heater</h3>
+<ul><li><strong>A.O. Smith</strong> Model ES12-50R55DV 110, Serial 1735107390037 (50 Gal, 240V, 5500W, hybrid/heat pump, exterior closet on north end)</li>
+</ul>
+<h3>Electrical</h3>
+<ul><li><strong>North Bedroom Panel:</strong> Square D QO Load Center — circuits include Range, Hot Water, Living Room Heat, Dining, Bath Heat, Bedrooms, Entry, Outside, Porch/Water Heater, Smoke Detector/Lights</li>
+<li><strong>South Bedroom Panel:</strong> Square D QO Load Center, Cat No. HOM24/30UC — circuits include Portable/Ref, Laundry/Dryer, Stove; GFCI/AFCI breakers</li>
+</ul>
+<h3>Septic</h3>
+<ul><li><strong>North:</strong> Two green access risers in yard near deck steps</li>
+<li><strong>South:</strong> Two green access risers in mossy lawn near tree line; alarm panel and GFCI outlet on south exterior wall</li>
+</ul>
+<h3>Irrigation</h3>
+<ul><li>In-ground valve box on north end; two solenoid valves controlled by Rain Bird ESP-ME3 at main house; includes flow sensor and anti-siphon backflow preventer</li></ul>
+        
+    </div>
+    
+        <div class="card" id="exterior">
+            <h2>Exterior</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">Dark brown board-and-batten siding on the front, tan/beige on the back. Standing seam metal roof, covered entry porch, and a large covered deck with peeled log post columns.</p>
+            <p>Dark brown board-and-batten siding on the front, tan/beige on the back. Standing seam metal roof, covered entry porch, and a large covered deck with peeled log post columns.</p>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/exterior/madrona-house-front.jpg" alt="Madrona House — Front/Entry Side" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Madrona House — Front/Entry Side</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/exterior/madrona-yard-art-truck.jpg" alt="Yard Art — Antique Truck Chassis (~1928-1931 Ford Model A/AA)" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Yard Art — Antique Truck Chassis (~1928-1931 Ford Model A/AA)</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/exterior/madrona-house-back.jpg" alt="Madrona House — Back/Deck Side with Covered Veranda" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Madrona House — Back/Deck Side with Covered Veranda</div>
+                </div></div>
+        </div>
+        <div class="card" id="north-end">
+            <h2>North End</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">The north end of the house contains the water heater access door, septic alarm, irrigation controls, and crawl space access deck.</p>
+            <p>The north end of the house contains the water heater access door, septic alarm, irrigation controls, and crawl space access deck.</p>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/north-end/madrona-north-end.jpg" alt="North End — Water Heater Door, Septic Alarm, Irrigation Controls, Crawl Space Access" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">North End — Water Heater Door, Septic Alarm, Irrigation Controls, Crawl Space Access</div>
+                </div></div>
+        </div>
+        <div class="card" id="water-heater">
+            <h2>Water Heater</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">A.O. Smith hybrid/heat pump electric water heater in an exterior closet on the north end. 50 gallon, 240V, 5500W.</p>
+            <ul><li><strong>Brand:</strong> A.O. Smith</li>
+<li><strong>Model:</strong> ES12-50R55DV 110</li>
+<li><strong>Serial:</strong> 1735107390037</li>
+<li><strong>Type:</strong> Hybrid/Heat Pump Electric Storage Tank</li>
+<li><strong>Capacity:</strong> 50 US Gal</li>
+<li><strong>Voltage:</strong> 240V AC, 1 Phase</li>
+<li><strong>Wattage:</strong> 5500W (Upper/Lower)</li>
+<li><strong>Max Pressure:</strong> 150 psi</li>
+<li><strong>Accessories:</strong> Amtrol expansion tank, Grundfos recirculation pump, drain pan, leak sensor</li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/water-heater/madrona-water-heater.jpg" alt="A.O. Smith Water Heater with Expansion Tank and Recirculation Pump" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">A.O. Smith Water Heater with Expansion Tank and Recirculation Pump</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/water-heater/madrona-water-heater-label.jpg" alt="A.O. Smith Water Heater Model Label — ES12-50R55DV 110" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">A.O. Smith Water Heater Model Label — ES12-50R55DV 110</div>
+                </div></div>
+        </div>
+        <div class="card" id="irrigation">
+            <h2>Irrigation Controls</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">In-ground valve box on the north end with two solenoid valves controlled by the Rain Bird ESP-ME3 at the main house.</p>
+            <p>Cedar-framed in-ground valve box containing two irrigation solenoid valves on PVC lines. Controlled by Rain Bird ESP-ME3 at the main house (low-voltage wiring). Includes PVC manifold, manual brass gate valve shutoff, anti-siphon/backflow preventer, and a large gray flow sensor.</p>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/irrigation/madrona-irrigation-valves.jpg" alt="Irrigation Valve Box — Two Solenoid Valves, Flow Sensor, Backflow Preventer" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Irrigation Valve Box — Two Solenoid Valves, Flow Sensor, Backflow Preventer</div>
+                </div></div>
+        </div>
+        <div class="card" id="electrical">
+            <h2>Electrical Panels</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">The house has two Square D electrical panels: one in the north bedroom and one in the south bedroom closet.</p>
+            <strong>North Bedroom Panel (Square D QO Load Center):</strong>
+<ul><li>2/4: Range</li>
+<li>3: Range/HVAC</li>
+<li>5: Ki/Ref</li>
+<li>6: Hot Water</li>
+<li>7: Elec</li>
+<li>10: Living Room Heat</li>
+<li>11: Disposal</li>
+<li>12: Dining</li>
+<li>14: Bath Heat</li>
+<li>15: Bed Room/Dishwash</li>
+<li>16: Bed Room</li>
+<li>17: De ki</li>
+<li>18: Mstr Rec</li>
+<li>19: Entry</li>
+<li>20: ALL</li>
+<li>21: Outside</li>
+<li>22: Entry</li>
+<li>24: Outside</li>
+<li>25: Multi</li>
+<li>26: Bath/Rec</li>
+<li>28: Porch/Water Heater</li>
+<li>29: Lights</li>
+<li>30: Smoke Detector/Lights</li>
+</ul>
+<strong>South Bedroom Panel (Square D HOM24/30UC):</strong>
+<ul><li>2: Portable/Ref</li>
+<li>4: Laundry/Dryer</li>
+<li>6: Stove</li>
+<li>GFCI/AFCI breakers (Square D CAFI)</li>
+<li>WA State L&amp;I inspection sticker</li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/electrical/madrona-panel-north-location.jpg" alt="North Bedroom Panel — Location on Knotty Pine Wall" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">North Bedroom Panel — Location on Knotty Pine Wall</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/electrical/madrona-panel-north-open.jpg" alt="North Bedroom Panel — Square D QO Load Center, Circuit Directory" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">North Bedroom Panel — Square D QO Load Center, Circuit Directory</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/south-bedroom/madrona-panel-south-closed.jpg" alt="South Bedroom Panel — Closed, Flush-Mounted in Closet Alcove" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">South Bedroom Panel — Closed, Flush-Mounted in Closet Alcove</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/south-bedroom/madrona-panel-south-open.jpg" alt="South Bedroom Panel — Square D HOM24/30UC Open, GFCI/AFCI Breakers" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">South Bedroom Panel — Square D HOM24/30UC Open, GFCI/AFCI Breakers</div>
+                </div></div>
+        </div>
+        <div class="card" id="kitchen-appliances">
+            <h2>Kitchen Appliances</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">Black GE refrigerator, black GE range, black Frigidaire dishwasher, and white Sharp Carousel microwave.</p>
+            <ul><li><strong>Dishwasher:</strong> Frigidaire (Black, built-in — model number not readable from label; Electrolux Home Products)</li>
+<li><strong>Range:</strong> GE Electric Range (Black, 4-burner coil cooktop, digital clock/timer — no model/serial found)</li>
+<li><strong>Microwave:</strong> Sharp Carousel (White, countertop, Sensor Cook presets — no model/serial found)</li>
+<li><strong>Refrigerator:</strong> GE Model ETS22XBPBRBB, Serial AG309845 (Black, top-freezer, 110-127V, 11.6A, R134a 4.5 oz, Made in Mexico, Appliance Park, Louisville KY)</li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/kitchen-appliances/madrona-dishwasher.jpg" alt="Frigidaire Dishwasher — Black, Built-In" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Frigidaire Dishwasher — Black, Built-In</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/kitchen-appliances/madrona-dishwasher-label.jpg" alt="Frigidaire Dishwasher Label (model not readable)" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Frigidaire Dishwasher Label (model not readable)</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/kitchen-appliances/madrona-range.jpg" alt="GE Electric Range — Black, 4-Burner Coil Cooktop" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">GE Electric Range — Black, 4-Burner Coil Cooktop</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/kitchen-appliances/madrona-microwave.jpg" alt="Sharp Carousel Microwave — White, Countertop" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Sharp Carousel Microwave — White, Countertop</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/kitchen-appliances/madrona-refrigerator.jpg" alt="GE Refrigerator — Black, Top-Freezer" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">GE Refrigerator — Black, Top-Freezer</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/kitchen-appliances/madrona-refrigerator-label.jpg" alt="GE Refrigerator Label — Model ETS22XBPBRBB, Serial AG309845" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">GE Refrigerator Label — Model ETS22XBPBRBB, Serial AG309845</div>
+                </div></div>
+        </div>
+        <div class="card" id="laundry">
+            <h2>Laundry</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">LG stacked front-load washer and dryer in a laundry closet.</p>
+            <ul><li><strong>Washer:</strong> LG Model WM3270CW, Serial 702VWFW1C667 (White, front-load, 120V, 60Hz, 5A, Made in Vietnam)</li>
+<li><strong>Dryer:</strong> LG Model DLE3170W, Serial 703KWTA14577 (White, front-load, 120/240V, 60Hz, 25A, 22.5 lb, Made in Korea)</li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/laundry/madrona-washer-dryer.jpg" alt="LG Stacked Washer and Dryer — White, Front-Load" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">LG Stacked Washer and Dryer — White, Front-Load</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/laundry/madrona-washer-label.jpg" alt="LG Washer Label — Model WM3270CW, Serial 702VWFW1C667" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">LG Washer Label — Model WM3270CW, Serial 702VWFW1C667</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/laundry/madrona-dryer-label.jpg" alt="LG Dryer Label — Model DLE3170W, Serial 703KWTA14577" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">LG Dryer Label — Model DLE3170W, Serial 703KWTA14577</div>
+                </div></div>
+        </div>
+        <div class="card" id="south-bedroom">
+            <h2>South Bedroom</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">Walk-in closet with built-in maple shelving and the south electrical panel.</p>
+            <p>The south bedroom features a walk-in closet with built-in maple shelving, a hanging rod, and storage cubbies with pull-out bins. The south electrical panel (Square D HOM24/30UC) is flush-mounted in a closet alcove.</p>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/south-bedroom/madrona-south-bedroom-closet.jpg" alt="South Bedroom Walk-In Closet — Built-In Maple Shelving and Storage" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">South Bedroom Walk-In Closet — Built-In Maple Shelving and Storage</div>
+                </div></div>
+        </div>
+        <div class="card" id="septic">
+            <h2>Septic System</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">Two separate septic systems: one on the north side (two access risers near deck steps) and one on the south side (two access risers near tree line, with alarm panel on south wall).</p>
+            <strong>North Septic:</strong> Two green access risers at grade level in the yard near the deck steps. Boulders and landscaping surround them.
+
+<strong>South Septic:</strong> Two green access risers in the mossy lawn south of the house near the tree line. The alarm panel and GFCI outlet are mounted on the south exterior wall, with EMT conduit and pump wiring running to the foundation.
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/septic/madrona-septic-north.jpg" alt="North Septic — Two Green Access Risers Near Deck Steps" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">North Septic — Two Green Access Risers Near Deck Steps</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/septic/madrona-septic-alarm-south.jpg" alt="South Septic — Alarm Panel and GFCI Outlet on South Exterior Wall" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">South Septic — Alarm Panel and GFCI Outlet on South Exterior Wall</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/madrona-house/septic/madrona-septic-tank-south.jpg" alt="South Septic — Two Green Access Risers in Mossy Lawn Near Tree Line" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">South Septic — Two Green Access Risers in Mossy Lawn Near Tree Line</div>
+                </div></div>
+        </div>
+    
+    </main>
+    <footer>
+        <div class="container">
+            Shady Cove Property Manual &mdash; QR Code System Proof of Concept
+        </div>
+    </footer>
+</body>
+</html>

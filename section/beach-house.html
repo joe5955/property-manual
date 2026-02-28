@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beach House — Shady Cove Property Manual</title>
+    <style>
+    :root {
+        --bg: #f8f9fa;
+        --card-bg: #ffffff;
+        --text: #1a1a2e;
+        --text-secondary: #555;
+        --accent: #2d6a4f;
+        --accent-light: #40916c;
+        --border: #dee2e6;
+        --shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+    }
+    .container { max-width: 900px; margin: 0 auto; padding: 1rem; }
+    header {
+        background: var(--accent);
+        color: white;
+        padding: 1.5rem 0;
+        box-shadow: var(--shadow);
+    }
+    header h1 { font-size: 1.5rem; font-weight: 700; }
+    header p { opacity: 0.9; font-size: 0.9rem; margin-top: 0.25rem; }
+    header a { color: white; text-decoration: none; }
+    header a:hover { text-decoration: underline; }
+    nav.breadcrumb {
+        padding: 0.75rem 0;
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+    }
+    nav.breadcrumb a { color: var(--accent); text-decoration: none; }
+    nav.breadcrumb a:hover { text-decoration: underline; }
+    .card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        box-shadow: var(--shadow);
+    }
+    .card h2 {
+        font-size: 1.3rem;
+        color: var(--accent);
+        margin-bottom: 0.75rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid var(--accent);
+    }
+    .card h3 {
+        font-size: 1.1rem;
+        color: var(--text);
+        margin: 1rem 0 0.5rem;
+    }
+    .card h4 {
+        font-size: 1rem;
+        color: var(--text-secondary);
+        margin: 0.75rem 0 0.5rem;
+    }
+    .card p { margin: 0.5rem 0; }
+    .card ul { padding-left: 1.5rem; margin: 0.5rem 0; }
+    .card li { margin: 0.25rem 0; }
+    .card a { color: var(--accent-light); }
+    .card hr { border: none; border-top: 1px solid var(--border); margin: 1rem 0; }
+    .section-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1rem;
+        margin: 1.5rem 0;
+    }
+    .section-link {
+        display: block;
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.25rem;
+        text-decoration: none;
+        color: var(--text);
+        box-shadow: var(--shadow);
+        transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .section-link:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    }
+    .section-link h3 {
+        color: var(--accent);
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+    .section-link p {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+    }
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1rem;
+        margin: 1rem 0;
+    }
+    .image-card {
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        overflow: hidden;
+        background: var(--card-bg);
+    }
+    .image-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+    }
+    .image-card .caption {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+    }
+    .toc {
+        background: #f0f7f4;
+        border: 1px solid #b7e4c7;
+        border-radius: 8px;
+        padding: 1rem 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+    .toc h3 { font-size: 0.95rem; margin-bottom: 0.5rem; color: var(--accent); }
+    .toc ul { list-style: none; padding: 0; }
+    .toc li { margin: 0.25rem 0; }
+    .toc a {
+        color: var(--accent-light);
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+    .toc a:hover { text-decoration: underline; }
+    .badge {
+        display: inline-block;
+        background: #d8f3dc;
+        color: var(--accent);
+        padding: 0.15rem 0.5rem;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    footer {
+        text-align: center;
+        padding: 2rem 0;
+        color: var(--text-secondary);
+        font-size: 0.8rem;
+    }
+    @media (max-width: 600px) {
+        .container { padding: 0.75rem; }
+        header h1 { font-size: 1.2rem; }
+        .section-grid { grid-template-columns: 1fr; }
+        .image-grid { grid-template-columns: 1fr; }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="/property-manual/">Shady Cove Property Manual</a></h1>
+            <p>San Juan County, Washington — Private Property</p>
+        </div>
+    </header>
+    <nav class="breadcrumb container"><a href="/property-manual/">Home</a> / Beach House</nav>
+    <main class="container">
+        
+    
+        <div class="toc">
+            <h3>On This Page</h3>
+            <ul><li><a href="#utilities-and-systems">Utilities &amp; Systems</a></li><li><a href="#appliances">Appliances</a></li><li><a href="#water-heater-beach">Water Heater (Critical)</a></li><li><a href="#laundry">Laundry</a></li></ul>
+        </div>
+    <div class="card">
+        <h2>Beach House — Overview</h2>
+        <strong>Parcel:</strong> [To be documented] - <a href="https://gis.sanjuancountywa.gov/polaris/" target="_blank" rel="noopener">View on Polaris GIS</a>
+
+<h3>Utilities &amp; Systems</h3>
+<ul><li><strong>Water Shutoff:</strong> Exterior access box near main entry by &quot;Lighthouse Point&quot; sign (Blue-handled ball valve)</li>
+<li><strong>WiFi:</strong> Network: <strong>Ned&amp;Haleh</strong> | Password: <strong>Beachhouse1</strong></li>
+<li><strong>Security:</strong> First Alert FA260 Professional alarm system - <a href="https://seisecurity.com/wp-content/uploads/2018/02/FA260RF_User_Guide.pdf" target="_blank" rel="noopener">View Manual</a></li>
+</ul>
+<h3>Appliances</h3>
+<ul><li><strong>Refrigerator:</strong> LG LRBP1031T (19 years old) - <em>Rec. Replace Immediately</em> - <a href="https://gscs-b2c.lge.com/downloadFile?fileId=KROWM000020693.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Range:</strong> Bosch Electric (Stainless steel, ceramic cooktop) - <a href="https://media3.bosch-home.com/Documents/9000087183_A.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Dishwasher:</strong> Bosch 300 Series SHP53C06UC30 (~7 years old) - <a href="https://media3.bosch-home.com/Documents/9001218495_A.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Washer:</strong> Maytag MHW8200FC0 (8 years old) - <a href="https://www.maytag.com/content/dam/global/documents/201906/owners-manual-W10775517-RevB.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Dryer:</strong> Maytag MED8200FC2 (8 years old) - <a href="https://c.searspartsdirect.com/doc/1603405L" target="_blank" rel="noopener">View Manual</a></li>
+</ul>
+<h3>Water Heater</h3>
+<ul><li><strong>Model:</strong> Bradford White M265R6DS-1NCWM - <a href="https://docs.bradfordwhite.com/I&amp;O/238-54649-00_Current.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Serial:</strong> DD9041943</li>
+<li><strong>Age:</strong> 22 years (2004)</li>
+<li><strong>Status:</strong> CRITICAL FAILURE RISK (Expected life 8-12 years)</li>
+<li><strong>Action:</strong> Replace immediately</li></ul>
+        
+    </div>
+    
+        <div class="card" id="utilities-and-systems">
+            <h2>Utilities &amp; Systems</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">- **Water Shutoff:** Exterior access box near main entry by &quot;Lighthouse Point&quot; sign (Blue-handled ball valve)
+- **WiFi:** Network: **Ned&amp;Haleh** | Password: **Beachhouse1**
+- **Security:** First Alert FA260 Professional alarm system - [View Manual](https://seisecurity.com/wp-content/uploads/2018/02/FA260RF_User_Guide.pdf)</p>
+            <ul><li><strong>Water Shutoff:</strong> Exterior access box near main entry by &quot;Lighthouse Point&quot; sign (Blue-handled ball valve)</li>
+<li><strong>WiFi:</strong> Network: <strong>Ned&amp;Haleh</strong> | Password: <strong>Beachhouse1</strong></li>
+<li><strong>Security:</strong> First Alert FA260 Professional alarm system - <a href="https://seisecurity.com/wp-content/uploads/2018/02/FA260RF_User_Guide.pdf" target="_blank" rel="noopener">View Manual</a></li></ul>
+            
+            
+        </div>
+        <div class="card" id="appliances">
+            <h2>Appliances</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">| Item | Brand/Model | Specs | Age/Condition | Notes |
+|------|-------------|-------|---------------|-------|
+| Refrigerator | LG LRBP1031T | 115V, 60Hz, 2.6A, R134a refrigerant | ~19 years old (2007 model) | **Replacement Recommended** — Nearing end of life. Service: 1-800-243-0000 |
+| Range | Bosch Electric Range | Convection Self-Cleaning Oven, glass cooktop | Good Condition | Stainless steel, ceramic cooktop. Controls: Light, Time, Cooking Mode, Temperature, Start |
+| Dishwasher | Bosch 300 Series | Cycles: Delay Start, Regular Wash, Delicate/Rinse, Quick Wash, Rinse &amp; Hold | ~7 years old (2019 model) | Good condition. Stainless steel. |
+| Microwave | Bosch HMV9305/01 | Serial FD8703001911, Mfg. March 2007, Made in Korea | ~19 years old (2007) | Over-the-range, stainless steel. **Replacement Recommended.** |
+| Washer | Maytag MHW8200FC0 | 12.0A, 120V, 60Hz, Type 171-02 | ~8 years old (2018 model) | Good condition. PowerWash, Direct Drive, 10 Year warranty. |
+| Dryer | Maytag MED8200FC2 | 120/208V 23A or 120/240V 24A, Type DALP-ELE-2406024-EL54 | ~8 years old (2018 model) | Good condition. 10 Year warranty. |</p>
+            <p>| Item | Brand/Model | Specs | Age/Condition | Notes |</p>
+<p>|------|-------------|-------|---------------|-------|</p>
+<p>| Refrigerator | LG LRBP1031T | 115V, 60Hz, 2.6A, R134a refrigerant | ~19 years old (2007 model) | <strong>Replacement Recommended</strong> — Nearing end of life. Service: 1-800-243-0000 |</p>
+<p>| Range | Bosch Electric Range | Convection Self-Cleaning Oven, glass cooktop | Good Condition | Stainless steel, ceramic cooktop. Controls: Light, Time, Cooking Mode, Temperature, Start |</p>
+<p>| Dishwasher | Bosch 300 Series | Cycles: Delay Start, Regular Wash, Delicate/Rinse, Quick Wash, Rinse &amp; Hold | ~7 years old (2019 model) | Good condition. Stainless steel. |</p>
+<p>| Microwave | Bosch HMV9305/01 | Serial FD8703001911, Mfg. March 2007, Made in Korea | ~19 years old (2007) | Over-the-range, stainless steel. <strong>Replacement Recommended.</strong> |</p>
+<p>| Washer | Maytag MHW8200FC0 | 12.0A, 120V, 60Hz, Type 171-02 | ~8 years old (2018 model) | Good condition. PowerWash, Direct Drive, 10 Year warranty. |</p>
+<p>| Dryer | Maytag MED8200FC2 | 120/208V 23A or 120/240V 24A, Type DALP-ELE-2406024-EL54 | ~8 years old (2018 model) | Good condition. 10 Year warranty. |</p>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/beach-house/appliances/01_dishwasher_bosch_closed.jpg" alt="Bosch Dishwasher — Stainless Steel, Closed" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Bosch Dishwasher — Stainless Steel, Closed</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/beach-house/appliances/02_dishwasher_bosch_control_panel.jpg" alt="Bosch Dishwasher — Control Panel (Delay Start, Regular Wash, Delicate/Rinse, Quick Wash, Rinse &amp; Hold)" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Bosch Dishwasher — Control Panel (Delay Start, Regular Wash, Delicate/Rinse, Quick Wash, Rinse &amp; Hold)</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/beach-house/appliances/03_range_bosch_full_view.jpg" alt="Bosch Electric Range — Stainless Steel, Glass Cooktop, Convection Self-Cleaning Oven" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Bosch Electric Range — Stainless Steel, Glass Cooktop, Convection Self-Cleaning Oven</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/beach-house/appliances/04_range_bosch_control_panel.jpg" alt="Bosch Range — Control Panel (Light, Time, Cooking Mode, Temperature, Start)" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Bosch Range — Control Panel (Light, Time, Cooking Mode, Temperature, Start)</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/beach-house/appliances/05_refrigerator_lg_kitchen_overview.jpg" alt="LG Bottom-Freezer Refrigerator — Stainless Steel, Kitchen Overview with Microwave and Range" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">LG Bottom-Freezer Refrigerator — Stainless Steel, Kitchen Overview with Microwave and Range</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/beach-house/appliances/06_refrigerator_lg_label.jpg" alt="LG Refrigerator Label: Model LRBP1031T, Serial 701TRMF00091, 115V 60Hz 2.6A, R134a" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">LG Refrigerator Label: Model LRBP1031T, Serial 701TRMF00091, 115V 60Hz 2.6A, R134a</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/beach-house/appliances/07_microwave_bosch_overview.jpg" alt="Bosch Over-the-Range Microwave — Stainless Steel" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Bosch Over-the-Range Microwave — Stainless Steel</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/beach-house/appliances/08_microwave_bosch_label.jpg" alt="Bosch Microwave Label: Model HMV9305/01, Serial FD8703001911, Manufactured March 2007, Made in Korea" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Bosch Microwave Label: Model HMV9305/01, Serial FD8703001911, Manufactured March 2007, Made in Korea</div>
+                </div></div>
+        </div>
+        <div class="card" id="water-heater-beach">
+            <h2>Water Heater (Critical)</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">### ⚠️ URGENT: Replacement Needed
+**Bradford White Water Heater**
+- **Model:** M265R6DS-1NCWW
+- **Serial:** DD9041943
+- **Capacity:** 65 gallons (246 liters)
+- **Type:** Electric, 240/208V, 1-Phase AC
+- **Upper Element:** 4500/3500 Watts
+- **Lower Element:** 4500/3500 Watts
+- **Age:** 22 years (2004)
+- **Status:** CRITICAL FAILURE RISK
+
+**Why This Is Urgent:**
+At 22 years old, this unit is significantly beyond its expected lifespan (8–12 years). Risks include tank failure, flooding, and loss of hot water.
+
+**Immediate Actions:**
+1. Monitor for leaks.
+2. **Budget for immediate replacement.**</p>
+            <h3>⚠️ URGENT: Replacement Needed</h3>
+<strong>Bradford White Water Heater</strong>
+<ul><li><strong>Model:</strong> M265R6DS-1NCWW</li>
+<li><strong>Serial:</strong> DD9041943</li>
+<li><strong>Capacity:</strong> 65 gallons (246 liters)</li>
+<li><strong>Type:</strong> Electric, 240/208V, 1-Phase AC</li>
+<li><strong>Upper Element:</strong> 4500/3500 Watts</li>
+<li><strong>Lower Element:</strong> 4500/3500 Watts</li>
+<li><strong>Age:</strong> 22 years (2004)</li>
+<li><strong>Status:</strong> CRITICAL FAILURE RISK</li>
+</ul>
+<strong>Why This Is Urgent:</strong>
+<p>At 22 years old, this unit is significantly beyond its expected lifespan (8–12 years). Risks include tank failure, flooding, and loss of hot water.</p>
+
+<strong>Immediate Actions:</strong>
+<ul><li>Monitor for leaks.</li>
+<li><strong>Budget for immediate replacement.</strong></li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/beach-house/water-heater/01_bradford_white_water_heater.jpg" alt="Bradford White Water Heater in Utility Closet" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Bradford White Water Heater in Utility Closet</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/beach-house/water-heater/02_bradford_white_label.jpg" alt="Bradford White Label: Model M265R6DS-1NCWW, Serial DD9041943, 65 Gallon, Electric 240/208V" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Bradford White Label: Model M265R6DS-1NCWW, Serial DD9041943, 65 Gallon, Electric 240/208V</div>
+                </div></div>
+        </div>
+        <div class="card" id="laundry">
+            <h2>Laundry</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">- **Washer:** Maytag MHW8200FC0 (front-load, ~8 years old, PowerWash, Direct Drive)
+- **Dryer:** Maytag MED8200FC2 (front-load, ~8 years old, 10 Year warranty)</p>
+            <p>| Item | Brand/Model | Specs | Age/Condition | Notes |</p>
+<p>|------|-------------|-------|---------------|-------|</p>
+<p>| Washer | Maytag MHW8200FC0 | 12.0A, 120V, 60Hz, Type 171-02, Whirlpool Corp Benton Harbor MI | ~8 years old (2018 model) | Front-load, dark metallic. PowerWash, Direct Drive, 10 Year warranty. |</p>
+<p>| Dryer | Maytag MED8200FC2 | 120/208V 23A or 120/240V 24A, Type DALP-ELE-2406024-EL54, Serial M81603177 | ~8 years old (2018 model) | Front-load, dark metallic. 10 Year warranty. |</p>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/beach-house/laundry/01_dryer_maytag_overview.jpg" alt="Maytag Dryer — Front-Load, Dark Metallic, 10 Year Warranty" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Maytag Dryer — Front-Load, Dark Metallic, 10 Year Warranty</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/beach-house/laundry/02_dryer_maytag_label.jpg" alt="Maytag Dryer Label: Model MED8200FC2, Serial M81603177, 120/208V 23A or 120/240V 24A" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Maytag Dryer Label: Model MED8200FC2, Serial M81603177, 120/208V 23A or 120/240V 24A</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/beach-house/laundry/03_washer_maytag_overview.jpg" alt="Maytag Washer — Front-Load, Dark Metallic, PowerWash, Direct Drive, 10 Year Warranty" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Maytag Washer — Front-Load, Dark Metallic, PowerWash, Direct Drive, 10 Year Warranty</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/beach-house/laundry/04_washer_maytag_label.jpg" alt="Maytag Washer Label: Model MHW8200FC0, Serial C82350288, 12.0A 120V 60Hz, Whirlpool Corp" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Maytag Washer Label: Model MHW8200FC0, Serial C82350288, 12.0A 120V 60Hz, Whirlpool Corp</div>
+                </div></div>
+        </div>
+    
+    </main>
+    <footer>
+        <div class="container">
+            Shady Cove Property Manual &mdash; QR Code System Proof of Concept
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caretaker House — Shady Cove Property Manual</title>
+    <style>
+    :root {
+        --bg: #f8f9fa;
+        --card-bg: #ffffff;
+        --text: #1a1a2e;
+        --text-secondary: #555;
+        --accent: #2d6a4f;
+        --accent-light: #40916c;
+        --border: #dee2e6;
+        --shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+    }
+    .container { max-width: 900px; margin: 0 auto; padding: 1rem; }
+    header {
+        background: var(--accent);
+        color: white;
+        padding: 1.5rem 0;
+        box-shadow: var(--shadow);
+    }
+    header h1 { font-size: 1.5rem; font-weight: 700; }
+    header p { opacity: 0.9; font-size: 0.9rem; margin-top: 0.25rem; }
+    header a { color: white; text-decoration: none; }
+    header a:hover { text-decoration: underline; }
+    nav.breadcrumb {
+        padding: 0.75rem 0;
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+    }
+    nav.breadcrumb a { color: var(--accent); text-decoration: none; }
+    nav.breadcrumb a:hover { text-decoration: underline; }
+    .card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        box-shadow: var(--shadow);
+    }
+    .card h2 {
+        font-size: 1.3rem;
+        color: var(--accent);
+        margin-bottom: 0.75rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid var(--accent);
+    }
+    .card h3 {
+        font-size: 1.1rem;
+        color: var(--text);
+        margin: 1rem 0 0.5rem;
+    }
+    .card h4 {
+        font-size: 1rem;
+        color: var(--text-secondary);
+        margin: 0.75rem 0 0.5rem;
+    }
+    .card p { margin: 0.5rem 0; }
+    .card ul { padding-left: 1.5rem; margin: 0.5rem 0; }
+    .card li { margin: 0.25rem 0; }
+    .card a { color: var(--accent-light); }
+    .card hr { border: none; border-top: 1px solid var(--border); margin: 1rem 0; }
+    .section-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1rem;
+        margin: 1.5rem 0;
+    }
+    .section-link {
+        display: block;
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.25rem;
+        text-decoration: none;
+        color: var(--text);
+        box-shadow: var(--shadow);
+        transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .section-link:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    }
+    .section-link h3 {
+        color: var(--accent);
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+    .section-link p {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+    }
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1rem;
+        margin: 1rem 0;
+    }
+    .image-card {
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        overflow: hidden;
+        background: var(--card-bg);
+    }
+    .image-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+    }
+    .image-card .caption {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+    }
+    .toc {
+        background: #f0f7f4;
+        border: 1px solid #b7e4c7;
+        border-radius: 8px;
+        padding: 1rem 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+    .toc h3 { font-size: 0.95rem; margin-bottom: 0.5rem; color: var(--accent); }
+    .toc ul { list-style: none; padding: 0; }
+    .toc li { margin: 0.25rem 0; }
+    .toc a {
+        color: var(--accent-light);
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+    .toc a:hover { text-decoration: underline; }
+    .badge {
+        display: inline-block;
+        background: #d8f3dc;
+        color: var(--accent);
+        padding: 0.15rem 0.5rem;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    footer {
+        text-align: center;
+        padding: 2rem 0;
+        color: var(--text-secondary);
+        font-size: 0.8rem;
+    }
+    @media (max-width: 600px) {
+        .container { padding: 0.75rem; }
+        header h1 { font-size: 1.2rem; }
+        .section-grid { grid-template-columns: 1fr; }
+        .image-grid { grid-template-columns: 1fr; }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="/property-manual/">Shady Cove Property Manual</a></h1>
+            <p>San Juan County, Washington — Private Property</p>
+        </div>
+    </header>
+    <nav class="breadcrumb container"><a href="/property-manual/">Home</a> / Caretaker House</nav>
+    <main class="container">
+        
+    
+        <div class="toc">
+            <h3>On This Page</h3>
+            <ul><li><a href="#kitchen-appliances">Kitchen Appliances</a></li><li><a href="#laundry">Laundry</a></li><li><a href="#water-heater">Water Heater</a></li><li><a href="#heating">Heating</a></li><li><a href="#fuel">Fuel</a></li><li><a href="#structure-and-exterior">Structure &amp; Exterior</a></li><li><a href="#electrical">Electrical</a></li></ul>
+        </div>
+    <div class="card">
+        <h2>Caretaker House — Overview</h2>
+        <strong>Status:</strong> Documented
+
+<h3>Kitchen Appliances</h3>
+<ul><li><strong>Dishwasher:</strong> KitchenAid Model KDFE104DBL5 (Black, built-in) - <a href="https://www.kitchenaid.com/content/dam/global/documents/201808/owners-manual-w10751712-rev-c.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Microwave:</strong> GE Sensor Microwave Oven (White/cream, countertop, no model/serial available)</li>
+<li><strong>Refrigerator:</strong> Frigidaire Model FFHS2622MSNA, Serial 4A44813686 (Black, side-by-side with ice/water dispenser, manufactured 12/2014, ~11 years old, 8.50A 115V) - <a href="https://c.searspartsdirect.com/doc/1310215L" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Range:</strong> Whirlpool Model WFC310S0EB1, Serial R81030795 (Black, 4-burner coil cooktop with oven, 120/208-240V, 8.8-11.7 KW) - <a href="https://www.whirlpool.com/content/dam/global/documents/201406/owners-manual-W10719733-RevA.pdf" target="_blank" rel="noopener">View Manual</a></li>
+</ul>
+<h3>Laundry</h3>
+<ul><li><strong>Washer:</strong> Whirlpool Model WFW4T20RW0, Serial CD3700848 (12.0A, 120V) - <a href="https://www.whirlpool.com/content/dam/global/documents/202412/owners-manual-w11735098-reva.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Dryer:</strong> Whirlpool Model WED7500GW0, Serial M74416721 (120/208V 23A or 120/240V 24A) - <a href="https://www.concordpacific.com/wp-content/uploads/2018/03/Whirlpool_Dryer_YWED7500.pdf" target="_blank" rel="noopener">View Manual</a></li>
+</ul>
+<h3>Water Heater</h3>
+<ul><li><strong>Bradford White</strong> Model RE350T6-1NCWW, Serial SB40976517 - <a href="https://docs.bradfordwhite.com/I&amp;O/238-54649-00_Current.pdf" target="_blank" rel="noopener">View Manual</a> (50 gallon, Electric, 240V/208V, 4500W upper/lower elements)</li>
+</ul>
+<h3>Heating</h3>
+<ul><li><strong>Wood Stove:</strong> Fisher cast iron wood stove with blower motor, on brick hearth</li>
+<li><strong>Furnace:</strong> Thermo Pride Oil-Fired Furnace, No. AR773354, Model OC2 56D, oil burner TP-1401 (0.55 GPH, 120 PSI, 115V, 70,000 BTU input / 57,000 BTU output, 14.55 total amps) - <a href="https://www.manualslib.com/manual/170200/Thermo-Pride-Oc2-56.html" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Thermostat:</strong> Honeywell ProSeries (programmable, Heat/Cool modes) - <a href="https://www.honeywellhome.com/us/en/support/air/thermostats/product-selector/manuals/" target="_blank" rel="noopener">Support Page</a></li>
+</ul>
+<h3>Fuel</h3>
+<ul><li>Two exterior above-ground oil tanks: Green tank (left) for house furnace, Silver/white tank (right) for generator</li>
+</ul>
+<h3>Structure &amp; Exterior</h3>
+<ul><li>Dark green vertical board siding, metal roof, stone chimney</li>
+<li>Crawl space access on exterior with junction box above</li>
+<li>Water shutoff located in crawl space</li>
+</ul>
+<h3>Electrical</h3>
+<ul><li><strong>Main Breaker Panel:</strong> Load center with handwritten circuit directory</li>
+<li><strong>Transfer Switch:</strong> MTS Manual Transfer Switch (Generator to Utility Power) by Elanor Electric, Everett WA</li>
+<li><strong>Maximum Rating:</strong> 100 Amps</li>
+<li><strong>Panel Directory:</strong> Includes circuits for range, dryer, bathroom water, hot water, lights, club, panel, utility room, washer, kitchen living, bathroom, appliances, office, laundry, and boot room</li></ul>
+        
+    </div>
+    
+        <div class="card" id="kitchen-appliances">
+            <h2>Kitchen Appliances</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">- **Dishwasher:** KitchenAid Model KDFE104DBL5 (Black, built-in) - [View Manual](https://www.kitchenaid.com/content/dam/global/documents/201808/owners-manual-w10751712-rev-c.pdf)
+- **Microwave:** GE Sensor Microwave Oven (White/cream, countertop)
+- **Refrigerator:** Frigidaire FFHS2622MSNA (Black, side-by-side, ~11 years old)
+- **Range:** Whirlpool WFC310S0EB1 (Black, 4-burner coil cooktop with oven)</p>
+            <ul><li><strong>Dishwasher:</strong> KitchenAid Model KDFE104DBL5 (Black, built-in) - <a href="https://www.kitchenaid.com/content/dam/global/documents/201808/owners-manual-w10751712-rev-c.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Microwave:</strong> GE Sensor Microwave Oven (White/cream, countertop, no model/serial available)</li>
+<li><strong>Refrigerator:</strong> Frigidaire Model FFHS2622MSNA, Serial 4A44813686 (Black, side-by-side with ice/water dispenser, manufactured 12/2014, ~11 years old, 8.50A 115V) - <a href="https://c.searspartsdirect.com/doc/1310215L" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Range:</strong> Whirlpool Model WFC310S0EB1, Serial R81030795 (Black, 4-burner coil cooktop with oven, 120/208-240V, 8.8-11.7 KW) - <a href="https://www.whirlpool.com/content/dam/global/documents/201406/owners-manual-W10719733-RevA.pdf" target="_blank" rel="noopener">View Manual</a></li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/kitchen-appliances/01_dishwasher_kitchenaid.jpg" alt="KitchenAid Dishwasher KDFE104DBL5" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">KitchenAid Dishwasher KDFE104DBL5</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/kitchen-appliances/02_dishwasher_model_label.jpg" alt="Dishwasher Model Label" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Dishwasher Model Label</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/kitchen-appliances/03_microwave_ge_sensor.jpg" alt="GE Sensor Microwave Oven" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">GE Sensor Microwave Oven</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/kitchen-appliances/04_refrigerator_frigidaire.jpg" alt="Frigidaire Refrigerator FFHS2622MSNA" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Frigidaire Refrigerator FFHS2622MSNA</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/kitchen-appliances/05_refrigerator_model_label.jpg" alt="Refrigerator Model Label" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Refrigerator Model Label</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/kitchen-appliances/06_range_whirlpool_label.jpg" alt="Whirlpool Range Model Label" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Whirlpool Range Model Label</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/kitchen-appliances/07_range_whirlpool_overview.jpg" alt="Whirlpool Range Overview" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Whirlpool Range Overview</div>
+                </div></div>
+        </div>
+        <div class="card" id="laundry">
+            <h2>Laundry</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">- **Washer:** Whirlpool WFW4T20RW0 (Front-load, 12.0A, 120V)
+- **Dryer:** Whirlpool WED7500GW0 (120/208V 23A or 120/240V 24A)</p>
+            <ul><li><strong>Washer:</strong> Whirlpool Model WFW4T20RW0, Serial CD3700848 (12.0A, 120V) - <a href="https://www.whirlpool.com/content/dam/global/documents/202412/owners-manual-w11735098-reva.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Dryer:</strong> Whirlpool Model WED7500GW0, Serial M74416721 (120/208V 23A or 120/240V 24A) - <a href="https://www.concordpacific.com/wp-content/uploads/2018/03/Whirlpool_Dryer_YWED7500.pdf" target="_blank" rel="noopener">View Manual</a></li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/laundry/01_washer_dryer_overview.jpg" alt="Washer and Dryer Overview" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Washer and Dryer Overview</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/laundry/02_washer_model_label.jpg" alt="Washer Model Label" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Washer Model Label</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/laundry/03_dryer_whirlpool.jpg" alt="Whirlpool Dryer WED7500GW0" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Whirlpool Dryer WED7500GW0</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/laundry/04_dryer_model_label.jpg" alt="Dryer Model Label" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Dryer Model Label</div>
+                </div></div>
+        </div>
+        <div class="card" id="water-heater">
+            <h2>Water Heater</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">- **Bradford White** RE350T6-1NCWW (50 gallon, Electric, 240V/208V, 4500W upper/lower elements)</p>
+            <ul><li><strong>Bradford White</strong> Model RE350T6-1NCWW, Serial SB40976517 - <a href="https://docs.bradfordwhite.com/I&amp;O/238-54649-00_Current.pdf" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Capacity:</strong> 50 gallon</li>
+<li><strong>Type:</strong> Electric</li>
+<li><strong>Voltage:</strong> 240V/208V</li>
+<li><strong>Wattage:</strong> 4500W upper element / 4500W lower element</li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/water-heater/01_water_heater_bradford_white.jpg" alt="Bradford White Water Heater" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Bradford White Water Heater</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/water-heater/02_water_heater_model_label.jpg" alt="Water Heater Model Label" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Water Heater Model Label</div>
+                </div></div>
+        </div>
+        <div class="card" id="heating">
+            <h2>Heating</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">- **Wood Stove:** Fisher cast iron wood stove with blower motor
+- **Furnace:** Thermo Pride Oil-Fired Furnace, Model OC2 56D (70,000 BTU input / 57,000 BTU output)
+- **Thermostat:** Honeywell ProSeries (programmable)</p>
+            <ul><li><strong>Wood Stove:</strong> Fisher cast iron wood stove with blower motor, on brick hearth</li>
+<li><strong>Furnace:</strong> Thermo Pride Oil-Fired Furnace, No. AR773354, Model OC2 56D, oil burner TP-1401 (0.55 GPH, 120 PSI, 115V, 70,000 BTU input / 57,000 BTU output, 14.55 total amps) - <a href="https://www.manualslib.com/manual/170200/Thermo-Pride-Oc2-56.html" target="_blank" rel="noopener">View Manual</a></li>
+<li><strong>Thermostat:</strong> Honeywell ProSeries (programmable, Heat/Cool modes) - <a href="https://www.honeywellhome.com/us/en/support/air/thermostats/product-selector/manuals/" target="_blank" rel="noopener">Support Page</a></li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/heating/01_fisher_wood_stove.jpg" alt="Fisher Cast Iron Wood Stove" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Fisher Cast Iron Wood Stove</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/heating/02_furnace_thermo_pride.jpg" alt="Thermo Pride Oil-Fired Furnace" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Thermo Pride Oil-Fired Furnace</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/heating/03_furnace_model_label.jpg" alt="Furnace Model Label" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Furnace Model Label</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/heating/04_thermostat_honeywell.jpg" alt="Honeywell ProSeries Thermostat" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Honeywell ProSeries Thermostat</div>
+                </div></div>
+        </div>
+        <div class="card" id="fuel">
+            <h2>Fuel</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">Two exterior above-ground oil tanks: Green tank (left) for house furnace, Silver/white tank (right) for generator</p>
+            <ul><li><strong>Oil Tanks:</strong> Two exterior above-ground oil tanks</li>
+<li><strong>Green tank (left):</strong> Supplies house furnace</li>
+<li><strong>Silver/white tank (right):</strong> Supplies generator</li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/fuel/01_oil_tanks_exterior.jpg" alt="Exterior Oil Tanks" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Exterior Oil Tanks</div>
+                </div></div>
+        </div>
+        <div class="card" id="structure-and-exterior">
+            <h2>Structure &amp; Exterior</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">Dark green vertical board siding, metal roof, stone chimney. Crawl space access on exterior with junction box above. Water shutoff located in crawl space.</p>
+            <ul><li><strong>Siding:</strong> Dark green vertical board siding</li>
+<li><strong>Roof:</strong> Metal roof</li>
+<li><strong>Chimney:</strong> Stone chimney</li>
+<li><strong>Crawl Space:</strong> Access on exterior with junction box above</li>
+<li><strong>Water Shutoff:</strong> Located in crawl space</li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/structure/01_crawl_space_access.jpg" alt="Crawl Space Access" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Crawl Space Access</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/structure/02_exterior_overview.jpg" alt="Exterior Overview" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Exterior Overview</div>
+                </div></div>
+        </div>
+        <div class="card" id="electrical">
+            <h2>Electrical</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">- **Main Breaker Panel:** Load center with handwritten circuit directory
+- **Transfer Switch:** MTS Manual Transfer Switch (Generator to Utility Power) by Elanor Electric, Everett WA
+- **Maximum Rating:** 100 Amps</p>
+            <ul><li><strong>Main Breaker Panel:</strong> Load center with handwritten circuit directory</li>
+<li><strong>Transfer Switch:</strong> MTS Manual Transfer Switch (Generator to Utility Power) by Elanor Electric, Everett WA</li>
+<li><strong>Maximum Rating:</strong> 100 Amps</li>
+<li><strong>Panel Directory:</strong> Includes circuits for range, dryer, bathroom water, hot water, lights, club, panel, utility room, washer, kitchen living, bathroom, appliances, office, laundry, and boot room</li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/electrical/01_electrical_panels_overview.jpg" alt="Electrical Panels Overview" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Electrical Panels Overview</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/electrical/02_main_breaker_panel.jpg" alt="Main Breaker Panel" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Main Breaker Panel</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/caretaker/electrical/03_mts_transfer_switch.jpg" alt="MTS Transfer Switch" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">MTS Transfer Switch</div>
+                </div></div>
+        </div>
+    
+    </main>
+    <footer>
+        <div class="container">
+            Shady Cove Property Manual &mdash; QR Code System Proof of Concept
+        </div>
+    </footer>
+</body>
+</html>

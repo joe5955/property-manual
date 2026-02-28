@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm House — Shady Cove Property Manual</title>
+    <style>
+    :root {
+        --bg: #f8f9fa;
+        --card-bg: #ffffff;
+        --text: #1a1a2e;
+        --text-secondary: #555;
+        --accent: #2d6a4f;
+        --accent-light: #40916c;
+        --border: #dee2e6;
+        --shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+    }
+    .container { max-width: 900px; margin: 0 auto; padding: 1rem; }
+    header {
+        background: var(--accent);
+        color: white;
+        padding: 1.5rem 0;
+        box-shadow: var(--shadow);
+    }
+    header h1 { font-size: 1.5rem; font-weight: 700; }
+    header p { opacity: 0.9; font-size: 0.9rem; margin-top: 0.25rem; }
+    header a { color: white; text-decoration: none; }
+    header a:hover { text-decoration: underline; }
+    nav.breadcrumb {
+        padding: 0.75rem 0;
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+    }
+    nav.breadcrumb a { color: var(--accent); text-decoration: none; }
+    nav.breadcrumb a:hover { text-decoration: underline; }
+    .card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        box-shadow: var(--shadow);
+    }
+    .card h2 {
+        font-size: 1.3rem;
+        color: var(--accent);
+        margin-bottom: 0.75rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid var(--accent);
+    }
+    .card h3 {
+        font-size: 1.1rem;
+        color: var(--text);
+        margin: 1rem 0 0.5rem;
+    }
+    .card h4 {
+        font-size: 1rem;
+        color: var(--text-secondary);
+        margin: 0.75rem 0 0.5rem;
+    }
+    .card p { margin: 0.5rem 0; }
+    .card ul { padding-left: 1.5rem; margin: 0.5rem 0; }
+    .card li { margin: 0.25rem 0; }
+    .card a { color: var(--accent-light); }
+    .card hr { border: none; border-top: 1px solid var(--border); margin: 1rem 0; }
+    .section-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1rem;
+        margin: 1.5rem 0;
+    }
+    .section-link {
+        display: block;
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.25rem;
+        text-decoration: none;
+        color: var(--text);
+        box-shadow: var(--shadow);
+        transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .section-link:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    }
+    .section-link h3 {
+        color: var(--accent);
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+    .section-link p {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+    }
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1rem;
+        margin: 1rem 0;
+    }
+    .image-card {
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        overflow: hidden;
+        background: var(--card-bg);
+    }
+    .image-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+    }
+    .image-card .caption {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+    }
+    .toc {
+        background: #f0f7f4;
+        border: 1px solid #b7e4c7;
+        border-radius: 8px;
+        padding: 1rem 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+    .toc h3 { font-size: 0.95rem; margin-bottom: 0.5rem; color: var(--accent); }
+    .toc ul { list-style: none; padding: 0; }
+    .toc li { margin: 0.25rem 0; }
+    .toc a {
+        color: var(--accent-light);
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+    .toc a:hover { text-decoration: underline; }
+    .badge {
+        display: inline-block;
+        background: #d8f3dc;
+        color: var(--accent);
+        padding: 0.15rem 0.5rem;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    footer {
+        text-align: center;
+        padding: 2rem 0;
+        color: var(--text-secondary);
+        font-size: 0.8rem;
+    }
+    @media (max-width: 600px) {
+        .container { padding: 0.75rem; }
+        header h1 { font-size: 1.2rem; }
+        .section-grid { grid-template-columns: 1fr; }
+        .image-grid { grid-template-columns: 1fr; }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="/property-manual/">Shady Cove Property Manual</a></h1>
+            <p>San Juan County, Washington — Private Property</p>
+        </div>
+    </header>
+    <nav class="breadcrumb container"><a href="/property-manual/">Home</a> / Farm House</nav>
+    <main class="container">
+        
+    
+        <div class="toc">
+            <h3>On This Page</h3>
+            <ul><li><a href="#structure-and-exterior">Structure &amp; Exterior</a></li><li><a href="#kitchen-appliances">Kitchen Appliances</a></li><li><a href="#systems-and-utilities">Systems &amp; Utilities</a></li><li><a href="#water-heater-farm">Water Heater (Critical)</a></li><li><a href="#exterior">Exterior</a></li><li><a href="#root-cellar">Root Cellar</a></li><li><a href="#interior">Interior</a></li></ul>
+        </div>
+    <div class="card">
+        <h2>Farm House — Overview</h2>
+        <h3>Structure &amp; Exterior</h3>
+<ul><li><strong>Type:</strong> Wood-frame farmhouse with traditional root cellar (built into hillside)</li>
+<li><strong>Exterior:</strong> Wood siding with distinctive green/teal trim</li>
+<li><strong>Roof:</strong> Gray asphalt shingles with dormers</li>
+</ul>
+<h3>Kitchen Appliances</h3>
+<ul><li>LG top-freezer refrigerator, white, Model LRTP0931W, 115V 60Hz 1.5A, Refrigerant R134a, Made in Korea. (<a href="https://www.appliancefactoryparts.com/content/pdfs/161181-1.pdf" target="_blank" rel="noopener">View Manual</a>) Located in green kitchen next to exterior door with glass panes. Toaster and crackers on counter beside it.</li>
+<li>Close-up of LG model label: Model LRTP0931W, 115V~ 60Hz 1.5A, Refrigerant R134a 120g, CSA File No. LR41087, Free Standing Installation Only, Made in Korea.</li>
+<li>White electric range, 4-burner coil cooktop with oven and storage/broiler drawer. Tea kettle on top. Next to green beadboard cabinets. Brand/model unknown.</li>
+<li>&quot;Use and Care Manual and Installation Instructions - Electric Range&quot; manual cover page. Generic manual, no brand visible.</li>
+<li>Back of electric range showing wiring diagram, terminal board access panel, bodily injury and electrical shock hazard warnings, anti-tip bracket installation diagram. No serial/model plate found.</li>
+</ul>
+<h3>Systems &amp; Utilities</h3>
+<ul><li>Flush-mounted breaker panel on interior wall, door closed.</li>
+<li>MTS manual transfer switch (Kylander Electric, Everett WA) with generator interlock, opened showing breakers and circuit directory. Panel directory shows circuits: Bath, Bed Room, Range, Smoke Det, Heat, Water, Dining, Kitchen, and others. &quot;CAUTION HAZARDOUS VOLTAGE&quot; warning label. Power from generator / power from utility switching.</li>
+</ul>
+<h3>Water Heater (Critical)</h3>
+<ul><li>Bradford White automatic storage water heater with PHCC label, in utility/laundry closet. Copper plumbing visible on top with flexible connectors.</li>
+<li>Bradford White label close-up: Model MI150S6DS21, Serial ZB2783563, 50 gallon (189.3 liters), 240V AC only 50/60 Hz, Upper Element 4500W, Lower Element 4500W, Max 4500W, Test pressure 300 psi, Working 150 psi. EnergyGuide: 4721 kWh/year, estimated $397/year, first hour rating 67 gallons. (<a href="https://docs.bradfordwhite.com/I&amp;O/238-54649-00_Current.pdf" target="_blank" rel="noopener">View Manual</a>)</li>
+</ul>
+<h3>Exterior</h3>
+<ul><li>Exterior shot showing hose bib/water spigot area along cedar shingle siding with green rabbit cutout decoration, raised garden beds adjacent. Crawl space access area.</li>
+<li>In-ground valve box (water shutoff or irrigation valve) near the foundation, opened showing dirt and debris inside with visible pipe/valve at bottom.</li>
+<li>Removable board access panel at foundation level, between siding and raised garden bed. Orange extension cord running through area. Moss and gravel ground cover.</li>
+</ul>
+<h3>Root Cellar</h3>
+<ul><li>Log construction root cellar built into hillside, gable roof, weathered wood door with window pane. Rustic wooden gate in front, large boulders and flagstone path, dried hydrangeas, forest hillside with tall conifers behind.</li>
+<li>Interior with skylights in sloped ceiling providing natural light. Currently used as garden storage: galvanized trash cans, buckets, garden tools, dried herbs hanging from line, green garden hose, Roundup, spray cans, Dr. Earth fertilizer, birdhouses on shelf, old crosscut saw on wall, shelving on left wall.</li>
+</ul>
+<h3>Interior</h3>
+<ul><li>Room with quilted wall hanging (blue/green/floral banner pattern with tassel), white spindle chair, baseboard heater visible at floor level, light switch and outlet on wall. Yellow walls with green trim/baseboards.</li>
+</ul>-King brand analog dial thermostat, &quot;Comfort Zone&quot; label, range LO through 50-60-70-80-90\u00b0F. Controls baseboard heaters. Red tulip wall clock above it. (<a href="https://king-electric.com/wp-content/uploads/kel_product_files/K101-K102-Instructions-Manual.pdf" target="_blank" rel="noopener">View Manual</a>)
+        
+    </div>
+    
+        <div class="card" id="structure-and-exterior">
+            <h2>Structure &amp; Exterior</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">- **Type:** Wood-frame farmhouse with traditional root cellar (built into hillside)
+- **Exterior:** Wood siding with distinctive green/teal trim
+- **Roof:** Gray asphalt shingles with dormers</p>
+            <ul><li><strong>Type:</strong> Wood-frame farmhouse with traditional root cellar (built into hillside)</li>
+<li><strong>Exterior:</strong> Wood siding with distinctive green/teal trim</li>
+<li><strong>Roof:</strong> Gray asphalt shingles with dormers</li></ul>
+            
+            
+        </div>
+        <div class="card" id="kitchen-appliances">
+            <h2>Kitchen Appliances</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">- **Refrigerator:** LG LRTP0931W (8.6 cu. ft. compact top-freezer) - *Rec. Replace: 2028*
+- **Range:** Premier Electric (4-burner coil cooktop)
+- **Amenities:** No dishwasher, microwave, or laundry facilities</p>
+            <ul><li>LG top-freezer refrigerator, white, Model LRTP0931W, 115V 60Hz 1.5A, Refrigerant R134a, Made in Korea. (<a href="https://www.appliancefactoryparts.com/content/pdfs/161181-1.pdf" target="_blank" rel="noopener">View Manual</a>) Located in green kitchen next to exterior door with glass panes. Toaster and crackers on counter beside it.</li>
+<li>Close-up of LG model label: Model LRTP0931W, 115V~ 60Hz 1.5A, Refrigerant R134a 120g, CSA File No. LR41087, Free Standing Installation Only, Made in Korea.</li>
+<li>White electric range, 4-burner coil cooktop with oven and storage/broiler drawer. Tea kettle on top. Next to green beadboard cabinets. Brand/model unknown.</li>
+<li>&quot;Use and Care Manual and Installation Instructions - Electric Range&quot; manual cover page. Generic manual, no brand visible.</li>
+<li>Back of electric range showing wiring diagram, terminal board access panel, bodily injury and electrical shock hazard warnings, anti-tip bracket installation diagram. No serial/model plate found.</li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/farm-house/kitchen-appliances/01_refrigerator_lg_overview.jpg" alt="LG top-freezer refrigerator, white, Model LRTP0931W, 115V 60Hz 1.5A, Refrigerant R134a, Made in Korea. ([View Manual](https://www.appliancefactoryparts.com/content/pdfs/161181-1.pdf)) Located in green kitchen next to exterior door with glass panes. Toaster and crackers on counter beside it." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">LG top-freezer refrigerator, white, Model LRTP0931W, 115V 60Hz 1.5A, Refrigerant R134a, Made in Korea. ([View Manual](https://www.appliancefactoryparts.com/content/pdfs/161181-1.pdf)) Located in green kitchen next to exterior door with glass panes. Toaster and crackers on counter beside it.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/farm-house/kitchen-appliances/02_refrigerator_lg_label.jpg" alt="Close-up of LG model label: Model LRTP0931W, 115V~ 60Hz 1.5A, Refrigerant R134a 120g, CSA File No. LR41087, Free Standing Installation Only, Made in Korea." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Close-up of LG model label: Model LRTP0931W, 115V~ 60Hz 1.5A, Refrigerant R134a 120g, CSA File No. LR41087, Free Standing Installation Only, Made in Korea.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/farm-house/kitchen-appliances/03_range_electric_overview.jpg" alt="White electric range, 4-burner coil cooktop with oven and storage/broiler drawer. Tea kettle on top. Next to green beadboard cabinets. Brand/model unknown." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">White electric range, 4-burner coil cooktop with oven and storage/broiler drawer. Tea kettle on top. Next to green beadboard cabinets. Brand/model unknown.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/farm-house/kitchen-appliances/04_range_use_care_manual.jpg" alt="&quot;Use and Care Manual and Installation Instructions - Electric Range&quot; manual cover page. Generic manual, no brand visible." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">&quot;Use and Care Manual and Installation Instructions - Electric Range&quot; manual cover page. Generic manual, no brand visible.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/farm-house/kitchen-appliances/05_range_back_panel.jpg" alt="Back of electric range showing wiring diagram, terminal board access panel, bodily injury and electrical shock hazard warnings, anti-tip bracket installation diagram. No serial/model plate found." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Back of electric range showing wiring diagram, terminal board access panel, bodily injury and electrical shock hazard warnings, anti-tip bracket installation diagram. No serial/model plate found.</div>
+                </div></div>
+        </div>
+        <div class="card" id="systems-and-utilities">
+            <h2>Systems &amp; Utilities</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">- **Electrical:** MTS electrical panel in dining room with generator transfer capability
+- **Heating:** Electric baseboard heating (multiple zones)
+- **Septic:** Septic system with pump (Pump on &quot;DINING - SEPTIC&quot; circuit)</p>
+            <ul><li>Flush-mounted breaker panel on interior wall, door closed.</li>
+<li>MTS manual transfer switch (Kylander Electric, Everett WA) with generator interlock, opened showing breakers and circuit directory. Panel directory shows circuits: Bath, Bed Room, Range, Smoke Det, Heat, Water, Dining, Kitchen, and others. &quot;CAUTION HAZARDOUS VOLTAGE&quot; warning label. Power from generator / power from utility switching.</li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/farm-house/systems-and-utilities/01_electrical_panel_closed.jpg" alt="Flush-mounted breaker panel on interior wall, door closed." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Flush-mounted breaker panel on interior wall, door closed.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/farm-house/systems-and-utilities/02_electrical_panel_open_mts.jpg" alt="MTS manual transfer switch (Kylander Electric, Everett WA) with generator interlock, opened showing breakers and circuit directory. Panel directory shows circuits: Bath, Bed Room, Range, Smoke Det, Heat, Water, Dining, Kitchen, and others. &quot;CAUTION HAZARDOUS VOLTAGE&quot; warning label. Power from generator / power from utility switching." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">MTS manual transfer switch (Kylander Electric, Everett WA) with generator interlock, opened showing breakers and circuit directory. Panel directory shows circuits: Bath, Bed Room, Range, Smoke Det, Heat, Water, Dining, Kitchen, and others. &quot;CAUTION HAZARDOUS VOLTAGE&quot; warning label. Power from generator / power from utility switching.</div>
+                </div></div>
+        </div>
+        <div class="card" id="water-heater-farm">
+            <h2>Water Heater (Critical)</h2>
+            <p style="color: var(--text-secondary); font-style: italic;">### ⚠️ URGENT: Replacement Needed
+**Bradford White Water Heater**
+- **Model:** MI150S6DS21
+- **Serial:** ZB2783563
+- **Age:** 25 years (Feb 2001)
+- **Status:** CRITICAL FAILURE RISK
+
+**Why This Is Urgent:**
+At 25 years old, this unit is more than double its expected lifespan. Risks include catastrophic tank failure, flooding, and safety hazards.
+
+**Immediate Actions:**
+1. Check daily for leaks.
+2. Listen for unusual noises.
+3. **Schedule replacement immediately.**</p>
+            <ul><li>Bradford White automatic storage water heater with PHCC label, in utility/laundry closet. Copper plumbing visible on top with flexible connectors.</li>
+<li>Bradford White label close-up: Model MI150S6DS21, Serial ZB2783563, 50 gallon (189.3 liters), 240V AC only 50/60 Hz, Upper Element 4500W, Lower Element 4500W, Max 4500W, Test pressure 300 psi, Working 150 psi. EnergyGuide: 4721 kWh/year, estimated $397/year, first hour rating 67 gallons. (<a href="https://docs.bradfordwhite.com/I&amp;O/238-54649-00_Current.pdf" target="_blank" rel="noopener">View Manual</a>)</li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/farm-house/water-heater-farm/01_water_heater_bradford_white.jpg" alt="Bradford White automatic storage water heater with PHCC label, in utility/laundry closet. Copper plumbing visible on top with flexible connectors." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Bradford White automatic storage water heater with PHCC label, in utility/laundry closet. Copper plumbing visible on top with flexible connectors.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/farm-house/water-heater-farm/02_water_heater_label.jpg" alt="Bradford White label close-up: Model MI150S6DS21, Serial ZB2783563, 50 gallon (189.3 liters), 240V AC only 50/60 Hz, Upper Element 4500W, Lower Element 4500W, Max 4500W, Test pressure 300 psi, Working 150 psi. EnergyGuide: 4721 kWh/year, estimated $397/year, first hour rating 67 gallons. ([View Manual](https://docs.bradfordwhite.com/I&amp;O/238-54649-00_Current.pdf))" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Bradford White label close-up: Model MI150S6DS21, Serial ZB2783563, 50 gallon (189.3 liters), 240V AC only 50/60 Hz, Upper Element 4500W, Lower Element 4500W, Max 4500W, Test pressure 300 psi, Working 150 psi. EnergyGuide: 4721 kWh/year, estimated $397/year, first hour rating 67 gallons. ([View Manual](https://docs.bradfordwhite.com/I&amp;O/238-54649-00_Current.pdf))</div>
+                </div></div>
+        </div>
+        <div class="card" id="exterior">
+            <h2>Exterior</h2>
+            
+            <ul><li>Exterior shot showing hose bib/water spigot area along cedar shingle siding with green rabbit cutout decoration, raised garden beds adjacent. Crawl space access area.</li>
+<li>In-ground valve box (water shutoff or irrigation valve) near the foundation, opened showing dirt and debris inside with visible pipe/valve at bottom.</li>
+<li>Removable board access panel at foundation level, between siding and raised garden bed. Orange extension cord running through area. Moss and gravel ground cover.</li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/farm-house/exterior/01_crawlspace_access_exterior.jpg" alt="Exterior shot showing hose bib/water spigot area along cedar shingle siding with green rabbit cutout decoration, raised garden beds adjacent. Crawl space access area." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Exterior shot showing hose bib/water spigot area along cedar shingle siding with green rabbit cutout decoration, raised garden beds adjacent. Crawl space access area.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/farm-house/exterior/02_crawlspace_valve_box.jpg" alt="In-ground valve box (water shutoff or irrigation valve) near the foundation, opened showing dirt and debris inside with visible pipe/valve at bottom." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">In-ground valve box (water shutoff or irrigation valve) near the foundation, opened showing dirt and debris inside with visible pipe/valve at bottom.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/farm-house/exterior/03_crawlspace_access_panel.jpg" alt="Removable board access panel at foundation level, between siding and raised garden bed. Orange extension cord running through area. Moss and gravel ground cover." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Removable board access panel at foundation level, between siding and raised garden bed. Orange extension cord running through area. Moss and gravel ground cover.</div>
+                </div></div>
+        </div>
+        <div class="card" id="root-cellar">
+            <h2>Root Cellar</h2>
+            
+            <ul><li>Log construction root cellar built into hillside, gable roof, weathered wood door with window pane. Rustic wooden gate in front, large boulders and flagstone path, dried hydrangeas, forest hillside with tall conifers behind.</li>
+<li>Interior with skylights in sloped ceiling providing natural light. Currently used as garden storage: galvanized trash cans, buckets, garden tools, dried herbs hanging from line, green garden hose, Roundup, spray cans, Dr. Earth fertilizer, birdhouses on shelf, old crosscut saw on wall, shelving on left wall.</li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/farm-house/root-cellar/01_root_cellar_exterior.jpg" alt="Log construction root cellar built into hillside, gable roof, weathered wood door with window pane. Rustic wooden gate in front, large boulders and flagstone path, dried hydrangeas, forest hillside with tall conifers behind." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Log construction root cellar built into hillside, gable roof, weathered wood door with window pane. Rustic wooden gate in front, large boulders and flagstone path, dried hydrangeas, forest hillside with tall conifers behind.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/farm-house/root-cellar/02_root_cellar_interior.jpg" alt="Interior with skylights in sloped ceiling providing natural light. Currently used as garden storage: galvanized trash cans, buckets, garden tools, dried herbs hanging from line, green garden hose, Roundup, spray cans, Dr. Earth fertilizer, birdhouses on shelf, old crosscut saw on wall, shelving on left wall." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Interior with skylights in sloped ceiling providing natural light. Currently used as garden storage: galvanized trash cans, buckets, garden tools, dried herbs hanging from line, green garden hose, Roundup, spray cans, Dr. Earth fertilizer, birdhouses on shelf, old crosscut saw on wall, shelving on left wall.</div>
+                </div></div>
+        </div>
+        <div class="card" id="interior">
+            <h2>Interior</h2>
+            
+            <ul><li>Room with quilted wall hanging (blue/green/floral banner pattern with tassel), white spindle chair, baseboard heater visible at floor level, light switch and outlet on wall. Yellow walls with green trim/baseboards.</li>
+<li>King brand analog dial thermostat, &quot;Comfort Zone&quot; label, range LO through 50-60-70-80-90°F. Controls baseboard heaters. Red tulip wall clock above it.</li></ul>
+            
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="/property-manual/images/farm-house/interior/01_room_quilt_wall_hanging.jpg" alt="Room with quilted wall hanging (blue/green/floral banner pattern with tassel), white spindle chair, baseboard heater visible at floor level, light switch and outlet on wall. Yellow walls with green trim/baseboards." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">Room with quilted wall hanging (blue/green/floral banner pattern with tassel), white spindle chair, baseboard heater visible at floor level, light switch and outlet on wall. Yellow walls with green trim/baseboards.</div>
+                </div>
+                <div class="image-card">
+                    <img src="/property-manual/images/farm-house/interior/02_thermostat_king_comfort_zone.jpg" alt="King brand analog dial thermostat, &quot;Comfort Zone&quot; label, range LO through 50-60-70-80-90°F. Controls baseboard heaters. Red tulip wall clock above it." loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="caption">King brand analog dial thermostat, &quot;Comfort Zone&quot; label, range LO through 50-60-70-80-90°F. Controls baseboard heaters. Red tulip wall clock above it.</div>
+                </div></div>
+        </div>
+    
+    </main>
+    <footer>
+        <div class="container">
+            Shady Cove Property Manual &mdash; QR Code System Proof of Concept
+        </div>
+    </footer>
+</body>
+</html>
