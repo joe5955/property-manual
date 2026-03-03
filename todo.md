@@ -186,4 +186,5 @@
 - [ ] Fill in Chalet Propane Stove label/model info
 - [x] Find and add manufacturer manual URLs for all appliances (KitchenAid KBLS33MIXD1, GE Monogram range, Bosch dishwasher, Maytag washer/dryer, Bradford White water heaters, Rinnai water heaters, Vermont Castings gas stove, etc.)
 - [x] Update Section.tsx to display "View Manual" buttons next to each appliance entry (inline via markdown)
-- [ ] Push full website codebase to GitHub (pending checkpoint)
+- [x] Push full website codebase to GitHub (manual-data.json pushed to joe5955/property-manual)
+- [x] Move all property addresses to appear directly under each section headline

@@ -79,7 +79,14 @@ export default function Section() {
             </div>
             <div>
               <h1 className="font-serif text-3xl md:text-4xl font-bold tracking-tight text-foreground">{section.title}</h1>
-              <p className="text-muted-foreground mt-1">Property Manual Section</p>
+              {(section as any).address ? (
+                <p className="text-muted-foreground mt-1 flex items-center gap-1.5">
+                  <MapPin className="h-3.5 w-3.5 flex-shrink-0" />
+                  {(section as any).address}
+                </p>
+              ) : (
+                <p className="text-muted-foreground mt-1">Property Manual Section</p>
+              )}
             </div>
           </div>
         </div>
