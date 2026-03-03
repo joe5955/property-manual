@@ -188,3 +188,11 @@
 - [x] Update Section.tsx to display "View Manual" buttons next to each appliance entry (inline via markdown)
 - [x] Push full website codebase to GitHub (manual-data.json pushed to joe5955/property-manual)
 - [x] Move all property addresses to appear directly under each section headline
+
+## Interactive Site Plan Viewer
+- [x] Upload all 7 site plan PDFs as high-res PNG images to CDN
+- [x] Build interactive map viewer page with sheet navigation (A-1.0 through A-7.0)
+- [x] Add utility layer toggle buttons (Electrical, Water, Irrigation, Gas, Lighting, Septic)
+- [x] Add clickable location pins with photo popup system
+- [x] Build printable field sheet with QR codes for each pin location
+- [x] Wire Interactive Map nav link to new viewer page

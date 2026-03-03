@@ -1,0 +1,1 @@
+-- no-op: photos column already created as text in 0001

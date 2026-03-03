@@ -1,4 +1,4 @@
-import { int, mysqlEnum, mysqlTable, text, timestamp, varchar } from "drizzle-orm/mysql-core";
+import { int, mysqlEnum, mysqlTable, text, timestamp, varchar, float } from "drizzle-orm/mysql-core";
 
 /**
  * Core user table backing auth flow.
@@ -25,4 +25,34 @@ export const users = mysqlTable("users", {
 export type User = typeof users.$inferSelect;
 export type InsertUser = typeof users.$inferInsert;
 
-// TODO: Add your tables here
+/**
+ * Map pins for the interactive site plan viewer.
+ * Each pin represents a physical location on the property with photos and notes.
+ */
+export const mapPins = mysqlTable("map_pins", {
+  id: int("id").autoincrement().primaryKey(),
+  /** Which map sheet this pin belongs to (1-7) */
+  sheetId: int("sheetId").notNull().default(1),
+  /** Display label */
+  title: varchar("title", { length: 255 }).notNull(),
+  /** Longer description / notes */
+  notes: text("notes"),
+  /**
+   * Utility/category type for layer filtering.
+   * electrical | water | irrigation | gas | septic | lighting | building | excavation | other
+   */
+  category: varchar("category", { length: 64 }).notNull().default("other"),
+  /**
+   * Position as percentage of image dimensions (0-100).
+   */
+  positionX: float("positionX").notNull(),
+  positionY: float("positionY").notNull(),
+  /** JSON-encoded array of CDN photo URLs (stored as text for TiDB compatibility) */
+  photos: text("photos"),
+  /** Link to a manual section/subsection (optional) */
+  manualSectionId: varchar("manualSectionId", { length: 128 }),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+export type MapPin = typeof mapPins.$inferSelect;
+export type InsertMapPin = typeof mapPins.$inferInsert;

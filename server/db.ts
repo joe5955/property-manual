@@ -90,3 +90,34 @@ export async function getUserByOpenId(openId: string) {
 }
 
 // TODO: add feature queries here as your schema grows.
+
+// ── Map Pins ──────────────────────────────────────────────────────────────────
+import { mapPins, InsertMapPin, MapPin } from "../drizzle/schema";
+
+export async function getMapPins(sheetId?: number): Promise<MapPin[]> {
+  const db = await getDb();
+  if (!db) return [];
+  if (sheetId !== undefined) {
+    return db.select().from(mapPins).where(eq(mapPins.sheetId, sheetId));
+  }
+  return db.select().from(mapPins);
+}
+
+export async function createMapPin(pin: InsertMapPin): Promise<number> {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  const result = await db.insert(mapPins).values(pin);
+  return (result[0] as any).insertId as number;
+}
+
+export async function updateMapPin(id: number, data: Partial<InsertMapPin>): Promise<void> {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  await db.update(mapPins).set(data).where(eq(mapPins.id, id));
+}
+
+export async function deleteMapPin(id: number): Promise<void> {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  await db.delete(mapPins).where(eq(mapPins.id, id));
+}
