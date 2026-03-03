@@ -609,6 +609,7 @@
     {
       "id": "caretaker-house",
       "title": "Caretaker House",
+      "address": "449 Bear Cove Rd, Deer Harbor, WA 98243",
       "subsections": [
         {
           "id": "electrical",
