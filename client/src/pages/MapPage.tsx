@@ -7,7 +7,7 @@ import { QRCodeSVG } from "qrcode.react";
 import {
   Zap, Droplets, Sprout, Flame, CircleDot, Lightbulb, Building2,
   Shovel, HelpCircle, X, ChevronLeft, ChevronRight, Printer, Plus,
-  MapPin, Camera, Pencil, Trash2, Check, AlertCircle
+  MapPin, Camera, Pencil, Trash2, Check, AlertCircle, Upload, Loader2
 } from "lucide-react";
 
 // ── Constants ────────────────────────────────────────────────────────────────
@@ -194,15 +194,47 @@ function PinForm({ sheetId, position, existing, onSave, onCancel }: {
 }) {
   const [title, setTitle] = useState(existing?.title ?? "");
   const [notes, setNotes] = useState(existing?.notes ?? "");
-  const [category, setCategory] = useState<Category>((existing?.category as Category) ?? "other");
-  const [photosText, setPhotosText] = useState(existing?.photos.join("\n") ?? "");
+  const [category, setCategory] = useState<Category>((existing?.category as Category) ?? "excavation");
+  const [photos, setPhotos] = useState<string[]>(existing?.photos ?? []);
+  const [uploading, setUploading] = useState(false);
+  const [uploadError, setUploadError] = useState<string | null>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   const createPin = trpc.mapPins.create.useMutation();
   const updatePin = trpc.mapPins.update.useMutation();
+  const uploadPhoto = trpc.mapPins.uploadPhoto.useMutation();
   const utils = trpc.useUtils();
 
+  const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const files = Array.from(e.target.files ?? []);
+    if (files.length === 0) return;
+    setUploading(true);
+    setUploadError(null);
+    const newUrls: string[] = [];
+    for (const file of files) {
+      try {
+        const dataUrl = await new Promise<string>((resolve, reject) => {
+          const reader = new FileReader();
+          reader.onload = () => resolve(reader.result as string);
+          reader.onerror = reject;
+          reader.readAsDataURL(file);
+        });
+        const result = await uploadPhoto.mutateAsync({ dataUrl, filename: file.name });
+        newUrls.push(result.url);
+      } catch {
+        setUploadError(`Failed to upload ${file.name}`);
+      }
+    }
+    setPhotos(prev => [...prev, ...newUrls]);
+    setUploading(false);
+    if (fileInputRef.current) fileInputRef.current.value = "";
+  };
+
+  const removePhoto = (idx: number) => {
+    setPhotos(prev => prev.filter((_, i) => i !== idx));
+  };
+
   const handleSave = async () => {
-    const photos = photosText.split("\n").map(s => s.trim()).filter(Boolean);
     if (existing) {
       await updatePin.mutateAsync({ id: existing.id, title, notes, category, photos });
     } else if (position) {
@@ -218,12 +250,12 @@ function PinForm({ sheetId, position, existing, onSave, onCancel }: {
   const isPending = createPin.isPending || updatePin.isPending;
 
   return (
-    <div className="absolute bottom-4 right-4 w-80 bg-white rounded-xl shadow-2xl border border-gray-200 z-30 overflow-hidden">
-      <div className="bg-gray-800 px-4 py-3 flex items-center justify-between">
+    <div className="absolute bottom-4 right-4 w-80 bg-white rounded-xl shadow-2xl border border-gray-200 z-30 overflow-hidden max-h-[90vh] flex flex-col">
+      <div className="bg-gray-800 px-4 py-3 flex items-center justify-between flex-shrink-0">
         <span className="text-white font-semibold text-sm">{existing ? "Edit Pin" : "Add Pin"}</span>
         <button onClick={onCancel} className="text-white/70 hover:text-white"><X className="w-4 h-4" /></button>
       </div>
-      <div className="p-4 space-y-3">
+      <div className="p-4 space-y-3 overflow-y-auto flex-1">
         <div>
           <label className="text-xs font-medium text-gray-600 block mb-1">Title *</label>
           <input value={title} onChange={e => setTitle(e.target.value)}
@@ -249,14 +281,57 @@ function PinForm({ sheetId, position, existing, onSave, onCancel }: {
             className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary/30 resize-none"
             placeholder="Description, depth, pipe size, date..." />
         </div>
+
+        {/* Photos section */}
         <div>
-          <label className="text-xs font-medium text-gray-600 block mb-1">Photo URLs (one per line)</label>
-          <textarea value={photosText} onChange={e => setPhotosText(e.target.value)} rows={2}
-            className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm font-mono focus:outline-none focus:ring-2 focus:ring-primary/30 resize-none"
-            placeholder="https://..." />
+          <label className="text-xs font-medium text-gray-600 block mb-2">Photos</label>
+
+          {photos.length > 0 && (
+            <div className="grid grid-cols-3 gap-1.5 mb-2">
+              {photos.map((url, idx) => (
+                <div key={idx} className="relative group aspect-square rounded-lg overflow-hidden border border-gray-200">
+                  <img src={url} alt={`Photo ${idx + 1}`} className="w-full h-full object-cover" />
+                  <button
+                    onClick={() => removePhoto(idx)}
+                    className="absolute top-0.5 right-0.5 bg-red-500 text-white rounded-full w-4 h-4 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity"
+                    title="Remove photo"
+                  >
+                    <X className="w-2.5 h-2.5" />
+                  </button>
+                </div>
+              ))}
+            </div>
+          )}
+
+          <div>
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept="image/*"
+              multiple
+              className="hidden"
+              onChange={handleFileChange}
+            />
+            <button
+              onClick={() => fileInputRef.current?.click()}
+              disabled={uploading}
+              className="w-full flex items-center justify-center gap-2 px-3 py-2 border-2 border-dashed border-gray-300 rounded-lg text-sm text-gray-500 hover:border-primary/50 hover:text-primary transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              {uploading ? (
+                <><Loader2 className="w-4 h-4 animate-spin" /> Uploading...</>
+              ) : (
+                <><Upload className="w-4 h-4" /> {photos.length > 0 ? "Add more photos" : "Upload photos from device"}</>
+              )}
+            </button>
+            {uploadError && (
+              <p className="text-xs text-red-500 mt-1">{uploadError}</p>
+            )}
+            <p className="text-xs text-gray-400 mt-1">Select one or more photos — they'll be uploaded automatically.</p>
+          </div>
         </div>
+
         <div className="flex gap-2 pt-1">
-          <Button onClick={handleSave} disabled={!title || isPending} size="sm" className="flex-1">
+          <Button onClick={handleSave} disabled={!title || isPending || uploading} size="sm" className="flex-1">
             {isPending ? "Saving..." : <><Check className="w-3.5 h-3.5 mr-1" /> Save Pin</>}
           </Button>
           <Button onClick={onCancel} variant="outline" size="sm">Cancel</Button>

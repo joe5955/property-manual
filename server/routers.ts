@@ -4,6 +4,7 @@ import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
 import { publicProcedure, protectedProcedure, router } from "./_core/trpc";
 import { getMapPins, createMapPin, updateMapPin, deleteMapPin } from "./db";
+import { storagePut } from "./storage";
 
 export const appRouter = router({
   system: systemRouter,
@@ -73,6 +74,28 @@ export const appRouter = router({
       .mutation(async ({ input }) => {
         await deleteMapPin(input.id);
         return { success: true };
+      }),
+
+    uploadPhoto: protectedProcedure
+      .input(z.object({
+        // base64-encoded file content
+        dataUrl: z.string(),
+        // original filename for extension detection
+        filename: z.string(),
+      }))
+      .mutation(async ({ input }) => {
+        const { dataUrl, filename } = input;
+        // dataUrl is like: data:image/jpeg;base64,/9j/4AAQ...
+        const matches = dataUrl.match(/^data:([^;]+);base64,(.+)$/);
+        if (!matches) throw new Error("Invalid data URL");
+        const contentType = matches[1];
+        const base64Data = matches[2];
+        const buffer = Buffer.from(base64Data, "base64");
+        // Generate a unique key
+        const ext = filename.split(".").pop() ?? "jpg";
+        const key = `map-pins/${Date.now()}-${Math.random().toString(36).slice(2)}.${ext}`;
+        const { url } = await storagePut(key, buffer, contentType);
+        return { url };
       }),
   }),
 });

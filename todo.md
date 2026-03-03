@@ -196,3 +196,13 @@
 - [x] Add clickable location pins with photo popup system
 - [x] Build printable field sheet with QR codes for each pin location
 - [x] Wire Interactive Map nav link to new viewer page
+
+## Field Photo Reminders
+- [ ] Take photos of finished product — south of Lower Shop (eastern excavation) after backfill/repair
+- [ ] Take photos of finished product — south of Lower Shop (western excavation) after backfill/repair
+- [ ] Take photos of finished product — west of pump house after backfill/repair
+
+## Pin Form Photo Upload Fix
+- [x] Add direct file upload button to Add/Edit Pin form (upload photos to S3, get CDN URL automatically)
+- [x] Add a tRPC upload endpoint that accepts a base64 image and returns a CDN URL
+- [x] Replace manual URL textarea with a photo picker that shows thumbnails of uploaded photos
