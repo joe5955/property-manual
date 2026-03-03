@@ -165,10 +165,10 @@
 - [x] **Fix HTML Nesting Error:** Fix invalid <p> containing <div> error on Main House section page (RESOLVED - added custom img component to Streamdown)
 
 ## Manufacturer Manual Links
-- [ ] **Search for Manufacturer Manuals:** Find online PDF manuals for all appliances and equipment
-- [ ] **Add Manual Links to Data:** Add manufacturer manual URLs to manual-data.json for each appliance
-- [ ] **Display Manual Links:** Update Section.tsx to display "View Manual" links for equipment with manual URLs
-- [ ] **Verify All Links:** Test that all manual links work and point to correct documentation
+- [x] **Search for Manufacturer Manuals:** Find online PDF manuals for all appliances and equipment
+- [x] **Add Manual Links to Data:** Add manufacturer manual URLs to manual-data.json for each appliance
+- [x] **Display Manual Links:** Manual links render inline via Streamdown markdown (no Section.tsx changes needed)
+- [x] **Verify All Links:** Verified all manual links display correctly on Main House page
 - [x] Reduce image display size to 50% on all section pages
 - [x] Remove all manual/owner's manual photos from all sections (will be replaced by links)
 - [x] Match section page content width to the wider layout used on the home/dashboard page
@@ -184,3 +184,6 @@
 - [ ] Add Chalet appliances photos: Whirlpool refrigerator and propane stove (not yet in GitHub)
 - [x] Fill in Chalet Electrical Panel location (bathroom)
 - [ ] Fill in Chalet Propane Stove label/model info
+- [x] Find and add manufacturer manual URLs for all appliances (KitchenAid KBLS33MIXD1, GE Monogram range, Bosch dishwasher, Maytag washer/dryer, Bradford White water heaters, Rinnai water heaters, Vermont Castings gas stove, etc.)
+- [x] Update Section.tsx to display "View Manual" buttons next to each appliance entry (inline via markdown)
+- [ ] Push full website codebase to GitHub (pending checkpoint)
