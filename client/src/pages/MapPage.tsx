@@ -7,7 +7,8 @@ import { QRCodeSVG } from "qrcode.react";
 import {
   Zap, Droplets, Sprout, Flame, CircleDot, Lightbulb, Building2,
   Shovel, HelpCircle, X, ChevronLeft, ChevronRight, Printer, Plus,
-  MapPin, Camera, Pencil, Trash2, Check, AlertCircle, Upload, Loader2
+  MapPin, Camera, Pencil, Trash2, Check, AlertCircle, Upload, Loader2,
+  Route, Minus
 } from "lucide-react";
 
 // ── Constants ────────────────────────────────────────────────────────────────
@@ -46,6 +47,16 @@ const CATEGORIES: { id: Category; label: string; color: string; bgColor: string;
   { id: "other",      label: "Other",      color: "text-gray-700",   bgColor: "bg-gray-400",   borderColor: "border-gray-500",   Icon: HelpCircle },
 ];
 
+const ROUTE_COLORS = [
+  { label: "Orange", value: "#f97316" },
+  { label: "Blue",   value: "#3b82f6" },
+  { label: "Green",  value: "#22c55e" },
+  { label: "Red",    value: "#ef4444" },
+  { label: "Purple", value: "#a855f7" },
+  { label: "Yellow", value: "#eab308" },
+  { label: "Gray",   value: "#6b7280" },
+];
+
 function getCat(id: string) {
   return CATEGORIES.find(c => c.id === id) ?? CATEGORIES[CATEGORIES.length - 1];
 }
@@ -60,6 +71,18 @@ interface Pin {
   category: string;
   positionX: number;
   positionY: number;
+  photos: string[];
+  manualSectionId: string | null;
+}
+
+interface MapRoute {
+  id: number;
+  sheetId: number;
+  title: string;
+  notes: string | null;
+  category: string;
+  color: string;
+  points: Array<{ x: number; y: number }>;
   photos: string[];
   manualSectionId: string | null;
 }
@@ -86,6 +109,379 @@ function PinMarker({ pin, isActive, dimmed, onClick }: {
         <Icon className="w-3.5 h-3.5 text-white" />
       </div>
     </button>
+  );
+}
+
+// ── Route SVG Overlay ────────────────────────────────────────────────────────
+
+function RouteOverlay({ routes, activeRouteId, drawingPoints, imgRef, onRouteClick }: {
+  routes: MapRoute[];
+  activeRouteId: number | null;
+  drawingPoints: Array<{ x: number; y: number }>;
+  imgRef: React.RefObject<HTMLImageElement | null>;
+  onRouteClick: (route: MapRoute) => void;
+}) {
+  const [dims, setDims] = useState({ w: 0, h: 0 });
+
+  useEffect(() => {
+    const update = () => {
+      if (imgRef.current) {
+        setDims({ w: imgRef.current.offsetWidth, h: imgRef.current.offsetHeight });
+      }
+    };
+    update();
+    window.addEventListener("resize", update);
+    const img = imgRef.current;
+    if (img) img.addEventListener("load", update);
+    return () => {
+      window.removeEventListener("resize", update);
+      if (img) img.removeEventListener("load", update);
+    };
+  }, [imgRef]);
+
+  if (dims.w === 0) return null;
+
+  const toSvg = (p: { x: number; y: number }) =>
+    `${(p.x / 100) * dims.w},${(p.y / 100) * dims.h}`;
+
+  return (
+    <svg
+      className="absolute inset-0 pointer-events-none z-5"
+      width={dims.w}
+      height={dims.h}
+      style={{ pointerEvents: "none" }}
+    >
+      {routes.map(route => {
+        if (route.points.length < 2) return null;
+        const pts = route.points.map(toSvg).join(" ");
+        const isActive = route.id === activeRouteId;
+        return (
+          <g key={route.id} style={{ pointerEvents: "all", cursor: "pointer" }}
+            onClick={() => onRouteClick(route)}>
+            {/* Hit area (wider invisible stroke) */}
+            <polyline
+              points={pts}
+              fill="none"
+              stroke="transparent"
+              strokeWidth={16}
+            />
+            {/* Visible stroke */}
+            <polyline
+              points={pts}
+              fill="none"
+              stroke={route.color}
+              strokeWidth={isActive ? 5 : 3}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeDasharray={isActive ? "none" : "none"}
+              opacity={isActive ? 1 : 0.75}
+            />
+            {/* Midpoint label */}
+            {(() => {
+              const mid = route.points[Math.floor(route.points.length / 2)];
+              const mx = (mid.x / 100) * dims.w;
+              const my = (mid.y / 100) * dims.h;
+              return (
+                <g>
+                  <rect x={mx - 40} y={my - 10} width={80} height={18} rx={4}
+                    fill="white" fillOpacity={0.85} />
+                  <text x={mx} y={my + 4} textAnchor="middle"
+                    fontSize={10} fontWeight="600" fill={route.color}>
+                    {route.title}
+                  </text>
+                </g>
+              );
+            })()}
+          </g>
+        );
+      })}
+
+      {/* In-progress drawing */}
+      {drawingPoints.length >= 2 && (
+        <polyline
+          points={drawingPoints.map(toSvg).join(" ")}
+          fill="none"
+          stroke="#f97316"
+          strokeWidth={3}
+          strokeDasharray="8 4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          opacity={0.9}
+        />
+      )}
+      {drawingPoints.map((p, i) => (
+        <circle key={i}
+          cx={(p.x / 100) * dims.w}
+          cy={(p.y / 100) * dims.h}
+          r={4}
+          fill="#f97316"
+          stroke="white"
+          strokeWidth={1.5}
+        />
+      ))}
+    </svg>
+  );
+}
+
+// ── Route Popup ──────────────────────────────────────────────────────────────
+
+function RoutePopup({ route, onClose, onEdit, onDelete, isAdmin }: {
+  route: MapRoute; onClose: () => void; onEdit: () => void; onDelete: () => void; isAdmin: boolean;
+}) {
+  const [photoIdx, setPhotoIdx] = useState(0);
+  const cat = getCat(route.category);
+
+  return (
+    <div className="absolute bottom-4 right-4 w-80 bg-white rounded-xl shadow-2xl border border-gray-200 z-30 overflow-hidden">
+      {/* Header */}
+      <div className="px-4 py-3 flex items-center justify-between" style={{ backgroundColor: route.color }}>
+        <div className="flex items-center gap-2">
+          <Route className="w-4 h-4 text-white" />
+          <span className="text-white font-semibold text-sm truncate max-w-[180px]">{route.title}</span>
+        </div>
+        <div className="flex items-center gap-1">
+          {isAdmin && (
+            <>
+              <button onClick={onEdit} className="text-white/80 hover:text-white p-1 rounded">
+                <Pencil className="w-3.5 h-3.5" />
+              </button>
+              <button onClick={onDelete} className="text-white/80 hover:text-white p-1 rounded">
+                <Trash2 className="w-3.5 h-3.5" />
+              </button>
+            </>
+          )}
+          <button onClick={onClose} className="text-white/80 hover:text-white p-1 rounded">
+            <X className="w-4 h-4" />
+          </button>
+        </div>
+      </div>
+
+      {/* Photos */}
+      {route.photos.length > 0 && (
+        <div className="relative bg-gray-100">
+          <img
+            src={route.photos[photoIdx]}
+            alt={`Photo ${photoIdx + 1}`}
+            className="w-full h-44 object-cover"
+          />
+          {route.photos.length > 1 && (
+            <div className="absolute inset-x-0 bottom-2 flex justify-center gap-1">
+              {route.photos.map((_, i) => (
+                <button key={i} onClick={() => setPhotoIdx(i)}
+                  className={`w-2 h-2 rounded-full transition-colors ${i === photoIdx ? "bg-white" : "bg-white/50"}`} />
+              ))}
+            </div>
+          )}
+          {route.photos.length > 1 && (
+            <>
+              <button onClick={() => setPhotoIdx(i => Math.max(0, i - 1))}
+                className="absolute left-1 top-1/2 -translate-y-1/2 bg-black/40 text-white rounded-full p-1 hover:bg-black/60">
+                <ChevronLeft className="w-3 h-3" />
+              </button>
+              <button onClick={() => setPhotoIdx(i => Math.min(route.photos.length - 1, i + 1))}
+                className="absolute right-1 top-1/2 -translate-y-1/2 bg-black/40 text-white rounded-full p-1 hover:bg-black/60">
+                <ChevronRight className="w-3 h-3" />
+              </button>
+            </>
+          )}
+        </div>
+      )}
+
+      {/* Notes */}
+      {route.notes && (
+        <div className="px-4 py-3 text-sm text-gray-700 border-b border-gray-100">
+          {route.notes}
+        </div>
+      )}
+
+      {/* Meta */}
+      <div className="px-4 py-3 flex items-center justify-between">
+        <div>
+          <Badge variant="outline" className={`text-xs ${cat.color}`}>
+            {cat.label}
+          </Badge>
+          <p className="text-xs text-gray-400 mt-1">
+            {route.points.length} waypoints
+          </p>
+          {route.photos.length === 0 && (
+            <p className="text-xs text-gray-400 mt-0.5 flex items-center gap-1">
+              <Camera className="w-3 h-3" /> No photos yet
+            </p>
+          )}
+        </div>
+        <div className="w-8 h-8 rounded-full border-4 border-white shadow-md"
+          style={{ backgroundColor: route.color }} />
+      </div>
+    </div>
+  );
+}
+
+// ── Route Form ───────────────────────────────────────────────────────────────
+
+function RouteForm({ sheetId, points, existing, onSave, onCancel }: {
+  sheetId: number;
+  points?: Array<{ x: number; y: number }>;
+  existing?: MapRoute;
+  onSave: () => void;
+  onCancel: () => void;
+}) {
+  const [title, setTitle] = useState(existing?.title ?? "");
+  const [notes, setNotes] = useState(existing?.notes ?? "");
+  const [category, setCategory] = useState<Category>((existing?.category as Category) ?? "other");
+  const [color, setColor] = useState(existing?.color ?? "#f97316");
+  const [photos, setPhotos] = useState<string[]>(existing?.photos ?? []);
+  const [uploading, setUploading] = useState(false);
+  const [uploadError, setUploadError] = useState<string | null>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
+
+  const createRoute = trpc.mapRoutes.create.useMutation();
+  const updateRoute = trpc.mapRoutes.update.useMutation();
+  const uploadPhoto = trpc.mapPins.uploadPhoto.useMutation();
+  const utils = trpc.useUtils();
+
+  const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const files = Array.from(e.target.files ?? []);
+    if (files.length === 0) return;
+    setUploading(true);
+    setUploadError(null);
+    const newUrls: string[] = [];
+    for (const file of files) {
+      try {
+        const dataUrl = await new Promise<string>((resolve, reject) => {
+          const reader = new FileReader();
+          reader.onload = () => resolve(reader.result as string);
+          reader.onerror = reject;
+          reader.readAsDataURL(file);
+        });
+        const result = await uploadPhoto.mutateAsync({ dataUrl, filename: file.name });
+        newUrls.push(result.url);
+      } catch {
+        setUploadError(`Failed to upload ${file.name}`);
+      }
+    }
+    setPhotos(prev => [...prev, ...newUrls]);
+    setUploading(false);
+    if (fileInputRef.current) fileInputRef.current.value = "";
+  };
+
+  const removePhoto = (idx: number) => {
+    setPhotos(prev => prev.filter((_, i) => i !== idx));
+  };
+
+  const handleSave = async () => {
+    if (existing) {
+      await updateRoute.mutateAsync({ id: existing.id, title, notes, category, color, photos });
+    } else if (points && points.length >= 2) {
+      await createRoute.mutateAsync({ sheetId, title, notes, category, color, points, photos });
+    }
+    await utils.mapRoutes.list.invalidate();
+    onSave();
+  };
+
+  const isPending = createRoute.isPending || updateRoute.isPending;
+
+  return (
+    <div className="absolute bottom-4 right-4 w-80 bg-white rounded-xl shadow-2xl border border-gray-200 z-30 overflow-hidden max-h-[90vh] flex flex-col">
+      <div className="px-4 py-3 flex items-center justify-between flex-shrink-0" style={{ backgroundColor: color }}>
+        <span className="text-white font-semibold text-sm">{existing ? "Edit Route" : "Save Route"}</span>
+        <button onClick={onCancel} className="text-white/70 hover:text-white"><X className="w-4 h-4" /></button>
+      </div>
+      <div className="p-4 space-y-3 overflow-y-auto flex-1">
+        <div>
+          <label className="text-xs font-medium text-gray-600 block mb-1">Title *</label>
+          <input value={title} onChange={e => setTitle(e.target.value)}
+            className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary/30"
+            placeholder="e.g. Fiber Optic Conduit" />
+        </div>
+
+        <div>
+          <label className="text-xs font-medium text-gray-600 block mb-1">Color</label>
+          <div className="flex gap-2 flex-wrap">
+            {ROUTE_COLORS.map(c => (
+              <button key={c.value} onClick={() => setColor(c.value)}
+                title={c.label}
+                className={`w-7 h-7 rounded-full border-2 transition-all ${color === c.value ? "border-gray-800 scale-110" : "border-white shadow"}`}
+                style={{ backgroundColor: c.value }} />
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <label className="text-xs font-medium text-gray-600 block mb-1">Category</label>
+          <div className="grid grid-cols-3 gap-1">
+            {CATEGORIES.map(cat => (
+              <button key={cat.id} onClick={() => setCategory(cat.id)}
+                className={`flex items-center gap-1 px-2 py-1.5 rounded-lg text-xs border transition-colors
+                  ${category === cat.id ? `${cat.bgColor} text-white border-transparent` : "border-gray-200 text-gray-600 hover:bg-gray-50"}`}>
+                <cat.Icon className="w-3 h-3" />
+                {cat.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <label className="text-xs font-medium text-gray-600 block mb-1">Notes</label>
+          <textarea value={notes} onChange={e => setNotes(e.target.value)} rows={2}
+            className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary/30 resize-none"
+            placeholder="Depth, conduit size, date installed..." />
+        </div>
+
+        {/* Photos section */}
+        <div>
+          <label className="text-xs font-medium text-gray-600 block mb-2">Photos</label>
+          {photos.length > 0 && (
+            <div className="grid grid-cols-3 gap-1.5 mb-2">
+              {photos.map((url, idx) => (
+                <div key={idx} className="relative group aspect-square rounded-lg overflow-hidden border border-gray-200">
+                  <img src={url} alt={`Photo ${idx + 1}`} className="w-full h-full object-cover" />
+                  <button
+                    onClick={() => removePhoto(idx)}
+                    className="absolute top-0.5 right-0.5 bg-red-500 text-white rounded-full w-4 h-4 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity"
+                    title="Remove photo"
+                  >
+                    <X className="w-2.5 h-2.5" />
+                  </button>
+                </div>
+              ))}
+            </div>
+          )}
+          <div>
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept="image/*"
+              multiple
+              className="hidden"
+              onChange={handleFileChange}
+            />
+            <button
+              onClick={() => fileInputRef.current?.click()}
+              disabled={uploading}
+              className="w-full flex items-center justify-center gap-2 px-3 py-2 border-2 border-dashed border-gray-300 rounded-lg text-sm text-gray-500 hover:border-primary/50 hover:text-primary transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              {uploading ? (
+                <><Loader2 className="w-4 h-4 animate-spin" /> Uploading...</>
+              ) : (
+                <><Upload className="w-4 h-4" /> {photos.length > 0 ? "Add more photos" : "Upload photos"}</>
+              )}
+            </button>
+            {uploadError && <p className="text-xs text-red-500 mt-1">{uploadError}</p>}
+          </div>
+        </div>
+
+        {!existing && points && (
+          <p className="text-xs text-gray-400">{points.length} waypoints recorded</p>
+        )}
+
+        <div className="flex gap-2 pt-1">
+          <Button onClick={handleSave} disabled={!title || isPending || uploading || (!existing && (!points || points.length < 2))} size="sm" className="flex-1">
+            {isPending ? "Saving..." : <><Check className="w-3.5 h-3.5 mr-1" /> Save Route</>}
+          </Button>
+          <Button onClick={onCancel} variant="outline" size="sm">Cancel</Button>
+        </div>
+      </div>
+    </div>
   );
 }
 
@@ -413,27 +809,39 @@ function PrintFieldSheet({ pins, sheetId, onClose }: { pins: Pin[]; sheetId: num
 
 // ── Main Component ────────────────────────────────────────────────────────────
 
+type MapMode = "view" | "addPin" | "drawRoute";
+
 export default function MapPage() {
   const { user } = useAuth();
   const isAdmin = user?.role === "admin";
 
-  const [activeSheet, setActiveSheet] = useState(2); // default to Main House
+  const [activeSheet, setActiveSheet] = useState(2);
   const [activeCategories, setActiveCategories] = useState<Set<Category>>(new Set());
   const [activePin, setActivePin] = useState<Pin | null>(null);
-  const [addingPin, setAddingPin] = useState(false);
+  const [activeRoute, setActiveRoute] = useState<MapRoute | null>(null);
+  const [mode, setMode] = useState<MapMode>("view");
   const [pendingPos, setPendingPos] = useState<{ x: number; y: number } | null>(null);
   const [editingPin, setEditingPin] = useState<Pin | null>(null);
+  const [editingRoute, setEditingRoute] = useState<MapRoute | null>(null);
+  const [drawingPoints, setDrawingPoints] = useState<Array<{ x: number; y: number }>>([]);
+  const [routeReadyToSave, setRouteReadyToSave] = useState(false);
   const [showPrint, setShowPrint] = useState(false);
 
   const imgRef = useRef<HTMLImageElement>(null);
   const utils = trpc.useUtils();
 
   const { data: allPins = [] } = trpc.mapPins.list.useQuery({});
+  const { data: allRoutes = [] } = trpc.mapRoutes.list.useQuery({});
+
   const deletePin = trpc.mapPins.delete.useMutation({
     onSuccess: () => utils.mapPins.list.invalidate(),
   });
+  const deleteRoute = trpc.mapRoutes.delete.useMutation({
+    onSuccess: () => utils.mapRoutes.list.invalidate(),
+  });
 
   const sheetPins = allPins.filter(p => p.sheetId === activeSheet);
+  const sheetRoutes = allRoutes.filter(r => r.sheetId === activeSheet);
   const visiblePins = activeCategories.size === 0
     ? sheetPins
     : sheetPins.filter(p => activeCategories.has(p.category as Category));
@@ -446,14 +854,39 @@ export default function MapPage() {
     });
   };
 
+  const switchMode = (newMode: MapMode) => {
+    setMode(newMode);
+    setActivePin(null);
+    setActiveRoute(null);
+    setPendingPos(null);
+    setDrawingPoints([]);
+    setRouteReadyToSave(false);
+  };
+
   const handleMapClick = useCallback((e: React.MouseEvent<HTMLDivElement>) => {
-    if (!addingPin || !imgRef.current) return;
+    if (!imgRef.current) return;
     const rect = imgRef.current.getBoundingClientRect();
     const x = ((e.clientX - rect.left) / rect.width) * 100;
     const y = ((e.clientY - rect.top) / rect.height) * 100;
-    setPendingPos({ x, y });
-    setAddingPin(false);
-  }, [addingPin]);
+
+    if (mode === "addPin") {
+      setPendingPos({ x, y });
+      setMode("view");
+    } else if (mode === "drawRoute") {
+      setDrawingPoints(prev => [...prev, { x, y }]);
+    }
+  }, [mode]);
+
+  const handleUndoLastPoint = () => {
+    setDrawingPoints(prev => prev.slice(0, -1));
+  };
+
+  const handleFinishRoute = () => {
+    if (drawingPoints.length >= 2) {
+      setRouteReadyToSave(true);
+      setMode("view");
+    }
+  };
 
   // Check URL for direct pin link
   useEffect(() => {
@@ -474,6 +907,12 @@ export default function MapPage() {
     setActivePin(null);
   };
 
+  const handleDeleteRoute = async (route: MapRoute) => {
+    if (!confirm(`Delete route "${route.title}"?`)) return;
+    await deleteRoute.mutateAsync({ id: route.id });
+    setActiveRoute(null);
+  };
+
   const sheet = SHEETS.find(s => s.id === activeSheet)!;
 
   return (
@@ -483,7 +922,7 @@ export default function MapPage() {
         {/* Sheet Tabs */}
         <div className="flex items-center gap-1 flex-wrap">
           {SHEETS.map(s => (
-            <button key={s.id} onClick={() => { setActiveSheet(s.id); setActivePin(null); }}
+            <button key={s.id} onClick={() => { setActiveSheet(s.id); setActivePin(null); setActiveRoute(null); }}
               className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors
                 ${activeSheet === s.id
                   ? "bg-primary text-primary-foreground"
@@ -499,14 +938,50 @@ export default function MapPage() {
             <Printer className="w-3.5 h-3.5 mr-1" /> Print Field Sheet
           </Button>
           {isAdmin && (
-            <Button size="sm" onClick={() => { setAddingPin(true); setActivePin(null); setPendingPos(null); }}
-              className={addingPin ? "bg-orange-500 hover:bg-orange-600" : ""}>
-              <Plus className="w-3.5 h-3.5 mr-1" />
-              {addingPin ? "Click map to place pin" : "Add Pin"}
-            </Button>
+            <>
+              <Button size="sm"
+                onClick={() => switchMode(mode === "addPin" ? "view" : "addPin")}
+                className={mode === "addPin" ? "bg-orange-500 hover:bg-orange-600" : ""}>
+                <Plus className="w-3.5 h-3.5 mr-1" />
+                {mode === "addPin" ? "Click map to place" : "Add Pin"}
+              </Button>
+              <Button size="sm" variant="outline"
+                onClick={() => switchMode(mode === "drawRoute" ? "view" : "drawRoute")}
+                className={mode === "drawRoute" ? "bg-orange-500 text-white hover:bg-orange-600 border-orange-500" : ""}>
+                <Route className="w-3.5 h-3.5 mr-1" />
+                {mode === "drawRoute" ? "Drawing… click to add points" : "Draw Route"}
+              </Button>
+            </>
           )}
         </div>
       </div>
+
+      {/* Drawing controls bar */}
+      {mode === "drawRoute" && (
+        <div className="bg-orange-50 border-b border-orange-200 px-4 py-2 flex items-center gap-3 text-sm text-orange-800">
+          <Route className="w-4 h-4 flex-shrink-0" />
+          <span className="flex-1">
+            Click on the map to add waypoints along the route.
+            {drawingPoints.length > 0 && <strong className="ml-1">{drawingPoints.length} point{drawingPoints.length !== 1 ? "s" : ""} placed.</strong>}
+          </span>
+          {drawingPoints.length > 0 && (
+            <button onClick={handleUndoLastPoint}
+              className="flex items-center gap-1 px-2 py-1 rounded bg-orange-100 hover:bg-orange-200 text-xs font-medium">
+              <Minus className="w-3 h-3" /> Undo last
+            </button>
+          )}
+          {drawingPoints.length >= 2 && (
+            <button onClick={handleFinishRoute}
+              className="flex items-center gap-1 px-3 py-1 rounded bg-orange-500 hover:bg-orange-600 text-white text-xs font-medium">
+              <Check className="w-3 h-3" /> Done — Save Route
+            </button>
+          )}
+          <button onClick={() => switchMode("view")}
+            className="flex items-center gap-1 px-2 py-1 rounded bg-white border border-orange-200 hover:bg-orange-50 text-xs">
+            <X className="w-3 h-3" /> Cancel
+          </button>
+        </div>
+      )}
 
       {/* Layer Toggles */}
       <div className="bg-white border-b border-gray-100 px-4 py-2 flex items-center gap-2 flex-wrap">
@@ -528,21 +1003,26 @@ export default function MapPage() {
             </button>
           );
         })}
+        {sheetRoutes.length > 0 && (
+          <span className="flex items-center gap-1 text-xs text-gray-500 border border-gray-200 rounded-full px-2.5 py-1">
+            <Route className="w-3 h-3" /> {sheetRoutes.length} route{sheetRoutes.length !== 1 ? "s" : ""}
+          </span>
+        )}
         {activeCategories.size > 0 && (
           <button onClick={() => setActiveCategories(new Set())}
             className="text-xs text-gray-400 hover:text-gray-600 ml-1">
             Show all
           </button>
         )}
-        {sheetPins.length === 0 && (
-          <span className="text-xs text-gray-400 italic">No pins on this sheet yet</span>
+        {sheetPins.length === 0 && sheetRoutes.length === 0 && (
+          <span className="text-xs text-gray-400 italic">No pins or routes on this sheet yet</span>
         )}
       </div>
 
       {/* Map Area */}
       <div className="flex-1 overflow-auto relative">
         <div
-          className={`relative inline-block min-w-full ${addingPin ? "cursor-crosshair" : "cursor-default"}`}
+          className={`relative inline-block min-w-full ${mode !== "view" ? "cursor-crosshair" : "cursor-default"}`}
           onClick={handleMapClick}
         >
           <img
@@ -553,16 +1033,32 @@ export default function MapPage() {
             draggable={false}
           />
 
+          {/* Route SVG overlay */}
+          <RouteOverlay
+            routes={sheetRoutes}
+            activeRouteId={activeRoute?.id ?? null}
+            drawingPoints={drawingPoints}
+            imgRef={imgRef}
+            onRouteClick={route => {
+              if (mode !== "view") return;
+              setActiveRoute(activeRoute?.id === route.id ? null : route);
+              setActivePin(null);
+              setPendingPos(null);
+              setEditingPin(null);
+            }}
+          />
+
           {/* Pins */}
-          {sheetPins.map(pin => (
+          {visiblePins.map(pin => (
             <PinMarker
               key={pin.id}
               pin={pin}
               isActive={activePin?.id === pin.id}
               dimmed={activeCategories.size > 0 && !activeCategories.has(pin.category as Category)}
               onClick={() => {
-                if (addingPin) return;
+                if (mode !== "view") return;
                 setActivePin(activePin?.id === pin.id ? null : pin);
+                setActiveRoute(null);
                 setPendingPos(null);
                 setEditingPin(null);
               }}
@@ -588,6 +1084,17 @@ export default function MapPage() {
             />
           )}
 
+          {/* Active route popup */}
+          {activeRoute && !editingRoute && !pendingPos && !routeReadyToSave && (
+            <RoutePopup
+              route={activeRoute}
+              onClose={() => setActiveRoute(null)}
+              onEdit={() => { setEditingRoute(activeRoute); setActiveRoute(null); }}
+              onDelete={() => handleDeleteRoute(activeRoute)}
+              isAdmin={isAdmin}
+            />
+          )}
+
           {/* Add pin form */}
           {pendingPos && (
             <PinForm
@@ -605,6 +1112,26 @@ export default function MapPage() {
               existing={editingPin}
               onSave={() => { setEditingPin(null); }}
               onCancel={() => setEditingPin(null)}
+            />
+          )}
+
+          {/* Save new route form */}
+          {routeReadyToSave && !editingRoute && (
+            <RouteForm
+              sheetId={activeSheet}
+              points={drawingPoints}
+              onSave={() => { setRouteReadyToSave(false); setDrawingPoints([]); }}
+              onCancel={() => { setRouteReadyToSave(false); setDrawingPoints([]); }}
+            />
+          )}
+
+          {/* Edit route form */}
+          {editingRoute && (
+            <RouteForm
+              sheetId={activeSheet}
+              existing={editingRoute}
+              onSave={() => { setEditingRoute(null); }}
+              onCancel={() => setEditingRoute(null)}
             />
           )}
         </div>

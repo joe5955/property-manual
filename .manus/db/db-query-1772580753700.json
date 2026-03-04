@@ -1,0 +1,9 @@
+{
+  "query": "SELECT id, title, category, notes, photos FROM map_pins WHERE LOWER(title) LIKE '%fiber%' OR LOWER(notes) LIKE '%fiber%' OR LOWER(title) LIKE '%fibre%' OR LOWER(title) LIKE '%internet%' ORDER BY id DESC;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user WBfVgvvEUxL2ZXR.root --database 5Wh7ynUieoKvKRb4ttPNaL --execute SELECT id, title, category, notes, photos FROM map_pins WHERE LOWER(title) LIKE '%fiber%' OR LOWER(notes) LIKE '%fiber%' OR LOWER(title) LIKE '%fibre%' OR LOWER(title) LIKE '%internet%' ORDER BY id DESC;",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 208
+}

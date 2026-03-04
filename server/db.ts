@@ -92,7 +92,7 @@ export async function getUserByOpenId(openId: string) {
 // TODO: add feature queries here as your schema grows.
 
 // ── Map Pins ──────────────────────────────────────────────────────────────────
-import { mapPins, InsertMapPin, MapPin } from "../drizzle/schema";
+import { mapPins, InsertMapPin, MapPin, mapRoutes, InsertMapRoute, MapRoute } from "../drizzle/schema";
 
 export async function getMapPins(sheetId?: number): Promise<MapPin[]> {
   const db = await getDb();
@@ -120,4 +120,34 @@ export async function deleteMapPin(id: number): Promise<void> {
   const db = await getDb();
   if (!db) throw new Error("Database not available");
   await db.delete(mapPins).where(eq(mapPins.id, id));
+}
+
+// ── Map Routes ───────────────────────────────────────────────────────────────
+
+export async function getMapRoutes(sheetId?: number): Promise<MapRoute[]> {
+  const db = await getDb();
+  if (!db) return [];
+  if (sheetId !== undefined) {
+    return db.select().from(mapRoutes).where(eq(mapRoutes.sheetId, sheetId));
+  }
+  return db.select().from(mapRoutes);
+}
+
+export async function createMapRoute(route: InsertMapRoute): Promise<number> {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  const result = await db.insert(mapRoutes).values(route);
+  return (result[0] as any).insertId as number;
+}
+
+export async function updateMapRoute(id: number, data: Partial<InsertMapRoute>): Promise<void> {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  await db.update(mapRoutes).set(data).where(eq(mapRoutes.id, id));
+}
+
+export async function deleteMapRoute(id: number): Promise<void> {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  await db.delete(mapRoutes).where(eq(mapRoutes.id, id));
 }

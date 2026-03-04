@@ -206,3 +206,19 @@
 - [x] Add direct file upload button to Add/Edit Pin form (upload photos to S3, get CDN URL automatically)
 - [x] Add a tRPC upload endpoint that accepts a base64 image and returns a CDN URL
 - [x] Replace manual URL textarea with a photo picker that shows thumbnails of uploaded photos
+
+## Future: Property Manual Skill
+- [ ] **Create property manual skill** — once workflows are settled (excavation pin library complete, photo workflow stable, GitHub sync routine established). Skill should cover: adding a new building section, adding excavation pins with field photos, generating/printing field sheets, and the GitHub content backup workflow. Useful for handing maintenance to Joseph/Lilliana or replicating the manual for another property.
+
+## Map Route / Polyline Feature
+- [ ] Add map_routes table (id, sheetId, title, category, color, notes, photos, points JSON, createdAt, updatedAt)
+- [ ] Add tRPC procedures: routes.list, routes.create, routes.update, routes.delete
+- [ ] Add draw-route mode to map UI (click to add points, double-click to finish)
+- [ ] Render saved routes as colored polylines with labels on the map
+- [ ] Route detail popup with title, notes, photos (same style as pin popup)
+- [ ] Place fiber optic route across relevant sheets with 13 installation photos
+- [ ] Place fiber optic endpoint pins at entrance, caretaker's house, beach house, main house
+
+## Water Tank Valve Pin Photos
+- [x] Upload 5 water tank valve excavation photos (Oct 2022) to CDN
+- [x] Attach all 5 photos to existing "100k Water Tank Valves" pin on Sheet 5 (A-5.0)

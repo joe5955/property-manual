@@ -1,0 +1,38 @@
+{
+  "query": "SELECT id, title, category, notes, photos FROM map_pins WHERE LOWER(title) LIKE '%well%' OR LOWER(notes) LIKE '%well%' ORDER BY id DESC;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user WBfVgvvEUxL2ZXR.root --database 5Wh7ynUieoKvKRb4ttPNaL --execute SELECT id, title, category, notes, photos FROM map_pins WHERE LOWER(title) LIKE '%well%' OR LOWER(notes) LIKE '%well%' ORDER BY id DESC;",
+  "rows": [
+    {
+      "id": "30002",
+      "title": "new well electric",
+      "category": "electrical",
+      "notes": "",
+      "photos": "[]"
+    },
+    {
+      "id": "30001",
+      "title": "New Well",
+      "category": "water",
+      "notes": "",
+      "photos": "[]"
+    },
+    {
+      "id": "4",
+      "title": "pipes in front of shop",
+      "category": "water",
+      "notes": "Excavation in front of Lower Shop, July 2021. Multiple pipe runs exposed: irrigation line, potable water feed from 100K gallon tank, and potable water line running up to windmill area (Well #1). Purple primer visible on PVC joints. Kubota mini-excavator used.",
+      "photos": "[\"https://d2xsxph8kpxj0f.cloudfront.net/113311765/5Wh7ynUieoKvKRb4ttPNaL/pasted_file_cTjCFu_IMG_1652_a295c346.JPEG\",\"https://d2xsxph8kpxj0f.cloudfront.net/113311765/5Wh7ynUieoKvKRb4ttPNaL/pasted_file_azQRMW_IMG_1656_a6d2d7a7.JPEG\",\"https://d2xsxph8kpxj0f.cloudfront.net/113311765/5Wh7ynUieoKvKRb4ttPNaL/pasted_file_ymhld8_IMG_1660_93873728.JPEG\",\"https://d2xsxph8kpxj0f.cloudfront.net/113311765/5Wh7ynUieoKvKRb4ttPNaL/pasted_file_tFwXxa_IMG_1665_cdd7c547.JPEG\"]"
+    },
+    {
+      "id": "2",
+      "title": "Water Manifold — South of Lower Shop (East)",
+      "category": "water",
+      "notes": "Eastern excavation, 14 ft off southern wall of Lower Shop. Contains: (1) main shutoff valve — shuts off water from 100K tank to entire property; (2) 1\" connection — pipe from windmill well (Well #1) to tank fill; (3) two lines in middle — capped off (abandoned).",
+      "photos": "[\"https://d2xsxph8kpxj0f.cloudfront.net/113311765/5Wh7ynUieoKvKRb4ttPNaL/pasted_file_fkqA4W_IMG_1672_255513ba.JPEG\",\"https://d2xsxph8kpxj0f.cloudfront.net/113311765/5Wh7ynUieoKvKRb4ttPNaL/pasted_file_HGtrVV_IMG_1673_55a0ac64.JPEG\"]"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\ttitle\tcategory\tnotes\tphotos\n30002\tnew well electric\telectrical\t\t[]\n30001\tNew Well\twater\t\t[]\n4\tpipes in front of shop\twater\tExcavation in front of Lower Shop, July 2021. Multiple pipe runs exposed: irrigation line, potable water feed from 100K gallon tank, and potable water line running up to windmill area (Well #1). Purple primer visible on PVC joints. Kubota mini-excavator used.\t[\"https://d2xsxph8kpxj0f.cloudfront.net/113311765/5Wh7ynUieoKvKRb4ttPNaL/pasted_file_cTjCFu_IMG_1652_a295c346.JPEG\",\"https://d2xsxph8kpxj0f.cloudfront.net/113311765/5Wh7ynUieoKvKRb4ttPNaL/pasted_file_azQRMW_IMG_1656_a6d2d7a7.JPEG\",\"https://d2xsxph8kpxj0f.cloudfront.net/113311765/5Wh7ynUieoKvKRb4ttPNaL/pasted_file_ymhld8_IMG_1660_93873728.JPEG\",\"https://d2xsxph8kpxj0f.cloudfront.net/113311765/5Wh7ynUieoKvKRb4ttPNaL/pasted_file_tFwXxa_IMG_1665_cdd7c547.JPEG\"]\n2\tWater Manifold — South of Lower Shop (East)\twater\tEastern excavation, 14 ft off southern wall of Lower Shop. Contains: (1) main shutoff valve — shuts off water from 100K tank to entire property; (2) 1\" connection — pipe from windmill well (Well #1) to tank fill; (3) two lines in middle — capped off (abandoned).\t[\"https://d2xsxph8kpxj0f.cloudfront.net/113311765/5Wh7ynUieoKvKRb4ttPNaL/pasted_file_fkqA4W_IMG_1672_255513ba.JPEG\",\"https://d2xsxph8kpxj0f.cloudfront.net/113311765/5Wh7ynUieoKvKRb4ttPNaL/pasted_file_HGtrVV_IMG_1673_55a0ac64.JPEG\"]\n",
+  "stderr": "",
+  "execution_time_ms": 63
+}

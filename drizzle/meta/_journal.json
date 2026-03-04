@@ -29,6 +29,20 @@
       "when": 1772569924760,
       "tag": "0003_high_professor_monster",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1772581720803,
+      "tag": "0004_outgoing_shockwave",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1772581845336,
+      "tag": "0005_faulty_the_enforcers",
+      "breakpoints": true
     }
   ]
 }

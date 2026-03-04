@@ -1,0 +1,1 @@
+ALTER TABLE `map_routes` MODIFY COLUMN `points` text NOT NULL;

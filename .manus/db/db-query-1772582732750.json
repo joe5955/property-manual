@@ -1,0 +1,37 @@
+{
+  "query": "SELECT MAX(id) as max_id FROM map_pins;\nSELECT DISTINCT sheetId, title FROM map_pins ORDER BY sheetId LIMIT 20;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user WBfVgvvEUxL2ZXR.root --database 5Wh7ynUieoKvKRb4ttPNaL --execute SELECT MAX(id) as max_id FROM map_pins;\nSELECT DISTINCT sheetId, title FROM map_pins ORDER BY sheetId LIMIT 20;",
+  "rows": [
+    {
+      "max_id": "30004"
+    },
+    {
+      "max_id": "sheetId\ttitle"
+    },
+    {
+      "max_id": "1\tNew Well"
+    },
+    {
+      "max_id": "1\tnew well electric"
+    },
+    {
+      "max_id": "4\tpotable and irrigation access"
+    },
+    {
+      "max_id": "6\tpipes in front of shop"
+    },
+    {
+      "max_id": "6\tExcavation — West of Pump House"
+    },
+    {
+      "max_id": "6\tWater Manifold — South of Lower Shop (East)"
+    },
+    {
+      "max_id": "7\tPotable Water & Irrigation Valve Box — North End of Upper Pond"
+    }
+  ],
+  "messages": [],
+  "stdout": "max_id\n30004\nsheetId\ttitle\n1\tNew Well\n1\tnew well electric\n4\tpotable and irrigation access\n6\tpipes in front of shop\n6\tExcavation — West of Pump House\n6\tWater Manifold — South of Lower Shop (East)\n7\tPotable Water & Irrigation Valve Box — North End of Upper Pond\n",
+  "stderr": "",
+  "execution_time_ms": 67
+}

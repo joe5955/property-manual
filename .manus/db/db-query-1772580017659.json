@@ -1,0 +1,15 @@
+{
+  "query": "SELECT id, title, photos FROM map_pins WHERE id = 30001;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user WBfVgvvEUxL2ZXR.root --database 5Wh7ynUieoKvKRb4ttPNaL --execute SELECT id, title, photos FROM map_pins WHERE id = 30001;",
+  "rows": [
+    {
+      "id": "30001",
+      "title": "New Well",
+      "photos": "[\"https://d2xsxph8kpxj0f.cloudfront.net/113311765/5Wh7ynUieoKvKRb4ttPNaL/pasted_file_kW7ZqK_IMG_1712_f6de10d4.JPEG\"]"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\ttitle\tphotos\n30001\tNew Well\t[\"https://d2xsxph8kpxj0f.cloudfront.net/113311765/5Wh7ynUieoKvKRb4ttPNaL/pasted_file_kW7ZqK_IMG_1712_f6de10d4.JPEG\"]\n",
+  "stderr": "",
+  "execution_time_ms": 55
+}

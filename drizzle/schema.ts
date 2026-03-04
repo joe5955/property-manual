@@ -56,3 +56,35 @@ export const mapPins = mysqlTable("map_pins", {
 });
 export type MapPin = typeof mapPins.$inferSelect;
 export type InsertMapPin = typeof mapPins.$inferInsert;
+
+/**
+ * Map routes (polylines) for the interactive site plan viewer.
+ * Each route represents a buried conduit, cable run, pipe, or other linear feature.
+ * Points are stored as a JSON array of {x, y} percentage coordinates.
+ */
+export const mapRoutes = mysqlTable("map_routes", {
+  id: int("id").autoincrement().primaryKey(),
+  /** Which map sheet this route belongs to */
+  sheetId: int("sheetId").notNull().default(1),
+  /** Display label */
+  title: varchar("title", { length: 255 }).notNull(),
+  /** Longer description / notes */
+  notes: text("notes"),
+  /**
+   * Utility/category type for layer filtering.
+   * electrical | water | irrigation | gas | septic | fiber | other
+   */
+  category: varchar("category", { length: 64 }).notNull().default("other"),
+  /** Hex color for the polyline, e.g. #f97316 */
+  color: varchar("color", { length: 16 }).notNull().default("#f97316"),
+  /** JSON-encoded array of {x, y} objects (percentage of image dimensions 0-100) */
+  points: text("points").notNull(),
+  /** JSON-encoded array of CDN photo URLs */
+  photos: text("photos"),
+  /** Link to a manual section/subsection (optional) */
+  manualSectionId: varchar("manualSectionId", { length: 128 }),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+export type MapRoute = typeof mapRoutes.$inferSelect;
+export type InsertMapRoute = typeof mapRoutes.$inferInsert;
