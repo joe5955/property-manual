@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
-import { ArrowRight, MapPin, Home as HomeIcon, FileText, Calendar, AlertCircle, CheckCircle2, Clock, Ship, Phone, Navigation, Wrench, Image } from "lucide-react";
+import { ArrowRight, MapPin, Home as HomeIcon, FileText, Calendar, AlertCircle, CheckCircle2, Clock, Ship, Phone, Navigation, Wrench, Image, Map } from "lucide-react";
 import manualData from "@/data/manual-data.json";
 import Layout from "@/components/Layout";
 
@@ -272,20 +272,23 @@ export default function Home() {
               </Card>
             </Link>
 
-            {/* Land Management Card */}
-            <Link href="/section/farm-house">
+            {/* Interactive Map Card */}
+            <Link href="/map">
               <Card className="group h-full hover:shadow-lg hover:border-primary/30 transition-all duration-300 cursor-pointer overflow-hidden">
                 <div className="h-32 bg-muted relative overflow-hidden">
-                  <div className="absolute inset-0 bg-[url('/hero-land-management.jpg')] bg-cover bg-center transition-transform duration-700 group-hover:scale-105"></div>
+                  <div className="absolute inset-0 bg-gradient-to-br from-slate-700 to-slate-900 transition-transform duration-700 group-hover:scale-105"></div>
+                  <div className="absolute inset-0 flex items-center justify-center opacity-20">
+                    <Map className="w-20 h-20 text-white" />
+                  </div>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                  <div className="absolute bottom-3 left-4 text-white font-serif font-bold text-lg">Land Management</div>
+                  <div className="absolute bottom-3 left-4 text-white font-serif font-bold text-lg">Interactive Map</div>
                 </div>
                 <CardContent className="p-5">
                   <p className="text-sm text-muted-foreground line-clamp-2 mb-4">
-                    Forestry plans, conservation easements, and landscape maintenance schedules.
+                    Site plan with buried utilities, excavation pins, fiber optic routes, and OPALCO power lines.
                   </p>
                   <div className="flex items-center text-xs font-medium text-primary group-hover:translate-x-1 transition-transform duration-300">
-                    View Plans <ArrowRight className="ml-1 h-3 w-3" />
+                    Open Map <ArrowRight className="ml-1 h-3 w-3" />
                   </div>
                 </CardContent>
               </Card>

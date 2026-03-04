@@ -226,3 +226,6 @@
 ## OPALCO Power Line Route
 - [x] Upload OPALCO power map PDF to CDN
 - [x] Insert OPALCO underground power line as yellow route on A-1.0 (Property Overview) tracing Bear Cove Rd
+
+## Home Page Quick-Access Cards
+- [x] Replace "Land Management / Farm House" card with "Interactive Map" card linking to /map
