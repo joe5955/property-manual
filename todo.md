@@ -211,14 +211,18 @@
 - [ ] **Create property manual skill** — once workflows are settled (excavation pin library complete, photo workflow stable, GitHub sync routine established). Skill should cover: adding a new building section, adding excavation pins with field photos, generating/printing field sheets, and the GitHub content backup workflow. Useful for handing maintenance to Joseph/Lilliana or replicating the manual for another property.
 
 ## Map Route / Polyline Feature
-- [ ] Add map_routes table (id, sheetId, title, category, color, notes, photos, points JSON, createdAt, updatedAt)
-- [ ] Add tRPC procedures: routes.list, routes.create, routes.update, routes.delete
-- [ ] Add draw-route mode to map UI (click to add points, double-click to finish)
-- [ ] Render saved routes as colored polylines with labels on the map
-- [ ] Route detail popup with title, notes, photos (same style as pin popup)
-- [ ] Place fiber optic route across relevant sheets with 13 installation photos
-- [ ] Place fiber optic endpoint pins at entrance, caretaker's house, beach house, main house
+- [x] Add map_routes table (id, sheetId, title, category, color, notes, photos, points JSON, createdAt, updatedAt)
+- [x] Add tRPC procedures: routes.list, routes.create, routes.update, routes.delete
+- [x] Add draw-route mode to map UI (click to add points, double-click to finish)
+- [x] Render saved routes as colored polylines with labels on the map
+- [x] Route detail popup with title, notes, photos (same style as pin popup)
+- [x] Place fiber optic route across relevant sheets with 13 installation photos
+- [x] Place fiber optic endpoint pins at entrance and main house on Sheet A-1.0
 
 ## Water Tank Valve Pin Photos
 - [x] Upload 5 water tank valve excavation photos (Oct 2022) to CDN
 - [x] Attach all 5 photos to existing "100k Water Tank Valves" pin on Sheet 5 (A-5.0)
+
+## OPALCO Power Line Route
+- [x] Upload OPALCO power map PDF to CDN
+- [x] Insert OPALCO underground power line as yellow route on A-1.0 (Property Overview) tracing Bear Cove Rd

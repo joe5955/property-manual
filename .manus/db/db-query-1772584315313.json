@@ -1,0 +1,58 @@
+{
+  "query": "\nSELECT 'ROUTES' as type, id, sheetId, title, color, LEFT(points, 50) as points_preview FROM map_routes WHERE sheetId = 1\nUNION ALL\nSELECT 'PINS' as type, id, sheetId, title, category as color, CONCAT('(', ROUND(positionX,1), ', ', ROUND(positionY,1), ')') as points_preview FROM map_pins WHERE sheetId = 1\nORDER BY type, id;\n",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user WBfVgvvEUxL2ZXR.root --database 5Wh7ynUieoKvKRb4ttPNaL --execute \nSELECT 'ROUTES' as type, id, sheetId, title, color, LEFT(points, 50) as points_preview FROM map_routes WHERE sheetId = 1\nUNION ALL\nSELECT 'PINS' as type, id, sheetId, title, category as color, CONCAT('(', ROUND(positionX,1), ', ', ROUND(positionY,1), ')') as points_preview FROM map_pins WHERE sheetId = 1\nORDER BY type, id;\n",
+  "rows": [
+    {
+      "type": "PINS",
+      "id": "30001",
+      "sheetId": "1",
+      "title": "New Well",
+      "color": "water",
+      "points_preview": "(21.7, 50.5)"
+    },
+    {
+      "type": "PINS",
+      "id": "30002",
+      "sheetId": "1",
+      "title": "new well electric",
+      "color": "electrical",
+      "points_preview": "(23.1, 52.3)"
+    },
+    {
+      "type": "PINS",
+      "id": "90001",
+      "sheetId": "1",
+      "title": "Fiber Optic — Property Entrance Splice Point",
+      "color": "electrical",
+      "points_preview": "(15, 85)"
+    },
+    {
+      "type": "PINS",
+      "id": "90002",
+      "sheetId": "1",
+      "title": "Fiber Optic — Main House Termination",
+      "color": "electrical",
+      "points_preview": "(78, 18)"
+    },
+    {
+      "type": "ROUTES",
+      "id": "1",
+      "sheetId": "1",
+      "title": "Fiber Optic Conduit",
+      "color": "#f97316",
+      "points_preview": "[{\"x\":15,\"y\":85},{\"x\":22,\"y\":78},{\"x\":30,\"y\":68},{"
+    },
+    {
+      "type": "ROUTES",
+      "id": "30001",
+      "sheetId": "1",
+      "title": "OPALCO Underground Power Line",
+      "color": "#eab308",
+      "points_preview": "[{\"x\":8.5,\"y\":89.0},{\"x\":8.0,\"y\":82.0},{\"x\":8.5,\"y"
+    }
+  ],
+  "messages": [],
+  "stdout": "type\tid\tsheetId\ttitle\tcolor\tpoints_preview\nPINS\t30001\t1\tNew Well\twater\t(21.7, 50.5)\nPINS\t30002\t1\tnew well electric\telectrical\t(23.1, 52.3)\nPINS\t90001\t1\tFiber Optic — Property Entrance Splice Point\telectrical\t(15, 85)\nPINS\t90002\t1\tFiber Optic — Main House Termination\telectrical\t(78, 18)\nROUTES\t1\t1\tFiber Optic Conduit\t#f97316\t[{\"x\":15,\"y\":85},{\"x\":22,\"y\":78},{\"x\":30,\"y\":68},{\nROUTES\t30001\t1\tOPALCO Underground Power Line\t#eab308\t[{\"x\":8.5,\"y\":89.0},{\"x\":8.0,\"y\":82.0},{\"x\":8.5,\"y\n",
+  "stderr": "",
+  "execution_time_ms": 65
+}
