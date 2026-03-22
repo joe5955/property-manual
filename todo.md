@@ -207,6 +207,30 @@
 - [x] Add a tRPC upload endpoint that accepts a base64 image and returns a CDN URL
 - [x] Replace manual URL textarea with a photo picker that shows thumbnails of uploaded photos
 
+## Property Maintenance Checklist
+- [ ] **Monthly:** Test all GFCI outlets (dock, waterfront, outdoor)
+- [ ] **Monthly:** Inspect boat ramp panel for rust/moisture progression
+- [ ] **Monthly:** Check water tank levels, pressure, and visible leaks at shutoff valves
+- [ ] **Quarterly:** Replace furnace filters — Side Entry furnace (Thermo Pride SSO-100)
+- [ ] **Quarterly:** Replace furnace filters — Basement furnace (Thermo Pride, bedroom zone)
+- [ ] **Quarterly:** Test pressure relief valves on all water heaters (Main House x2, Camp Kitchen Rinnai, Beach House)
+- [ ] **Quarterly:** Inspect all waterfront electrical connections for corrosion
+- [ ] **Semi-Annual:** Generator (Dayton Diesel) — oil change, fuel system check, test run under load
+- [ ] **Semi-Annual:** Irrigation system — test all zones, inspect heads; winterize in fall, restart in spring
+- [ ] **Semi-Annual:** Inspect dock planks, hardware, and boat winch cables
+- [ ] **Annual:** Drain and flush both Bradford White water heaters (Side Entry ERE350S6 serial ZC51064910; Basement ERE250T6 serial BB54805614)
+- [ ] **Annual:** Inspect anode rods on both Bradford White water heaters
+- [ ] **Annual:** Professional furnace service — both Thermo Pride units before heating season
+- [ ] **Annual:** Replace thermostat batteries — Living Room and Bedroom Honeywell thermostats
+- [ ] **Annual:** Professional inspection of all four electrical panels (Pushmatic x2 Side Entry, Pushmatic x2 Basement)
+- [ ] **Annual:** Well water quality test and pump/pressure tank inspection
+- [ ] **Annual:** Clean refrigerator coils, inspect dishwasher filter/spray arms, check all appliances
+- [ ] **Annual:** Inspect all building roofs, clean gutters, check foundations and crawlspaces
+- [ ] **Deferred:** Replace wooden plank cover over water shutoff access with proper lid
+- [ ] **Deferred:** Evaluate and replace boat ramp panel (heavy rust/weathering)
+- [ ] **Deferred:** Replace obsolete Pushmatic panels in Main House (Side Entry and Basement)
+- [ ] **Deferred:** Document Rinnai water heater serial number and installation date (Camp Kitchen)
+
 ## Future: Property Manual Skill
 - [ ] **Create property manual skill** — once workflows are settled (excavation pin library complete, photo workflow stable, GitHub sync routine established). Skill should cover: adding a new building section, adding excavation pins with field photos, generating/printing field sheets, and the GitHub content backup workflow. Useful for handing maintenance to Joseph/Lilliana or replicating the manual for another property.
 
