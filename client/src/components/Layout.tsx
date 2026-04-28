@@ -9,9 +9,10 @@ import Search from "@/components/Search";
 
 interface LayoutProps {
   children: React.ReactNode;
+  fullBleed?: boolean;
 }
 
-export default function Layout({ children }: LayoutProps) {
+export default function Layout({ children, fullBleed = false }: LayoutProps) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [location] = useLocation();
   const [scrolled, setScrolled] = useState(false);
@@ -209,7 +210,14 @@ export default function Layout({ children }: LayoutProps) {
           "pt-16 lg:pt-0" // Add padding for mobile header
         )}
       >
-        <div className="container max-w-full lg:max-w-7xl mx-auto p-4 md:p-8 lg:p-12 animate-in fade-in slide-in-from-bottom-4 duration-500">
+        <div
+          className={cn(
+            "animate-in fade-in slide-in-from-bottom-4 duration-500",
+            fullBleed
+              ? "w-full max-w-none p-0"
+              : "container max-w-full lg:max-w-7xl mx-auto p-4 md:p-8 lg:p-12"
+          )}
+        >
           {children}
         </div>
         

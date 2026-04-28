@@ -32,9 +32,9 @@ export default function Home() {
   const versionDate = new Date().toLocaleDateString('en-US', { month: 'numeric', day: 'numeric', year: 'numeric' });
 
   return (
-    <Layout>
+    <Layout fullBleed>
       {/* Hero Section - Full Width */}
-      <div className="-mx-4 md:-mx-8 lg:-mx-12 mb-8">
+      <div className="w-full mb-8">
         <section className="overflow-hidden shadow-xl">
           {/* Estate Photo Header */}
           <div className="w-full h-64 md:h-80 lg:h-96 overflow-hidden">
@@ -112,7 +112,7 @@ export default function Home() {
       </div>
 
       {/* Remaining Sections - Normal Width */}
-      <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
+      <div className="container max-w-full lg:max-w-7xl mx-auto p-4 md:p-8 lg:p-12 space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
         {/* Arrival & Access Section */}
         <section className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="space-y-6">

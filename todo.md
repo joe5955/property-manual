@@ -19,8 +19,8 @@
 - [ ] **Item Integration:** Link maintenance history to individual items (e.g., Rinnai Water Heater)
 
 ## Bugs
-- [ ] **Navigation Issue:** Only Main House shows under Buildings and Structures - need to display all buildings
-- [ ] **Photo Review Page:** Images not displaying - only empty spaces showing
+- [x] **Navigation Issue:** Only Main House shows under Buildings and Structures - need to display all buildings
+- [x] **Photo Review Page:** Images not displaying - only empty spaces showing
 
 ## New Features
 - [x] **Workflow Guide Page:** Create a dedicated page for photo upload procedures and best practices
@@ -59,7 +59,7 @@
 - [x] **Home Page:** Fix React DOM nesting error - <p> cannot contain nested <div>
 - [x] **Home Page:** Upload estate photo to CDN and update hero section background image
 - [x] **Home Page:** Redesign hero section to show estate photo as prominent header image above greeting
-- [ ] **Home Page:** Make hero section full-width for more dramatic visual impact
+- [x] **Home Page:** Make hero section full-width for more dramatic visual impact
 
 ## Beach House Photo Integration
 - [x] **Find New Beach House Photos:** Check Photo Review for newly uploaded Beach House photos (uploaded ~10 min ago)
