@@ -258,3 +258,12 @@
 - [x] Sync latest GitHub code into the active Manus web project
 - [x] Remove obsolete Photo Upload and Photo Review routes/pages now that workflow is GitHub-only
 - [x] Validate app health, tests, and save a checkpoint
+
+## Interactive Map Pin Bug
+- [x] **Interactive Map:** Restore missing pins so saved/default map locations display on the site plan viewer
+- [x] **Interactive Map:** Verify pin data loading path and render path with focused tests or validation
+
+## GitHub Full-Site Sync
+- [x] **GitHub:** Verify whether the whole site codebase has been pushed to joe5955/property-manual
+- [x] **GitHub:** Push the complete current site state to joe5955/property-manual if it is not already synced
+- [x] **GitHub:** Confirm the pushed commit hash and report the repository sync result
