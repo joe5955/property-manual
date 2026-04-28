@@ -103,8 +103,8 @@
 ## Remove Photo Upload Form - GitHub Only Workflow
 - [x] **Remove Photo Upload Form Link:** Delete from sidebar navigation in Layout.tsx
 - [x] **Remove Photo Review Link:** Removed from sidebar navigation in Layout.tsx
-- [ ] **Remove Photo Upload Form Page:** Delete PhotoUploadForm.tsx and route from App.tsx
-- [ ] **Remove Photo Review Page:** Delete PhotoReview.tsx and route from App.tsx (no longer needed with GitHub workflow)
+- [x] **Remove Photo Upload Form Page:** Delete PhotoUploadForm.tsx and route from App.tsx
+- [x] **Remove Photo Review Page:** Delete PhotoReview.tsx and route from App.tsx (no longer needed with GitHub workflow)
 - [x] **Get GitHub Photos:** Fresh clone and upload all photos from GitHub repository to CDN (133 photos uploaded)
 - [x] **Replace Photo URLs:** Update all manual-data.json photo URLs to use GitHub-sourced clean photos (71 photos updated across 10 buildings)
 - [x] **Document Workflow:** Create PHOTO_WORKFLOW.md documenting GitHub-only process
@@ -253,3 +253,8 @@
 
 ## Home Page Quick-Access Cards
 - [x] Replace "Land Management / Farm House" card with "Interactive Map" card linking to /map
+
+## Resume From GitHub Session
+- [x] Sync latest GitHub code into the active Manus web project
+- [x] Remove obsolete Photo Upload and Photo Review routes/pages now that workflow is GitHub-only
+- [x] Validate app health, tests, and save a checkpoint

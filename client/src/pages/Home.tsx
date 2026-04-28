@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
-import { ArrowRight, MapPin, Home as HomeIcon, FileText, Calendar, AlertCircle, CheckCircle2, Clock, Ship, Phone, Navigation, Wrench, Image, Map } from "lucide-react";
+import { ArrowRight, MapPin, Home as HomeIcon, FileText, Calendar, AlertCircle, CheckCircle2, Clock, Ship, Phone, Navigation, Wrench, Map } from "lucide-react";
 import manualData from "@/data/manual-data.json";
 import Layout from "@/components/Layout";
 
@@ -222,10 +222,7 @@ export default function Home() {
             <h2 className="font-serif text-2xl font-bold text-foreground">Quick Access</h2>
             <div className="flex gap-2">
               <Button variant="outline" size="sm" className="text-primary border-primary/20 hover:bg-primary/5" asChild>
-                <Link href="/photo-review">
-                  <Image className="mr-2 h-4 w-4" />
-                  Photo Review
-                </Link>
+                <Link href="/workflow-guide">GitHub Workflow <ArrowRight className="ml-1 h-3 w-3" /></Link>
               </Button>
               <Button variant="outline" size="sm" className="text-primary border-primary/20 hover:bg-primary/5" asChild>
                 <Link href="/guest-guide">Guest Guide <ArrowRight className="ml-1 h-3 w-3" /></Link>

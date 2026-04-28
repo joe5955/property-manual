@@ -6,12 +6,8 @@ import { ThemeProvider } from "@/components/theme-provider";
 import Layout from "@/components/Layout";
 import Home from "@/pages/Home";
 import Section from "@/pages/Section";
-import PhotoReview from "@/pages/PhotoReview";
 import MapPage from "@/pages/MapPage";
 import WorkflowGuide from "@/pages/WorkflowGuide";
-import PhotoUploadForm from "@/pages/PhotoUploadForm";
-import PhotoUploadNew from "@/pages/PhotoUploadNew";
-import PhotoLabeling from "@/pages/PhotoLabeling";
 import NotFound from "@/pages/NotFound";
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -20,12 +16,8 @@ function Router() {
       <Switch>
         <Route path="/" component={Home} />
         <Route path="/section/:id" component={Section} />
-        <Route path="/photo-review" component={PhotoReview} />
         <Route path="/map" component={MapPage} />
         <Route path="/workflow-guide" component={WorkflowGuide} />
-        <Route path="/photo-upload" component={PhotoUploadForm} />
-        <Route path="/photo-upload-new" component={PhotoUploadNew} />
-        <Route path="/photo-labeling" component={PhotoLabeling} />
         <Route component={NotFound} />
       </Switch>
     </Layout>
