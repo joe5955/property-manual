@@ -267,3 +267,11 @@
 - [x] **GitHub:** Verify whether the whole site codebase has been pushed to joe5955/property-manual
 - [x] **GitHub:** Push the complete current site state to joe5955/property-manual if it is not already synced
 - [x] **GitHub:** Confirm the pushed commit hash and report the repository sync result
+
+## Appliance Manual Link Regression
+- [x] **Appliance Manuals:** Investigate why manual links no longer appear next to appliance photos across sections
+- [x] **Appliance Manuals:** Restore the existing manual links next to the corresponding appliance pictures in all affected sections
+- [x] **Appliance Manuals:** Add or update focused validation so manual-link rendering remains covered
+- [x] **Appliance Manuals:** Verify the repaired pages visually and save a checkpoint
+
+- [ ] Push appliance manual-link restoration checkpoint to GitHub main and confirm the commit hash
