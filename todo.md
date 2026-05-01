@@ -274,4 +274,4 @@
 - [x] **Appliance Manuals:** Add or update focused validation so manual-link rendering remains covered
 - [x] **Appliance Manuals:** Verify the repaired pages visually and save a checkpoint
 
-- [ ] Push appliance manual-link restoration checkpoint to GitHub main and confirm the commit hash
+- [x] Push appliance manual-link restoration checkpoint to GitHub main and confirm the commit hash — pushed commit e033ea7
