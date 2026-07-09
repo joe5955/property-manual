@@ -1,4 +1,4 @@
-import { int, mysqlEnum, mysqlTable, text, timestamp, varchar, float } from "drizzle-orm/mysql-core";
+import { int, bigint, mysqlEnum, mysqlTable, text, timestamp, varchar, float } from "drizzle-orm/mysql-core";
 
 /**
  * Core user table backing auth flow.
@@ -88,3 +88,73 @@ export const mapRoutes = mysqlTable("map_routes", {
 });
 export type MapRoute = typeof mapRoutes.$inferSelect;
 export type InsertMapRoute = typeof mapRoutes.$inferInsert;
+
+/**
+ * Document Vault — uploaded property documents (warranties, permits, insurance, surveys, legal).
+ * File bytes live in S3; this table stores metadata and the storage key/URL.
+ */
+export const documents = mysqlTable("documents", {
+  id: int("id").autoincrement().primaryKey(),
+  /** Human-readable title (e.g. "Beach House Insurance Policy 2025") */
+  title: varchar("title", { length: 255 }).notNull(),
+  /**
+   * Document category for filtering.
+   * warranty | permit | insurance | survey | legal | estimate | manual | maintenance | other
+   */
+  category: varchar("category", { length: 64 }).notNull().default("other"),
+  /** Original filename as uploaded */
+  filename: varchar("filename", { length: 512 }).notNull(),
+  /** S3 storage key */
+  fileKey: varchar("fileKey", { length: 512 }).notNull(),
+  /** Public-facing URL (e.g. /manus-storage/...) */
+  fileUrl: text("fileUrl").notNull(),
+  /** MIME type (application/pdf, image/jpeg, etc.) */
+  mimeType: varchar("mimeType", { length: 128 }).notNull().default("application/octet-stream"),
+  /** File size in bytes */
+  fileSize: bigint("fileSize", { mode: "number" }).notNull().default(0),
+  /** Optional: associate with a building/section */
+  building: varchar("building", { length: 128 }),
+  /** Free-form notes about this document */
+  notes: text("notes"),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+export type Document = typeof documents.$inferSelect;
+export type InsertDocument = typeof documents.$inferInsert;
+
+/**
+ * Vendor/Contractor Directory — service providers for the property.
+ * Stores contact info, trade category, and optional association with a building.
+ */
+export const vendors = mysqlTable("vendors", {
+  id: int("id").autoincrement().primaryKey(),
+  /** Contact name (person) */
+  name: varchar("name", { length: 255 }).notNull(),
+  /** Company/business name */
+  company: varchar("company", { length: 255 }),
+  /**
+   * Trade/service category.
+   * roofing | plumbing | electrical | hvac | septic | general | landscaping | marine | appliance | pest | well | other
+   */
+  trade: varchar("trade", { length: 64 }).notNull().default("other"),
+  /** Primary phone number */
+  phone: varchar("phone", { length: 32 }),
+  /** Email address */
+  email: varchar("email", { length: 320 }),
+  /** Website URL */
+  website: varchar("website", { length: 512 }),
+  /** Free-form notes (e.g. "Good for emergency calls", "Island-based") */
+  notes: text("notes"),
+  /** Optional: associate with a building/section */
+  building: varchar("building", { length: 128 }),
+  /** Contractor license/registration number */
+  license: varchar("license", { length: 128 }),
+  /** 1-5 star rating (optional) */
+  rating: int("rating"),
+  /** Last date this vendor was used */
+  lastUsed: timestamp("lastUsed"),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+export type Vendor = typeof vendors.$inferSelect;
+export type InsertVendor = typeof vendors.$inferInsert;

@@ -275,3 +275,24 @@
 - [x] **Appliance Manuals:** Verify the repaired pages visually and save a checkpoint
 
 - [x] Push appliance manual-link restoration checkpoint to GitHub main and confirm the commit hash — pushed commit e033ea7
+
+## Sidebar Scrolling Bug
+- [x] **Navigation:** Sections below Lower Shop are inaccessible when scrolling in the sidebar — fixed by replacing Radix ScrollArea with overflow-y-auto div
+
+## Document Vault Feature
+- [x] Create documents database table (id, title, category, filename, fileKey, fileUrl, mimeType, fileSize, building, notes, uploadedAt)
+- [x] Build server-side tRPC procedures for document upload, list, delete
+- [x] Build Document Vault UI page with file upload, category filter, and document list/grid
+- [x] Add Document Vault to sidebar navigation
+- [x] Write vitest tests for document procedures
+
+## Vendor Directory Feature
+- [x] Create vendors database table (id, name, company, trade, phone, email, website, notes, building, rating, lastUsed, createdAt)
+- [x] Build server-side tRPC procedures for vendor CRUD (create, list, update, delete)
+- [x] Build Vendor Directory UI page with add/edit form, trade filter, and contact cards
+- [x] Add Vendor Directory to sidebar navigation
+- [x] Write vitest tests for vendor procedures
+
+## Sellable Template Planning
+- [ ] Document architecture decisions that support template separation (personal data vs structure)
+- [ ] Plan template packaging approach (strip personal data, add sample/placeholder content)

@@ -8,6 +8,8 @@ import Home from "@/pages/Home";
 import Section from "@/pages/Section";
 import MapPage from "@/pages/MapPage";
 import WorkflowGuide from "@/pages/WorkflowGuide";
+import DocumentVault from "@/pages/DocumentVault";
+import VendorDirectory from "@/pages/VendorDirectory";
 import NotFound from "@/pages/NotFound";
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -18,6 +20,8 @@ function Router() {
         <Route path="/section/:id" component={Section} />
         <Route path="/map" component={MapPage} />
         <Route path="/workflow-guide" component={WorkflowGuide} />
+        <Route path="/documents" component={DocumentVault} />
+        <Route path="/vendors" component={VendorDirectory} />
         <Route component={NotFound} />
       </Switch>
     </Layout>

@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { cn } from "@/lib/utils";
-import { Menu, X, ChevronRight, Home, Map, FileText, Wrench, Shield, Droplet, Zap, Anchor, BookOpen } from "lucide-react";
+import { Menu, X, ChevronRight, Home, Map, FileText, Wrench, Shield, Droplet, Zap, Anchor, BookOpen, FolderOpen, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { ScrollArea } from "@/components/ui/scroll-area";
 import manualData from "@/data/manual-data.json";
 import Search from "@/components/Search";
 
@@ -95,7 +94,7 @@ export default function Layout({ children, fullBleed = false }: LayoutProps) {
           </div>
 
           {/* Navigation Links */}
-          <ScrollArea className="flex-1 py-4">
+          <div className="flex-1 min-h-0 overflow-y-auto py-4">
             <nav className="px-4 space-y-1">
               <Link href="/">
                 <div 
@@ -153,6 +152,34 @@ export default function Layout({ children, fullBleed = false }: LayoutProps) {
                 </div>
               </Link>
 
+              <Link href="/documents">
+                <div 
+                  className={cn(
+                    "flex items-center gap-3 px-3 py-2.5 rounded-md text-sm font-medium transition-all duration-200 group cursor-pointer",
+                    location === "/documents" 
+                      ? "bg-sidebar-accent text-sidebar-accent-foreground shadow-sm" 
+                      : "text-muted-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-foreground"
+                  )}
+                >
+                  <FolderOpen className={cn("h-4 w-4 transition-colors", location === "/documents" ? "text-primary" : "text-muted-foreground group-hover:text-primary")} />
+                  <span>Document Vault</span>
+                </div>
+              </Link>
+
+              <Link href="/vendors">
+                <div 
+                  className={cn(
+                    "flex items-center gap-3 px-3 py-2.5 rounded-md text-sm font-medium transition-all duration-200 group cursor-pointer",
+                    location === "/vendors" 
+                      ? "bg-sidebar-accent text-sidebar-accent-foreground shadow-sm" 
+                      : "text-muted-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-foreground"
+                  )}
+                >
+                  <Users className={cn("h-4 w-4 transition-colors", location === "/vendors" ? "text-primary" : "text-muted-foreground group-hover:text-primary")} />
+                  <span>Vendor Directory</span>
+                </div>
+              </Link>
+
               <div className="my-4 px-3">
                 <h3 className="text-xs font-bold text-muted-foreground/70 uppercase tracking-wider mb-2">Property Sections</h3>
                 <div className="space-y-1">
@@ -178,7 +205,7 @@ export default function Layout({ children, fullBleed = false }: LayoutProps) {
                 </div>
               </div>
             </nav>
-          </ScrollArea>
+          </div>
 
           {/* Sidebar Footer */}
           <div className="p-4 border-t border-sidebar-border/50 bg-sidebar-accent/10">

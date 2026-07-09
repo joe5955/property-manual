@@ -3,7 +3,7 @@ import { COOKIE_NAME } from "@shared/const";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
 import { publicProcedure, protectedProcedure, router } from "./_core/trpc";
-import { getMapPins, createMapPin, updateMapPin, deleteMapPin, getMapRoutes, createMapRoute, updateMapRoute, deleteMapRoute } from "./db";
+import { getMapPins, createMapPin, updateMapPin, deleteMapPin, getMapRoutes, createMapRoute, updateMapRoute, deleteMapRoute, getDocuments, createDocument, deleteDocument, getDocumentById, getVendors, createVendor, updateVendor, deleteVendor, getVendorById } from "./db";
 import { storagePut } from "./storage";
 
 export const appRouter = router({
@@ -96,6 +96,127 @@ export const appRouter = router({
         const key = `map-pins/${Date.now()}-${Math.random().toString(36).slice(2)}.${ext}`;
         const { url } = await storagePut(key, buffer, contentType);
         return { url };
+      }),
+  }),
+
+  documents: router({
+    list: publicProcedure
+      .input(z.object({
+        category: z.string().optional(),
+        building: z.string().optional(),
+      }))
+      .query(async ({ input }) => {
+        return getDocuments(input.category, input.building);
+      }),
+
+    upload: protectedProcedure
+      .input(z.object({
+        title: z.string().min(1),
+        category: z.string().default("other"),
+        filename: z.string().min(1),
+        dataUrl: z.string(), // base64 data URL
+        building: z.string().optional(),
+        notes: z.string().optional(),
+      }))
+      .mutation(async ({ input }) => {
+        const { dataUrl, filename, title, category, building, notes } = input;
+        // Parse data URL
+        const matches = dataUrl.match(/^data:([^;]+);base64,(.+)$/);
+        if (!matches) throw new Error("Invalid data URL format");
+        const contentType = matches[1];
+        const base64Data = matches[2];
+        const buffer = Buffer.from(base64Data, "base64");
+        const fileSize = buffer.length;
+        // Upload to S3
+        const ext = filename.split(".").pop() ?? "bin";
+        const key = `documents/${Date.now()}-${Math.random().toString(36).slice(2)}.${ext}`;
+        const { url } = await storagePut(key, buffer, contentType);
+        // Save metadata to DB
+        const id = await createDocument({
+          title,
+          category,
+          filename,
+          fileKey: key,
+          fileUrl: url,
+          mimeType: contentType,
+          fileSize,
+          building: building ?? null,
+          notes: notes ?? null,
+        });
+        return { id, url };
+      }),
+
+    delete: protectedProcedure
+      .input(z.object({ id: z.number() }))
+      .mutation(async ({ input }) => {
+        await deleteDocument(input.id);
+        return { success: true };
+      }),
+  }),
+
+  vendors: router({
+    list: publicProcedure
+      .input(z.object({ trade: z.string().optional() }))
+      .query(async ({ input }) => {
+        return getVendors(input.trade);
+      }),
+
+    create: protectedProcedure
+      .input(z.object({
+        name: z.string().min(1),
+        company: z.string().optional(),
+        trade: z.string().default("other"),
+        phone: z.string().optional(),
+        email: z.string().optional(),
+        website: z.string().optional(),
+        notes: z.string().optional(),
+        building: z.string().optional(),
+        license: z.string().optional(),
+        rating: z.number().min(1).max(5).optional(),
+        lastUsed: z.date().optional(),
+      }))
+      .mutation(async ({ input }) => {
+        const id = await createVendor({
+          ...input,
+          company: input.company ?? null,
+          phone: input.phone ?? null,
+          email: input.email ?? null,
+          website: input.website ?? null,
+          notes: input.notes ?? null,
+          building: input.building ?? null,
+          license: input.license ?? null,
+          rating: input.rating ?? null,
+          lastUsed: input.lastUsed ?? null,
+        });
+        return { id };
+      }),
+
+    update: protectedProcedure
+      .input(z.object({
+        id: z.number(),
+        name: z.string().min(1).optional(),
+        company: z.string().optional(),
+        trade: z.string().optional(),
+        phone: z.string().optional(),
+        email: z.string().optional(),
+        website: z.string().optional(),
+        notes: z.string().optional(),
+        building: z.string().optional(),
+        license: z.string().optional(),
+        rating: z.number().min(1).max(5).optional(),
+        lastUsed: z.date().optional(),
+      }))
+      .mutation(async ({ input }) => {
+        const { id, ...data } = input;
+        await updateVendor(id, data as any);
+        return { success: true };
+      }),
+
+    delete: protectedProcedure
+      .input(z.object({ id: z.number() }))
+      .mutation(async ({ input }) => {
+        await deleteVendor(input.id);
+        return { success: true };
       }),
   }),
 

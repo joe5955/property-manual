@@ -92,7 +92,8 @@ export async function getUserByOpenId(openId: string) {
 // TODO: add feature queries here as your schema grows.
 
 // ── Map Pins ──────────────────────────────────────────────────────────────────
-import { mapPins, InsertMapPin, MapPin, mapRoutes, InsertMapRoute, MapRoute } from "../drizzle/schema";
+import { mapPins, InsertMapPin, MapPin, mapRoutes, InsertMapRoute, MapRoute, documents, InsertDocument, Document, vendors, InsertVendor, Vendor } from "../drizzle/schema";
+import { desc, like } from "drizzle-orm";
 
 export async function getMapPins(sheetId?: number): Promise<MapPin[]> {
   const db = await getDb();
@@ -150,4 +151,77 @@ export async function deleteMapRoute(id: number): Promise<void> {
   const db = await getDb();
   if (!db) throw new Error("Database not available");
   await db.delete(mapRoutes).where(eq(mapRoutes.id, id));
+}
+
+// ── Documents ────────────────────────────────────────────────────────────────
+
+export async function getDocuments(category?: string, building?: string): Promise<Document[]> {
+  const db = await getDb();
+  if (!db) return [];
+  let query = db.select().from(documents);
+  if (category) {
+    query = query.where(eq(documents.category, category)) as any;
+  }
+  if (building) {
+    query = query.where(eq(documents.building, building)) as any;
+  }
+  return (query as any).orderBy(desc(documents.createdAt));
+}
+
+export async function createDocument(doc: InsertDocument): Promise<number> {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  const result = await db.insert(documents).values(doc);
+  return (result[0] as any).insertId as number;
+}
+
+export async function deleteDocument(id: number): Promise<void> {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  await db.delete(documents).where(eq(documents.id, id));
+}
+
+export async function getDocumentById(id: number): Promise<Document | undefined> {
+  const db = await getDb();
+  if (!db) return undefined;
+  const result = await db.select().from(documents).where(eq(documents.id, id)).limit(1);
+  return result.length > 0 ? result[0] : undefined;
+}
+
+// ── Vendors ──────────────────────────────────────────────────────────────────
+
+export async function getVendors(trade?: string): Promise<Vendor[]> {
+  const db = await getDb();
+  if (!db) return [];
+  let query = db.select().from(vendors);
+  if (trade) {
+    query = query.where(eq(vendors.trade, trade)) as any;
+  }
+  return (query as any).orderBy(desc(vendors.updatedAt));
+}
+
+export async function createVendor(vendor: InsertVendor): Promise<number> {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  const result = await db.insert(vendors).values(vendor);
+  return (result[0] as any).insertId as number;
+}
+
+export async function updateVendor(id: number, data: Partial<InsertVendor>): Promise<void> {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  await db.update(vendors).set(data).where(eq(vendors.id, id));
+}
+
+export async function deleteVendor(id: number): Promise<void> {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  await db.delete(vendors).where(eq(vendors.id, id));
+}
+
+export async function getVendorById(id: number): Promise<Vendor | undefined> {
+  const db = await getDb();
+  if (!db) return undefined;
+  const result = await db.select().from(vendors).where(eq(vendors.id, id)).limit(1);
+  return result.length > 0 ? result[0] : undefined;
 }
