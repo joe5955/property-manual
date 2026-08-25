@@ -138,16 +138,16 @@ export default function Layout({ children, fullBleed = false }: LayoutProps) {
                 </div>
               </Link>
 
-              <Link href="/section/workflow-guide">
+              <Link href="/workflow-guide">
                 <div 
                   className={cn(
                     "flex items-center gap-3 px-3 py-2.5 rounded-md text-sm font-medium transition-all duration-200 group cursor-pointer",
-                    location === "/section/workflow-guide" 
+                    location === "/workflow-guide"
                       ? "bg-sidebar-accent text-sidebar-accent-foreground shadow-sm" 
                       : "text-muted-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-foreground"
                   )}
                 >
-                  <BookOpen className={cn("h-4 w-4 transition-colors", location === "/section/workflow-guide" ? "text-primary" : "text-muted-foreground group-hover:text-primary")} />
+                  <BookOpen className={cn("h-4 w-4 transition-colors", location === "/workflow-guide" ? "text-primary" : "text-muted-foreground group-hover:text-primary")} />
                   <span>Workflow Guide</span>
                 </div>
               </Link>
