@@ -1,0 +1,167 @@
+[
+  {
+    "title": "Esary Roofing Estimate — Beach House",
+    "category": "estimate",
+    "filename": "EsaryRoofingandSiding-JoeWolford-Beachhouse.pdf",
+    "fileKey": "github-recovered/EsaryRoofingandSiding-JoeWolford-Beachhouse.pdf",
+    "fileUrl": "/manus-storage/EsaryRoofingandSiding-JoeWolford-Beachhouse_592fc9b2.pdf",
+    "mimeType": "application/pdf",
+    "fileSize": 300145,
+    "building": "Beach House",
+    "notes": "Recovered from Git history; originally added with the Esary roofing estimates."
+  },
+  {
+    "title": "Esary Roofing Estimate — Main House",
+    "category": "estimate",
+    "filename": "EsaryRoofingandSiding-JoeWolford-Mainhouse.pdf",
+    "fileKey": "github-recovered/EsaryRoofingandSiding-JoeWolford-Mainhouse.pdf",
+    "fileUrl": "/manus-storage/EsaryRoofingandSiding-JoeWolford-Mainhouse_e49931bd.pdf",
+    "mimeType": "application/pdf",
+    "fileSize": 299217,
+    "building": "Main House",
+    "notes": "Recovered from Git history; originally added with the Esary roofing estimates."
+  },
+  {
+    "title": "Esary Roofing Estimate — Picnic Shelter",
+    "category": "estimate",
+    "filename": "EsaryRoofingandSiding-JoeWolford-Picnicshelter.pdf",
+    "fileKey": "github-recovered/EsaryRoofingandSiding-JoeWolford-Picnicshelter.pdf",
+    "fileUrl": "/manus-storage/EsaryRoofingandSiding-JoeWolford-Picnicshelter_597fc287.pdf",
+    "mimeType": "application/pdf",
+    "fileSize": 299513,
+    "building": "Picnic Shelter",
+    "notes": "Recovered from Git history; originally added with the Esary roofing estimates."
+  },
+  {
+    "title": "GE Monogram 36-inch Range Owner's Manual",
+    "category": "manual",
+    "filename": "ge-monogram-range-manual.pdf",
+    "fileKey": "github-reference/ge-monogram-range-manual.pdf",
+    "fileUrl": "/manus-storage/ge-monogram-range-manual_0a337ea9.pdf",
+    "mimeType": "application/pdf",
+    "fileSize": 700528,
+    "building": "Main House",
+    "notes": "Downloaded from the manufacturer link recorded in manual-data.json and preserved in property storage."
+  },
+  {
+    "title": "Bosch SHU9BL Dishwasher Owner's Manual",
+    "category": "manual",
+    "filename": "bosch-shu9bl-dishwasher-manual.pdf",
+    "fileKey": "github-reference/bosch-shu9bl-dishwasher-manual.pdf",
+    "fileUrl": "/manus-storage/bosch-shu9bl-dishwasher-manual_d1c3d1ab.pdf",
+    "mimeType": "application/pdf",
+    "fileSize": 30352960,
+    "building": "Main House",
+    "notes": "Downloaded from the manufacturer link recorded in manual-data.json and preserved in property storage."
+  },
+  {
+    "title": "Hotpoint Refrigerator Owner's Manual",
+    "category": "manual",
+    "filename": "hotpoint-refrigerator-manual.pdf",
+    "fileKey": "github-reference/hotpoint-refrigerator-manual.pdf",
+    "fileUrl": "/manus-storage/hotpoint-refrigerator-manual_9af1619c.pdf",
+    "mimeType": "application/pdf",
+    "fileSize": 7363229,
+    "building": "Main House",
+    "notes": "Downloaded from the manufacturer link recorded in manual-data.json and preserved in property storage."
+  },
+  {
+    "title": "Maytag Dryer W10151580B Owner's Manual",
+    "category": "manual",
+    "filename": "maytag-dryer-w10151580b-manual.pdf",
+    "fileKey": "external:https://www.maytag.com/content/dam/documents/en_US/owner-manuals/W10151580B.pdf",
+    "fileUrl": "https://www.maytag.com/content/dam/documents/en_US/owner-manuals/W10151580B.pdf",
+    "mimeType": "application/pdf",
+    "fileSize": 0,
+    "building": "Main House",
+    "notes": "External manufacturer PDF referenced in manual-data.json."
+  },
+  {
+    "title": "Sharp R-1210 / R-1211 / R-1214 Microwave Owner's Manual",
+    "category": "manual",
+    "filename": "sharp-microwave-r1210-r1211-r1214-manual.pdf",
+    "fileKey": "external:https://files.sharpusa.com/Downloads/ForHome/HomeAppliances/MicrowaveOvens/Manuals/R1210_R1211_R1214_OM_EN_v02.pdf",
+    "fileUrl": "https://files.sharpusa.com/Downloads/ForHome/HomeAppliances/MicrowaveOvens/Manuals/R1210_R1211_R1214_OM_EN_v02.pdf",
+    "mimeType": "application/pdf",
+    "fileSize": 0,
+    "building": "Main House",
+    "notes": "External manufacturer PDF referenced in manual-data.json."
+  },
+  {
+    "title": "Bradford White ERE350S6 Installation & Operation Manual",
+    "category": "manual",
+    "filename": "bradford-white-ere350s6-manual.pdf",
+    "fileKey": "github-reference/bradford-white-ere350s6-manual.pdf",
+    "fileUrl": "/manus-storage/bradford-white-ere350s6-manual_e992c41d.pdf",
+    "mimeType": "application/pdf",
+    "fileSize": 782182,
+    "building": "Main House",
+    "notes": "Downloaded from the manufacturer link recorded in manual-data.json and preserved in property storage."
+  },
+  {
+    "title": "King Comfort Zone Thermostat Instructions",
+    "category": "manual",
+    "filename": "king-comfort-zone-thermostat-instructions.pdf",
+    "fileKey": "github-reference/king-comfort-zone-thermostat-instructions.pdf",
+    "fileUrl": "/manus-storage/king-comfort-zone-thermostat-instructions_0df4defc.pdf",
+    "mimeType": "application/pdf",
+    "fileSize": 497726,
+    "building": "The Chalet",
+    "notes": "Downloaded from the manufacturer link recorded in manual-data.json and preserved in property storage."
+  },
+  {
+    "title": "Maytag MDB4000AWB Dishwasher Use & Care Guide",
+    "category": "manual",
+    "filename": "maytag-mdb4000awb-dishwasher-manual.pdf",
+    "fileKey": "external:https://www.maytag.com/content/dam/global/documents/200804/owners-manual-6920187-RevA.pdf",
+    "fileUrl": "https://www.maytag.com/content/dam/global/documents/200804/owners-manual-6920187-RevA.pdf",
+    "mimeType": "application/pdf",
+    "fileSize": 0,
+    "building": "Camp Kitchen",
+    "notes": "External manufacturer PDF referenced in manual-data.json."
+  },
+  {
+    "title": "Bradford White M265R6DS Installation & Operation Manual",
+    "category": "manual",
+    "filename": "bradford-white-m265r6ds-manual.pdf",
+    "fileKey": "github-reference/bradford-white-m265r6ds-manual.pdf",
+    "fileUrl": "/manus-storage/bradford-white-m265r6ds-manual_087be6bc.pdf",
+    "mimeType": "application/pdf",
+    "fileSize": 1018775,
+    "building": "Beach House",
+    "notes": "Downloaded from the manufacturer link recorded in manual-data.json and preserved in property storage."
+  },
+  {
+    "title": "LG Refrigerator Owner's Manual",
+    "category": "manual",
+    "filename": "lg-refrigerator-owner-manual.pdf",
+    "fileKey": "external:https://www.appliancefactoryparts.com/content/pdfs/161181-1.pdf",
+    "fileUrl": "https://www.appliancefactoryparts.com/content/pdfs/161181-1.pdf",
+    "mimeType": "application/pdf",
+    "fileSize": 0,
+    "building": "Farm House",
+    "notes": "External PDF referenced in manual-data.json."
+  },
+  {
+    "title": "Premier Electric Range Use, Care & Installation Manual",
+    "category": "manual",
+    "filename": "premier-electric-range-manual.pdf",
+    "fileKey": "external:https://www.premierrange.com/pdfs/Electric-Range-Use-Care-Manual-and-Installation-Instructions.pdf",
+    "fileUrl": "https://www.premierrange.com/pdfs/Electric-Range-Use-Care-Manual-and-Installation-Instructions.pdf",
+    "mimeType": "application/pdf",
+    "fileSize": 0,
+    "building": "Farm House",
+    "notes": "External manufacturer PDF referenced in manual-data.json."
+  },
+  {
+    "title": "OPALCO Property Power Map",
+    "category": "other",
+    "filename": "OPALCOpowermap.pdf",
+    "fileKey": "external:https://private-us-east-1.manuscdn.com/propmanual-5wh7ynui/OPALCOpowermap.pdf",
+    "fileUrl": "https://private-us-east-1.manuscdn.com/propmanual-5wh7ynui/OPALCOpowermap.pdf",
+    "mimeType": "application/pdf",
+    "fileSize": 0,
+    "building": "General / Whole Property",
+    "notes": "Property power map referenced in the GitHub-tracked OPALCO route data; source link may require authenticated access."
+  }
+]

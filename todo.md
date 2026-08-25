@@ -201,6 +201,7 @@
 - [ ] Take photos of finished product — south of Lower Shop (eastern excavation) after backfill/repair
 - [ ] Take photos of finished product — south of Lower Shop (western excavation) after backfill/repair
 - [ ] Take photos of finished product — west of pump house after backfill/repair
+- [ ] Take additional interior photos of the Madrona House, including each room and important equipment or utility areas
 
 ## Pin Form Photo Upload Fix
 - [x] Add direct file upload button to Add/Edit Pin form (upload photos to S3, get CDN URL automatically)
@@ -285,6 +286,7 @@
 - [x] Build Document Vault UI page with file upload, category filter, and document list/grid
 - [x] Add Document Vault to sidebar navigation
 - [x] Write vitest tests for document procedures
+- [x] Audit GitHub for existing property documents and restore recoverable files/references into the empty Document Vault — restored 15 records, including 3 Esary roofing estimates recovered from Git history
 
 ## Vendor Directory Feature
 - [x] Create vendors database table (id, name, company, trade, phone, email, website, notes, building, rating, lastUsed, createdAt)
