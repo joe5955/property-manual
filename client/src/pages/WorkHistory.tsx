@@ -48,6 +48,7 @@ const LOCATIONS = [
   "Madrona House",
   "Boat House",
   "Main Shop",
+  "Upper Shop",
   "Tractor Shed",
   "Picnic Shelter",
   "Pump House",

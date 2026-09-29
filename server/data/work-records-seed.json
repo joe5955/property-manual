@@ -199,15 +199,15 @@
     "sourceKey": "handwritten-2026-09-29-p04-r04",
     "sortDate": "2022-12-01",
     "dateLabel": "December 2022–January 2023",
-    "title": "New roofs on two buildings",
-    "description": "The note records new roofs on two buildings, but the building names are unclear.",
+    "title": "New asphalt-shingle roofs on two small outbuildings",
+    "description": "New asphalt-shingle roofs were installed on two small outbuildings behind the Upper Shop.",
     "category": "construction",
-    "location": "Undetermined",
+    "location": "Upper Shop",
     "sourceImageUrl": "/manus-storage/IMG_20260929_105936_1_de70cf1d.jpg",
     "sourceImageFilename": "IMG_20260929_105936_1.jpg",
-    "sourceText": "Dec 22/Jan 23 — New roof, two buildings; remaining wording unclear",
-    "needsReview": true,
-    "notes": "Please identify the two buildings."
+    "sourceText": "Dec 22/Jan 23 — New roofs, asphalt shingles, on small outbuildings behind Upper Shop",
+    "needsReview": false,
+    "notes": "Owner clarification received September 29, 2026: the two buildings are small outbuildings behind the Upper Shop, and the roofing material is asphalt shingles."
   },
   {
     "sourceKey": "handwritten-2026-09-29-p04-r05",

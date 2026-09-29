@@ -5,7 +5,7 @@ describe("historical work-record seed", () => {
   it("preserves all 50 transcribed entries from nine photographed pages", () => {
     expect(records).toHaveLength(50);
     expect(new Set(records.map((record) => record.sourceImageFilename)).size).toBe(9);
-    expect(records.filter((record) => record.needsReview)).toHaveLength(17);
+    expect(records.filter((record) => record.needsReview)).toHaveLength(16);
   });
 
   it("uses unique stable source keys and complete chronological metadata", () => {
@@ -36,6 +36,12 @@ describe("historical work-record seed", () => {
         needsReview: false,
       }),
       expect.objectContaining({ title: "New basement walls", sortDate: "2020-03-01" }),
+      expect.objectContaining({
+        title: "New asphalt-shingle roofs on two small outbuildings",
+        sortDate: "2022-12-01",
+        location: "Upper Shop",
+        needsReview: false,
+      }),
       expect.objectContaining({ title: "Addition to Madrona House", sortDate: "2017-01-01" }),
       expect.objectContaining({ title: "Installed fiber internet", sortDate: "2020-10-01" }),
       expect.objectContaining({ title: "Replaced Pump House roof", sortDate: "2020-08-01" }),
