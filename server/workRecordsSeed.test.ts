@@ -5,7 +5,7 @@ describe("historical work-record seed", () => {
   it("preserves all 50 transcribed entries from nine photographed pages", () => {
     expect(records).toHaveLength(50);
     expect(new Set(records.map((record) => record.sourceImageFilename)).size).toBe(9);
-    expect(records.filter((record) => record.needsReview)).toHaveLength(14);
+    expect(records.filter((record) => record.needsReview)).toHaveLength(13);
   });
 
   it("uses unique stable source keys and complete chronological metadata", () => {
@@ -39,6 +39,12 @@ describe("historical work-record seed", () => {
         title: "Indian Point real estate transaction",
         sortDate: "2012-07-01",
         location: "Indian Point",
+        needsReview: false,
+      }),
+      expect.objectContaining({
+        title: "Built Chalet tent platform",
+        sortDate: "2016-02-01",
+        location: "The Chalet",
         needsReview: false,
       }),
       expect.objectContaining({ title: "New basement walls", sortDate: "2020-03-01" }),

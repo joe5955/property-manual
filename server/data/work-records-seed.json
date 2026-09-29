@@ -423,15 +423,15 @@
     "sourceKey": "handwritten-2026-09-29-p07-r01",
     "sortDate": "2016-02-01",
     "dateLabel": "February 2016",
-    "title": "Built platform for tent",
-    "description": "A platform was built for a tent; the location is not stated.",
+    "title": "Built Chalet tent platform",
+    "description": "A tent platform was built at The Chalet.",
     "category": "construction",
-    "location": "Undetermined",
+    "location": "The Chalet",
     "sourceImageUrl": "/manus-storage/IMG_20260929_105853_1_31a37dee.jpg",
     "sourceImageFilename": "IMG_20260929_105853_1.jpg",
-    "sourceText": "Feb 2016 — Built a platform for tent",
-    "needsReview": true,
-    "notes": "Please identify the location."
+    "sourceText": "Feb 2016 — Built Chalet tent platform",
+    "needsReview": false,
+    "notes": "Owner clarified the location and work description on September 29, 2026."
   },
   {
     "sourceKey": "handwritten-2026-09-29-p07-r02",
