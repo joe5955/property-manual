@@ -58,6 +58,7 @@ const LOCATIONS = [
   "Pond / Lagoon",
   "Indian Point",
   "Multiple Buildings",
+  "Madrona House / New Well",
   "Madrona House / Old Well",
   "Undetermined",
 ];

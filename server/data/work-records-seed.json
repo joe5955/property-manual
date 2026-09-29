@@ -598,8 +598,8 @@
     "sourceImageUrl": "/manus-storage/IMG_20260929_105838_1_3c50c0cb.jpg",
     "sourceImageFilename": "IMG_20260929_105838_1.jpg",
     "sourceText": "May 2021 — Plant 80 trees up Tractor Shed",
-    "needsReview": true,
-    "notes": "“Up Tractor Shed” was interpreted as uphill or above the Tractor Shed."
+    "needsReview": false,
+    "notes": "Owner confirmed on September 29, 2026 that the current title and interpretation are correct."
   },
   {
     "sourceKey": "handwritten-2026-09-29-p09-r01",
@@ -675,15 +675,15 @@
     "sourceKey": "handwritten-2026-09-29-p09-r06",
     "sortDate": "2020-10-07",
     "dateLabel": "October 7, 2020",
-    "title": "Added electricity from Madrona House to old well",
-    "description": "Electrical service was extended from Madrona House to the old well; the final words of the note are obscured.",
+    "title": "Added electricity from Madrona House to new well",
+    "description": "Electrical service was extended from Madrona House to the new well.",
     "category": "utilities",
-    "location": "Madrona House / Old Well",
+    "location": "Madrona House / New Well",
     "sourceImageUrl": "/manus-storage/IMG_20260929_105814_1_5ef23035.jpg",
     "sourceImageFilename": "IMG_20260929_105814_1.jpg",
-    "sourceText": "October 7th, 2020 — Add electricity from Madrona to old well; final wording obscured",
-    "needsReview": true,
-    "notes": "Please confirm the final wording and exact well location."
+    "sourceText": "October 7th, 2020 — Add electricity from Madrona to new well",
+    "needsReview": false,
+    "notes": "Owner clarified the destination well and full wording on September 29, 2026."
   },
   {
     "sourceKey": "handwritten-2026-09-29-p09-r07",
