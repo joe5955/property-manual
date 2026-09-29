@@ -17,15 +17,15 @@
     "sourceKey": "handwritten-2026-09-29-p01-r02",
     "sortDate": "2012-07-01",
     "dateLabel": "July 2012",
-    "title": "Indian Point entry — work description unclear",
-    "description": "The handwritten entry appears to read “Indian Point,” but does not identify the work completed.",
+    "title": "Indian Point real estate transaction",
+    "description": "Real estate transaction involving Indian Point.",
     "category": "other",
     "location": "Indian Point",
     "sourceImageUrl": "/manus-storage/IMG_20260929_110403_1_dc0861cb.jpg",
     "sourceImageFilename": "IMG_20260929_110403_1.jpg",
     "sourceText": "July 2012 — Indian Point",
-    "needsReview": true,
-    "notes": "Partial historical record transcribed from handwritten notes; please clarify this entry when more information is available."
+    "needsReview": false,
+    "notes": "Owner clarification received September 29, 2026: this entry records a real estate transaction involving Indian Point."
   },
   {
     "sourceKey": "handwritten-2026-09-29-p02-r01",
