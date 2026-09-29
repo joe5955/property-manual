@@ -256,14 +256,14 @@
     "sortDate": "2019-03-01",
     "dateLabel": "March 2019",
     "title": "Milling wood",
-    "description": "Wood-milling work was recorded; an adjacent handwritten “3” may be a count or stray mark.",
+    "description": "Wood-milling work was recorded; the handwritten entry includes the number 3.",
     "category": "forestry",
     "location": "Property-wide",
     "sourceImageUrl": "/manus-storage/IMG_20260929_105923_1_3d3487a7.jpg",
     "sourceImageFilename": "IMG_20260929_105923_1.jpg",
     "sourceText": "March 2019 — 3 milling wood",
-    "needsReview": true,
-    "notes": "Confirm whether the number 3 is meaningful."
+    "needsReview": false,
+    "notes": "Owner confirmed on September 29, 2026 that the number 3 is correct and should remain."
   },
   {
     "sourceKey": "handwritten-2026-09-29-p05-r03",

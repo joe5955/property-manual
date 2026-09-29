@@ -5,7 +5,7 @@ describe("historical work-record seed", () => {
   it("preserves all 50 transcribed entries from nine photographed pages", () => {
     expect(records).toHaveLength(50);
     expect(new Set(records.map((record) => record.sourceImageFilename)).size).toBe(9);
-    expect(records.filter((record) => record.needsReview)).toHaveLength(9);
+    expect(records.filter((record) => record.needsReview)).toHaveLength(8);
   });
 
   it("uses unique stable source keys and complete chronological metadata", () => {
@@ -71,6 +71,12 @@ describe("historical work-record seed", () => {
         sortDate: "2018-11-21",
         category: "repair",
         location: "Main House",
+        needsReview: false,
+      }),
+      expect.objectContaining({
+        title: "Milling wood",
+        sortDate: "2019-03-01",
+        sourceText: "March 2019 — 3 milling wood",
         needsReview: false,
       }),
       expect.objectContaining({ title: "New basement walls", sortDate: "2020-03-01" }),
