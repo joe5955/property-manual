@@ -5,7 +5,7 @@ describe("historical work-record seed", () => {
   it("preserves all 50 transcribed entries from nine photographed pages", () => {
     expect(records).toHaveLength(50);
     expect(new Set(records.map((record) => record.sourceImageFilename)).size).toBe(9);
-    expect(records.filter((record) => record.needsReview)).toHaveLength(18);
+    expect(records.filter((record) => record.needsReview)).toHaveLength(17);
   });
 
   it("uses unique stable source keys and complete chronological metadata", () => {
@@ -29,6 +29,12 @@ describe("historical work-record seed", () => {
     expect(dates[0]).toBe("1999-05-01");
     expect(dates.at(-1)).toBe("2025-02-01");
     expect(records).toEqual(expect.arrayContaining([
+      expect.objectContaining({
+        title: "Real estate transaction with Henigson",
+        sortDate: "1999-05-01",
+        location: "Property-wide",
+        needsReview: false,
+      }),
       expect.objectContaining({ title: "Addition to Madrona House", sortDate: "2017-01-01" }),
       expect.objectContaining({ title: "Installed fiber internet", sortDate: "2020-10-01" }),
       expect.objectContaining({ title: "Replaced Pump House roof", sortDate: "2020-08-01" }),

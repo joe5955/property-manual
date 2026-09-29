@@ -3,15 +3,15 @@
     "sourceKey": "handwritten-2026-09-29-p01-r01",
     "sortDate": "1999-05-01",
     "dateLabel": "May 1999",
-    "title": "Heniagson entry — work description unclear",
-    "description": "The handwritten entry contains the word “Heniagson,” but no clear work description.",
+    "title": "Real estate transaction with Henigson",
+    "description": "Real estate transaction involving Henigson.",
     "category": "other",
-    "location": "Undetermined",
+    "location": "Property-wide",
     "sourceImageUrl": "/manus-storage/IMG_20260929_110403_1_dc0861cb.jpg",
     "sourceImageFilename": "IMG_20260929_110403_1.jpg",
-    "sourceText": "May 1999 — Heniagson",
-    "needsReview": true,
-    "notes": "Partial historical record transcribed from handwritten notes; please clarify this entry when more information is available."
+    "sourceText": "May 1999 — Henigson",
+    "needsReview": false,
+    "notes": "Owner clarification received September 29, 2026: this entry records a real estate transaction involving Henigson."
   },
   {
     "sourceKey": "handwritten-2026-09-29-p01-r02",
