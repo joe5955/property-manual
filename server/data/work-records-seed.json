@@ -239,17 +239,17 @@
   },
   {
     "sourceKey": "handwritten-2026-09-29-p05-r01",
-    "sortDate": "2006-03-01",
-    "dateLabel": "March 2006",
+    "sortDate": "2020-03-01",
+    "dateLabel": "March 2020",
     "title": "New basement walls",
     "description": "New walls were added to the Main House basement.",
     "category": "construction",
     "location": "Main House",
     "sourceImageUrl": "/manus-storage/IMG_20260929_105923_1_3d3487a7.jpg",
     "sourceImageFilename": "IMG_20260929_105923_1.jpg",
-    "sourceText": "March 2006 — New walls to Main House basement",
+    "sourceText": "March 2020 — New walls to Main House basement",
     "needsReview": false,
-    "notes": "Partial historical record transcribed from handwritten notes."
+    "notes": "Owner corrected the year from 2006 to 2020 on September 29, 2026."
   },
   {
     "sourceKey": "handwritten-2026-09-29-p05-r02",

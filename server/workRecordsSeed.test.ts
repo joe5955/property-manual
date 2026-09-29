@@ -35,6 +35,7 @@ describe("historical work-record seed", () => {
         location: "Property-wide",
         needsReview: false,
       }),
+      expect.objectContaining({ title: "New basement walls", sortDate: "2020-03-01" }),
       expect.objectContaining({ title: "Addition to Madrona House", sortDate: "2017-01-01" }),
       expect.objectContaining({ title: "Installed fiber internet", sortDate: "2020-10-01" }),
       expect.objectContaining({ title: "Replaced Pump House roof", sortDate: "2020-08-01" }),
