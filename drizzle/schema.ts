@@ -1,4 +1,4 @@
-import { int, bigint, mysqlEnum, mysqlTable, text, timestamp, varchar, float } from "drizzle-orm/mysql-core";
+import { int, bigint, mysqlEnum, mysqlTable, text, timestamp, varchar, float, uniqueIndex } from "drizzle-orm/mysql-core";
 
 /**
  * Core user table backing auth flow.
@@ -158,3 +158,35 @@ export const vendors = mysqlTable("vendors", {
 });
 export type Vendor = typeof vendors.$inferSelect;
 export type InsertVendor = typeof vendors.$inferInsert;
+
+/**
+ * Historical record of completed work around the property.
+ * The archive is intentionally partial: uncertain handwriting is preserved and flagged for review.
+ */
+export const workRecords = mysqlTable("work_records", {
+  id: int("id").autoincrement().primaryKey(),
+  /** Stable idempotency key for imported handwritten records. */
+  sourceKey: varchar("sourceKey", { length: 160 }).notNull(),
+  /** ISO-like YYYY-MM-DD key used for chronological sorting; approximate dates use day 01. */
+  sortDate: varchar("sortDate", { length: 10 }).notNull(),
+  /** Human-readable date as written or interpreted (for example, "February–March 2024"). */
+  dateLabel: varchar("dateLabel", { length: 128 }).notNull(),
+  title: varchar("title", { length: 255 }).notNull(),
+  description: text("description"),
+  category: varchar("category", { length: 64 }).notNull().default("other"),
+  location: varchar("location", { length: 160 }).notNull().default("Property-wide"),
+  /** Archived photograph of the handwritten source page. */
+  sourceImageUrl: text("sourceImageUrl"),
+  sourceImageFilename: varchar("sourceImageFilename", { length: 512 }),
+  /** Best-effort literal transcription for auditability. */
+  sourceText: text("sourceText"),
+  /** 1 when the transcription, date, or location needs owner confirmation. */
+  needsReview: int("needsReview").notNull().default(0),
+  notes: text("notes"),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+}, (table) => ({
+  sourceKeyUnique: uniqueIndex("work_records_source_key_unique").on(table.sourceKey),
+}));
+export type WorkRecord = typeof workRecords.$inferSelect;
+export type InsertWorkRecord = typeof workRecords.$inferInsert;

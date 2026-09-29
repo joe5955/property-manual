@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
-import { ArrowRight, MapPin, Home as HomeIcon, FileText, Calendar, AlertCircle, CheckCircle2, Clock, Ship, Phone, Navigation, Wrench, Map } from "lucide-react";
+import { ArrowRight, MapPin, Home as HomeIcon, FileText, Calendar, AlertCircle, CheckCircle2, Clock, Ship, Phone, Navigation, Wrench, Map, History } from "lucide-react";
 import manualData from "@/data/manual-data.json";
 import Layout from "@/components/Layout";
 
@@ -230,7 +230,7 @@ export default function Home() {
             </div>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Buildings Card */}
             <Link href="/section/main-house">
               <Card className="group h-full hover:shadow-lg hover:border-primary/30 transition-all duration-300 cursor-pointer overflow-hidden">
@@ -286,6 +286,28 @@ export default function Home() {
                   </p>
                   <div className="flex items-center text-xs font-medium text-primary group-hover:translate-x-1 transition-transform duration-300">
                     Open Map <ArrowRight className="ml-1 h-3 w-3" />
+                  </div>
+                </CardContent>
+              </Card>
+            </Link>
+
+            {/* Work History Card */}
+            <Link href="/work-history">
+              <Card className="group h-full hover:shadow-lg hover:border-primary/30 transition-all duration-300 cursor-pointer overflow-hidden">
+                <div className="h-32 bg-muted relative overflow-hidden">
+                  <div className="absolute inset-0 bg-gradient-to-br from-amber-700 to-stone-900 transition-transform duration-700 group-hover:scale-105"></div>
+                  <div className="absolute inset-0 flex items-center justify-center opacity-20">
+                    <History className="w-20 h-20 text-white" />
+                  </div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                  <div className="absolute bottom-3 left-4 text-white font-serif font-bold text-lg">Work History</div>
+                </div>
+                <CardContent className="p-5">
+                  <p className="text-sm text-muted-foreground line-clamp-2 mb-4">
+                    A partial chronological archive of construction, repairs, grounds work, utilities, and improvements.
+                  </p>
+                  <div className="flex items-center text-xs font-medium text-primary group-hover:translate-x-1 transition-transform duration-300">
+                    View Archive <ArrowRight className="ml-1 h-3 w-3" />
                   </div>
                 </CardContent>
               </Card>

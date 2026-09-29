@@ -295,6 +295,14 @@
 - [x] Add Vendor Directory to sidebar navigation
 - [x] Write vitest tests for vendor procedures
 
+## Historical Work Records Feature
+- [x] Archive the nine photographed handwritten source pages in property storage
+- [x] Transcribe the partial historical work record with uncertain entries flagged for owner review
+- [x] Add a database-backed chronological Work History page with search and filters
+- [x] Add protected create, edit, delete, source-photo upload, and idempotent seed-import procedures
+- [x] Add focused seed and tRPC tests, run the full back-test, and verify the page in the browser
+- [x] Save a checkpoint and synchronize the completed source to GitHub main
+
 ## Sellable Template Planning
 - [ ] Document architecture decisions that support template separation (personal data vs structure)
 - [ ] Plan template packaging approach (strip personal data, add sample/placeholder content)

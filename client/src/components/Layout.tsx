@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { cn } from "@/lib/utils";
-import { Menu, X, ChevronRight, Home, Map, FileText, Wrench, Shield, Droplet, Zap, Anchor, BookOpen, FolderOpen, Users } from "lucide-react";
+import { Menu, X, ChevronRight, Home, Map, FileText, Wrench, Shield, Droplet, Zap, Anchor, BookOpen, FolderOpen, Users, History } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import manualData from "@/data/manual-data.json";
 import Search from "@/components/Search";
@@ -177,6 +177,20 @@ export default function Layout({ children, fullBleed = false }: LayoutProps) {
                 >
                   <Users className={cn("h-4 w-4 transition-colors", location === "/vendors" ? "text-primary" : "text-muted-foreground group-hover:text-primary")} />
                   <span>Vendor Directory</span>
+                </div>
+              </Link>
+
+              <Link href="/work-history">
+                <div
+                  className={cn(
+                    "flex items-center gap-3 px-3 py-2.5 rounded-md text-sm font-medium transition-all duration-200 group cursor-pointer",
+                    location === "/work-history"
+                      ? "bg-sidebar-accent text-sidebar-accent-foreground shadow-sm"
+                      : "text-muted-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-foreground"
+                  )}
+                >
+                  <History className={cn("h-4 w-4 transition-colors", location === "/work-history" ? "text-primary" : "text-muted-foreground group-hover:text-primary")} />
+                  <span>Work History</span>
                 </div>
               </Link>
 

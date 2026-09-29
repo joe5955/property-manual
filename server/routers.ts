@@ -3,8 +3,9 @@ import { COOKIE_NAME } from "@shared/const";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
 import { publicProcedure, protectedProcedure, router } from "./_core/trpc";
-import { getMapPins, createMapPin, updateMapPin, deleteMapPin, getMapRoutes, createMapRoute, updateMapRoute, deleteMapRoute, getDocuments, createDocument, deleteDocument, getDocumentById, getVendors, createVendor, updateVendor, deleteVendor, getVendorById } from "./db";
+import { getMapPins, createMapPin, updateMapPin, deleteMapPin, getMapRoutes, createMapRoute, updateMapRoute, deleteMapRoute, getDocuments, createDocument, deleteDocument, getDocumentById, getVendors, createVendor, updateVendor, deleteVendor, getVendorById, getWorkRecords, createWorkRecord, updateWorkRecord, deleteWorkRecord, importWorkRecords } from "./db";
 import { storagePut } from "./storage";
+import workRecordSeed from "./data/work-records-seed.json";
 
 export const appRouter = router({
   system: systemRouter,
@@ -220,6 +221,106 @@ export const appRouter = router({
       }),
   }),
 
+  workRecords: router({
+    list: publicProcedure
+      .input(z.object({
+        category: z.string().optional(),
+        location: z.string().optional(),
+        needsReview: z.boolean().optional(),
+      }))
+      .query(async ({ input }) => {
+        const records = await getWorkRecords(input);
+        return records.map((record) => ({
+          ...record,
+          needsReview: Boolean(record.needsReview),
+        }));
+      }),
+
+    create: protectedProcedure
+      .input(z.object({
+        sortDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+        dateLabel: z.string().min(1),
+        title: z.string().min(1),
+        description: z.string().optional(),
+        category: z.string().default("other"),
+        location: z.string().default("Property-wide"),
+        sourceImageUrl: z.string().optional(),
+        sourceImageFilename: z.string().optional(),
+        sourceText: z.string().optional(),
+        needsReview: z.boolean().default(false),
+        notes: z.string().optional(),
+      }))
+      .mutation(async ({ input }) => {
+        const id = await createWorkRecord({
+          ...input,
+          sourceKey: `manual-${Date.now()}-${Math.random().toString(36).slice(2)}`,
+          description: input.description ?? null,
+          sourceImageUrl: input.sourceImageUrl ?? null,
+          sourceImageFilename: input.sourceImageFilename ?? null,
+          sourceText: input.sourceText ?? null,
+          needsReview: input.needsReview ? 1 : 0,
+          notes: input.notes ?? null,
+        });
+        return { id };
+      }),
+
+    update: protectedProcedure
+      .input(z.object({
+        id: z.number(),
+        sortDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
+        dateLabel: z.string().min(1).optional(),
+        title: z.string().min(1).optional(),
+        description: z.string().optional(),
+        category: z.string().optional(),
+        location: z.string().optional(),
+        sourceImageUrl: z.string().optional(),
+        sourceImageFilename: z.string().optional(),
+        sourceText: z.string().optional(),
+        needsReview: z.boolean().optional(),
+        notes: z.string().optional(),
+      }))
+      .mutation(async ({ input }) => {
+        const { id, needsReview, ...data } = input;
+        await updateWorkRecord(id, {
+          ...data,
+          ...(needsReview !== undefined ? { needsReview: needsReview ? 1 : 0 } : {}),
+        });
+        return { success: true };
+      }),
+
+    delete: protectedProcedure
+      .input(z.object({ id: z.number() }))
+      .mutation(async ({ input }) => {
+        await deleteWorkRecord(input.id);
+        return { success: true };
+      }),
+
+    uploadSource: protectedProcedure
+      .input(z.object({
+        dataUrl: z.string(),
+        filename: z.string().min(1),
+      }))
+      .mutation(async ({ input }) => {
+        const matches = input.dataUrl.match(/^data:(image\/[a-zA-Z0-9.+-]+);base64,(.+)$/);
+        if (!matches) throw new Error("Source attachment must be an image data URL");
+        const contentType = matches[1];
+        const buffer = Buffer.from(matches[2], "base64");
+        if (buffer.length > 16 * 1024 * 1024) throw new Error("Source image exceeds the 16 MB limit");
+        const ext = input.filename.split(".").pop() ?? "jpg";
+        const key = `work-records/${Date.now()}-${Math.random().toString(36).slice(2)}.${ext}`;
+        const { url } = await storagePut(key, buffer, contentType);
+        return { url, filename: input.filename };
+      }),
+
+    importHistoricalSeed: protectedProcedure.mutation(async () => {
+      const records = workRecordSeed.map((record) => ({
+        ...record,
+        needsReview: record.needsReview ? 1 : 0,
+      }));
+      return importWorkRecords(records);
+    }),
+  }),
+
   mapRoutes: router({
     list: publicProcedure
       .input(z.object({ sheetId: z.number().optional() }))
@@ -285,4 +386,3 @@ export const appRouter = router({
 });
 
 export type AppRouter = typeof appRouter;
-

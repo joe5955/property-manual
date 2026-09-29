@@ -1,4 +1,4 @@
-import { eq } from "drizzle-orm";
+import { and, asc, desc, eq } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
 import { InsertUser, users } from "../drizzle/schema";
 import { ENV } from './_core/env';
@@ -92,8 +92,7 @@ export async function getUserByOpenId(openId: string) {
 // TODO: add feature queries here as your schema grows.
 
 // ── Map Pins ──────────────────────────────────────────────────────────────────
-import { mapPins, InsertMapPin, MapPin, mapRoutes, InsertMapRoute, MapRoute, documents, InsertDocument, Document, vendors, InsertVendor, Vendor } from "../drizzle/schema";
-import { desc, like } from "drizzle-orm";
+import { mapPins, InsertMapPin, MapPin, mapRoutes, InsertMapRoute, MapRoute, documents, InsertDocument, Document, vendors, InsertVendor, Vendor, workRecords, InsertWorkRecord, WorkRecord } from "../drizzle/schema";
 
 export async function getMapPins(sheetId?: number): Promise<MapPin[]> {
   const db = await getDb();
@@ -224,4 +223,69 @@ export async function getVendorById(id: number): Promise<Vendor | undefined> {
   if (!db) return undefined;
   const result = await db.select().from(vendors).where(eq(vendors.id, id)).limit(1);
   return result.length > 0 ? result[0] : undefined;
+}
+
+// ── Work Records ─────────────────────────────────────────────────────────────
+
+export type WorkRecordFilters = {
+  category?: string;
+  location?: string;
+  needsReview?: boolean;
+};
+
+export async function getWorkRecords(filters: WorkRecordFilters = {}): Promise<WorkRecord[]> {
+  const db = await getDb();
+  if (!db) return [];
+
+  const conditions = [];
+  if (filters.category) conditions.push(eq(workRecords.category, filters.category));
+  if (filters.location) conditions.push(eq(workRecords.location, filters.location));
+  if (filters.needsReview !== undefined) {
+    conditions.push(eq(workRecords.needsReview, filters.needsReview ? 1 : 0));
+  }
+
+  const query = db.select().from(workRecords);
+  const filtered = conditions.length > 0 ? query.where(and(...conditions)) : query;
+  return filtered.orderBy(asc(workRecords.sortDate), asc(workRecords.id));
+}
+
+export async function createWorkRecord(record: InsertWorkRecord): Promise<number> {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  const result = await db.insert(workRecords).values(record);
+  return (result[0] as any).insertId as number;
+}
+
+export async function updateWorkRecord(id: number, data: Partial<InsertWorkRecord>): Promise<void> {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  await db.update(workRecords).set(data).where(eq(workRecords.id, id));
+}
+
+export async function deleteWorkRecord(id: number): Promise<void> {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  await db.delete(workRecords).where(eq(workRecords.id, id));
+}
+
+export async function importWorkRecords(records: InsertWorkRecord[]): Promise<{ inserted: number; existing: number }> {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+
+  let inserted = 0;
+  let existing = 0;
+  for (const record of records) {
+    const present = await db
+      .select({ id: workRecords.id })
+      .from(workRecords)
+      .where(eq(workRecords.sourceKey, record.sourceKey))
+      .limit(1);
+    if (present.length > 0) {
+      existing += 1;
+      continue;
+    }
+    await db.insert(workRecords).values(record);
+    inserted += 1;
+  }
+  return { inserted, existing };
 }
