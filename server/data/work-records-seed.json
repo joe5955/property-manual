@@ -465,15 +465,15 @@
     "sourceKey": "handwritten-2026-09-29-p07-r04",
     "sortDate": "2018-05-01",
     "dateLabel": "May 2018",
-    "title": "Moved outside building to shop",
-    "description": "An outside building was moved or brought to the shop.",
+    "title": "Moved storage shed to rear of shop",
+    "description": "A storage shed was moved to the rear of the Main Shop.",
     "category": "construction",
     "location": "Main Shop",
     "sourceImageUrl": "/manus-storage/IMG_20260929_105853_1_31a37dee.jpg",
     "sourceImageFilename": "IMG_20260929_105853_1.jpg",
-    "sourceText": "May 2018 — Brought outside building to shop",
-    "needsReview": true,
-    "notes": "Confirm what building was moved and whether “shop” means Main Shop."
+    "sourceText": "May 2018 — Moved storage shed to rear of shop",
+    "needsReview": false,
+    "notes": "Owner clarified the building and destination on September 29, 2026."
   },
   {
     "sourceKey": "handwritten-2026-09-29-p07-r05",
@@ -612,8 +612,8 @@
     "sourceImageUrl": "/manus-storage/IMG_20260929_105814_1_5ef23035.jpg",
     "sourceImageFilename": "IMG_20260929_105814_1.jpg",
     "sourceText": "May 18/19 — Big removal Scotch broom",
-    "needsReview": true,
-    "notes": "The year is ambiguous between 2018 and 2019."
+    "needsReview": false,
+    "notes": "Owner confirmed this entry as shown on September 29, 2026; the May 2018/2019 date label is intentionally retained."
   },
   {
     "sourceKey": "handwritten-2026-09-29-p09-r02",
