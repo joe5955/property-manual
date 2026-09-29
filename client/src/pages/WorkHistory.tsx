@@ -54,6 +54,7 @@ const LOCATIONS = [
   "Pump House",
   "Root Cellar",
   "Well System",
+  "Windmill Well",
   "Pond / Lagoon",
   "Indian Point",
   "Multiple Buildings",

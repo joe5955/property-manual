@@ -5,7 +5,7 @@ describe("historical work-record seed", () => {
   it("preserves all 50 transcribed entries from nine photographed pages", () => {
     expect(records).toHaveLength(50);
     expect(new Set(records.map((record) => record.sourceImageFilename)).size).toBe(9);
-    expect(records.filter((record) => record.needsReview)).toHaveLength(11);
+    expect(records.filter((record) => record.needsReview)).toHaveLength(10);
   });
 
   it("uses unique stable source keys and complete chronological metadata", () => {
@@ -57,6 +57,13 @@ describe("historical work-record seed", () => {
         title: "Major Scotch-broom removal",
         dateLabel: "May 2018/2019",
         location: "Property-wide",
+        needsReview: false,
+      }),
+      expect.objectContaining({
+        title: "Fixed and upgraded windmill well",
+        sortDate: "2018-11-01",
+        category: "water",
+        location: "Windmill Well",
         needsReview: false,
       }),
       expect.objectContaining({ title: "New basement walls", sortDate: "2020-03-01" }),

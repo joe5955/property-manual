@@ -619,15 +619,15 @@
     "sourceKey": "handwritten-2026-09-29-p09-r02",
     "sortDate": "2018-11-01",
     "dateLabel": "November 2018",
-    "title": "Fixed and upgraded window well",
-    "description": "A window well was repaired and upgraded; the building is not stated.",
-    "category": "repair",
-    "location": "Undetermined",
+    "title": "Fixed and upgraded windmill well",
+    "description": "The windmill well was repaired and upgraded.",
+    "category": "water",
+    "location": "Windmill Well",
     "sourceImageUrl": "/manus-storage/IMG_20260929_105814_1_5ef23035.jpg",
     "sourceImageFilename": "IMG_20260929_105814_1.jpg",
-    "sourceText": "November 2018 — Fix & upgrade window well",
-    "needsReview": true,
-    "notes": "Please identify the building."
+    "sourceText": "November 2018 — Fix & upgrade windmill well",
+    "needsReview": false,
+    "notes": "Owner clarified the handwritten wording and location on September 29, 2026."
   },
   {
     "sourceKey": "handwritten-2026-09-29-p09-r03",
