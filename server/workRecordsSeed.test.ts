@@ -5,7 +5,7 @@ describe("historical work-record seed", () => {
   it("preserves all 50 transcribed entries from nine photographed pages", () => {
     expect(records).toHaveLength(50);
     expect(new Set(records.map((record) => record.sourceImageFilename)).size).toBe(9);
-    expect(records.filter((record) => record.needsReview)).toHaveLength(15);
+    expect(records.filter((record) => record.needsReview)).toHaveLength(14);
   });
 
   it("uses unique stable source keys and complete chronological metadata", () => {
@@ -52,6 +52,30 @@ describe("historical work-record seed", () => {
         title: "New connections around new well",
         sortDate: "2023-08-01",
         location: "Well System",
+        needsReview: false,
+      }),
+      expect.objectContaining({
+        title: "Added 350-gallon fuel tank",
+        sortDate: "2023-09-01",
+        category: "equipment",
+        location: "Caretaker House",
+      }),
+      expect.objectContaining({
+        title: "French drain work",
+        sortDate: "2024-02-01",
+        category: "water",
+        location: "Madrona House",
+      }),
+      expect.objectContaining({
+        title: "Interior deck build",
+        sortDate: "2024-03-01",
+        category: "construction",
+        location: "Tractor Shed",
+      }),
+      expect.objectContaining({
+        title: "New gate at Ralph Gott Road",
+        sortDate: "2024-04-01",
+        location: "Madrona House",
         needsReview: false,
       }),
       expect.objectContaining({ title: "Addition to Madrona House", sortDate: "2017-01-01" }),
