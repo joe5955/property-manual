@@ -185,15 +185,15 @@
     "sourceKey": "handwritten-2026-09-29-p04-r03",
     "sortDate": "2022-05-01",
     "dateLabel": "May 2022",
-    "title": "New water-softener system",
-    "description": "A new softener system was installed; the location is not stated in the note.",
+    "title": "New water softener in Pump House",
+    "description": "A new water-softener system was installed in the Pump House.",
     "category": "water",
-    "location": "Undetermined",
+    "location": "Pump House",
     "sourceImageUrl": "/manus-storage/IMG_20260929_105936_1_de70cf1d.jpg",
     "sourceImageFilename": "IMG_20260929_105936_1.jpg",
-    "sourceText": "May 2022 — New softener system",
-    "needsReview": true,
-    "notes": "Confirm which building or water system received the softener."
+    "sourceText": "May 2022 — New water softener in Pump House",
+    "needsReview": false,
+    "notes": "Owner clarified the equipment and location on September 29, 2026."
   },
   {
     "sourceKey": "handwritten-2026-09-29-p04-r04",
@@ -325,15 +325,15 @@
     "sourceKey": "handwritten-2026-09-29-p05-r07",
     "sortDate": "2021-11-01",
     "dateLabel": "November 2021",
-    "title": "Boat House deck work",
-    "description": "Deck work was recorded at the Boat House.",
-    "category": "marine",
+    "title": "Boat House remodel",
+    "description": "The Boat House was remodeled.",
+    "category": "construction",
     "location": "Boat House",
     "sourceImageUrl": "/manus-storage/IMG_20260929_105923_1_3d3487a7.jpg",
     "sourceImageFilename": "IMG_20260929_105923_1.jpg",
-    "sourceText": "Nov 2021 — Boat House deck",
-    "needsReview": true,
-    "notes": "The note does not specify whether the deck was new, repaired, or rebuilt."
+    "sourceText": "Nov 2021 — Boat House remodel",
+    "needsReview": false,
+    "notes": "Owner clarified the work description on September 29, 2026."
   },
   {
     "sourceKey": "handwritten-2026-09-29-p06-r01",
