@@ -81,7 +81,12 @@ describe("historical work-record seed", () => {
       expect.objectContaining({ title: "Addition to Madrona House", sortDate: "2017-01-01" }),
       expect.objectContaining({ title: "Installed fiber internet", sortDate: "2020-10-01" }),
       expect.objectContaining({ title: "Replaced Pump House roof", sortDate: "2020-08-01" }),
-      expect.objectContaining({ title: "New fire-suppression work", sortDate: "2025-02-01" }),
+      expect.objectContaining({
+        title: "Fire hydrant installed",
+        sortDate: "2025-02-01",
+        category: "fire-safety",
+        location: "Main House",
+      }),
     ]));
   });
 });
