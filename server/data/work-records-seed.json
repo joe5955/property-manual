@@ -381,15 +381,15 @@
     "sourceKey": "handwritten-2026-09-29-p06-r04",
     "sortDate": "2018-11-21",
     "dateLabel": "November 21, 2018",
-    "title": "Changed one window",
-    "description": "One window was changed; the building is not stated in the note.",
+    "title": "Repaired Main House bedroom window",
+    "description": "A bedroom window at the Main House was repaired.",
     "category": "repair",
-    "location": "Undetermined",
+    "location": "Main House",
     "sourceImageUrl": "/manus-storage/IMG_20260929_105910_1_c81ef0b3.jpg",
     "sourceImageFilename": "IMG_20260929_105910_1.jpg",
-    "sourceText": "Nov 21, 2018 — Change one window",
-    "needsReview": true,
-    "notes": "Please identify the building."
+    "sourceText": "Nov 21, 2018 — Repaired Main House bedroom window",
+    "needsReview": false,
+    "notes": "Owner clarified the building, room, and work description on September 29, 2026."
   },
   {
     "sourceKey": "handwritten-2026-09-29-p06-r05",
