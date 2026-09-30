@@ -8,9 +8,9 @@ import { Textarea } from "@/components/ui/textarea";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { useToast } from "@/components/ui/use-toast";
+import { groupWorkRecordsByLocation } from "./workHistoryGrouping";
 import {
   AlertTriangle,
-  CalendarDays,
   ExternalLink,
   FileImage,
   Filter,
@@ -124,14 +124,7 @@ export default function WorkHistory() {
   }, [records, searchTerm, filterCategory, filterLocation, reviewOnly]);
 
   const groupedRecords = useMemo(() => {
-    const groups = new Map<string, typeof filteredRecords>();
-    for (const record of filteredRecords) {
-      const year = record.sortDate.slice(0, 4);
-      const existing = groups.get(year) ?? [];
-      existing.push(record);
-      groups.set(year, existing);
-    }
-    return Array.from(groups.entries());
+    return groupWorkRecordsByLocation(filteredRecords);
   }, [filteredRecords]);
 
   const knownLocations = useMemo(
@@ -269,7 +262,7 @@ export default function WorkHistory() {
           <div>
             <h1 className="text-3xl font-serif font-bold tracking-tight text-foreground">Work History</h1>
             <p className="mt-2 text-muted-foreground">
-              A chronological record of known construction, repairs, grounds work, utilities, and improvements. This archive is useful but not comprehensive.
+              Known construction, repairs, grounds work, utilities, and improvements grouped by location, then arranged oldest to newest within each location. This archive is useful but not comprehensive.
             </p>
           </div>
           <div className="flex items-start gap-3 rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm text-amber-950 dark:border-amber-900/40 dark:bg-amber-950/20 dark:text-amber-100">
@@ -419,16 +412,17 @@ export default function WorkHistory() {
         </div>
       ) : (
         <div className="space-y-10">
-          {groupedRecords.map(([year, yearRecords]) => (
-            <section key={year} className="grid gap-5 lg:grid-cols-[100px_1fr]">
-              <div className="lg:sticky lg:top-6 lg:self-start">
-                <div className="inline-flex items-center gap-2 rounded-full bg-primary px-4 py-2 text-primary-foreground shadow-sm">
-                  <CalendarDays className="h-4 w-4" />
-                  <span className="font-serif font-bold">{year}</span>
-                </div>
+          {groupedRecords.map(({ location, records: locationRecords }) => (
+            <section key={location} aria-label={`${location} work history`} className="space-y-4">
+              <div className="flex flex-wrap items-center gap-3 border-b border-primary/20 pb-3">
+                <h2 className="inline-flex items-center gap-2 text-xl font-serif font-bold text-primary">
+                  <MapPin className="h-5 w-5" aria-hidden="true" />
+                  {location}
+                </h2>
+                <Badge variant="secondary">{locationRecords.length} {locationRecords.length === 1 ? "record" : "records"}</Badge>
               </div>
               <div className="space-y-4 border-l-2 border-primary/20 pl-5">
-                {yearRecords.map((record) => (
+                {locationRecords.map((record) => (
                   <Card key={record.id} className="relative overflow-hidden transition-shadow hover:shadow-md">
                     <div className="absolute left-0 top-0 h-full w-1 bg-primary/60" />
                     <CardContent className="p-5">
@@ -479,7 +473,7 @@ export default function WorkHistory() {
       )}
 
       {filteredRecords.length > 0 && (
-        <p className="text-center text-xs text-muted-foreground">Showing {filteredRecords.length} of {records.length} known work records, oldest to newest.</p>
+        <p className="text-center text-xs text-muted-foreground">Showing {filteredRecords.length} of {records.length} known work records, grouped by location A–Z and oldest to newest within each location.</p>
       )}
     </div>
   );

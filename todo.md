@@ -298,7 +298,8 @@
 ## Historical Work Records Feature
 - [x] Archive the nine photographed handwritten source pages in property storage
 - [x] Transcribe the partial historical work record with uncertain entries flagged for owner review
-- [x] Add a database-backed chronological Work History page with search and filters
+- [x] Add a database-backed Work History page with search and filters
+- [x] Organize Work History by location A–Z, then chronologically oldest to newest within each location; keep Undetermined last and verify filters
 - [x] Add protected create, edit, delete, source-photo upload, and idempotent seed-import procedures
 - [x] Add focused seed and tRPC tests, run the full back-test, and verify the page in the browser
 - [x] Save a checkpoint and synchronize the completed source to GitHub main
