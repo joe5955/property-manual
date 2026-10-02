@@ -18,6 +18,13 @@
 - [ ] **Maintenance Log:** Create a dashboard to view and add maintenance records
 - [ ] **Item Integration:** Link maintenance history to individual items (e.g., Rinnai Water Heater)
 
+## Fieldy Field-Work Workflow
+- [x] Document a practical Fieldy phone-capture, review, and private handoff routine with a property summary template
+- [x] Add an owner-only Property Tasks page for location, status, suggestions, explicit work-time entries, and completion; validate migration, automated tests, build, and mobile/desktop layout screenshots
+- [ ] Perform a signed-in owner browser click-through for add task, time entry, completion/reopen, and mobile controls; the isolated browser did not complete Manus OAuth
+- [ ] Repair Fieldy-to-Manus authorization (`invalid_scope: cannot request scope admin`) or use an owner-authorized API-key connector before claiming direct synchronization
+- [ ] After direct access is authorized, design a deduplicated, owner-reviewed Fieldy import; never infer labor hours from recording length or auto-complete a task
+
 ## Bugs
 - [x] **Navigation Issue:** Only Main House shows under Buildings and Structures - need to display all buildings
 - [x] **Photo Review Page:** Images not displaying - only empty spaces showing

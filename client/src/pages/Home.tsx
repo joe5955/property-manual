@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
-import { ArrowRight, MapPin, Home as HomeIcon, FileText, Calendar, AlertCircle, CheckCircle2, Clock, Ship, Phone, Navigation, Wrench, Map, History } from "lucide-react";
+import { ArrowRight, MapPin, Home as HomeIcon, FileText, Calendar, AlertCircle, CheckCircle2, Clock, Ship, Phone, Navigation, Wrench, Map, History, ClipboardList } from "lucide-react";
 import manualData from "@/data/manual-data.json";
 import Layout from "@/components/Layout";
 
@@ -69,6 +69,9 @@ export default function Home() {
                     View Utilities <Wrench className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
+                {user?.role === "admin" && <Button variant="outline" size="lg" className="bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 backdrop-blur-sm" asChild>
+                  <Link href="/tasks">Property Tasks <ClipboardList className="ml-2 h-4 w-4" /></Link>
+                </Button>}
               </div>
             </div>
             

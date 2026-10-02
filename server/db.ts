@@ -92,7 +92,7 @@ export async function getUserByOpenId(openId: string) {
 // TODO: add feature queries here as your schema grows.
 
 // ── Map Pins ──────────────────────────────────────────────────────────────────
-import { mapPins, InsertMapPin, MapPin, mapRoutes, InsertMapRoute, MapRoute, documents, InsertDocument, Document, vendors, InsertVendor, Vendor, workRecords, InsertWorkRecord, WorkRecord } from "../drizzle/schema";
+import { mapPins, InsertMapPin, MapPin, mapRoutes, InsertMapRoute, MapRoute, documents, InsertDocument, Document, vendors, InsertVendor, Vendor, workRecords, InsertWorkRecord, WorkRecord, propertyTasks, InsertPropertyTask, PropertyTask, taskTimeEntries, InsertTaskTimeEntry, TaskTimeEntry } from "../drizzle/schema";
 
 export async function getMapPins(sheetId?: number): Promise<MapPin[]> {
   const db = await getDb();
@@ -288,4 +288,50 @@ export async function importWorkRecords(records: InsertWorkRecord[]): Promise<{ 
     inserted += 1;
   }
   return { inserted, existing };
+}
+
+// ── Property Tasks and Actual Time ──────────────────────────────────────────
+
+export async function getPropertyTasks(): Promise<PropertyTask[]> {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  return db.select().from(propertyTasks).orderBy(desc(propertyTasks.updatedAt), desc(propertyTasks.id));
+}
+
+export async function getPropertyTask(id: number): Promise<PropertyTask | undefined> {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  return (await db.select().from(propertyTasks).where(eq(propertyTasks.id, id)).limit(1))[0];
+}
+
+export async function createPropertyTask(task: InsertPropertyTask): Promise<number> {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  const result = await db.insert(propertyTasks).values(task);
+  return (result[0] as any).insertId as number;
+}
+
+export async function updatePropertyTask(id: number, data: Partial<InsertPropertyTask>): Promise<void> {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  await db.update(propertyTasks).set(data).where(eq(propertyTasks.id, id));
+}
+
+export async function getTaskTimeEntries(): Promise<TaskTimeEntry[]> {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  return db.select().from(taskTimeEntries).orderBy(desc(taskTimeEntries.workedAt), desc(taskTimeEntries.id));
+}
+
+export async function createTaskTimeEntry(entry: InsertTaskTimeEntry): Promise<number> {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  const result = await db.insert(taskTimeEntries).values(entry);
+  return (result[0] as any).insertId as number;
+}
+
+export async function deleteTaskTimeEntry(id: number): Promise<void> {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  await db.delete(taskTimeEntries).where(eq(taskTimeEntries.id, id));
 }

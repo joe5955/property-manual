@@ -190,3 +190,34 @@ export const workRecords = mysqlTable("work_records", {
 }));
 export type WorkRecord = typeof workRecords.$inferSelect;
 export type InsertWorkRecord = typeof workRecords.$inferInsert;
+
+/** Active property jobs; completed jobs are retained here until deliberately archived. */
+export const propertyTasks = mysqlTable("property_tasks", {
+  id: int("id").autoincrement().primaryKey(),
+  title: varchar("title", { length: 255 }).notNull(),
+  location: varchar("location", { length: 160 }).notNull().default("Property-wide"),
+  description: text("description"),
+  status: mysqlEnum("status", ["todo", "in_progress", "done"]).notNull().default("todo"),
+  /** Human-verified follow-up suggestions, not automatically actionable work. */
+  suggestions: text("suggestions"),
+  /** Short reference to an owner-approved Fieldy note; do not paste a full private transcript. */
+  sourceNote: text("sourceNote"),
+  /** Unix milliseconds UTC; only set after an explicit completion action. */
+  completedAt: bigint("completedAt", { mode: "number" }),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+export type PropertyTask = typeof propertyTasks.$inferSelect;
+export type InsertPropertyTask = typeof propertyTasks.$inferInsert;
+
+/** Actual time spent on a task, entered explicitly; Fieldy recording length is not labor time. */
+export const taskTimeEntries = mysqlTable("task_time_entries", {
+  id: int("id").autoincrement().primaryKey(),
+  taskId: int("taskId").notNull(),
+  workedAt: bigint("workedAt", { mode: "number" }).notNull(),
+  minutes: int("minutes").notNull(),
+  note: text("note"),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+});
+export type TaskTimeEntry = typeof taskTimeEntries.$inferSelect;
+export type InsertTaskTimeEntry = typeof taskTimeEntries.$inferInsert;

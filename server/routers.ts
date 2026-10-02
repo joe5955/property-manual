@@ -6,9 +6,11 @@ import { publicProcedure, protectedProcedure, router } from "./_core/trpc";
 import { getMapPins, createMapPin, updateMapPin, deleteMapPin, getMapRoutes, createMapRoute, updateMapRoute, deleteMapRoute, getDocuments, createDocument, deleteDocument, getDocumentById, getVendors, createVendor, updateVendor, deleteVendor, getVendorById, getWorkRecords, createWorkRecord, updateWorkRecord, deleteWorkRecord, importWorkRecords } from "./db";
 import { storagePut } from "./storage";
 import workRecordSeed from "./data/work-records-seed.json";
+import { propertyTasksRouter } from "./routers/propertyTasks";
 
 export const appRouter = router({
   system: systemRouter,
+  propertyTasks: propertyTasksRouter,
   auth: router({
     me: publicProcedure.query(opts => opts.ctx.user),
     logout: publicProcedure.mutation(({ ctx }) => {
