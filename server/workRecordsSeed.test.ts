@@ -5,7 +5,7 @@ describe("historical work-record seed", () => {
   it("preserves all 50 transcribed entries from nine photographed pages", () => {
     expect(records).toHaveLength(50);
     expect(new Set(records.map((record) => record.sourceImageFilename)).size).toBe(9);
-    expect(records.filter((record) => record.needsReview)).toHaveLength(4);
+    expect(records.filter((record) => record.needsReview)).toHaveLength(3);
   });
 
   it("uses unique stable source keys and complete chronological metadata", () => {
@@ -89,6 +89,16 @@ describe("historical work-record seed", () => {
         title: "Planted 80 trees above Tractor Shed",
         sortDate: "2021-05-01",
         location: "Tractor Shed",
+        needsReview: false,
+      }),
+      expect.objectContaining({
+        sourceKey: "handwritten-2026-09-29-p05-r06",
+        sortDate: "2021-10-01",
+        title: "Added PVC roof to The Chalet",
+        description: "A PVC roof was added to The Chalet.",
+        category: "repair",
+        location: "The Chalet",
+        sourceText: "Oct 2021 — Rebuilt roof",
         needsReview: false,
       }),
       expect.objectContaining({

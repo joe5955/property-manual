@@ -311,15 +311,15 @@
     "sourceKey": "handwritten-2026-09-29-p05-r06",
     "sortDate": "2021-10-01",
     "dateLabel": "October 2021",
-    "title": "Rebuilt roof",
-    "description": "A roof was rebuilt; the building is not stated in the note.",
+    "title": "Added PVC roof to The Chalet",
+    "description": "A PVC roof was added to The Chalet.",
     "category": "repair",
-    "location": "Undetermined",
+    "location": "The Chalet",
     "sourceImageUrl": "/manus-storage/IMG_20260929_105923_1_3d3487a7.jpg",
     "sourceImageFilename": "IMG_20260929_105923_1.jpg",
     "sourceText": "Oct 2021 — Rebuilt roof",
-    "needsReview": true,
-    "notes": "Please identify the building."
+    "needsReview": false,
+    "notes": "Owner clarified on October 2, 2026 that a PVC roof was added to The Chalet."
   },
   {
     "sourceKey": "handwritten-2026-09-29-p05-r07",
