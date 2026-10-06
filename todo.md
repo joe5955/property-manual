@@ -250,6 +250,7 @@
 - [x] Route detail popup with title, notes, photos (same style as pin popup)
 - [x] Place fiber optic route across relevant sheets with 13 installation photos
 - [x] Place fiber optic endpoint pins at entrance and main house on Sheet A-1.0
+- [x] Relocate the A-1.0 Main House fiber termination pin from the water to the owner-marked position south of the house (October 6, 2026); verify all 27 saved pins remain
 
 ## Water Tank Valve Pin Photos
 - [x] Upload 5 water tank valve excavation photos (Oct 2022) to CDN

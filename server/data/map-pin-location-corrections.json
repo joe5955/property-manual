@@ -1,0 +1,12 @@
+[
+  {
+    "pinId": 90002,
+    "sheetId": 1,
+    "title": "Fiber Optic — Main House Termination",
+    "category": "electrical",
+    "previousPosition": { "x": 78, "y": 18 },
+    "position": { "x": 59.5, "y": 47 },
+    "reason": "Relocate the pin from the water to the owner-marked spot south of the Main House on sheet A-1.0.",
+    "source": "Owner-annotated A-1.0 screenshot supplied October 6, 2026. The original screenshot remains attached to the Manus task and is not copied into public assets."
+  }
+]
