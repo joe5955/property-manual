@@ -4,6 +4,7 @@ import { useAuth } from "@/_core/hooks/useAuth";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { QRCodeSVG } from "qrcode.react";
+import { mapPinPreviewText } from "./mapPinPreview";
 import {
   Zap, Droplets, Sprout, Flame, CircleDot, Lightbulb, Building2,
   Shovel, HelpCircle, X, ChevronLeft, ChevronRight, Printer, Plus,
@@ -89,26 +90,62 @@ interface MapRoute {
 
 // ── Pin Marker ───────────────────────────────────────────────────────────────
 
-function PinMarker({ pin, isActive, dimmed, onClick }: {
-  pin: Pin; isActive: boolean; dimmed: boolean; onClick: () => void;
+function PinMarker({ pin, isActive, dimmed, canPreview, onClick }: {
+  pin: Pin; isActive: boolean; dimmed: boolean; canPreview: boolean; onClick: () => void;
 }) {
+  const [hovered, setHovered] = useState(false);
+  const [focused, setFocused] = useState(false);
   const cat = getCat(pin.category);
   const Icon = cat.Icon;
+  const previewOpen = canPreview && !isActive && (hovered || focused);
+  const snippet = mapPinPreviewText(pin.notes);
+  const previewId = `map-pin-preview-${pin.id}`;
   return (
-    <button
-      onClick={onClick}
+    <div
       style={{ left: `${pin.positionX}%`, top: `${pin.positionY}%` }}
-      className={`absolute -translate-x-1/2 -translate-y-1/2 transition-all duration-200 z-10 group
-        ${dimmed ? "opacity-20 scale-75" : "opacity-100"}
-        ${isActive ? "scale-125 z-20" : "hover:scale-110"}`}
-      title={pin.title}
+      className={`absolute -translate-x-1/2 -translate-y-1/2 h-7 w-7 ${previewOpen || isActive ? "z-20" : "z-10"}`}
     >
-      <div className={`w-7 h-7 rounded-full flex items-center justify-center shadow-lg border-2
-        ${cat.bgColor} ${cat.borderColor}
-        ${isActive ? "ring-2 ring-white ring-offset-1" : ""}`}>
+      <button
+        type="button"
+        onClick={onClick}
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
+        onFocus={() => setFocused(true)}
+        onBlur={() => setFocused(false)}
+        aria-label={`${pin.title}, ${cat.label} pin. Open details`}
+        aria-describedby={previewOpen ? previewId : undefined}
+        className={`h-7 w-7 rounded-full flex items-center justify-center shadow-lg border-2 transition-transform duration-150
+          focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900
+          ${cat.bgColor} ${cat.borderColor}
+          ${dimmed ? "opacity-20" : "opacity-100"}
+          ${isActive ? "scale-125 ring-2 ring-white ring-offset-1" : "hover:scale-110"}`}
+      >
         <Icon className="w-3.5 h-3.5 text-white" />
-      </div>
-    </button>
+      </button>
+      {previewOpen && (
+        <div
+          id={previewId}
+          role="tooltip"
+          className={`absolute pointer-events-none w-64 overflow-hidden rounded-xl border border-gray-200 bg-white text-left shadow-xl
+            ${pin.positionY < 38 ? "top-9" : "bottom-9"}
+            ${pin.positionX > 70 ? "right-0" : "left-0"}`}
+        >
+          {pin.photos[0] && (
+            <img src={pin.photos[0]} alt="" className="h-28 w-full object-cover bg-gray-100" loading="eager" />
+          )}
+          <div className="p-3">
+            <p className="text-[10px] font-semibold uppercase tracking-wider text-gray-500">{cat.label}</p>
+            <p className="mt-0.5 text-sm font-semibold leading-snug text-gray-900">{pin.title}</p>
+            {snippet ? (
+              <p className="mt-1 text-xs leading-relaxed text-gray-600">{snippet}</p>
+            ) : !pin.photos.length ? (
+              <p className="mt-1 text-xs text-gray-500">No photo or note yet</p>
+            ) : null}
+            <p className="mt-2 text-[11px] font-medium text-emerald-700">Select pin to view details</p>
+          </div>
+        </div>
+      )}
+    </div>
   );
 }
 
@@ -496,7 +533,7 @@ function PinPopup({ pin, onClose, onEdit, onDelete, isAdmin }: {
   const pinUrl = `${window.location.origin}/map?pin=${pin.id}`;
 
   return (
-    <div className="absolute bottom-4 right-4 w-80 bg-white rounded-xl shadow-2xl border border-gray-200 z-30 overflow-hidden">
+    <div className="fixed inset-x-4 bottom-4 z-50 max-h-[calc(100dvh-2rem)] overflow-y-auto rounded-xl border border-gray-200 bg-white shadow-2xl sm:absolute sm:inset-x-auto sm:right-4 sm:w-80 sm:max-h-none sm:overflow-hidden">
       {/* Header */}
       <div className={`${cat.bgColor} px-4 py-3 flex items-center justify-between`}>
         <div className="flex items-center gap-2">
@@ -1055,6 +1092,7 @@ export default function MapPage() {
               pin={pin}
               isActive={activePin?.id === pin.id}
               dimmed={activeCategories.size > 0 && !activeCategories.has(pin.category as Category)}
+              canPreview={mode === "view"}
               onClick={() => {
                 if (mode !== "view") return;
                 setActivePin(activePin?.id === pin.id ? null : pin);

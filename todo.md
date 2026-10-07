@@ -201,6 +201,7 @@
 - [x] Build interactive map viewer page with sheet navigation (A-1.0 through A-7.0)
 - [x] Add utility layer toggle buttons (Electrical, Water, Irrigation, Gas, Lighting, Septic)
 - [x] Add clickable location pins with photo popup system
+- [x] Add quick photo/note previews on pin hover or keyboard focus while retaining tap/click for full details (October 6, 2026)
 - [x] Build printable field sheet with QR codes for each pin location
 - [x] Wire Interactive Map nav link to new viewer page
 
