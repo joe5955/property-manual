@@ -1,15 +1,27 @@
 [
   {
-    "pinId": 120003,
-    "sheetId": 7,
-    "expectedTitle": "pump house pipes",
+    "pinId": 210002,
+    "sheetId": 5,
+    "expectedTitle": "Pump House Pipes — West Side",
     "title": "Pump House Pipes — West Side",
     "category": "water",
+    "positionX": 83.64,
+    "positionY": 82.82,
+    "createIfMissing": true,
     "providedOn": "2026-10-28",
-    "provenance": "Two owner-provided photographs of annotated printed excavation photos. Owner confirmed location: pump house pipes west side. Copies rotated upright without cropping; original source files retained outside the project.",
-    "notesToAppend": "Piping on the west side of the Pump House (owner-confirmed). Two annotated reference photos provided October 28, 2026: labeled tank/well/pond pipe runs and additional tank connections. Annotations are preserved as supplied; confirm utility locations on site before excavation.",
+    "provenance": "Two owner-provided annotated piping photographs. Owner confirmed pump house pipes west side, then specified the exact destination with an X on A-5.0. X center calibrated against three saved pin positions in the cropped screenshot (less than one pixel anchor error): x 83.64%, y 82.82%. Copies rotated upright without cropping; original source files retained outside the project.",
+    "notesToAppend": "West-side Pump House piping. The owner marked this photo location with an X on A-5.0 on October 28, 2026. Two annotated reference photos show labeled tank/well/pond pipe runs and additional tank connections. Annotations are preserved as supplied; confirm utility locations on site before excavation.",
     "preserveExistingPhotos": true,
     "preservePosition": true,
+    "previousAssignment": {
+      "pinId": 120003,
+      "sheetId": 7,
+      "originalTitle": "pump house pipes",
+      "renamedTitle": "Pump House Pipes — West Side",
+      "addedNote": "Piping on the west side of the Pump House (owner-confirmed). Two annotated reference photos provided October 28, 2026: labeled tank/well/pond pipe runs and additional tank connections. Annotations are preserved as supplied; confirm utility locations on site before excavation.",
+      "preserveOriginalPhoto": "https://d2xsxph8kpxj0f.cloudfront.net/113311765/5Wh7ynUieoKvKRb4ttPNaL/map-pins/1772662041783-yfm9bvcsmtf.JPEG",
+      "preservePosition": true
+    },
     "photos": [
       {
         "url": "/manus-storage/pump-house-west-labeled-lines_7b32e3c3.jpg",
