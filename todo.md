@@ -252,6 +252,7 @@
 - [x] Place fiber optic route across relevant sheets with 13 installation photos
 - [x] Place fiber optic endpoint pins at entrance and main house on Sheet A-1.0
 - [x] Relocate the A-1.0 Main House fiber termination pin from the water to the owner-marked position south of the house (October 6, 2026); verify all 27 saved pins remain
+- [x] Add two owner-annotated west-side Pump House piping photos to existing A-7.0 pin 120003 (October 28, 2026); rotate upright, preserve the original photo and all 27 pins, verify published gallery, and track the additions in GitHub
 
 ## Water Tank Valve Pin Photos
 - [x] Upload 5 water tank valve excavation photos (Oct 2022) to CDN

@@ -1,0 +1,36 @@
+[
+  {
+    "pinId": 120003,
+    "sheetId": 7,
+    "expectedTitle": "pump house pipes",
+    "title": "Pump House Pipes — West Side",
+    "category": "water",
+    "providedOn": "2026-10-28",
+    "provenance": "Two owner-provided photographs of annotated printed excavation photos. Owner confirmed location: pump house pipes west side. Copies rotated upright without cropping; original source files retained outside the project.",
+    "notesToAppend": "Piping on the west side of the Pump House (owner-confirmed). Two annotated reference photos provided October 28, 2026: labeled tank/well/pond pipe runs and additional tank connections. Annotations are preserved as supplied; confirm utility locations on site before excavation.",
+    "preserveExistingPhotos": true,
+    "preservePosition": true,
+    "photos": [
+      {
+        "url": "/manus-storage/pump-house-west-labeled-lines_7b32e3c3.jpg",
+        "filename": "pump-house-west-labeled-lines.jpg",
+        "caption": "Pump House west-side piping — owner-annotated tank, pond, and well line references.",
+        "sourceSha256": "d570b6c49d24de4f9b70b116f43ac75ae6c9e6bffe8c0df9a1cd39115270248d",
+        "sha256": "91c64f362034128521a0a3f85102ae053cb470dc829e1ccb3a8833438b8ee832",
+        "width": 2800,
+        "height": 2108,
+        "fileSize": 878664
+      },
+      {
+        "url": "/manus-storage/pump-house-west-tank-connection_3e3ba2bb.jpg",
+        "filename": "pump-house-west-tank-connection.jpg",
+        "caption": "Pump House west-side piping — additional owner-annotated tank connections.",
+        "sourceSha256": "84a4f9bec9ea2d56cab1fce474ea2d42d83c0d25cf54dcfd42636254d79841ac",
+        "sha256": "5769df40d67ef74be0d8de4aa247649f3a357d6eb9d9f4e6672dd15ab10b3a4b",
+        "width": 2800,
+        "height": 2108,
+        "fileSize": 1109072
+      }
+    ]
+  }
+]
